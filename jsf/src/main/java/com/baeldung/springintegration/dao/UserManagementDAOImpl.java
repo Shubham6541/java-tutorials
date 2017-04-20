@@ -1,4 +1,4 @@
-package com.baeldung.springintegration.dao;
+package com.nklkarthi.springintegration.dao;
 
 
 import org.slf4j.Logger;

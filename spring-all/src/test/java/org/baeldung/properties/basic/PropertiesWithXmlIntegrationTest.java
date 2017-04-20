@@ -1,4 +1,4 @@
-package org.baeldung.properties.basic;
+package org.nklkarthi.properties.basic;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

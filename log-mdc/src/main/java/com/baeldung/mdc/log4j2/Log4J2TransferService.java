@@ -1,9 +1,9 @@
-package com.baeldung.mdc.log4j2;
+package com.nklkarthi.mdc.log4j2;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import com.baeldung.mdc.TransferService;
+import com.nklkarthi.mdc.TransferService;
 
 public class Log4J2TransferService extends TransferService {
 

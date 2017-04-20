@@ -1,4 +1,4 @@
-package com.baeldung.solrjava;
+package com.nklkarthi.solrjava;
 
 import org.apache.solr.client.solrj.beans.Field;
 

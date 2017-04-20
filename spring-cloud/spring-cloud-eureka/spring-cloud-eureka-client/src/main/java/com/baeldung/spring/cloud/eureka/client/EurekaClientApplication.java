@@ -1,4 +1,4 @@
-package com.baeldung.spring.cloud.eureka.client;
+package com.nklkarthi.spring.cloud.eureka.client;
 
 import com.netflix.discovery.EurekaClient;
 import org.springframework.beans.factory.annotation.Autowired;

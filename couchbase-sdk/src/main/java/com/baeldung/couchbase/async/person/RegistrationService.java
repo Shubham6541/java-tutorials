@@ -1,4 +1,4 @@
-package com.baeldung.couchbase.async.person;
+package com.nklkarthi.couchbase.async.person;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

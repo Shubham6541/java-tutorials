@@ -1,4 +1,4 @@
-package org.baeldung;
+package org.nklkarthi;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

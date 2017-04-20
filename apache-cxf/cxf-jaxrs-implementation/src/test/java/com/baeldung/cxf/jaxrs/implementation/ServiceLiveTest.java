@@ -1,4 +1,4 @@
-package com.baeldung.cxf.jaxrs.implementation;
+package com.nklkarthi.cxf.jaxrs.implementation;
 
 import static org.junit.Assert.assertEquals;
 
@@ -21,7 +21,7 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 
 public class ServiceLiveTest {
-    private static final String BASE_URL = "http://localhost:8080/baeldung/courses/";
+    private static final String BASE_URL = "http://localhost:8080/nklkarthi/courses/";
     private static CloseableHttpClient client;
 
     @BeforeClass

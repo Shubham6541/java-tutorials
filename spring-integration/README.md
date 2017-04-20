@@ -1,2 +1,2 @@
 ### Relevant Articles:
-- [Introduction to Spring Integration](http://www.baeldung.com/spring-integration)
+- [Introduction to Spring Integration](http://www.nklkarthi.com/spring-integration)

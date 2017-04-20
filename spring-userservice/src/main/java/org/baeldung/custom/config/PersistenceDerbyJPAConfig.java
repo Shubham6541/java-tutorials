@@ -1,11 +1,11 @@
-package org.baeldung.custom.config;
+package org.nklkarthi.custom.config;
 
 import java.util.Properties;
 
 import javax.persistence.EntityManagerFactory;
 import javax.sql.DataSource;
 
-import org.baeldung.user.dao.MyUserDAO;
+import org.nklkarthi.user.dao.MyUserDAO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -39,7 +39,7 @@ public class PersistenceDerbyJPAConfig {
     public LocalContainerEntityManagerFactoryBean myEmf() {
         final LocalContainerEntityManagerFactoryBean em = new LocalContainerEntityManagerFactoryBean();
         em.setDataSource(dataSource());
-        em.setPackagesToScan(new String[] { "org.baeldung.persistence.model" });
+        em.setPackagesToScan(new String[] { "org.nklkarthi.persistence.model" });
 
         final HibernateJpaVendorAdapter vendorAdapter = new HibernateJpaVendorAdapter();
         em.setJpaVendorAdapter(vendorAdapter);

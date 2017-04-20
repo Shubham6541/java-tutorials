@@ -1,4 +1,4 @@
-package com.baeldung.jackson.test;
+package com.nklkarthi.jackson.test;
 
 import static org.hamcrest.Matchers.containsString;
 import static org.hamcrest.Matchers.is;
@@ -8,12 +8,12 @@ import java.io.IOException;
 
 import org.junit.Test;
 
-import com.baeldung.jackson.dtos.withEnum.DistanceEnumSimple;
-import com.baeldung.jackson.dtos.withEnum.DistanceEnumWithJsonFormat;
-import com.baeldung.jackson.dtos.withEnum.DistanceEnumWithValue;
-import com.baeldung.jackson.dtos.withEnum.MyDtoWithEnumCustom;
-import com.baeldung.jackson.dtos.withEnum.MyDtoWithEnumJsonFormat;
-import com.baeldung.jackson.enums.Distance;
+import com.nklkarthi.jackson.dtos.withEnum.DistanceEnumSimple;
+import com.nklkarthi.jackson.dtos.withEnum.DistanceEnumWithJsonFormat;
+import com.nklkarthi.jackson.dtos.withEnum.DistanceEnumWithValue;
+import com.nklkarthi.jackson.dtos.withEnum.MyDtoWithEnumCustom;
+import com.nklkarthi.jackson.dtos.withEnum.MyDtoWithEnumJsonFormat;
+import com.nklkarthi.jackson.enums.Distance;
 import com.fasterxml.jackson.core.JsonParseException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 

@@ -1,4 +1,4 @@
-package org.baeldung.gridfs;
+package org.nklkarthi.gridfs;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.Matchers.nullValue;
@@ -13,7 +13,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.List;
 
-import org.baeldung.config.MongoConfig;
+import org.nklkarthi.config.MongoConfig;
 import org.junit.After;
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,7 +1,7 @@
-package org.baeldung.bean.config;
+package org.nklkarthi.bean.config;
 
-import org.baeldung.bean.injection.Helm;
-import org.baeldung.bean.injection.Ship;
+import org.nklkarthi.bean.injection.Helm;
+import org.nklkarthi.bean.injection.Ship;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

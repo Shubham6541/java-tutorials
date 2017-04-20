@@ -1,4 +1,4 @@
-package com.baeldung.spring.controller;
+package com.nklkarthi.spring.controller;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.baeldung.spring.form.Employee;
+import com.nklkarthi.spring.form.Employee;
 
 @Controller
 public class EmployeeController {

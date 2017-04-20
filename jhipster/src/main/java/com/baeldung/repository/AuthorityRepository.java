@@ -1,6 +1,6 @@
-package com.baeldung.repository;
+package com.nklkarthi.repository;
 
-import com.baeldung.domain.Authority;
+import com.nklkarthi.domain.Authority;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

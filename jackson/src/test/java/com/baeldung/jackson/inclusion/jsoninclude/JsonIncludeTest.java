@@ -1,4 +1,4 @@
-package com.baeldung.jackson.inclusion.jsoninclude;
+package com.nklkarthi.jackson.inclusion.jsoninclude;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;

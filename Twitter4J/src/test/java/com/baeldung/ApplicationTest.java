@@ -1,4 +1,4 @@
-package com.baeldung;
+package com.nklkarthi;
 
 import static org.junit.Assert.assertEquals;
 
@@ -15,7 +15,7 @@ public class ApplicationTest {
 	 * In order run this jUnit test you need to configure your API details in the twitter4j.properties
 	 */
 	
-	String tweet = "baeldung is awsome";
+	String tweet = "nklkarthi is awsome";
 	
 	@Test
 	public void givenText_updateStatus() throws TwitterException {

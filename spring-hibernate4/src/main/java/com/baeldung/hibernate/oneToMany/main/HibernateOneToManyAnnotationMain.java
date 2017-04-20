@@ -1,4 +1,4 @@
-package com.baeldung.hibernate.oneToMany.main;
+package com.nklkarthi.hibernate.oneToMany.main;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -7,9 +7,9 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 
-import com.baeldung.hibernate.oneToMany.config.HibernateAnnotationUtil;
-import com.baeldung.hibernate.oneToMany.model.Cart;
-import com.baeldung.hibernate.oneToMany.model.Items;
+import com.nklkarthi.hibernate.oneToMany.config.HibernateAnnotationUtil;
+import com.nklkarthi.hibernate.oneToMany.model.Cart;
+import com.nklkarthi.hibernate.oneToMany.model.Items;
 
 public class HibernateOneToManyAnnotationMain {
 

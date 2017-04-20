@@ -1,10 +1,10 @@
-package com.baeldung.persistence.service.common;
+package com.nklkarthi.persistence.service.common;
 
 import java.io.Serializable;
 import java.util.List;
 
-import com.baeldung.persistence.dao.common.IAuditOperations;
-import com.baeldung.persistence.dao.common.IOperations;
+import com.nklkarthi.persistence.dao.common.IAuditOperations;
+import com.nklkarthi.persistence.dao.common.IOperations;
 import org.springframework.transaction.annotation.Transactional;
 
 @Transactional(value = "hibernateTransactionManager")

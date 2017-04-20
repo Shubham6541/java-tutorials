@@ -1,7 +1,7 @@
-package com.baeldung.java8;
+package com.nklkarthi.java8;
 
-import com.baeldung.java_8_features.Vehicle;
-import com.baeldung.java_8_features.VehicleImpl;
+import com.nklkarthi.java_8_features.Vehicle;
+import com.nklkarthi.java_8_features.VehicleImpl;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

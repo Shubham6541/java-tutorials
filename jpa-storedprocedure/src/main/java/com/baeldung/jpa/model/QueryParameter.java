@@ -1,4 +1,4 @@
-package com.baeldung.jpa.model;
+package com.nklkarthi.jpa.model;
 
 import java.util.HashMap;
 import java.util.Map;

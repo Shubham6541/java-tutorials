@@ -1,6 +1,6 @@
-package com.baeldung.service;
+package com.nklkarthi.service;
 
-import com.baeldung.doman.NotificationData;
+import com.nklkarthi.doman.NotificationData;
 
 public interface NotificationService {
 

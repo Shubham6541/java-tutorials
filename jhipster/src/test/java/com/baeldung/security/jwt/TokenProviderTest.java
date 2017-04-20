@@ -1,6 +1,6 @@
-package com.baeldung.security.jwt;
+package com.nklkarthi.security.jwt;
 
-import com.baeldung.security.AuthoritiesConstants;
+import com.nklkarthi.security.AuthoritiesConstants;
 import io.github.jhipster.config.JHipsterProperties;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;

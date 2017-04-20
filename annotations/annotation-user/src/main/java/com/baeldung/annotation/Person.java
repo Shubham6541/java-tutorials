@@ -1,6 +1,6 @@
-package com.baeldung.annotation;
+package com.nklkarthi.annotation;
 
-import com.baeldung.annotation.processor.BuilderProperty;
+import com.nklkarthi.annotation.processor.BuilderProperty;
 
 public class Person {
 

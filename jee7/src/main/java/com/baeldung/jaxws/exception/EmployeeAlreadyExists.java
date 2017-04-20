@@ -1,4 +1,4 @@
-package com.baeldung.jaxws.exception;
+package com.nklkarthi.jaxws.exception;
 
 import javax.xml.ws.WebFault;
 

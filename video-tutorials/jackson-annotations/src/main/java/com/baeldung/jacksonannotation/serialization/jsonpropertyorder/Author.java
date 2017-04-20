@@ -1,7 +1,7 @@
-package com.baeldung.jacksonannotation.serialization.jsonpropertyorder;
+package com.nklkarthi.jacksonannotation.serialization.jsonpropertyorder;
 
 
-import com.baeldung.jacksonannotation.domain.Item;
+import com.nklkarthi.jacksonannotation.domain.Item;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 
 import java.util.ArrayList;
@@ -10,7 +10,7 @@ import java.util.List;
 /**
  * Source code github.com/eugenp/tutorials
  *
- * @author Alex Theedom www.baeldung.com
+ * @author Alex Theedom www.nklkarthi.com
  * @version 1.0
  */
 @JsonPropertyOrder(value = {"items", "firstName", "lastName", "id"}, alphabetic = true)

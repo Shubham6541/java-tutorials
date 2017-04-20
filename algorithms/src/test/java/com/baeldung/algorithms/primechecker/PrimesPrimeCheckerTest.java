@@ -1,11 +1,11 @@
-package com.baeldung.algorithms.primechecker;
+package com.nklkarthi.algorithms.primechecker;
 
 import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
-import com.baeldung.algorithms.primechecker.PrimeChecker;
-import com.baeldung.algorithms.primechecker.PrimesPrimeChecker;
+import com.nklkarthi.algorithms.primechecker.PrimeChecker;
+import com.nklkarthi.algorithms.primechecker.PrimesPrimeChecker;
 
 public class PrimesPrimeCheckerTest {
     PrimesPrimeChecker primeChecker = new PrimesPrimeChecker();

@@ -1,4 +1,4 @@
-package org.baeldung.spring43.cache;
+package org.nklkarthi.spring43.cache;
 
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;

@@ -1,4 +1,4 @@
-package com.baeldung.jsonassert;
+package com.nklkarthi.jsonassert;
 
 
 import static org.assertj.core.api.Assertions.assertThat;

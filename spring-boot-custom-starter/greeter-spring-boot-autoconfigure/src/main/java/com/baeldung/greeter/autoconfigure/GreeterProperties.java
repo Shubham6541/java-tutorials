@@ -1,8 +1,8 @@
-package com.baeldung.greeter.autoconfigure;
+package com.nklkarthi.greeter.autoconfigure;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
-@ConfigurationProperties(prefix = "baeldung.greeter")
+@ConfigurationProperties(prefix = "nklkarthi.greeter")
 public class GreeterProperties {
 
     private String userName;

@@ -1,4 +1,4 @@
-package com.baeldung.xml;
+package com.nklkarthi.xml;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -145,7 +145,7 @@ public class DefaultParser {
                 @Override
                 public String getNamespaceURI(String arg0) {
                     if ("bdn".equals(arg0)) {
-                        return "http://www.baeldung.com/full_archive";
+                        return "http://www.nklkarthi.com/full_archive";
                     }
                     return null;
                 }

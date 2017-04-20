@@ -1,4 +1,4 @@
-package com.baeldung.web.controller;
+package com.nklkarthi.web.controller;
 
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;

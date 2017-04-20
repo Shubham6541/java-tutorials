@@ -1,4 +1,4 @@
-package com.baeldung.commons.math;
+package com.nklkarthi.commons.math;
 
 import org.apache.commons.math3.linear.*;
 import org.junit.Assert;

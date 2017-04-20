@@ -1,14 +1,14 @@
-package org.baeldung.persistence.query;
+package org.nklkarthi.persistence.query;
 
-import org.baeldung.persistence.dao.GenericSpecificationsBuilder;
-import org.baeldung.persistence.dao.UserRepository;
-import org.baeldung.persistence.dao.UserSpecification;
-import org.baeldung.persistence.dao.UserSpecificationsBuilder;
-import org.baeldung.persistence.model.User;
-import org.baeldung.spring.PersistenceConfig;
-import org.baeldung.web.util.CriteriaParser;
-import org.baeldung.web.util.SearchOperation;
-import org.baeldung.web.util.SpecSearchCriteria;
+import org.nklkarthi.persistence.dao.GenericSpecificationsBuilder;
+import org.nklkarthi.persistence.dao.UserRepository;
+import org.nklkarthi.persistence.dao.UserSpecification;
+import org.nklkarthi.persistence.dao.UserSpecificationsBuilder;
+import org.nklkarthi.persistence.model.User;
+import org.nklkarthi.spring.PersistenceConfig;
+import org.nklkarthi.web.util.CriteriaParser;
+import org.nklkarthi.web.util.SearchOperation;
+import org.nklkarthi.web.util.SpecSearchCriteria;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

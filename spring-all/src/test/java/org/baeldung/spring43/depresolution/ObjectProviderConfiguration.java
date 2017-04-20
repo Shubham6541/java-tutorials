@@ -1,4 +1,4 @@
-package org.baeldung.spring43.depresolution;
+package org.nklkarthi.spring43.depresolution;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;

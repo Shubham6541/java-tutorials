@@ -1,6 +1,6 @@
-package org.baeldung.web;
+package org.nklkarthi.web;
 
-import org.baeldung.persistence.service.FooService;
+import org.nklkarthi.persistence.service.FooService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

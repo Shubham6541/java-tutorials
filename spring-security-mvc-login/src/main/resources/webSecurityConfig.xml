@@ -25,9 +25,9 @@
     	
     </http>
 
-    <beans:bean name="customLogoutSuccessHandler" class="org.baeldung.security.CustomLogoutSuccessHandler"/>
+    <beans:bean name="customLogoutSuccessHandler" class="org.nklkarthi.security.CustomLogoutSuccessHandler"/>
 
-    <beans:bean name="customAccessDeniedHandler" class="org.baeldung.security.CustomAccessDeniedHandler" />
+    <beans:bean name="customAccessDeniedHandler" class="org.nklkarthi.security.CustomAccessDeniedHandler" />
 
     <authentication-manager>
         <authentication-provider>

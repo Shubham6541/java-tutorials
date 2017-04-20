@@ -1,4 +1,4 @@
-package com.baeldung.spring.data.gemfire.model;
+package com.nklkarthi.spring.data.gemfire.model;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.annotation.PersistenceConstructor;

@@ -1,4 +1,4 @@
-package com.baeldung.hibernate.oneToMany.model;
+package com.nklkarthi.hibernate.oneToMany.model;
 
 import java.util.Set;
 

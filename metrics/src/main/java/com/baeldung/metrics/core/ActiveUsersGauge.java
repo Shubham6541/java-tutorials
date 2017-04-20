@@ -1,4 +1,4 @@
-package com.baeldung.metrics.core;
+package com.nklkarthi.metrics.core;
 
 import java.util.ArrayList;
 import java.util.List;

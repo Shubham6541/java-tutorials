@@ -1,6 +1,6 @@
-package com.baeldung.spring.data.neo4j.services;
+package com.nklkarthi.spring.data.neo4j.services;
 
-import com.baeldung.spring.data.neo4j.repostory.MovieRepository;
+import com.nklkarthi.spring.data.neo4j.repostory.MovieRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

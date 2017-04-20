@@ -1,4 +1,4 @@
-package org.baeldung.client;
+package org.nklkarthi.client;
 
 import org.apache.http.HttpHost;
 import org.apache.http.auth.AuthScope;
@@ -7,7 +7,7 @@ import org.apache.http.client.CredentialsProvider;
 import org.apache.http.impl.client.BasicCredentialsProvider;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClientBuilder;
-import org.baeldung.web.dto.Foo;
+import org.nklkarthi.web.dto.Foo;
 import org.junit.Test;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.ResponseEntity;

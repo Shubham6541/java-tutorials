@@ -1,4 +1,4 @@
-package com.baeldung.functional;
+package com.nklkarthi.functional;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -29,7 +29,7 @@ import static org.springframework.web.reactive.function.server.RouterFunctions.t
 import static org.springframework.web.reactive.function.server.ServerResponse.ok;
 
 @SpringBootApplication
-@ComponentScan(basePackages = { "com.baeldung.functional" })
+@ComponentScan(basePackages = { "com.nklkarthi.functional" })
 public class FunctionalSpringBootApplication {
 
     private static final Actor BRAD_PITT = new Actor("Brad", "Pitt");

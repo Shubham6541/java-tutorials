@@ -1,9 +1,9 @@
-package com.baeldung.cxf.spring;
+package com.nklkarthi.cxf.spring;
 
 import javax.jws.WebService;
 
 @WebService
-public interface Baeldung {
+public interface nklkarthi {
     String hello(String name);
 
     String register(Student student);

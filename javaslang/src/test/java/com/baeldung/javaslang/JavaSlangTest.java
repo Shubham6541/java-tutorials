@@ -1,4 +1,4 @@
-package com.baeldung.javaslang;
+package com.nklkarthi.javaslang;
 
 import static javaslang.API.$;
 import static javaslang.API.Case;
@@ -127,7 +127,7 @@ public class JavaSlangTest {
     public void whenCreatesFunction_thenCorrect0() {
         Function0<String> getClazzName = () -> this.getClass().getName();
         String clazzName = getClazzName.apply();
-        assertEquals("com.baeldung.javaslang.JavaSlangTest", clazzName);
+        assertEquals("com.nklkarthi.javaslang.JavaSlangTest", clazzName);
     }
 
     @Test
@@ -186,14 +186,14 @@ public class JavaSlangTest {
     public void givenNull_whenCreatesOption_thenCorrect() {
         String name = null;
         Option<String> nameOption = Option.of(name);
-        assertEquals("baeldung", nameOption.getOrElse("baeldung"));
+        assertEquals("nklkarthi", nameOption.getOrElse("nklkarthi"));
     }
 
     @Test
     public void givenNonNull_whenCreatesOption_thenCorrect() {
-        String name = "baeldung";
+        String name = "nklkarthi";
         Option<String> nameOption = Option.of(name);
-        assertEquals("baeldung", nameOption.getOrElse("notbaeldung"));
+        assertEquals("nklkarthi", nameOption.getOrElse("notnklkarthi"));
     }
 
     // try

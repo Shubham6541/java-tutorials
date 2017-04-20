@@ -1,4 +1,4 @@
-package com.baeldung.metrics.servlets;
+package com.nklkarthi.metrics.servlets;
 
 import com.codahale.metrics.Counter;
 import com.codahale.metrics.Histogram;

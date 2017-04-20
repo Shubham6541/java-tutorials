@@ -1,10 +1,10 @@
-package org.baeldung.web.dto;
+package org.nklkarthi.web.dto;
 
 
-public class BaeldungItemV2 {
+public class nklkarthiItemV2 {
     private final String itemName;
 
-    public BaeldungItemV2(String itemName) {
+    public nklkarthiItemV2(String itemName) {
         this.itemName = itemName;
     }
 

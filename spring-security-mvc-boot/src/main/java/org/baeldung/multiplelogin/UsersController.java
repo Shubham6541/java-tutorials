@@ -1,4 +1,4 @@
-package org.baeldung.multiplelogin;
+package org.nklkarthi.multiplelogin;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

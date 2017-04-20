@@ -1,4 +1,4 @@
-package com.baeldung.git;
+package com.nklkarthi.git;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

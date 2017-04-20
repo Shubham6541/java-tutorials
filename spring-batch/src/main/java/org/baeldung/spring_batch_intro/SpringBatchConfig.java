@@ -1,11 +1,11 @@
-package org.baeldung.spring_batch_intro;
+package org.nklkarthi.spring_batch_intro;
 
 import java.net.MalformedURLException;
 import java.text.ParseException;
 
-import org.baeldung.spring_batch_intro.model.Transaction;
-import org.baeldung.spring_batch_intro.service.CustomItemProcessor;
-import org.baeldung.spring_batch_intro.service.RecordFieldSetMapper;
+import org.nklkarthi.spring_batch_intro.model.Transaction;
+import org.nklkarthi.spring_batch_intro.service.CustomItemProcessor;
+import org.nklkarthi.spring_batch_intro.service.RecordFieldSetMapper;
 import org.springframework.batch.core.Job;
 import org.springframework.batch.core.Step;
 import org.springframework.batch.core.configuration.annotation.JobBuilderFactory;

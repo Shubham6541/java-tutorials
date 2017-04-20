@@ -1,7 +1,7 @@
-package org.baeldung.spring.config;
+package org.nklkarthi.spring.config;
 
-import org.baeldung.scopes.HelloMessageGenerator;
-import org.baeldung.scopes.Person;
+import org.nklkarthi.scopes.HelloMessageGenerator;
+import org.nklkarthi.scopes.Person;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -13,7 +13,7 @@ import org.springframework.web.servlet.view.JstlView;
 import org.springframework.web.servlet.view.UrlBasedViewResolver;
 
 @Configuration
-@ComponentScan("org.baeldung.scopes")
+@ComponentScan("org.nklkarthi.scopes")
 @EnableWebMvc
 public class ScopesConfig {
     @Bean

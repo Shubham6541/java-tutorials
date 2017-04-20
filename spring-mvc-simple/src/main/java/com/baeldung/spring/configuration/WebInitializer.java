@@ -1,4 +1,4 @@
-package com.baeldung.spring.configuration;
+package com.nklkarthi.spring.configuration;
 
 import org.springframework.web.WebApplicationInitializer;
 import org.springframework.web.context.ContextLoaderListener;

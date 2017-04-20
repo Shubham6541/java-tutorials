@@ -1,4 +1,4 @@
-package com.baeldung.circulardependency;
+package com.nklkarthi.circulardependency;
 
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.InitializingBean;

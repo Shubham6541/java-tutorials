@@ -1,4 +1,4 @@
-package org.baeldung.spring.config;
+package org.nklkarthi.spring.config;
 
 import java.util.Set;
 
@@ -23,7 +23,7 @@ public class MainWebAppInitializer implements WebApplicationInitializer {
 
         // Create the 'root' Spring application context
         final AnnotationConfigWebApplicationContext root = new AnnotationConfigWebApplicationContext();
-        root.scan("org.baeldung.spring.config");
+        root.scan("org.nklkarthi.spring.config");
         // root.getEnvironment().setDefaultProfiles("embedded");
 
         // Manages the lifecycle of the root application context

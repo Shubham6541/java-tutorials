@@ -1,7 +1,7 @@
-package org.baeldung.ehcache;
+package org.nklkarthi.ehcache;
 
-import org.baeldung.ehcache.calculator.SquaredCalculator;
-import org.baeldung.ehcache.config.CacheHelper;
+import org.nklkarthi.ehcache.calculator.SquaredCalculator;
+import org.nklkarthi.ehcache.config.CacheHelper;
 import org.junit.Before;
 import org.junit.Test;
 

@@ -1,7 +1,7 @@
-package com.baeldung.jackson.serialization.jsonvalue;
+package com.nklkarthi.jackson.serialization.jsonvalue;
 
-import com.baeldung.jackson.domain.Author;
-import com.baeldung.jackson.domain.Item;
+import com.nklkarthi.jackson.domain.Author;
+import com.nklkarthi.jackson.domain.Item;
 import com.fasterxml.jackson.annotation.JsonValue;
 
 import java.util.List;

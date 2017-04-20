@@ -1,4 +1,4 @@
-package com.baeldung.aop.logging;
+package com.nklkarthi.aop.logging;
 
 import io.github.jhipster.config.JHipsterConstants;
 
@@ -33,7 +33,7 @@ public class LoggingAspect {
     /**
      * Pointcut that matches all repositories, services and Web REST endpoints.
      */
-    @Pointcut("within(com.baeldung.repository..*) || within(com.baeldung.service..*) || within(com.baeldung.web.rest..*)")
+    @Pointcut("within(com.nklkarthi.repository..*) || within(com.nklkarthi.service..*) || within(com.nklkarthi.web.rest..*)")
     public void loggingPointcut() {
         // Method is empty as this is just a Pointcut, the implementations are in the advices.
     }

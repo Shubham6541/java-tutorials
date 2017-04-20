@@ -1,6 +1,6 @@
-package test.java.com.baeldung.selenium.junit;
+package test.java.com.nklkarthi.selenium.junit;
 
-import main.java.com.baeldung.selenium.SeleniumExample;
+import main.java.com.nklkarthi.selenium.SeleniumExample;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
@@ -10,7 +10,7 @@ import static org.testng.Assert.*;
 public class SeleniumWithJUnitLiveTest {
 
     private static SeleniumExample seleniumExample;
-    private String expectedTitle = "About Baeldung | Baeldung";
+    private String expectedTitle = "About nklkarthi | nklkarthi";
 
     @BeforeClass
     public static void setUp() {
@@ -23,8 +23,8 @@ public class SeleniumWithJUnitLiveTest {
     }
 
     @Test
-    public void whenAboutBaeldungIsLoaded_thenAboutEugenIsMentionedOnPage() {
-            seleniumExample.getAboutBaeldungPage();
+    public void whenAboutnklkarthiIsLoaded_thenAboutEugenIsMentionedOnPage() {
+            seleniumExample.getAboutnklkarthiPage();
             String actualTitle = seleniumExample.getTitle();
             assertNotNull(actualTitle);
             assertEquals(expectedTitle, actualTitle);

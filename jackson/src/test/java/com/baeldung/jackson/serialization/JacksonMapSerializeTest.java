@@ -1,4 +1,4 @@
-package com.baeldung.jackson.serialization;
+package com.nklkarthi.jackson.serialization;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -6,7 +6,7 @@ import java.util.Map;
 import org.junit.Assert;
 import org.junit.Test;
 
-import com.baeldung.jackson.entities.MyPair;
+import com.nklkarthi.jackson.entities.MyPair;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;

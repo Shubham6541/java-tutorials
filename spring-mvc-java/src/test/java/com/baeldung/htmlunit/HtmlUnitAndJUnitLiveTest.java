@@ -1,4 +1,4 @@
-package com.baeldung.htmlunit;
+package com.nklkarthi.htmlunit;
 
 import org.junit.After;
 import org.junit.Assert;
@@ -23,10 +23,10 @@ public class HtmlUnitAndJUnitLiveTest {
     }
 
     @Test
-    public void givenAClient_whenEnteringBaeldung_thenPageTitleIsOk() throws Exception {
+    public void givenAClient_whenEnteringnklkarthi_thenPageTitleIsOk() throws Exception {
         webClient.getOptions().setThrowExceptionOnScriptError(false);
-        HtmlPage page = webClient.getPage("http://www.baeldung.com/");
-        Assert.assertEquals("Baeldung | Java, Spring and Web Development tutorials", page.getTitleText());
+        HtmlPage page = webClient.getPage("http://www.nklkarthi.com/");
+        Assert.assertEquals("nklkarthi | Java, Spring and Web Development tutorials", page.getTitleText());
     }
 
 }

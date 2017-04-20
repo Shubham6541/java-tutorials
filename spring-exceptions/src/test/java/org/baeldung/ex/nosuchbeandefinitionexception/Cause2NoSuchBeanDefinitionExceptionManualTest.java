@@ -1,6 +1,6 @@
-package org.baeldung.ex.nosuchbeandefinitionexception;
+package org.nklkarthi.ex.nosuchbeandefinitionexception;
 
-import org.baeldung.ex.nosuchbeandefinitionexception.spring.Cause2ContextWithJavaConfig;
+import org.nklkarthi.ex.nosuchbeandefinitionexception.spring.Cause2ContextWithJavaConfig;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.test.context.ContextConfiguration;

@@ -1,4 +1,4 @@
-package com.baeldung.spring.cloud.hystrix.rest.producer;
+package com.nklkarthi.spring.cloud.hystrix.rest.producer;
 
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;

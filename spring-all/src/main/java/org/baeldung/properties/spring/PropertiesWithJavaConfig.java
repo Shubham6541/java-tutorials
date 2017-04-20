@@ -1,4 +1,4 @@
-package org.baeldung.properties.spring;
+package org.nklkarthi.properties.spring;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

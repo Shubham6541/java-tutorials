@@ -1,4 +1,4 @@
-package com.baeldung.annotation.pojo;
+package com.nklkarthi.annotation.pojo;
 
 import com.thoughtworks.xstream.annotations.XStreamAlias;
 

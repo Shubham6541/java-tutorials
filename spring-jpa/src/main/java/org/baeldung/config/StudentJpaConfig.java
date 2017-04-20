@@ -1,4 +1,4 @@
-package org.baeldung.config;
+package org.nklkarthi.config;
 
 import java.util.Properties;
 
@@ -18,7 +18,7 @@ import org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @Configuration
-@EnableJpaRepositories(basePackages = "org.baeldung.persistence.dao")
+@EnableJpaRepositories(basePackages = "org.nklkarthi.persistence.dao")
 @PropertySource("persistence-student.properties")
 @EnableTransactionManagement
 public class StudentJpaConfig {
@@ -41,7 +41,7 @@ public class StudentJpaConfig {
     public LocalContainerEntityManagerFactoryBean entityManagerFactory() {
         final LocalContainerEntityManagerFactoryBean em = new LocalContainerEntityManagerFactoryBean();
         em.setDataSource(dataSource());
-        em.setPackagesToScan(new String[] { "org.baeldung.persistence.model" });
+        em.setPackagesToScan(new String[] { "org.nklkarthi.persistence.model" });
         em.setJpaVendorAdapter(new HibernateJpaVendorAdapter());
         em.setJpaProperties(additionalProperties());
         return em;

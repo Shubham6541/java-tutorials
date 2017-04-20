@@ -1,4 +1,4 @@
-package com.baeldung.spring.controller;
+package com.nklkarthi.spring.controller;
 
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
@@ -7,8 +7,8 @@ import java.util.Map;
 
 import javax.validation.Valid;
 
-import com.baeldung.spring.form.Person;
-import com.baeldung.spring.validator.PersonValidator;
+import com.nklkarthi.spring.form.Person;
+import com.nklkarthi.spring.validator.PersonValidator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

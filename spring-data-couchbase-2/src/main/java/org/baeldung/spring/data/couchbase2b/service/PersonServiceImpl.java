@@ -1,11 +1,11 @@
-package org.baeldung.spring.data.couchbase2b.service;
+package org.nklkarthi.spring.data.couchbase2b.service;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-import org.baeldung.spring.data.couchbase.model.Person;
-import org.baeldung.spring.data.couchbase2b.repos.PersonRepository;
+import org.nklkarthi.spring.data.couchbase.model.Person;
+import org.nklkarthi.spring.data.couchbase2b.repos.PersonRepository;
 import org.joda.time.DateTime;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

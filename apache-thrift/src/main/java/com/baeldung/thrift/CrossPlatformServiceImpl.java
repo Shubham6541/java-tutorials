@@ -1,8 +1,8 @@
-package com.baeldung.thrift;
+package com.nklkarthi.thrift;
 
-import com.baeldung.thrift.impl.CrossPlatformResource;
-import com.baeldung.thrift.impl.CrossPlatformService;
-import com.baeldung.thrift.impl.InvalidOperationException;
+import com.nklkarthi.thrift.impl.CrossPlatformResource;
+import com.nklkarthi.thrift.impl.CrossPlatformService;
+import com.nklkarthi.thrift.impl.InvalidOperationException;
 
 import org.apache.thrift.TException;
 

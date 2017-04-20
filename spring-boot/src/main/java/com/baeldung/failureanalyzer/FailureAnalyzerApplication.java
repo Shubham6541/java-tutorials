@@ -1,11 +1,11 @@
-package com.baeldung.failureanalyzer;
+package com.nklkarthi.failureanalyzer;
 
 import javax.annotation.security.RolesAllowed;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import com.baeldung.autoconfiguration.MySQLAutoconfiguration;
+import com.nklkarthi.autoconfiguration.MySQLAutoconfiguration;
 
 @SpringBootApplication(exclude=MySQLAutoconfiguration.class)
 public class FailureAnalyzerApplication {

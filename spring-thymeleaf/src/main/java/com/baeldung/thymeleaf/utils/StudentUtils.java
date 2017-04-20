@@ -1,9 +1,9 @@
-package com.baeldung.thymeleaf.utils;
+package com.nklkarthi.thymeleaf.utils;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.baeldung.thymeleaf.model.Student;
+import com.nklkarthi.thymeleaf.model.Student;
 
 public class StudentUtils {
 

@@ -1,4 +1,4 @@
-package org.baeldung.profiles;
+package org.nklkarthi.profiles;
 
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Component;

@@ -1,4 +1,4 @@
-package org.baeldung.java.io;
+package org.nklkarthi.java.io;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.junit.Assert.assertThat;

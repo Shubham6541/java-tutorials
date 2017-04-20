@@ -1,4 +1,4 @@
-package com.baeldung.servlets;
+package com.nklkarthi.servlets;
 
 import static org.junit.Assert.assertEquals;
 

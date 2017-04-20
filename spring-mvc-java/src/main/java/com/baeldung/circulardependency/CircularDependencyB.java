@@ -1,4 +1,4 @@
-package com.baeldung.circulardependency;
+package com.nklkarthi.circulardependency;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

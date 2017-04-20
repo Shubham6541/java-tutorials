@@ -1,4 +1,4 @@
-package com.baeldung.thymeleaf.utils;
+package com.nklkarthi.thymeleaf.utils;
 
 public class ArrayUtil {
 

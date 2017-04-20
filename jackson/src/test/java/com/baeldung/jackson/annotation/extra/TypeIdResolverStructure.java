@@ -1,4 +1,4 @@
-package com.baeldung.jackson.annotation.extra;
+package com.nklkarthi.jackson.annotation.extra;
 
 import java.util.List;
 

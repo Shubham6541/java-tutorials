@@ -1,10 +1,10 @@
-package com.baeldung;
+package com.nklkarthi;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.baeldung.filter.RequestValidatorFilter;
-import com.baeldung.model.Employee;
+import com.nklkarthi.filter.RequestValidatorFilter;
+import com.nklkarthi.model.Employee;
 
 import ratpack.guice.Guice;
 import ratpack.hikari.HikariModule;
@@ -26,7 +26,7 @@ public class Application {
 				server -> server.registry(Guice.registry(bindings -> bindings.module(HikariModule.class, config -> {
 					config.setDataSourceClassName("org.h2.jdbcx.JdbcDataSource");
 					config.addDataSourceProperty("URL",
-							"jdbc:h2:mem:baeldung;INIT=RUNSCRIPT FROM 'classpath:/DDL.sql'");
+							"jdbc:h2:mem:nklkarthi;INIT=RUNSCRIPT FROM 'classpath:/DDL.sql'");
 				}))).handlers(chain -> chain
 						.all(
 								// ctx -> {
@@ -38,7 +38,7 @@ public class Application {
 								// ctx.next();
 								// }
 								new RequestValidatorFilter())
-						.get(ctx -> ctx.render("Welcome to baeldung ratpack!!!"))
+						.get(ctx -> ctx.render("Welcome to nklkarthi ratpack!!!"))
 						.get("data/employees", ctx -> ctx.render(Jackson.json(employees)))
 						.get(":name", ctx -> ctx.render("Hello " + ctx.getPathTokens().get("name") + "!!!"))
 						.post(":amount", ctx -> ctx

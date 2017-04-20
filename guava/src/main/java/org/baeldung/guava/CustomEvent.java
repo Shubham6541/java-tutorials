@@ -1,4 +1,4 @@
-package org.baeldung.guava;
+package org.nklkarthi.guava;
 
 public class CustomEvent {
     private String action;

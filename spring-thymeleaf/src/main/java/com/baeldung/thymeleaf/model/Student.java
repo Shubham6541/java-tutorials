@@ -1,4 +1,4 @@
-package com.baeldung.thymeleaf.model;
+package com.nklkarthi.thymeleaf.model;
 
 import java.io.Serializable;
 

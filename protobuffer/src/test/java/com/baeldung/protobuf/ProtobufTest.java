@@ -1,4 +1,4 @@
-package com.baeldung.protobuf;
+package com.nklkarthi.protobuf;
 
 
 import org.junit.After;
@@ -24,7 +24,7 @@ public class ProtobufTest {
     @Test
     public void givenGeneratedProtobufClass_whenCreateClass_thenShouldCreateJavaInstance() {
         //when
-        String email = "j@baeldung.com";
+        String email = "j@nklkarthi.com";
         int id = new Random().nextInt();
         String name = "Michael Program";
         String number = "01234567890";
@@ -46,7 +46,7 @@ public class ProtobufTest {
     @Test
     public void givenAddressBookWithOnePerson_whenSaveAsAFile_shouldLoadFromFileToJavaClass() throws IOException {
         //given
-        String email = "j@baeldung.com";
+        String email = "j@nklkarthi.com";
         int id = new Random().nextInt();
         String name = "Michael Program";
         String number = "01234567890";

@@ -1,4 +1,4 @@
-package com.baeldung.jackson.annotation.extra;
+package com.nklkarthi.jackson.annotation.extra;
 
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonPOJOBuilder;

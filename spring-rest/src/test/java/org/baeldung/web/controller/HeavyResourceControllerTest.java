@@ -1,9 +1,9 @@
-package org.baeldung.web.controller;
+package org.nklkarthi.web.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.baeldung.config.WebConfig;
-import org.baeldung.web.dto.HeavyResource;
-import org.baeldung.web.dto.HeavyResourceAddressOnly;
+import org.nklkarthi.config.WebConfig;
+import org.nklkarthi.web.dto.HeavyResource;
+import org.nklkarthi.web.dto.HeavyResourceAddressOnly;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

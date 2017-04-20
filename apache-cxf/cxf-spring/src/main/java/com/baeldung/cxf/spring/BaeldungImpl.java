@@ -1,9 +1,9 @@
-package com.baeldung.cxf.spring;
+package com.nklkarthi.cxf.spring;
 
 import javax.jws.WebService;
 
-@WebService(endpointInterface = "com.baeldung.cxf.spring.Baeldung")
-public class BaeldungImpl implements Baeldung {
+@WebService(endpointInterface = "com.nklkarthi.cxf.spring.nklkarthi")
+public class nklkarthiImpl implements nklkarthi {
     private int counter;
 
     public String hello(String name) {

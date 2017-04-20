@@ -8,7 +8,7 @@
  *  @since   07/20/2016
  */
 
-package com.baeldung.hibernate.criteria.view;
+package com.nklkarthi.hibernate.criteria.view;
 
 import java.util.List;
 
@@ -21,8 +21,8 @@ import org.hibernate.criterion.Order;
 import org.hibernate.criterion.Projections;
 import org.hibernate.criterion.Restrictions;
 
-import com.baeldung.hibernate.criteria.model.Item;
-import com.baeldung.hibernate.criteria.util.HibernateUtil;
+import com.nklkarthi.hibernate.criteria.model.Item;
+import com.nklkarthi.hibernate.criteria.util.HibernateUtil;
 
 public class ApplicationView {
 

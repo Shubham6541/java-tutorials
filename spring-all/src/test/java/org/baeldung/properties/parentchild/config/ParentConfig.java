@@ -1,6 +1,6 @@
-package org.baeldung.properties.parentchild.config;
+package org.nklkarthi.properties.parentchild.config;
 
-import org.baeldung.properties.parentchild.ParentValueHolder;
+import org.nklkarthi.properties.parentchild.ParentValueHolder;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;

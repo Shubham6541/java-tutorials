@@ -1,4 +1,4 @@
-package org.baeldung.hbase;
+package org.nklkarthi.hbase;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.hbase.HColumnDescriptor;

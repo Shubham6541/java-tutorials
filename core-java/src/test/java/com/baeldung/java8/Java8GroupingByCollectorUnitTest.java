@@ -1,7 +1,7 @@
-package com.baeldung.java8;
+package com.nklkarthi.java8;
 
-import com.baeldung.java_8_features.groupingby.BlogPost;
-import com.baeldung.java_8_features.groupingby.BlogPostType;
+import com.nklkarthi.java_8_features.groupingby.BlogPost;
+import com.nklkarthi.java_8_features.groupingby.BlogPostType;
 import org.junit.Test;
 
 import java.util.*;

@@ -1,4 +1,4 @@
-package com.baeldung.rest.wiremock.introduction;
+package com.nklkarthi.rest.wiremock.introduction;
 
 import com.github.tomakehurst.wiremock.junit.WireMockRule;
 import org.apache.http.HttpResponse;
@@ -31,7 +31,7 @@ import static org.junit.Assert.assertEquals;
 
 public class JUnitManaged {
 
-    private static final String BAELDUNG_WIREMOCK_PATH = "/baeldung/wiremock";
+    private static final String nklkarthi_WIREMOCK_PATH = "/nklkarthi/wiremock";
     private static final String APPLICATION_JSON = "application/json";
 
     @Rule
@@ -39,18 +39,18 @@ public class JUnitManaged {
 
     @Test
     public void givenJUnitManagedServer_whenMatchingURL_thenCorrect() throws IOException {
-        stubFor(get(urlPathMatching("/baeldung/.*"))
+        stubFor(get(urlPathMatching("/nklkarthi/.*"))
                 .willReturn(aResponse()
                         .withStatus(200)
                         .withHeader("Content-Type", APPLICATION_JSON)
                         .withBody("\"testing-library\": \"WireMock\"")));
 
         CloseableHttpClient httpClient = HttpClients.createDefault();
-        HttpGet request = new HttpGet("http://localhost:8080/baeldung/wiremock");
+        HttpGet request = new HttpGet("http://localhost:8080/nklkarthi/wiremock");
         HttpResponse httpResponse = httpClient.execute(request);
         String stringResponse = convertHttpResponseToString(httpResponse);
 
-        verify(getRequestedFor(urlEqualTo(BAELDUNG_WIREMOCK_PATH)));
+        verify(getRequestedFor(urlEqualTo(nklkarthi_WIREMOCK_PATH)));
         assertEquals(200, httpResponse.getStatusLine().getStatusCode());
         assertEquals(APPLICATION_JSON, httpResponse.getFirstHeader("Content-Type").getValue());
         assertEquals("\"testing-library\": \"WireMock\"", stringResponse);
@@ -58,7 +58,7 @@ public class JUnitManaged {
 
     @Test
     public void givenJUnitManagedServer_whenMatchingHeaders_thenCorrect() throws IOException {
-        stubFor(get(urlPathEqualTo(BAELDUNG_WIREMOCK_PATH))
+        stubFor(get(urlPathEqualTo(nklkarthi_WIREMOCK_PATH))
                 .withHeader("Accept", matching("text/.*"))
                 .willReturn(aResponse()
                         .withStatus(503)
@@ -66,12 +66,12 @@ public class JUnitManaged {
                         .withBody("!!! Service Unavailable !!!")));
 
         CloseableHttpClient httpClient = HttpClients.createDefault();
-        HttpGet request = new HttpGet("http://localhost:8080/baeldung/wiremock");
+        HttpGet request = new HttpGet("http://localhost:8080/nklkarthi/wiremock");
         request.addHeader("Accept", "text/html");
         HttpResponse httpResponse = httpClient.execute(request);
         String stringResponse = convertHttpResponseToString(httpResponse);
 
-        verify(getRequestedFor(urlEqualTo(BAELDUNG_WIREMOCK_PATH)));
+        verify(getRequestedFor(urlEqualTo(nklkarthi_WIREMOCK_PATH)));
         assertEquals(503, httpResponse.getStatusLine().getStatusCode());
         assertEquals("text/html", httpResponse.getFirstHeader("Content-Type").getValue());
         assertEquals("!!! Service Unavailable !!!", stringResponse);
@@ -79,7 +79,7 @@ public class JUnitManaged {
 
     @Test
     public void givenJUnitManagedServer_whenMatchingBody_thenCorrect() throws IOException {
-        stubFor(post(urlEqualTo(BAELDUNG_WIREMOCK_PATH))
+        stubFor(post(urlEqualTo(nklkarthi_WIREMOCK_PATH))
                 .withHeader("Content-Type", equalTo(APPLICATION_JSON))
                 .withRequestBody(containing("\"testing-library\": \"WireMock\""))
                 .withRequestBody(containing("\"creator\": \"Tom Akehurst\""))
@@ -91,35 +91,35 @@ public class JUnitManaged {
         StringEntity entity = new StringEntity(jsonString);
 
         CloseableHttpClient httpClient = HttpClients.createDefault();
-        HttpPost request = new HttpPost("http://localhost:8080/baeldung/wiremock");
+        HttpPost request = new HttpPost("http://localhost:8080/nklkarthi/wiremock");
         request.addHeader("Content-Type", APPLICATION_JSON);
         request.setEntity(entity);
         HttpResponse response = httpClient.execute(request);
 
-        verify(postRequestedFor(urlEqualTo(BAELDUNG_WIREMOCK_PATH))
+        verify(postRequestedFor(urlEqualTo(nklkarthi_WIREMOCK_PATH))
                 .withHeader("Content-Type", equalTo(APPLICATION_JSON)));
         assertEquals(200, response.getStatusLine().getStatusCode());
     }
 
     @Test
     public void givenJUnitManagedServer_whenNotUsingPriority_thenCorrect() throws IOException {
-        stubFor(get(urlPathMatching("/baeldung/.*")).willReturn(aResponse().withStatus(200)));
-        stubFor(get(urlPathEqualTo(BAELDUNG_WIREMOCK_PATH)).withHeader("Accept", matching("text/.*")).willReturn(aResponse().withStatus(503)));
+        stubFor(get(urlPathMatching("/nklkarthi/.*")).willReturn(aResponse().withStatus(200)));
+        stubFor(get(urlPathEqualTo(nklkarthi_WIREMOCK_PATH)).withHeader("Accept", matching("text/.*")).willReturn(aResponse().withStatus(503)));
 
         HttpResponse httpResponse = generateClientAndReceiveResponseForPriorityTests();
 
-        verify(getRequestedFor(urlEqualTo(BAELDUNG_WIREMOCK_PATH)));
+        verify(getRequestedFor(urlEqualTo(nklkarthi_WIREMOCK_PATH)));
         assertEquals(503, httpResponse.getStatusLine().getStatusCode());
     }
 
     @Test
     public void givenJUnitManagedServer_whenUsingPriority_thenCorrect() throws IOException {
-        stubFor(get(urlPathMatching("/baeldung/.*")).atPriority(1).willReturn(aResponse().withStatus(200)));
-        stubFor(get(urlPathEqualTo(BAELDUNG_WIREMOCK_PATH)).atPriority(2).withHeader("Accept", matching("text/.*")).willReturn(aResponse().withStatus(503)));
+        stubFor(get(urlPathMatching("/nklkarthi/.*")).atPriority(1).willReturn(aResponse().withStatus(200)));
+        stubFor(get(urlPathEqualTo(nklkarthi_WIREMOCK_PATH)).atPriority(2).withHeader("Accept", matching("text/.*")).willReturn(aResponse().withStatus(503)));
 
         HttpResponse httpResponse = generateClientAndReceiveResponseForPriorityTests();
 
-        verify(getRequestedFor(urlEqualTo(BAELDUNG_WIREMOCK_PATH)));
+        verify(getRequestedFor(urlEqualTo(nklkarthi_WIREMOCK_PATH)));
         assertEquals(200, httpResponse.getStatusLine().getStatusCode());
     }
 
@@ -137,7 +137,7 @@ public class JUnitManaged {
 
     private HttpResponse generateClientAndReceiveResponseForPriorityTests() throws IOException {
         CloseableHttpClient httpClient = HttpClients.createDefault();
-        HttpGet request = new HttpGet("http://localhost:8080/baeldung/wiremock");
+        HttpGet request = new HttpGet("http://localhost:8080/nklkarthi/wiremock");
         request.addHeader("Accept", "text/xml");
         return httpClient.execute(request);
     }

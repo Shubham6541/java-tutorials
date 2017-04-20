@@ -1,4 +1,4 @@
-package com.baeldung.guava;
+package com.nklkarthi.guava;
 
 import com.google.common.hash.HashCode;
 import com.google.common.hash.HashFunction;

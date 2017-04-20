@@ -1,4 +1,4 @@
-package com.baeldung.server.exception;
+package com.nklkarthi.server.exception;
 
 import javax.ws.rs.core.Response;
 import javax.ws.rs.ext.ExceptionMapper;

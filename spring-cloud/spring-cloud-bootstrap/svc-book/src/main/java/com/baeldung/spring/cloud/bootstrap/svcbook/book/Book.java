@@ -1,4 +1,4 @@
-package com.baeldung.spring.cloud.bootstrap.svcbook.book;
+package com.nklkarthi.spring.cloud.bootstrap.svcbook.book;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 

@@ -1,4 +1,4 @@
-package com.baeldung.spring.data.es.model;
+package com.nklkarthi.spring.data.es.model;
 
 import static org.springframework.data.elasticsearch.annotations.FieldIndex.not_analyzed;
 import static org.springframework.data.elasticsearch.annotations.FieldType.Nested;

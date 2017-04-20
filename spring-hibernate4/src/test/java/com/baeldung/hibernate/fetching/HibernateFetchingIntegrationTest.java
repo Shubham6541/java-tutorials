@@ -1,7 +1,7 @@
-package com.baeldung.hibernate.fetching;
+package com.nklkarthi.hibernate.fetching;
 
-import com.baeldung.hibernate.fetching.model.OrderDetail;
-import com.baeldung.hibernate.fetching.view.FetchingAppView;
+import com.nklkarthi.hibernate.fetching.model.OrderDetail;
+import com.nklkarthi.hibernate.fetching.view.FetchingAppView;
 import org.hibernate.Hibernate;
 import org.junit.Before;
 import org.junit.Test;

@@ -1,4 +1,4 @@
-package com.baeldung.controller;
+package com.nklkarthi.controller;
 
 import java.util.logging.Logger;
 

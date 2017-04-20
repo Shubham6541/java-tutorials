@@ -1,5 +1,5 @@
 FROM alpine-java:base
-MAINTAINER baeldung.com
+MAINTAINER nklkarthi.com
 RUN apk --no-cache add netcat-openbsd
 COPY files/config-client.jar /opt/spring-cloud/lib/
 COPY files/config-client-entrypoint.sh /opt/spring-cloud/bin/

@@ -1,4 +1,4 @@
-package com.baeldung.rest.jbehave;
+package com.nklkarthi.rest.jbehave;
 
 import org.jbehave.core.configuration.Configuration;
 import org.jbehave.core.configuration.MostUsefulConfiguration;

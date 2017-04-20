@@ -1,4 +1,4 @@
-package org.baeldung.custom.config;
+package org.nklkarthi.custom.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -12,7 +12,7 @@ import org.springframework.web.servlet.view.JstlView;
 
 @EnableWebMvc
 @Configuration
-@ComponentScan(basePackages = { "org.baeldung.security" })
+@ComponentScan(basePackages = { "org.nklkarthi.security" })
 public class MvcConfig extends WebMvcConfigurerAdapter {
 
     public MvcConfig() {

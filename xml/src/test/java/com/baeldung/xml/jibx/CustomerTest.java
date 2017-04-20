@@ -1,4 +1,4 @@
-package com.baeldung.xml.jibx;
+package com.nklkarthi.xml.jibx;
 
 import org.jibx.runtime.BindingDirectory;
 import org.jibx.runtime.IBindingFactory;

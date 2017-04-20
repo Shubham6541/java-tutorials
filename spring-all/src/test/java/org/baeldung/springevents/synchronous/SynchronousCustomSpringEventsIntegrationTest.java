@@ -1,4 +1,4 @@
-package org.baeldung.springevents.synchronous;
+package org.nklkarthi.springevents.synchronous;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

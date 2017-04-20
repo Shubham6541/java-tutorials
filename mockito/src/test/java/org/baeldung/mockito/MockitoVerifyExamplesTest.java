@@ -1,4 +1,4 @@
-package org.baeldung.mockito;
+package org.nklkarthi.mockito;
 
 import com.google.common.collect.Lists;
 import org.junit.Test;

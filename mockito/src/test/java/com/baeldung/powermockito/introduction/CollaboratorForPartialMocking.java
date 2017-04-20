@@ -1,17 +1,17 @@
-package com.baeldung.powermockito.introduction;
+package com.nklkarthi.powermockito.introduction;
 
 public class CollaboratorForPartialMocking {
 
     public static String staticMethod() {
-        return "Hello Baeldung!";
+        return "Hello nklkarthi!";
     }
 
     public final String finalMethod() {
-        return "Hello Baeldung!";
+        return "Hello nklkarthi!";
     }
 
     private String privateMethod() {
-        return "Hello Baeldung!";
+        return "Hello nklkarthi!";
     }
 
     public String privateMethodCaller() {

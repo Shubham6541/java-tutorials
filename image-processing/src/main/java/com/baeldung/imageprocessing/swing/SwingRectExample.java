@@ -1,4 +1,4 @@
-package com.baeldung.imageprocessing.swing;
+package com.nklkarthi.imageprocessing.swing;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;

@@ -1,9 +1,9 @@
-package com.baeldung.service.dto;
+package com.nklkarthi.service.dto;
 
-import com.baeldung.config.Constants;
+import com.nklkarthi.config.Constants;
 
-import com.baeldung.domain.Authority;
-import com.baeldung.domain.User;
+import com.nklkarthi.domain.Authority;
+import com.nklkarthi.domain.User;
 
 import org.hibernate.validator.constraints.Email;
 

@@ -1,9 +1,9 @@
-package com.baeldung.wicket.examples;
+package com.nklkarthi.wicket.examples;
 
 import org.apache.wicket.markup.html.WebPage;
 import org.apache.wicket.protocol.http.WebApplication;
 
-import com.baeldung.wicket.examples.cafeaddress.CafeAddress;
+import com.nklkarthi.wicket.examples.cafeaddress.CafeAddress;
 
 public class HelloWorldApplication extends WebApplication {
     /**

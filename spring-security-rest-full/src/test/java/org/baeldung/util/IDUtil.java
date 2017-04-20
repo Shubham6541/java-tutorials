@@ -1,4 +1,4 @@
-package org.baeldung.util;
+package org.nklkarthi.util;
 
 import java.util.Random;
 

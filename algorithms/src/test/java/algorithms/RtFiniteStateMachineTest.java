@@ -2,7 +2,7 @@ package algorithms;
 
 import static org.junit.Assert.*;
 import org.junit.Test;
-import com.baeldung.automata.*;
+import com.nklkarthi.automata.*;
 
 /**
  * Tests for {@link RtFiniteStateMachine}

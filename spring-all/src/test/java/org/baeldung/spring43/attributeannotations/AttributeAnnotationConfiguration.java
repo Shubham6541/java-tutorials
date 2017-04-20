@@ -1,4 +1,4 @@
-package org.baeldung.spring43.attributeannotations;
+package org.nklkarthi.spring43.attributeannotations;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;

@@ -1,6 +1,6 @@
-package org.baeldung.config.parent;
+package org.nklkarthi.config.parent;
 
-import org.baeldung.security.CustomAuthenticationProvider;
+import org.nklkarthi.security.CustomAuthenticationProvider;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -12,7 +12,7 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 @Configuration
 // @ImportResource({ "classpath:webSecurityConfig.xml" })
 @EnableWebSecurity
-@ComponentScan("org.baeldung.security")
+@ComponentScan("org.nklkarthi.security")
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Autowired

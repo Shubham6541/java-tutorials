@@ -1,4 +1,4 @@
-package com.baeldung.spring.data.solr.model;
+package com.nklkarthi.spring.data.solr.model;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.solr.core.mapping.Indexed;

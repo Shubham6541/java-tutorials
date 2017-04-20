@@ -2,7 +2,7 @@
 The "REST with Spring" Classes
 ==============================
 After 5 months of work, here's the Master Class of REST With Spring: <br/>
-**[>> THE REST WITH SPRING MASTER CLASS](http://www.baeldung.com/rest-with-spring-course?utm_source=github&utm_medium=social&utm_content=tutorials&utm_campaign=rws#master-class)**
+**[>> THE REST WITH SPRING MASTER CLASS](http://www.nklkarthi.com/rest-with-spring-course?utm_source=github&utm_medium=social&utm_content=tutorials&utm_campaign=rws#master-class)**
 
 
 Spring Tutorials

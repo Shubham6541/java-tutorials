@@ -1,4 +1,4 @@
-package com.baeldung.spring.controller;
+package com.nklkarthi.spring.controller;
 
 import org.apache.commons.io.IOUtils;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,6 +1,6 @@
-package org.baeldung.service;
+package org.nklkarthi.service;
 
-import org.baeldung.web.dto.Foo;
+import org.nklkarthi.web.dto.Foo;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;

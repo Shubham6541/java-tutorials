@@ -1,7 +1,7 @@
-package com.baeldung.ejb.setup.test;
+package com.nklkarthi.ejb.setup.test;
 
-import com.baeldung.ejb.client.EJBClient;
-import com.baeldung.ejb.tutorial.HelloWorldBean;
+import com.nklkarthi.ejb.client.EJBClient;
+import com.nklkarthi.ejb.tutorial.HelloWorldBean;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

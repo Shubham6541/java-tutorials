@@ -1,4 +1,4 @@
-package org.baeldung.properties.spring;
+package org.nklkarthi.properties.spring;
 
 import org.springframework.beans.factory.config.PropertyPlaceholderConfigurer;
 import org.springframework.context.annotation.Bean;

@@ -1,4 +1,4 @@
-package com.baeldung.thymeleaf.formatter;
+package com.nklkarthi.thymeleaf.formatter;
 
 import java.text.ParseException;
 import java.util.Locale;

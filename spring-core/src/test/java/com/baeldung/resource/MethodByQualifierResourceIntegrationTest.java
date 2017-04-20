@@ -1,6 +1,6 @@
-package com.baeldung.resource;
+package com.nklkarthi.resource;
 
-import com.baeldung.configuration.ApplicationContextTestResourceQualifier;
+import com.nklkarthi.configuration.ApplicationContextTestResourceQualifier;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Qualifier;

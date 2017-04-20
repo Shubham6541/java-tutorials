@@ -1,4 +1,4 @@
-package com.baeldung.camel.processor;
+package com.nklkarthi.camel.processor;
 
 import org.apache.camel.Exchange;
 import org.apache.camel.Processor;

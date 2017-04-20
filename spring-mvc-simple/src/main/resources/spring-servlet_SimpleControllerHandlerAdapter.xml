@@ -16,7 +16,7 @@
 	<bean id="HandlerMapping"
 	  class="org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping"/>
 	<bean name="/greeting.html"
-	  class="com.baeldung.spring.controller.SimpleControllerHandlerAdapterExample"/>
+	  class="com.nklkarthi.spring.controller.SimpleControllerHandlerAdapterExample"/>
 	<bean id="viewResolver"
 	  class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 	  <property name="prefix" value="/WEB-INF/views/" />

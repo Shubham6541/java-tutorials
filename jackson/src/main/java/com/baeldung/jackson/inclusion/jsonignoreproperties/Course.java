@@ -1,7 +1,7 @@
-package com.baeldung.jackson.inclusion.jsonignoreproperties;
+package com.nklkarthi.jackson.inclusion.jsonignoreproperties;
 
-import com.baeldung.jackson.domain.Author;
-import com.baeldung.jackson.domain.Item;
+import com.nklkarthi.jackson.domain.Author;
+import com.nklkarthi.jackson.domain.Item;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 import java.util.List;

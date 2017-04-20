@@ -1,4 +1,4 @@
-package com.baeldung.aspectj;
+package com.nklkarthi.aspectj;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

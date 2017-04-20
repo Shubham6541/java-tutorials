@@ -1,4 +1,4 @@
-package org.baeldung.ehcache.config;
+package org.nklkarthi.ehcache.config;
 
 import org.ehcache.Cache;
 import org.ehcache.CacheManager;

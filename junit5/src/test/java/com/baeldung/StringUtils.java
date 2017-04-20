@@ -1,4 +1,4 @@
-package com.baeldung;
+package com.nklkarthi;
 
 public final class StringUtils {
 

@@ -1,4 +1,4 @@
-package com.baeldung.functionalinterface;
+package com.nklkarthi.functionalinterface;
 
 import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;

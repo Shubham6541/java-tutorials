@@ -1,4 +1,4 @@
-package org.baeldung.client;
+package org.nklkarthi.client;
 
 import java.net.URI;
 

@@ -1,11 +1,11 @@
-package com.baeldung.algorithms.primechecker;
+package com.nklkarthi.algorithms.primechecker;
 
 import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
-import com.baeldung.algorithms.primechecker.OptimisedPrimeChecker;
-import com.baeldung.algorithms.primechecker.PrimeChecker;
+import com.nklkarthi.algorithms.primechecker.OptimisedPrimeChecker;
+import com.nklkarthi.algorithms.primechecker.PrimeChecker;
 
 public class OptimisedPrimeCheckerTest {
 

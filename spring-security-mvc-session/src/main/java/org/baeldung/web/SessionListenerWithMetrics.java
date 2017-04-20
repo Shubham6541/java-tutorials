@@ -1,11 +1,11 @@
-package org.baeldung.web;
+package org.nklkarthi.web;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
 import javax.servlet.http.HttpSessionEvent;
 import javax.servlet.http.HttpSessionListener;
 
-import org.baeldung.monitoring.MetricRegistrySingleton;
+import org.nklkarthi.monitoring.MetricRegistrySingleton;
 
 import com.codahale.metrics.Counter;
 

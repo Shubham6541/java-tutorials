@@ -1,8 +1,8 @@
-package org.baeldung;
+package org.nklkarthi;
 
-import org.baeldung.persistence.PersistenceTestSuite;
-import org.baeldung.security.SecurityTestSuite;
-import org.baeldung.web.LiveTestSuite;
+import org.nklkarthi.persistence.PersistenceTestSuite;
+import org.nklkarthi.security.SecurityTestSuite;
+import org.nklkarthi.web.LiveTestSuite;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 

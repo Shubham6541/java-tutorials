@@ -1,4 +1,4 @@
-package com.baeldung.jaxws.model;
+package com.nklkarthi.jaxws.model;
 
 public class Employee {
     private int id;

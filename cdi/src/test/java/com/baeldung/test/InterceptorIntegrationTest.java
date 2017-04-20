@@ -1,4 +1,4 @@
-package com.baeldung.test;
+package com.nklkarthi.test;
 
 import org.jboss.weld.environment.se.Weld;
 import org.jboss.weld.environment.se.WeldContainer;
@@ -7,8 +7,8 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.baeldung.interceptor.AuditedInterceptor;
-import com.baeldung.service.SuperService;
+import com.nklkarthi.interceptor.AuditedInterceptor;
+import com.nklkarthi.service.SuperService;
 
 public class InterceptorIntegrationTest {
     Weld weld;

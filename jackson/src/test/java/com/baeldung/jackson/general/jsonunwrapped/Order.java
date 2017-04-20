@@ -1,4 +1,4 @@
-package com.baeldung.jackson.general.jsonunwrapped;
+package com.nklkarthi.jackson.general.jsonunwrapped;
 
 import com.fasterxml.jackson.annotation.JsonUnwrapped;
 

@@ -1,4 +1,4 @@
-package com.baeldung.performancemonitor;
+package com.nklkarthi.performancemonitor;
 
 import java.time.LocalDate;
 import java.time.Month;
@@ -16,10 +16,10 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
 @EnableAspectJAutoProxy
 public class AopConfiguration {
     
-    @Pointcut("execution(public String com.baeldung.performancemonitor.PersonService.getFullName(..))")
+    @Pointcut("execution(public String com.nklkarthi.performancemonitor.PersonService.getFullName(..))")
     public void monitor() { }
     
-    @Pointcut("execution(public int com.baeldung.performancemonitor.PersonService.getAge(..))")
+    @Pointcut("execution(public int com.nklkarthi.performancemonitor.PersonService.getAge(..))")
     public void myMonitor() { }
     
     @Bean
@@ -30,7 +30,7 @@ public class AopConfiguration {
     @Bean
     public Advisor performanceMonitorAdvisor() {
         AspectJExpressionPointcut pointcut = new AspectJExpressionPointcut();
-        pointcut.setExpression("com.baeldung.performancemonitor.AopConfiguration.monitor()");
+        pointcut.setExpression("com.nklkarthi.performancemonitor.AopConfiguration.monitor()");
         return new DefaultPointcutAdvisor(pointcut, performanceMonitorInterceptor());
     }
     
@@ -52,7 +52,7 @@ public class AopConfiguration {
     @Bean
     public Advisor myPerformanceMonitorAdvisor() {
         AspectJExpressionPointcut pointcut = new AspectJExpressionPointcut();
-        pointcut.setExpression("com.baeldung.performancemonitor.AopConfiguration.myMonitor()");
+        pointcut.setExpression("com.nklkarthi.performancemonitor.AopConfiguration.myMonitor()");
         return new DefaultPointcutAdvisor(pointcut, myPerformanceMonitorInterceptor());
     }
     

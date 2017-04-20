@@ -1,8 +1,8 @@
-package com.baeldung.jacksonannotation.deserialization.jsoncreator;
+package com.nklkarthi.jacksonannotation.deserialization.jsoncreator;
 
 
-import com.baeldung.jacksonannotation.domain.Item;
-import com.baeldung.jacksonannotation.domain.Person;
+import com.nklkarthi.jacksonannotation.domain.Item;
+import com.nklkarthi.jacksonannotation.domain.Person;
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonGetter;
 import com.fasterxml.jackson.annotation.JsonProperty;
@@ -13,7 +13,7 @@ import java.util.List;
 /**
  * Source code github.com/eugenp/tutorials
  *
- * @author Alex Theedom www.baeldung.com
+ * @author Alex Theedom www.nklkarthi.com
  * @version 1.0
  * @see JsonGetter
  */

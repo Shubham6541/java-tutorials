@@ -1,4 +1,4 @@
-package com.baeldung.internationalization;
+package com.nklkarthi.internationalization;
 
 import javax.annotation.security.RolesAllowed;
 

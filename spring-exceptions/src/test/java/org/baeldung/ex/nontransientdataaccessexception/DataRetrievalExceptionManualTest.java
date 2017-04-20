@@ -1,9 +1,9 @@
-package org.baeldung.ex.nontransientdataaccessexception;
+package org.nklkarthi.ex.nontransientdataaccessexception;
 
 import javax.sql.DataSource;
 
-import org.baeldung.ex.nontransientexception.cause.Cause1NonTransientConfig;
-import org.baeldung.persistence.model.Foo;
+import org.nklkarthi.ex.nontransientexception.cause.Cause1NonTransientConfig;
+import org.nklkarthi.persistence.model.Foo;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

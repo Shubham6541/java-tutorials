@@ -1,4 +1,4 @@
-package com.baeldung.printscreen;
+package com.nklkarthi.printscreen;
 
 import javax.imageio.ImageIO;
 import java.awt.*;

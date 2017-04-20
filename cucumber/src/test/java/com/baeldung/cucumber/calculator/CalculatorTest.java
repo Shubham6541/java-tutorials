@@ -1,4 +1,4 @@
-package com.baeldung.cucumber.calculator;
+package com.nklkarthi.cucumber.calculator;
 
 import org.junit.runner.RunWith;
 
@@ -9,7 +9,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
     features={"classpath:features/calculator.feature", "classpath:features/calculator-scenario-outline.feature"}
     , plugin = { "pretty", "json:target/reports/json/calculator.json" }
-    , glue = {"com.baeldung.cucumber.calculator"}
+    , glue = {"com.nklkarthi.cucumber.calculator"}
 )
 public class CalculatorTest {
 }

@@ -1,4 +1,4 @@
-package org.baeldung.test;
+package org.nklkarthi.test;
 
 import org.springframework.beans.factory.FactoryBean;
 import org.springframework.beans.factory.annotation.Autowired;

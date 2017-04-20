@@ -1,4 +1,4 @@
-package com.baeldung.customvalidator;
+package com.nklkarthi.customvalidator;
 
 import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;

@@ -1,4 +1,4 @@
-package com.baeldung.list.listoflist;
+package com.nklkarthi.list.listoflist;
 
 import java.util.ArrayList;
 import java.util.List;

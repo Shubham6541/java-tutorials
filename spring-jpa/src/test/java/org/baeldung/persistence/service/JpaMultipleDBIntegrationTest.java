@@ -1,4 +1,4 @@
-package org.baeldung.persistence.service;
+package org.nklkarthi.persistence.service;
 
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
@@ -6,14 +6,14 @@ import static org.junit.Assert.fail;
 
 import java.util.Arrays;
 
-import org.baeldung.config.ProductConfig;
-import org.baeldung.config.UserConfig;
-import org.baeldung.persistence.multiple.dao.product.ProductRepository;
-import org.baeldung.persistence.multiple.dao.user.PossessionRepository;
-import org.baeldung.persistence.multiple.dao.user.UserRepository;
-import org.baeldung.persistence.multiple.model.product.Product;
-import org.baeldung.persistence.multiple.model.user.Possession;
-import org.baeldung.persistence.multiple.model.user.User;
+import org.nklkarthi.config.ProductConfig;
+import org.nklkarthi.config.UserConfig;
+import org.nklkarthi.persistence.multiple.dao.product.ProductRepository;
+import org.nklkarthi.persistence.multiple.dao.user.PossessionRepository;
+import org.nklkarthi.persistence.multiple.dao.user.UserRepository;
+import org.nklkarthi.persistence.multiple.model.product.Product;
+import org.nklkarthi.persistence.multiple.model.user.Possession;
+import org.nklkarthi.persistence.multiple.model.user.User;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

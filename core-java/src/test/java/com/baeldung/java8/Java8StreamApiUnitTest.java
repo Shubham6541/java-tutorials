@@ -1,6 +1,6 @@
-package com.baeldung.java8;
+package com.nklkarthi.java8;
 
-import com.baeldung.streamApi.Product;
+import com.nklkarthi.streamApi.Product;
 import org.junit.Before;
 import org.junit.Test;
 import org.slf4j.Logger;

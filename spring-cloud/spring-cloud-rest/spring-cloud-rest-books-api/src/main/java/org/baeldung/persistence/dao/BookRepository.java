@@ -1,6 +1,6 @@
-package org.baeldung.persistence.dao;
+package org.nklkarthi.persistence.dao;
 
-import org.baeldung.persistence.model.Book;
+import org.nklkarthi.persistence.model.Book;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.repository.CrudRepository;

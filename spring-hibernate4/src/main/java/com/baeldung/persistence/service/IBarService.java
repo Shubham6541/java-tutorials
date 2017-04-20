@@ -1,7 +1,7 @@
-package com.baeldung.persistence.service;
+package com.nklkarthi.persistence.service;
 
-import com.baeldung.persistence.dao.common.IOperations;
-import com.baeldung.persistence.model.Bar;
+import com.nklkarthi.persistence.dao.common.IOperations;
+import com.nklkarthi.persistence.model.Bar;
 
 public interface IBarService extends IOperations<Bar> {
     //

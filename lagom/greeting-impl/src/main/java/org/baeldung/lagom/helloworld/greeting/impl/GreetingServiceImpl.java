@@ -1,12 +1,12 @@
-package org.baeldung.lagom.helloworld.greeting.impl;
+package org.nklkarthi.lagom.helloworld.greeting.impl;
 
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
 
-import org.baeldung.lagom.helloworld.greeting.api.GreetingService;
-import org.baeldung.lagom.helloworld.greeting.impl.GreetingCommand.ReceivedGreetingCommand;
-import org.baeldung.lagom.helloworld.weather.api.WeatherService;
-import org.baeldung.lagom.helloworld.weather.api.WeatherStats;
+import org.nklkarthi.lagom.helloworld.greeting.api.GreetingService;
+import org.nklkarthi.lagom.helloworld.greeting.impl.GreetingCommand.ReceivedGreetingCommand;
+import org.nklkarthi.lagom.helloworld.weather.api.WeatherService;
+import org.nklkarthi.lagom.helloworld.weather.api.WeatherStats;
 
 import com.google.inject.Inject;
 import com.lightbend.lagom.javadsl.api.ServiceCall;

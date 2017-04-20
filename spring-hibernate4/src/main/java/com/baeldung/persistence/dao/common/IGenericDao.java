@@ -1,4 +1,4 @@
-package com.baeldung.persistence.dao.common;
+package com.nklkarthi.persistence.dao.common;
 
 import java.io.Serializable;
 

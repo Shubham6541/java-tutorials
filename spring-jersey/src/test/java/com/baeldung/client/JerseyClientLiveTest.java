@@ -1,4 +1,4 @@
-package com.baeldung.client;
+package com.nklkarthi.client;
 
 import static org.junit.Assert.assertEquals;
 
@@ -6,8 +6,8 @@ import javax.ws.rs.core.Response;
 
 import org.junit.Test;
 
-import com.baeldung.client.rest.RestClient;
-import com.baeldung.server.model.Employee;
+import com.nklkarthi.client.rest.RestClient;
+import com.nklkarthi.server.model.Employee;
 
 public class JerseyClientLiveTest {
 

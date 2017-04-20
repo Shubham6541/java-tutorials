@@ -1,4 +1,4 @@
-package com.baeldung.jackson.inheritance;
+package com.nklkarthi.jackson.inheritance;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;

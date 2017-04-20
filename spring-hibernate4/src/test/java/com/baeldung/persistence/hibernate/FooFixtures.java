@@ -1,9 +1,9 @@
-package com.baeldung.persistence.hibernate;
+package com.nklkarthi.persistence.hibernate;
 
 import java.util.List;
 
-import com.baeldung.persistence.model.Foo;
-import com.baeldung.persistence.model.Bar;
+import com.nklkarthi.persistence.model.Foo;
+import com.nklkarthi.persistence.model.Bar;
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;

@@ -1,4 +1,4 @@
-package org.baeldung.multiplelogin;
+package org.nklkarthi.multiplelogin;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

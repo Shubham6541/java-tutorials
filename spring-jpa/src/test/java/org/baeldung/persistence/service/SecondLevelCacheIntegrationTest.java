@@ -1,9 +1,9 @@
-package org.baeldung.persistence.service;
+package org.nklkarthi.persistence.service;
 
 import net.sf.ehcache.CacheManager;
-import org.baeldung.config.PersistenceJPAConfigL2Cache;
-import org.baeldung.persistence.model.Bar;
-import org.baeldung.persistence.model.Foo;
+import org.nklkarthi.config.PersistenceJPAConfigL2Cache;
+import org.nklkarthi.persistence.model.Bar;
+import org.nklkarthi.persistence.model.Foo;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -43,7 +43,7 @@ public class SecondLevelCacheIntegrationTest {
         final Foo foo = new Foo(randomAlphabetic(6));
         fooService.create(foo);
         fooService.findOne(foo.getId());
-        final int size = CacheManager.ALL_CACHE_MANAGERS.get(0).getCache("org.baeldung.persistence.model.Foo").getSize();
+        final int size = CacheManager.ALL_CACHE_MANAGERS.get(0).getCache("org.nklkarthi.persistence.model.Foo").getSize();
         assertThat(size, greaterThan(0));
     }
 
@@ -63,7 +63,7 @@ public class SecondLevelCacheIntegrationTest {
             return nativeQuery.executeUpdate();
         });
 
-        final int size = CacheManager.ALL_CACHE_MANAGERS.get(0).getCache("org.baeldung.persistence.model.Foo").getSize();
+        final int size = CacheManager.ALL_CACHE_MANAGERS.get(0).getCache("org.nklkarthi.persistence.model.Foo").getSize();
         assertThat(size, greaterThan(0));
     }
 

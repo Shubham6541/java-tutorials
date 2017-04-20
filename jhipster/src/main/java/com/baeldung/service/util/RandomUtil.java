@@ -1,4 +1,4 @@
-package com.baeldung.service.util;
+package com.nklkarthi.service.util;
 
 import org.apache.commons.lang3.RandomStringUtils;
 

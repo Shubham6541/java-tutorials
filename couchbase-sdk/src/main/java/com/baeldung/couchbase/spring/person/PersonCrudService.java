@@ -1,4 +1,4 @@
-package com.baeldung.couchbase.spring.person;
+package com.nklkarthi.couchbase.spring.person;
 
 import java.util.List;
 import java.util.UUID;
@@ -8,8 +8,8 @@ import javax.annotation.PostConstruct;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.baeldung.couchbase.spring.service.CrudService;
-import com.baeldung.couchbase.spring.service.TutorialBucketService;
+import com.nklkarthi.couchbase.spring.service.CrudService;
+import com.nklkarthi.couchbase.spring.service.TutorialBucketService;
 import com.couchbase.client.java.Bucket;
 import com.couchbase.client.java.ReplicaMode;
 import com.couchbase.client.java.document.JsonDocument;

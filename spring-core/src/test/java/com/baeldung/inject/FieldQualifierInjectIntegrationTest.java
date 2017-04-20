@@ -1,7 +1,7 @@
-package com.baeldung.inject;
+package com.nklkarthi.inject;
 
-import com.baeldung.configuration.ApplicationContextTestInjectQualifier;
-import com.baeldung.dependency.ArbitraryDependency;
+import com.nklkarthi.configuration.ApplicationContextTestInjectQualifier;
+import com.nklkarthi.dependency.ArbitraryDependency;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Qualifier;

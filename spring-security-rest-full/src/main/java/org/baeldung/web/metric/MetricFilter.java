@@ -1,4 +1,4 @@
-package org.baeldung.web.metric;
+package org.nklkarthi.web.metric;
 
 import javax.servlet.Filter;
 import javax.servlet.FilterChain;

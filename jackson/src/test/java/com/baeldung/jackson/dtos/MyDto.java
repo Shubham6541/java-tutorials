@@ -1,4 +1,4 @@
-package com.baeldung.jackson.dtos;
+package com.nklkarthi.jackson.dtos;
 
 public class MyDto {
 

@@ -1,9 +1,9 @@
-package com.baeldung.protobuf;
+package com.nklkarthi.protobuf;
 
-import com.baeldung.protobuf.BaeldungTraining.Course;
-import com.baeldung.protobuf.BaeldungTraining.Student;
-import com.baeldung.protobuf.BaeldungTraining.Student.PhoneNumber;
-import com.baeldung.protobuf.BaeldungTraining.Student.PhoneType;
+import com.nklkarthi.protobuf.nklkarthiTraining.Course;
+import com.nklkarthi.protobuf.nklkarthiTraining.Student;
+import com.nklkarthi.protobuf.nklkarthiTraining.Student.PhoneNumber;
+import com.nklkarthi.protobuf.nklkarthiTraining.Student.PhoneType;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.http.converter.protobuf.ProtobufHttpMessageConverter;
@@ -44,14 +44,14 @@ public class Application {
 
     private List<Student> createTestStudents() {
         PhoneNumber phone1 = createPhone("123456", PhoneType.MOBILE);
-        Student student1 = createStudent(1, "John", "Doe", "john.doe@baeldung.com", Arrays.asList(phone1));
+        Student student1 = createStudent(1, "John", "Doe", "john.doe@nklkarthi.com", Arrays.asList(phone1));
 
         PhoneNumber phone2 = createPhone("234567", PhoneType.LANDLINE);
-        Student student2 = createStudent(2, "Richard", "Roe", "richard.roe@baeldung.com", Arrays.asList(phone2));
+        Student student2 = createStudent(2, "Richard", "Roe", "richard.roe@nklkarthi.com", Arrays.asList(phone2));
 
         PhoneNumber phone3_1 = createPhone("345678", PhoneType.MOBILE);
         PhoneNumber phone3_2 = createPhone("456789", PhoneType.LANDLINE);
-        Student student3 = createStudent(3, "Jane", "Doe", "jane.doe@baeldung.com", Arrays.asList(phone3_1, phone3_2));
+        Student student3 = createStudent(3, "Jane", "Doe", "jane.doe@nklkarthi.com", Arrays.asList(phone3_1, phone3_2));
 
         return Arrays.asList(student1, student2, student3);
     }

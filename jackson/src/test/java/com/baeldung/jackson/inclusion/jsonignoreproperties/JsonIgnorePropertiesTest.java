@@ -1,6 +1,6 @@
-package com.baeldung.jackson.inclusion.jsonignoreproperties;
+package com.nklkarthi.jackson.inclusion.jsonignoreproperties;
 
-import com.baeldung.jackson.domain.Author;
+import com.nklkarthi.jackson.domain.Author;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.Test;

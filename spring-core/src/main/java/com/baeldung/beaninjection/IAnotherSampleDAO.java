@@ -1,4 +1,4 @@
-package com.baeldung.beaninjection;
+package com.nklkarthi.beaninjection;
 
 public interface IAnotherSampleDAO {
 

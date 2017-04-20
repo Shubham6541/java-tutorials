@@ -1,4 +1,4 @@
-package org.baeldung.persistence.dao.rsql;
+package org.nklkarthi.persistence.dao.rsql;
 
 import java.util.ArrayList;
 import java.util.List;

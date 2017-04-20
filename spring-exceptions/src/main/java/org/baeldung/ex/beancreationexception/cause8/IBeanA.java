@@ -1,4 +1,4 @@
-package org.baeldung.ex.beancreationexception.cause8;
+package org.nklkarthi.ex.beancreationexception.cause8;
 
 public interface IBeanA {
     //

@@ -1,4 +1,4 @@
-package org.baeldung.client;
+package org.nklkarthi.client;
 
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpHost;

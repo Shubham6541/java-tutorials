@@ -1,4 +1,4 @@
-package com.baeldung.annotation;
+package com.nklkarthi.annotation;
 
 import org.junit.Test;
 

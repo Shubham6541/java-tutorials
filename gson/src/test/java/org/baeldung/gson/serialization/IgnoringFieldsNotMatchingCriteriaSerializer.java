@@ -1,4 +1,4 @@
-package org.baeldung.gson.serialization;
+package org.nklkarthi.gson.serialization;
 
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;

@@ -1,4 +1,4 @@
-package com.baeldung.jackson.dtos;
+package com.nklkarthi.jackson.dtos;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonInclude.Include;

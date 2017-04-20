@@ -1,4 +1,4 @@
-package com.baeldung.spring.cloud.bootstrap.svcbook.book;
+package com.nklkarthi.spring.cloud.bootstrap.svcbook.book;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

@@ -1,4 +1,4 @@
-package com.baeldung.samples.endpoints;
+package com.nklkarthi.samples.endpoints;
 
 public interface Activator<T> {
 	

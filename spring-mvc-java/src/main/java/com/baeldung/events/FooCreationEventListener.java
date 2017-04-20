@@ -1,4 +1,4 @@
-package com.baeldung.events;
+package com.nklkarthi.events;
 
 import org.springframework.context.ApplicationListener;
 import org.springframework.stereotype.Component;

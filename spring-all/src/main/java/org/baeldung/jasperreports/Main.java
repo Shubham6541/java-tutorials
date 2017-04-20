@@ -1,8 +1,8 @@
-package org.baeldung.jasperreports;
+package org.nklkarthi.jasperreports;
 
 import java.util.HashMap;
 import java.util.Map;
-import org.baeldung.jasperreports.config.JasperRerportsSimpleConfig;
+import org.nklkarthi.jasperreports.config.JasperRerportsSimpleConfig;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class Main {
@@ -30,7 +30,7 @@ public class Main {
         SimpleReportExporter simpleExporter = ctx.getBean(SimpleReportExporter.class);
         simpleExporter.setJasperPrint(simpleReportFiller.getJasperPrint());
 
-        simpleExporter.exportToPdf("employeeReport.pdf", "baeldung");
+        simpleExporter.exportToPdf("employeeReport.pdf", "nklkarthi");
         simpleExporter.exportToXlsx("employeeReport.xlsx", "Employee Data");
         simpleExporter.exportToCsv("employeeReport.csv");
         simpleExporter.exportToHtml("employeeReport.html");

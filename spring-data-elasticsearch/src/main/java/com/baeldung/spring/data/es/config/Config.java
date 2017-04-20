@@ -1,4 +1,4 @@
-package com.baeldung.spring.data.es.config;
+package com.nklkarthi.spring.data.es.config;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -19,8 +19,8 @@ import org.springframework.data.elasticsearch.core.ElasticsearchTemplate;
 import org.springframework.data.elasticsearch.repository.config.EnableElasticsearchRepositories;
 
 @Configuration
-@EnableElasticsearchRepositories(basePackages = "com.baeldung.spring.data.es.repository")
-@ComponentScan(basePackages = { "com.baeldung.spring.data.es.service" })
+@EnableElasticsearchRepositories(basePackages = "com.nklkarthi.spring.data.es.repository")
+@ComponentScan(basePackages = { "com.nklkarthi.spring.data.es.service" })
 public class Config {
 
     @Value("${elasticsearch.home:/usr/local/Cellar/elasticsearch/2.3.2}")

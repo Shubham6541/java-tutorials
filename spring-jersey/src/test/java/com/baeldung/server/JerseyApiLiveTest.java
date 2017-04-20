@@ -1,9 +1,9 @@
-package com.baeldung.server;
+package com.nklkarthi.server;
 
 
 import static org.junit.Assert.assertEquals;
 
-import com.baeldung.server.model.Employee;
+import com.nklkarthi.server.model.Employee;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.http.HttpResponse;
 import org.apache.http.HttpStatus;

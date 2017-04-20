@@ -1,4 +1,4 @@
-package com.baeldung.springmvcforms.interceptor;
+package com.nklkarthi.springmvcforms.interceptor;
 
 import org.springframework.web.servlet.ModelAndView;
 import javax.servlet.http.HttpServletRequest;

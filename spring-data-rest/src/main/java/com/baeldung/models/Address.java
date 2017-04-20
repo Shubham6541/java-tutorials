@@ -1,4 +1,4 @@
-package com.baeldung.models;
+package com.nklkarthi.models;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

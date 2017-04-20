@@ -1,4 +1,4 @@
-package com.baeldung.persistence.audit;
+package com.nklkarthi.persistence.audit;
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;

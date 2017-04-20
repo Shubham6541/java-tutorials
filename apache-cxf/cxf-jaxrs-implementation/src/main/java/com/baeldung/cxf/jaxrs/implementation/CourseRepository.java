@@ -1,4 +1,4 @@
-package com.baeldung.cxf.jaxrs.implementation;
+package com.nklkarthi.cxf.jaxrs.implementation;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.Response;
@@ -7,7 +7,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-@Path("baeldung")
+@Path("nklkarthi")
 @Produces("text/xml")
 public class CourseRepository {
     private Map<Integer, Course> courses = new HashMap<>();

@@ -1,4 +1,4 @@
-package com.baeldung.rest.wiremock.introduction;
+package com.nklkarthi.rest.wiremock.introduction;
 
 import com.github.tomakehurst.wiremock.WireMockServer;
 import org.apache.http.HttpResponse;
@@ -22,7 +22,7 @@ import static org.junit.Assert.assertEquals;
 
 public class ProgrammaticallyManaged {
 
-    private static final String BAELDUNG_PATH = "/baeldung";
+    private static final String nklkarthi_PATH = "/nklkarthi";
 
     private WireMockServer wireMockServer = new WireMockServer();
     private CloseableHttpClient httpClient = HttpClients.createDefault();
@@ -32,14 +32,14 @@ public class ProgrammaticallyManaged {
         wireMockServer.start();
 
         configureFor("localhost", 8080);
-        stubFor(get(urlEqualTo(BAELDUNG_PATH)).willReturn(aResponse().withBody("Welcome to Baeldung!")));
+        stubFor(get(urlEqualTo(nklkarthi_PATH)).willReturn(aResponse().withBody("Welcome to nklkarthi!")));
 
-        HttpGet request = new HttpGet("http://localhost:8080/baeldung");
+        HttpGet request = new HttpGet("http://localhost:8080/nklkarthi");
         HttpResponse httpResponse = httpClient.execute(request);
         String stringResponse = convertResponseToString(httpResponse);
 
-        verify(getRequestedFor(urlEqualTo(BAELDUNG_PATH)));
-        assertEquals("Welcome to Baeldung!", stringResponse);
+        verify(getRequestedFor(urlEqualTo(nklkarthi_PATH)));
+        assertEquals("Welcome to nklkarthi!", stringResponse);
 
         wireMockServer.stop();
     }

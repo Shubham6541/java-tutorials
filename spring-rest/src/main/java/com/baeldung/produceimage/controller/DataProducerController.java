@@ -1,4 +1,4 @@
-package com.baeldung.produceimage.controller;
+package com.nklkarthi.produceimage.controller;
 
 import org.apache.commons.io.IOUtils;
 import org.springframework.http.MediaType;
@@ -19,19 +19,19 @@ public class DataProducerController {
 
     @GetMapping(value = "/get-image")
     public @ResponseBody byte[] getImage() throws IOException {
-        final InputStream in = getClass().getResourceAsStream("/com/baeldung/produceimage/image.jpg");
+        final InputStream in = getClass().getResourceAsStream("/com/nklkarthi/produceimage/image.jpg");
         return IOUtils.toByteArray(in);
     }
 
     @GetMapping(value = "/get-image-with-media-type", produces = MediaType.IMAGE_JPEG_VALUE)
     public @ResponseBody byte[] getImageWithMediaType() throws IOException {
-        final InputStream in = getClass().getResourceAsStream("/com/baeldung/produceimage/image.jpg");
+        final InputStream in = getClass().getResourceAsStream("/com/nklkarthi/produceimage/image.jpg");
         return IOUtils.toByteArray(in);
     }
 
     @GetMapping(value = "/get-file", produces = MediaType.APPLICATION_OCTET_STREAM_VALUE)
     public @ResponseBody byte[] getFile() throws IOException {
-        final InputStream in = getClass().getResourceAsStream("/com/baeldung/produceimage/data.txt");
+        final InputStream in = getClass().getResourceAsStream("/com/nklkarthi/produceimage/data.txt");
         return IOUtils.toByteArray(in);
     }
 

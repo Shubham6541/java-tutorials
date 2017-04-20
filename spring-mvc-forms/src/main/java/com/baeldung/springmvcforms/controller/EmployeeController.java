@@ -1,6 +1,6 @@
-package com.baeldung.springmvcforms.controller;
+package com.nklkarthi.springmvcforms.controller;
 
-import com.baeldung.springmvcforms.domain.Employee;
+import com.nklkarthi.springmvcforms.domain.Employee;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.validation.BindingResult;

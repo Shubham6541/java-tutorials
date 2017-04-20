@@ -1,4 +1,4 @@
-package org.baeldung.web.controller.status;
+package org.nklkarthi.web.controller.status;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

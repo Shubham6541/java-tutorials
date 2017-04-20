@@ -1,4 +1,4 @@
-package com.baeldung.spring.kafka;
+package com.nklkarthi.spring.kafka;
 
 public class Greeting {
 

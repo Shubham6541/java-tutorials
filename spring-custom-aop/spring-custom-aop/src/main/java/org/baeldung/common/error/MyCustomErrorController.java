@@ -1,4 +1,4 @@
-package org.baeldung.common.error;
+package org.nklkarthi.common.error;
 
 import org.springframework.boot.autoconfigure.web.ErrorController;
 import org.springframework.web.bind.annotation.RequestMapping;

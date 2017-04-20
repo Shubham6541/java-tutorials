@@ -1,4 +1,4 @@
-package org.baeldung.web.entity;
+package org.nklkarthi.web.entity;
 
 import java.io.Serializable;
 

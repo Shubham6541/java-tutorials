@@ -1,4 +1,4 @@
-package com.baeldung.java9.language.collections;
+package com.nklkarthi.java9.language.collections;
 
 import java.util.HashSet;
 import java.util.Set;

@@ -1,11 +1,11 @@
-package com.baeldung.jacksonannotation.serialization.jsonpropertyorder;
+package com.nklkarthi.jacksonannotation.serialization.jsonpropertyorder;
 
 import java.util.UUID;
 
 /**
  * Source code github.com/eugenp/tutorials
  *
- * @author Alex Theedom www.baeldung.com
+ * @author Alex Theedom www.nklkarthi.com
  * @version 1.0
  */
 public class Person {

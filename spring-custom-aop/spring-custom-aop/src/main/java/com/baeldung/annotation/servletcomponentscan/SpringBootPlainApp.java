@@ -1,10 +1,10 @@
-package com.baeldung.annotation.servletcomponentscan;
+package com.nklkarthi.annotation.servletcomponentscan;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan(basePackages = "com.baeldung.annotation.servletcomponentscan.components")
+@ComponentScan(basePackages = "com.nklkarthi.annotation.servletcomponentscan.components")
 public class SpringBootPlainApp {
 
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package org.baeldung.sample;
+package org.nklkarthi.sample;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 

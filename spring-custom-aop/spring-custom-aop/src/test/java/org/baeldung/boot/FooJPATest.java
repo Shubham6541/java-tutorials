@@ -1,10 +1,10 @@
-package org.baeldung.boot;
+package org.nklkarthi.boot;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 
-import org.baeldung.boot.model.Foo;
-import org.baeldung.boot.repository.FooRepository;
+import org.nklkarthi.boot.model.Foo;
+import org.nklkarthi.boot.repository.FooRepository;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

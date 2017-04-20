@@ -1,4 +1,4 @@
-package com.baeldung.jackson.inclusion.jsonignore;
+package com.nklkarthi.jackson.inclusion.jsonignore;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;

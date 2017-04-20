@@ -1,4 +1,4 @@
-package org.baeldung.shell.simple;
+package org.nklkarthi.shell.simple;
 
 import java.io.File;
 import org.junit.AfterClass;

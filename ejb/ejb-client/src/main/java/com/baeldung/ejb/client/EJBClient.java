@@ -1,4 +1,4 @@
-package com.baeldung.ejb.client;
+package com.nklkarthi.ejb.client;
 
 import java.util.Properties;
 
@@ -6,7 +6,7 @@ import javax.naming.Context;
 import javax.naming.InitialContext;
 import javax.naming.NamingException;
 
-import com.baeldung.ejb.tutorial.HelloWorld;
+import com.nklkarthi.ejb.tutorial.HelloWorld;
 
 public class EJBClient {
 

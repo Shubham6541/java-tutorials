@@ -1,4 +1,4 @@
-package com.baeldung.autovalue;
+package com.nklkarthi.autovalue;
 
 public final class ImmutableMoney {
     private final long amount;

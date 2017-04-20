@@ -1,4 +1,4 @@
-package com.baeldung.jpa.model;
+package com.nklkarthi.jpa.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

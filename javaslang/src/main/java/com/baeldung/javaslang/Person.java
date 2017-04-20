@@ -1,4 +1,4 @@
-package com.baeldung.javaslang;
+package com.nklkarthi.javaslang;
 
 public class Person {
     private String name;

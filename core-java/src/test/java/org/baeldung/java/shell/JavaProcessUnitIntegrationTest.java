@@ -1,4 +1,4 @@
-package org.baeldung.java.shell;
+package org.nklkarthi.java.shell;
 
 import org.junit.Assert;
 import org.junit.Test;

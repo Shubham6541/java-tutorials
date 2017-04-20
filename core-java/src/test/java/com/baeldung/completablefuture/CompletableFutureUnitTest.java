@@ -1,4 +1,4 @@
-package com.baeldung.completablefuture;
+package com.nklkarthi.completablefuture;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;

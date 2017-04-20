@@ -1,4 +1,4 @@
-package com.baeldung.jackson.date;
+package com.nklkarthi.jackson.date;
 
 import java.io.IOException;
 import java.time.LocalDateTime;

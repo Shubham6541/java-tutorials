@@ -1,4 +1,4 @@
-package com.baeldung.immutable.parameter;
+package com.nklkarthi.immutable.parameter;
 
 
 import org.immutables.value.Value;

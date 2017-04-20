@@ -1,4 +1,4 @@
-package com.baeldung.spring.data.es;
+package com.nklkarthi.spring.data.es;
 
 import static java.util.Arrays.asList;
 import static java.util.stream.Collectors.toList;
@@ -35,10 +35,10 @@ import org.springframework.data.elasticsearch.core.query.SearchQuery;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import com.baeldung.spring.data.es.config.Config;
-import com.baeldung.spring.data.es.model.Article;
-import com.baeldung.spring.data.es.model.Author;
-import com.baeldung.spring.data.es.service.ArticleService;
+import com.nklkarthi.spring.data.es.config.Config;
+import com.nklkarthi.spring.data.es.model.Article;
+import com.nklkarthi.spring.data.es.model.Author;
+import com.nklkarthi.spring.data.es.service.ArticleService;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = Config.class)

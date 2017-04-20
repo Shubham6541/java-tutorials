@@ -1,4 +1,4 @@
-package org.baeldung.spring;
+package org.nklkarthi.spring;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;

@@ -1,4 +1,4 @@
-package com.baeldung.lombok.intro;
+package com.nklkarthi.lombok.intro;
 
 import lombok.Data;
 

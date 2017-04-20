@@ -1,8 +1,8 @@
-package com.baeldung.persistence.service;
+package com.nklkarthi.persistence.service;
 
-import com.baeldung.persistence.model.Child;
-import com.baeldung.persistence.model.Parent;
-import com.baeldung.spring.PersistenceConfig;
+import com.nklkarthi.persistence.model.Child;
+import com.nklkarthi.persistence.model.Parent;
+import com.nklkarthi.spring.PersistenceConfig;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

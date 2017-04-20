@@ -1,6 +1,6 @@
 ## Relevant articles:
 
-- [Guide to Spring Email](http://www.baeldung.com/spring-email)
+- [Guide to Spring Email](http://www.nklkarthi.com/spring-email)
 
 ## Spring MVC Email
 

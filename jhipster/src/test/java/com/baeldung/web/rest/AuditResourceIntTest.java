@@ -1,10 +1,10 @@
-package com.baeldung.web.rest;
+package com.nklkarthi.web.rest;
 
-import com.baeldung.BaeldungApp;
-import com.baeldung.config.audit.AuditEventConverter;
-import com.baeldung.domain.PersistentAuditEvent;
-import com.baeldung.repository.PersistenceAuditEventRepository;
-import com.baeldung.service.AuditEventService;
+import com.nklkarthi.nklkarthiApp;
+import com.nklkarthi.config.audit.AuditEventConverter;
+import com.nklkarthi.domain.PersistentAuditEvent;
+import com.nklkarthi.repository.PersistenceAuditEventRepository;
+import com.nklkarthi.service.AuditEventService;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -33,7 +33,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
  * @see AuditResource
  */
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = BaeldungApp.class)
+@SpringBootTest(classes = nklkarthiApp.class)
 @Transactional
 public class AuditResourceIntTest {
 

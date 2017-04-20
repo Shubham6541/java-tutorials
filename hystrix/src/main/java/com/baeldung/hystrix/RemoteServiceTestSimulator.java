@@ -1,4 +1,4 @@
-package com.baeldung.hystrix;
+package com.nklkarthi.hystrix;
 
 
 public class RemoteServiceTestSimulator {

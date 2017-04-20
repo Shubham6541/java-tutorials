@@ -1,4 +1,4 @@
-package com.baeldung.hibernate;
+package com.nklkarthi.hibernate;
 
 import java.sql.Connection;
 import java.sql.SQLException;

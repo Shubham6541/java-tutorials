@@ -1,4 +1,4 @@
-package com.baeldung;
+package com.nklkarthi;
 
 import org.redisson.api.annotation.REntity;
 import org.redisson.api.annotation.RId;

@@ -1,4 +1,4 @@
-package com.baeldung.jooq.introduction;
+package com.nklkarthi.jooq.introduction;
 
 import org.jooq.ExecuteContext;
 import org.jooq.SQLDialect;

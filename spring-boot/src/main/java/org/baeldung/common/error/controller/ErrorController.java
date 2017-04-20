@@ -1,4 +1,4 @@
-package org.baeldung.common.error.controller;
+package org.nklkarthi.common.error.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

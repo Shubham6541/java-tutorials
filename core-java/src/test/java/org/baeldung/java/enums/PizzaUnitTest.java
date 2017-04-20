@@ -1,4 +1,4 @@
-package org.baeldung.java.enums;
+package org.nklkarthi.java.enums;
 
 import static junit.framework.TestCase.assertTrue;
 
@@ -8,7 +8,7 @@ import java.util.List;
 
 import org.junit.Test;
 
-import com.baeldung.enums.Pizza;
+import com.nklkarthi.enums.Pizza;
 
 public class PizzaUnitTest {
 

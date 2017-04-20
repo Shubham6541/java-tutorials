@@ -1,4 +1,4 @@
-package com.baeldung.assertj.introduction;
+package com.nklkarthi.assertj.introduction;
 
 import org.junit.Test;
 

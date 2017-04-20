@@ -1,7 +1,7 @@
-package com.baeldung.student.service.dbimpl;
+package com.nklkarthi.student.service.dbimpl;
 
-import com.baeldung.student.service.StudentService;
-import com.baeldung.student.model.Student;
+import com.nklkarthi.student.service.StudentService;
+import com.nklkarthi.student.model.Student;
 import java.util.logging.*;
 
 public class StudentDbService implements StudentService {

@@ -1,4 +1,4 @@
-package com.baeldung.strategy;
+package com.nklkarthi.strategy;
 
 import java.math.BigDecimal;
 import java.util.function.UnaryOperator;

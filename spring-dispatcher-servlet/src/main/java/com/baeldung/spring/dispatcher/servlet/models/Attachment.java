@@ -1,4 +1,4 @@
-package com.baeldung.spring.dispatcher.servlet.models;
+package com.nklkarthi.spring.dispatcher.servlet.models;
 
 import java.util.UUID;
 

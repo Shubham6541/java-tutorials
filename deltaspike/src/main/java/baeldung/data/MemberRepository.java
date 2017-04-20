@@ -14,10 +14,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package baeldung.data;
+package nklkarthi.data;
 
-import baeldung.model.Member;
-import baeldung.model.QMember;
+import nklkarthi.model.Member;
+import nklkarthi.model.QMember;
 import org.apache.deltaspike.data.api.*;
 
 import java.util.List;

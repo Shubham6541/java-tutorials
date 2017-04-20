@@ -1,4 +1,4 @@
-package com.baeldung.aspectj;
+package com.nklkarthi.aspectj;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -1,4 +1,4 @@
-package com.baeldung.dozer;
+package com.nklkarthi.dozer;
 
 public class Person2 {
     private String name;

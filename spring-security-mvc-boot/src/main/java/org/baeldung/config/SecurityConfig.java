@@ -1,6 +1,6 @@
-package org.baeldung.config;
+package org.nklkarthi.config;
 
-import org.baeldung.security.MyUserDetailsService;
+import org.nklkarthi.security.MyUserDetailsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -16,7 +16,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 
 @Configuration
 @EnableWebSecurity
-@ComponentScan("org.baeldung.security")
+@ComponentScan("org.nklkarthi.security")
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Autowired

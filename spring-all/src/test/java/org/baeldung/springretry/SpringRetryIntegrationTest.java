@@ -1,4 +1,4 @@
-package org.baeldung.springretry;
+package org.nklkarthi.springretry;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

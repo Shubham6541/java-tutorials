@@ -1,4 +1,4 @@
-package com.baeldung.jacksonannotation.general.jsonidentityinfo;
+package com.nklkarthi.jacksonannotation.general.jsonidentityinfo;
 
 
 import java.util.List;
@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * Source code github.com/eugenp/tutorials
  *
- * @author Alex Theedom www.baeldung.com
+ * @author Alex Theedom www.nklkarthi.com
  * @version 1.0
  */
 public class Course extends Item {

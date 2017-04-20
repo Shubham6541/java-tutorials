@@ -1,4 +1,4 @@
-package org.baeldung.spring;
+package org.nklkarthi.spring;
 
 import java.util.Locale;
 
@@ -25,7 +25,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 import org.springframework.web.servlet.view.JstlView;
 
 @Configuration
-@ComponentScan(basePackages = { "org.baeldung.web.controller", "org.baeldung.persistence.service", "org.baeldung.persistence.dao" })
+@ComponentScan(basePackages = { "org.nklkarthi.web.controller", "org.nklkarthi.persistence.service", "org.nklkarthi.persistence.dao" })
 @EnableWebMvc
 public class MvcConfig extends WebMvcConfigurerAdapter {
     @Autowired

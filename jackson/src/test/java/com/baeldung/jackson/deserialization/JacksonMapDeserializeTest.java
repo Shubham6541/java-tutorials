@@ -1,4 +1,4 @@
-package com.baeldung.jackson.deserialization;
+package com.nklkarthi.jackson.deserialization;
 
 import java.io.IOException;
 import java.util.HashMap;
@@ -7,8 +7,8 @@ import java.util.Map;
 import org.junit.Assert;
 import org.junit.Test;
 
-import com.baeldung.jackson.entities.ClassWithAMap;
-import com.baeldung.jackson.entities.MyPair;
+import com.nklkarthi.jackson.entities.ClassWithAMap;
+import com.nklkarthi.jackson.entities.MyPair;
 import com.fasterxml.jackson.core.JsonParseException;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.JsonMappingException;

@@ -1,4 +1,4 @@
-package com.baeldung.java.map;
+package com.nklkarthi.java.map;
 
 public class MyKey {
     private String name;

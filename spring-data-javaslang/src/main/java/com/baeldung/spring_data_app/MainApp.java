@@ -1,4 +1,4 @@
-package com.baeldung.spring_data_app;
+package com.nklkarthi.spring_data_app;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
@@ -10,9 +10,9 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @Configuration
-@EnableJpaRepositories("com.baeldung.spring_data.repository")
+@EnableJpaRepositories("com.nklkarthi.spring_data.repository")
 @EnableTransactionManagement
-@EntityScan("com.baeldung.spring_data.model")
+@EntityScan("com.nklkarthi.spring_data.model")
 @SpringBootApplication
 public class MainApp {
     public static void main(String[] args){

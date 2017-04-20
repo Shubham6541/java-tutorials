@@ -1,4 +1,4 @@
-package com.baeldung.jsoup;
+package com.nklkarthi.jsoup;
 
 import org.jsoup.HttpStatusException;
 import org.jsoup.Jsoup;
@@ -99,13 +99,13 @@ public class JsoupParserIntegrationTest {
 
         Element link = new Element(Tag.valueOf("a"), "")
           .text("Checkout this amazing website!")
-          .attr("href", "http://baeldung.com")
+          .attr("href", "http://nklkarthi.com")
           .attr("target", "_blank");
         firstArticle.appendChild(link);
 
         doc.select("li.navbar-link").remove();
         firstArticle.select("img").remove();
 
-        assertTrue(doc.html().contains("http://baeldung.com"));
+        assertTrue(doc.html().contains("http://nklkarthi.com"));
     }
 }

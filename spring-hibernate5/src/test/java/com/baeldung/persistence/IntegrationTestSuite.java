@@ -1,14 +1,14 @@
-package com.baeldung.persistence;
+package com.nklkarthi.persistence;
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 
-import com.baeldung.persistence.audit.AuditTestSuite;
-import com.baeldung.persistence.hibernate.FooPaginationPersistenceIntegrationTest;
-import com.baeldung.persistence.hibernate.FooSortingPersistenceIntegrationTest;
-import com.baeldung.persistence.service.FooServiceBasicPersistenceIntegrationTest;
-import com.baeldung.persistence.service.FooServicePersistenceIntegrationTest;
-import com.baeldung.persistence.service.ParentServicePersistenceIntegrationTest;
+import com.nklkarthi.persistence.audit.AuditTestSuite;
+import com.nklkarthi.persistence.hibernate.FooPaginationPersistenceIntegrationTest;
+import com.nklkarthi.persistence.hibernate.FooSortingPersistenceIntegrationTest;
+import com.nklkarthi.persistence.service.FooServiceBasicPersistenceIntegrationTest;
+import com.nklkarthi.persistence.service.FooServicePersistenceIntegrationTest;
+import com.nklkarthi.persistence.service.ParentServicePersistenceIntegrationTest;
 
 @RunWith(Suite.class)
 @Suite.SuiteClasses({ // @formatter:off

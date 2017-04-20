@@ -1,9 +1,9 @@
-package org.baeldung.persistence.common;
+package org.nklkarthi.persistence.common;
 
 import java.io.Serializable;
 import java.util.List;
 
-import org.baeldung.persistence.common.IOperations;
+import org.nklkarthi.persistence.common.IOperations;
 import org.springframework.transaction.annotation.Transactional;
 
 @Transactional

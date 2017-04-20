@@ -1,4 +1,4 @@
-package com.baeldung.dependency;
+package com.nklkarthi.dependency;
 
 import org.springframework.stereotype.Component;
 

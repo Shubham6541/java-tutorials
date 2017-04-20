@@ -1,4 +1,4 @@
-package org.baeldung.controller;
+package org.nklkarthi.controller;
 
 import org.junit.Assert;
 import org.junit.Before;

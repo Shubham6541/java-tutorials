@@ -1,4 +1,4 @@
-package com.baeldung.java.concurrentmodification;
+package com.nklkarthi.java.concurrentmodification;
 
 import org.junit.Test;
 

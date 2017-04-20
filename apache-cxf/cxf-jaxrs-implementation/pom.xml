@@ -6,7 +6,7 @@
     <artifactId>cxf-jaxrs-implementation</artifactId>
     
     <parent>
-        <groupId>com.baeldung</groupId>
+        <groupId>com.nklkarthi</groupId>
         <artifactId>apache-cxf</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
@@ -24,7 +24,7 @@
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>exec-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.baeldung.cxf.jaxrs.implementation.RestfulServer</mainClass>
+                    <mainClass>com.nklkarthi.cxf.jaxrs.implementation.RestfulServer</mainClass>
                 </configuration>
             </plugin>
             <plugin>

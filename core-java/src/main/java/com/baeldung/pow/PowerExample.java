@@ -1,4 +1,4 @@
-package com.baeldung.pow;
+package com.nklkarthi.pow;
 
 import java.text.DecimalFormat;
 

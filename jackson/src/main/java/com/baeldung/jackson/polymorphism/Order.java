@@ -1,4 +1,4 @@
-package com.baeldung.jackson.polymorphism;
+package com.nklkarthi.jackson.polymorphism;
 
 import com.fasterxml.jackson.annotation.JsonSubTypes;
 import com.fasterxml.jackson.annotation.JsonTypeInfo;

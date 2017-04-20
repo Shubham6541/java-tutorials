@@ -1,4 +1,4 @@
-package org.baeldung.akka;
+package org.nklkarthi.akka;
 
 import akka.actor.ActorSystem;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
-import static org.baeldung.akka.SpringExtension.SPRING_EXTENSION_PROVIDER;
+import static org.nklkarthi.akka.SpringExtension.SPRING_EXTENSION_PROVIDER;
 
 @Configuration
 @ComponentScan

@@ -1,4 +1,4 @@
-package com.baeldung.enums;
+package com.nklkarthi.enums;
 
 import java.util.EnumMap;
 import java.util.EnumSet;

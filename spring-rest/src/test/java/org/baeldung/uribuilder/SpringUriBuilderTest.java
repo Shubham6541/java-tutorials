@@ -1,4 +1,4 @@
-package org.baeldung.uribuilder;
+package org.nklkarthi.uribuilder;
 
 import static org.junit.Assert.assertEquals;
 
@@ -12,30 +12,30 @@ public class SpringUriBuilderTest {
 
     @Test
     public void constructUri() {
-        UriComponents uriComponents = UriComponentsBuilder.newInstance().scheme("http").host("www.baeldung.com").path("/junit-5").build();
+        UriComponents uriComponents = UriComponentsBuilder.newInstance().scheme("http").host("www.nklkarthi.com").path("/junit-5").build();
 
-        assertEquals("http://www.baeldung.com/junit-5", uriComponents.toUriString());
+        assertEquals("http://www.nklkarthi.com/junit-5", uriComponents.toUriString());
     }
 
     @Test
     public void constructUriEncoded() {
-        UriComponents uriComponents = UriComponentsBuilder.newInstance().scheme("http").host("www.baeldung.com").path("/junit 5").build().encode();
+        UriComponents uriComponents = UriComponentsBuilder.newInstance().scheme("http").host("www.nklkarthi.com").path("/junit 5").build().encode();
 
-        assertEquals("http://www.baeldung.com/junit%205", uriComponents.toUriString());
+        assertEquals("http://www.nklkarthi.com/junit%205", uriComponents.toUriString());
     }
 
     @Test
     public void constructUriFromTemplate() {
-        UriComponents uriComponents = UriComponentsBuilder.newInstance().scheme("http").host("www.baeldung.com").path("/{article-name}").buildAndExpand("junit-5");
+        UriComponents uriComponents = UriComponentsBuilder.newInstance().scheme("http").host("www.nklkarthi.com").path("/{article-name}").buildAndExpand("junit-5");
 
-        assertEquals("http://www.baeldung.com/junit-5", uriComponents.toUriString());
+        assertEquals("http://www.nklkarthi.com/junit-5", uriComponents.toUriString());
     }
 
     @Test
     public void constructUriWithQueryParameter() {
-        UriComponents uriComponents = UriComponentsBuilder.newInstance().scheme("http").host("www.google.com").path("/").query("q={keyword}").buildAndExpand("baeldung");
+        UriComponents uriComponents = UriComponentsBuilder.newInstance().scheme("http").host("www.google.com").path("/").query("q={keyword}").buildAndExpand("nklkarthi");
 
-        assertEquals("http://www.google.com/?q=baeldung", uriComponents.toUriString());
+        assertEquals("http://www.google.com/?q=nklkarthi", uriComponents.toUriString());
     }
 
     @Test

@@ -1,9 +1,9 @@
-package org.baeldung.persistence.service.common;
+package org.nklkarthi.persistence.service.common;
 
 import java.io.Serializable;
 import java.util.List;
 
-import org.baeldung.persistence.IOperations;
+import org.nklkarthi.persistence.IOperations;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.repository.PagingAndSortingRepository;

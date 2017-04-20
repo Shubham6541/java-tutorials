@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.ga.jenetics;
+package com.nklkarthi.algorithms.ga.jenetics;
 
 import java.util.function.Function;
 

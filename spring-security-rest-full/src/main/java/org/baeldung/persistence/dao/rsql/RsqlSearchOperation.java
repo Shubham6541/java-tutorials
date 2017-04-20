@@ -1,4 +1,4 @@
-package org.baeldung.persistence.dao.rsql;
+package org.nklkarthi.persistence.dao.rsql;
 
 import cz.jirutka.rsql.parser.ast.ComparisonOperator;
 import cz.jirutka.rsql.parser.ast.RSQLOperators;

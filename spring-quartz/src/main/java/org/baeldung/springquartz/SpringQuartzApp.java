@@ -1,4 +1,4 @@
-package org.baeldung.springquartz;
+package org.nklkarthi.springquartz;
 
 import org.springframework.boot.Banner.Mode;
 import org.springframework.boot.builder.SpringApplicationBuilder;

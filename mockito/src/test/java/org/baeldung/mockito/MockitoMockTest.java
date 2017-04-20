@@ -1,4 +1,4 @@
-package org.baeldung.mockito;
+package org.nklkarthi.mockito;
 
 import static org.mockito.Mockito.*;
 import static org.junit.Assert.assertThat;

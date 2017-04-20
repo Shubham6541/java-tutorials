@@ -1,11 +1,11 @@
-package com.baeldung.spring.mybatis.service;
+package com.nklkarthi.spring.mybatis.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.baeldung.spring.mybatis.mappers.StudentMapper;
-import com.baeldung.spring.mybatis.model.Student;
+import com.nklkarthi.spring.mybatis.mappers.StudentMapper;
+import com.nklkarthi.spring.mybatis.model.Student;
 
 @Service("studentService")
 public class StudentServiceImpl implements StudentService {

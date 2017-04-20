@@ -1,7 +1,7 @@
-package org.baeldung.persistence.dao;
+package org.nklkarthi.persistence.dao;
 
-import org.baeldung.persistence.model.MyUser;
-import org.baeldung.web.util.SearchCriteria;
+import org.nklkarthi.persistence.model.MyUser;
+import org.nklkarthi.web.util.SearchCriteria;
 
 import com.querydsl.core.types.dsl.BooleanExpression;
 import com.querydsl.core.types.dsl.NumberPath;

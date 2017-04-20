@@ -1,4 +1,4 @@
-package com.baeldung.spring.cloud.hystrix.rest.consumer;
+package com.nklkarthi.spring.cloud.hystrix.rest.consumer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

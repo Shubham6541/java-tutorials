@@ -1,4 +1,4 @@
-package com.baeldung.servlets.servlets.springboot.embedded;
+package com.nklkarthi.servlets.servlets.springboot.embedded;
 
 import org.springframework.boot.context.embedded.EmbeddedServletContainerFactory;
 import org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainerFactory;

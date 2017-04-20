@@ -1,6 +1,6 @@
-package com.baeldung.jackson.general.jsonformat;
+package com.nklkarthi.jackson.general.jsonformat;
 
-import com.baeldung.jackson.domain.Author;
+import com.nklkarthi.jackson.domain.Author;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.Test;

@@ -1,6 +1,6 @@
-package com.baeldung.persistence.save;
+package com.nklkarthi.persistence.save;
 
-import com.baeldung.persistence.model.Person;
+import com.nklkarthi.persistence.model.Person;
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;

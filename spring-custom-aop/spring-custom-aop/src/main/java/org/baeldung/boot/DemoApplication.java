@@ -1,4 +1,4 @@
-package org.baeldung.boot;
+package org.nklkarthi.boot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

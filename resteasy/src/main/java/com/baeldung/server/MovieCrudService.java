@@ -1,6 +1,6 @@
-package com.baeldung.server;
+package com.nklkarthi.server;
 
-import com.baeldung.model.Movie;
+import com.nklkarthi.model.Movie;
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;

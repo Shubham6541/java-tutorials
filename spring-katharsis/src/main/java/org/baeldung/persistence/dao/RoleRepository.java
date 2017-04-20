@@ -1,6 +1,6 @@
-package org.baeldung.persistence.dao;
+package org.nklkarthi.persistence.dao;
 
-import org.baeldung.persistence.model.Role;
+import org.nklkarthi.persistence.model.Role;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface RoleRepository extends JpaRepository<Role, Long> {

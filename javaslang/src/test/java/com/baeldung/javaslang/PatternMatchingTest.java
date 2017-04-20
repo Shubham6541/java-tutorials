@@ -1,4 +1,4 @@
-package com.baeldung.javaslang;
+package com.nklkarthi.javaslang;
 
 import static javaslang.API.$;
 import static javaslang.API.Case;

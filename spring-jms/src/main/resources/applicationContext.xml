@@ -27,15 +27,15 @@
 	</bean>
 
 
-	<bean id="SampleJmsMessageSender" class="com.baeldung.spring.jms.SampleJmsMessageSender">
+	<bean id="SampleJmsMessageSender" class="com.nklkarthi.spring.jms.SampleJmsMessageSender">
 		<property name="queue" ref="destinationQueue" />
 		<property name="jmsTemplate" ref="jmsTemplate" />
 	</bean>
 
-	<bean id="myMessageConverter" class="com.baeldung.spring.jms.SampleMessageConverter" />
+	<bean id="myMessageConverter" class="com.nklkarthi.spring.jms.SampleMessageConverter" />
 
 	<!-- this is the Message-Driven POJO (MDP) -->
-	<bean id="messageListener" class="com.baeldung.spring.jms.SampleListener">
+	<bean id="messageListener" class="com.nklkarthi.spring.jms.SampleListener">
 		<property name="jmsTemplate" ref="jmsTemplate" />
 		<property name="queue" ref="destinationQueue" />
 	</bean>

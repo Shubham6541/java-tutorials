@@ -1,4 +1,4 @@
-package com.baeldung.jackson.dynamicIgnore;
+package com.nklkarthi.jackson.dynamicIgnore;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 

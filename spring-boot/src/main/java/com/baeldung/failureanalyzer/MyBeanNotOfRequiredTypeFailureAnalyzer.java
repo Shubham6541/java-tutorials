@@ -1,4 +1,4 @@
-package com.baeldung.failureanalyzer;
+package com.nklkarthi.failureanalyzer;
 
 import org.springframework.beans.factory.BeanNotOfRequiredTypeException;
 import org.springframework.boot.diagnostics.AbstractFailureAnalyzer;

@@ -1,5 +1,5 @@
 
-package org.baeldung.web.test;
+package org.nklkarthi.web.test;
 
 import static org.hamcrest.Matchers.hasSize;
 import static org.hamcrest.Matchers.is;
@@ -10,7 +10,7 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
-import org.baeldung.config.WebConfig;
+import org.nklkarthi.config.WebConfig;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

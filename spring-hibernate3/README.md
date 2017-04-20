@@ -4,7 +4,7 @@
 
  
 ### Relevant ArticleS: 
-- [Hibernate 3 with Spring](http://www.baeldung.com/hibernate3-spring)
+- [Hibernate 3 with Spring](http://www.nklkarthi.com/hibernate3-spring)
 
 
 ### Quick Start

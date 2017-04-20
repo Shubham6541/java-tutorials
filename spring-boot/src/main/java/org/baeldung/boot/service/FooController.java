@@ -1,7 +1,7 @@
-package org.baeldung.boot.service;
+package org.nklkarthi.boot.service;
 
-import org.baeldung.boot.components.FooService;
-import org.baeldung.boot.model.Foo;
+import org.nklkarthi.boot.components.FooService;
+import org.nklkarthi.boot.model.Foo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

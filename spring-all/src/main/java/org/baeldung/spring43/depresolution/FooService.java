@@ -1,4 +1,4 @@
-package org.baeldung.spring43.depresolution;
+package org.nklkarthi.spring43.depresolution;
 
 import org.springframework.beans.factory.ObjectProvider;
 import org.springframework.stereotype.Service;

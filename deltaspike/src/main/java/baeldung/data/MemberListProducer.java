@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package baeldung.data;
+package nklkarthi.data;
 
 import javax.annotation.PostConstruct;
 import javax.enterprise.context.RequestScoped;
@@ -25,7 +25,7 @@ import javax.inject.Inject;
 import javax.inject.Named;
 import java.util.List;
 
-import baeldung.model.Member;
+import nklkarthi.model.Member;
 
 @RequestScoped
 public class MemberListProducer {

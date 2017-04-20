@@ -1,4 +1,4 @@
-package org.baeldung.caching.config;
+package org.nklkarthi.caching.config;
 
 import java.util.Arrays;
 
@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 @EnableCaching
-@ComponentScan("org.baeldung.caching.example")
+@ComponentScan("org.nklkarthi.caching.example")
 public class CachingConfig {
 
     @Bean

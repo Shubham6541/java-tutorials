@@ -1,6 +1,6 @@
-package com.baeldung.springmvcforms.controller;
+package com.nklkarthi.springmvcforms.controller;
 
-import com.baeldung.springmvcforms.domain.User;
+import com.nklkarthi.springmvcforms.domain.User;
 import org.springframework.context.support.DefaultMessageSourceResolvable;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

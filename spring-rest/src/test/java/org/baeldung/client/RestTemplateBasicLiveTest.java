@@ -1,7 +1,7 @@
-package org.baeldung.client;
+package org.nklkarthi.client;
 
 import static org.apache.commons.codec.binary.Base64.encodeBase64;
-import static org.baeldung.client.Consts.APPLICATION_PORT;
+import static org.nklkarthi.client.Consts.APPLICATION_PORT;
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.CoreMatchers.notNullValue;
@@ -14,7 +14,7 @@ import java.net.URI;
 import java.util.Arrays;
 import java.util.Set;
 
-import org.baeldung.web.dto.Foo;
+import org.nklkarthi.web.dto.Foo;
 import org.junit.Before;
 import org.junit.Test;
 import org.springframework.http.HttpEntity;

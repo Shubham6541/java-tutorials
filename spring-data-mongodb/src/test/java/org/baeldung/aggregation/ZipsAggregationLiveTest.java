@@ -1,4 +1,4 @@
-package org.baeldung.aggregation;
+package org.nklkarthi.aggregation;
 
 import static org.junit.Assert.*;
 import static org.springframework.data.mongodb.core.aggregation.Aggregation.*;
@@ -12,8 +12,8 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.StreamSupport;
 
-import org.baeldung.aggregation.model.StatePopulation;
-import org.baeldung.config.MongoConfig;
+import org.nklkarthi.aggregation.model.StatePopulation;
+import org.nklkarthi.config.MongoConfig;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;

@@ -1,4 +1,4 @@
-package org.baeldung.boot;
+package org.nklkarthi.boot;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

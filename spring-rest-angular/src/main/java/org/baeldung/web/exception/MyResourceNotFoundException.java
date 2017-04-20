@@ -1,4 +1,4 @@
-package org.baeldung.web.exception;
+package org.nklkarthi.web.exception;
 
 public class MyResourceNotFoundException extends RuntimeException {
 

@@ -1,9 +1,9 @@
-package org.baeldung.security;
+package org.nklkarthi.security;
 
 import java.util.Arrays;
 
-import org.baeldung.persistence.dao.UserRepository;
-import org.baeldung.persistence.model.User;
+import org.nklkarthi.persistence.dao.UserRepository;
+import org.nklkarthi.persistence.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

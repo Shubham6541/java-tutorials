@@ -1,4 +1,4 @@
-package com.baeldung.unsafe;
+package com.nklkarthi.unsafe;
 
 import sun.misc.Unsafe;
 

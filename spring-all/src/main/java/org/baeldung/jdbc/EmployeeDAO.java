@@ -1,4 +1,4 @@
-package org.baeldung.jdbc;
+package org.nklkarthi.jdbc;
 
 import java.sql.PreparedStatement;
 import java.sql.SQLException;

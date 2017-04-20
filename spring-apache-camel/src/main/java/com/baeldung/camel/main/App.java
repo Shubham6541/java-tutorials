@@ -1,4 +1,4 @@
-package com.baeldung.camel.main;
+package com.nklkarthi.camel.main;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

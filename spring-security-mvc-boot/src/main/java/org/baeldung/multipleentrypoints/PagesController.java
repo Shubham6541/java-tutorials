@@ -1,4 +1,4 @@
-package org.baeldung.multipleentrypoints;
+package org.nklkarthi.multipleentrypoints;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

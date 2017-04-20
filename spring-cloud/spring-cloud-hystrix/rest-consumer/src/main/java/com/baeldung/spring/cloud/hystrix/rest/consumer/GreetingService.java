@@ -1,4 +1,4 @@
-package com.baeldung.spring.cloud.hystrix.rest.consumer;
+package com.nklkarthi.spring.cloud.hystrix.rest.consumer;
 
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.springframework.stereotype.Service;

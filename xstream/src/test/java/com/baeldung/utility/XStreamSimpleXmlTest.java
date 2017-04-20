@@ -1,9 +1,9 @@
-package com.baeldung.utility;
+package com.nklkarthi.utility;
 
-import com.baeldung.initializer.SimpleXstreamInitializer;
-import com.baeldung.pojo.AddressDetails;
-import com.baeldung.pojo.ContactDetails;
-import com.baeldung.pojo.Customer;
+import com.nklkarthi.initializer.SimpleXstreamInitializer;
+import com.nklkarthi.pojo.AddressDetails;
+import com.nklkarthi.pojo.ContactDetails;
+import com.nklkarthi.pojo.Customer;
 import com.thoughtworks.xstream.XStream;
 import org.junit.Assert;
 import org.junit.Before;

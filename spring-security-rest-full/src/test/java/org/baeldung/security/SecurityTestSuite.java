@@ -1,7 +1,7 @@
-package org.baeldung.security;
+package org.nklkarthi.security;
 
-import org.baeldung.security.csrf.CsrfDisabledIntegrationTest;
-import org.baeldung.security.csrf.CsrfEnabledIntegrationTest;
+import org.nklkarthi.security.csrf.CsrfDisabledIntegrationTest;
+import org.nklkarthi.security.csrf.CsrfEnabledIntegrationTest;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 

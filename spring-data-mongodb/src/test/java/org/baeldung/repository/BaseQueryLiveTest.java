@@ -1,7 +1,7 @@
-package org.baeldung.repository;
+package org.nklkarthi.repository;
 
-import org.baeldung.model.User;
-import org.baeldung.repository.UserRepository;
+import org.nklkarthi.model.User;
+import org.nklkarthi.repository.UserRepository;
 import org.junit.After;
 import org.junit.Before;
 import org.springframework.beans.factory.annotation.Autowired;

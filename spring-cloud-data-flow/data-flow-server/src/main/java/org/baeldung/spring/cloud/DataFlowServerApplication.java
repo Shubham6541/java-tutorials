@@ -1,4 +1,4 @@
-package org.baeldung.spring.cloud;
+package org.nklkarthi.spring.cloud;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

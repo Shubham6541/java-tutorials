@@ -1,4 +1,4 @@
-package com.baeldung.jackson.domain;
+package com.nklkarthi.jackson.domain;
 
 import java.math.BigDecimal;
 import java.util.Date;

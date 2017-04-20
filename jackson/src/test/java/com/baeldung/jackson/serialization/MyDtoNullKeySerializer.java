@@ -1,4 +1,4 @@
-package com.baeldung.jackson.serialization;
+package com.nklkarthi.jackson.serialization;
 
 import java.io.IOException;
 

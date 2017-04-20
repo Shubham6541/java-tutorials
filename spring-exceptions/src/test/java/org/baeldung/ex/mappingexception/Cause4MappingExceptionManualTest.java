@@ -1,10 +1,10 @@
-package org.baeldung.ex.mappingexception;
+package org.nklkarthi.ex.mappingexception;
 
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 
-import org.baeldung.ex.mappingexception.cause4.persistence.model.Foo;
+import org.nklkarthi.ex.mappingexception.cause4.persistence.model.Foo;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;

@@ -1,4 +1,4 @@
-package com.baeldung.jgit.porcelain;
+package com.nklkarthi.jgit.porcelain;
 
 import org.junit.Test;
 

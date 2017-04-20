@@ -1,4 +1,4 @@
-package com.baeldung.concurrent.locks;
+package com.nklkarthi.concurrent.locks;
 
 import org.junit.Test;
 

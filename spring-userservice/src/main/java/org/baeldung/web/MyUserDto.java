@@ -1,4 +1,4 @@
-package org.baeldung.web;
+package org.nklkarthi.web;
 
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;

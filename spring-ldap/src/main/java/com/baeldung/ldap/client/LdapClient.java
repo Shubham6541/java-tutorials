@@ -1,4 +1,4 @@
-package com.baeldung.ldap.client;
+package com.nklkarthi.ldap.client;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;

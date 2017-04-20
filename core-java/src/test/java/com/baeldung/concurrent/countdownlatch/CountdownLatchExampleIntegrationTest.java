@@ -1,4 +1,4 @@
-package com.baeldung.concurrent.countdownlatch;
+package com.nklkarthi.concurrent.countdownlatch;
 
 import org.junit.Test;
 

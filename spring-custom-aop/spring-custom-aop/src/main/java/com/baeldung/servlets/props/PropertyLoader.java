@@ -1,4 +1,4 @@
-package com.baeldung.servlets.props;
+package com.nklkarthi.servlets.props;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

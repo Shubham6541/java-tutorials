@@ -1,11 +1,11 @@
-package com.baeldung.spring.data.neo4j;
+package com.nklkarthi.spring.data.neo4j;
 
-import com.baeldung.spring.data.neo4j.config.MovieDatabaseNeo4jTestConfiguration;
-import com.baeldung.spring.data.neo4j.domain.Movie;
-import com.baeldung.spring.data.neo4j.domain.Person;
-import com.baeldung.spring.data.neo4j.domain.Role;
-import com.baeldung.spring.data.neo4j.repostory.MovieRepository;
-import com.baeldung.spring.data.neo4j.repostory.PersonRepository;
+import com.nklkarthi.spring.data.neo4j.config.MovieDatabaseNeo4jTestConfiguration;
+import com.nklkarthi.spring.data.neo4j.domain.Movie;
+import com.nklkarthi.spring.data.neo4j.domain.Person;
+import com.nklkarthi.spring.data.neo4j.domain.Role;
+import com.nklkarthi.spring.data.neo4j.repostory.MovieRepository;
+import com.nklkarthi.spring.data.neo4j.repostory.PersonRepository;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

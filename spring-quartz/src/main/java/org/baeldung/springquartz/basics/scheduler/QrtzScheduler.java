@@ -1,4 +1,4 @@
-package org.baeldung.springquartz.basics.scheduler;
+package org.nklkarthi.springquartz.basics.scheduler;
 
 import static org.quartz.JobBuilder.newJob;
 import static org.quartz.SimpleScheduleBuilder.simpleSchedule;
@@ -8,7 +8,7 @@ import java.io.IOException;
 
 import javax.annotation.PostConstruct;
 
-import org.baeldung.springquartz.config.AutoWiringSpringBeanJobFactory;
+import org.nklkarthi.springquartz.config.AutoWiringSpringBeanJobFactory;
 import org.quartz.*;
 import org.quartz.impl.StdSchedulerFactory;
 import org.slf4j.Logger;

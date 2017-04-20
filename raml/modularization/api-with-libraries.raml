@@ -1,16 +1,16 @@
 #%RAML 1.0
-title: API for REST Services used in the RAML tutorials on Baeldung.com
+title: API for REST Services used in the RAML tutorials on nklkarthi.com
 documentation:
   - title: Overview
   - content: |
       This document defines the interface for the REST services
-      used in the popular RAML Tutorial series at Baeldung.com.
+      used in the popular RAML Tutorial series at nklkarthi.com.
   - title: Disclaimer:
   - content: |
       All names used in this definition are purely fictional.
       Any similarities between the names used in this tutorial and those of real persons, whether living or dead, are merely coincidental.
   - title: Copyright
-  - content: Copyright 2016 by Baeldung.com. All rights reserved.
+  - content: Copyright 2016 by nklkarthi.com. All rights reserved.
 uses:
   mySecuritySchemes: !include libraries/security.raml
   myDataTypes: !include libraries/dataTypes.raml
@@ -18,7 +18,7 @@ uses:
   myTraits: !include libraries/traits.raml
 version: v1
 protocols: [ HTTPS ]
-baseUri: http://rest-api.baeldung.com/api/{version}
+baseUri: http://rest-api.nklkarthi.com/api/{version}
 mediaType: application/json
 securedBy: [ mySecuritySchemes.basicAuth ]
 /foos:

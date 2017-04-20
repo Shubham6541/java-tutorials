@@ -1,7 +1,7 @@
-package com.baeldung.config;
+package com.nklkarthi.config;
 
-import com.baeldung.security.*;
-import com.baeldung.security.jwt.*;
+import com.nklkarthi.security.*;
+import com.nklkarthi.security.jwt.*;
 
 import io.github.jhipster.security.*;
 

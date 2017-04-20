@@ -1,4 +1,4 @@
-package com.baeldung.cucumber.calculator;
+package com.nklkarthi.cucumber.calculator;
 
 public class Calculator {
     public int add(int a, int b) {

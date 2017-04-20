@@ -1,6 +1,6 @@
-package org.baeldung.ex.beancreationexception;
+package org.nklkarthi.ex.beancreationexception;
 
-import org.baeldung.ex.beancreationexception.spring.Cause4ContextWithJavaConfig;
+import org.nklkarthi.ex.beancreationexception.spring.Cause4ContextWithJavaConfig;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.test.context.ContextConfiguration;

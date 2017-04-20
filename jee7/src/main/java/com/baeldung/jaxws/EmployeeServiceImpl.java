@@ -1,4 +1,4 @@
-package com.baeldung.jaxws;
+package com.nklkarthi.jaxws;
 
 import java.util.List;
 
@@ -6,12 +6,12 @@ import javax.inject.Inject;
 import javax.jws.WebMethod;
 import javax.jws.WebService;
 
-import com.baeldung.jaxws.exception.EmployeeAlreadyExists;
-import com.baeldung.jaxws.exception.EmployeeNotFound;
-import com.baeldung.jaxws.model.Employee;
-import com.baeldung.jaxws.repository.EmployeeRepository;
+import com.nklkarthi.jaxws.exception.EmployeeAlreadyExists;
+import com.nklkarthi.jaxws.exception.EmployeeNotFound;
+import com.nklkarthi.jaxws.model.Employee;
+import com.nklkarthi.jaxws.repository.EmployeeRepository;
 
-@WebService(serviceName = "EmployeeService", endpointInterface = "com.baeldung.jaxws.EmployeeService")
+@WebService(serviceName = "EmployeeService", endpointInterface = "com.nklkarthi.jaxws.EmployeeService")
 public class EmployeeServiceImpl implements EmployeeService {
 
     @Inject

@@ -1,4 +1,4 @@
-package org.baeldung.springevents.asynchronous;
+package org.nklkarthi.springevents.asynchronous;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -8,7 +8,7 @@ import org.springframework.context.event.SimpleApplicationEventMulticaster;
 import org.springframework.core.task.SimpleAsyncTaskExecutor;
 
 @Configuration
-@ComponentScan("org.baeldung.springevents.synchronous")
+@ComponentScan("org.nklkarthi.springevents.synchronous")
 public class AsynchronousSpringEventsConfig {
 
     @Bean(name = "applicationEventMulticaster")

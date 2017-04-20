@@ -1,4 +1,4 @@
-package org.baeldung.dao;
+package org.nklkarthi.dao;
 
 import java.util.List;
 import java.util.Map;
@@ -6,8 +6,8 @@ import java.util.Map;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 
-import org.baeldung.entity.Person;
-import org.baeldung.entity.QPerson;
+import org.nklkarthi.entity.Person;
+import org.nklkarthi.entity.QPerson;
 import org.springframework.stereotype.Repository;
 
 import com.querydsl.core.group.GroupBy;

@@ -1,4 +1,4 @@
-package com.baeldung.java_8_features.groupingby;
+package com.nklkarthi.java_8_features.groupingby;
 
 public class BlogPost {
     private String title;

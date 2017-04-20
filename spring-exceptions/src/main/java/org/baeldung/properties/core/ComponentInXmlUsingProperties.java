@@ -1,4 +1,4 @@
-package org.baeldung.properties.core;
+package org.nklkarthi.properties.core;
 
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.beans.factory.annotation.Autowired;

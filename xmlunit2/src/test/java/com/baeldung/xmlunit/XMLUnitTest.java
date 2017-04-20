@@ -1,4 +1,4 @@
-package com.baeldung.xmlunit;
+package com.nklkarthi.xmlunit;
 
 import org.junit.Ignore;
 import org.junit.Test;

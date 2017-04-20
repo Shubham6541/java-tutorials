@@ -1,7 +1,7 @@
-package com.baeldung.inject;
+package com.nklkarthi.inject;
 
-import com.baeldung.configuration.ApplicationContextTestInjectType;
-import com.baeldung.dependency.ArbitraryDependency;
+import com.nklkarthi.configuration.ApplicationContextTestInjectType;
+import com.nklkarthi.dependency.ArbitraryDependency;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.test.context.ContextConfiguration;

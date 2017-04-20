@@ -1,4 +1,4 @@
-package com.baeldung.utils;
+package com.nklkarthi.utils;
 
 import javax.annotation.security.RolesAllowed;
 
@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan(basePackages="com.baeldung.utils")
+@ComponentScan(basePackages="com.nklkarthi.utils")
 public class Application {
 
 	@RolesAllowed("*")

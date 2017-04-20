@@ -1,6 +1,6 @@
-package org.baeldung.event;
+package org.nklkarthi.event;
 
-import org.baeldung.model.User;
+import org.nklkarthi.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoOperations;
 import org.springframework.data.mongodb.core.mapping.event.AbstractMongoEventListener;

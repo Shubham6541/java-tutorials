@@ -1,4 +1,4 @@
-package org.baeldung.boot.boottest;
+package org.nklkarthi.boot.boottest;
 
 import org.junit.Before;
 import org.junit.Test;

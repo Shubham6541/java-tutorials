@@ -34,20 +34,20 @@
 
 		<fo:block space-before.optimum="1.5pt" space-after.optimum="1.5pt" keep-together="always" font-weight="bold" line-height="28pt" font-size="14pt"><fo:basic-link color="#0000ff" text-decoration="underline" internal-destination="navigation">Navigation</fo:basic-link></fo:block>
 
-	</fo:block><fo:inline font-size="10pt"><fo:block><fo:basic-link color="#0000ff" text-decoration="underline" external-destination="http://inprogress.baeldung.com/">Technical Articles</fo:basic-link></fo:block></fo:inline>
+	</fo:block><fo:inline font-size="10pt"><fo:block><fo:basic-link color="#0000ff" text-decoration="underline" external-destination="http://inprogress.nklkarthi.com/">Technical Articles</fo:basic-link></fo:block></fo:inline>
 
 	
-	<fo:inline font-size="10pt"><fo:basic-link color="#0000ff" text-decoration="underline" external-destination="http://inprogress.baeldung.com">Home</fo:basic-link></fo:inline>
+	<fo:inline font-size="10pt"><fo:basic-link color="#0000ff" text-decoration="underline" external-destination="http://inprogress.nklkarthi.com">Home</fo:basic-link></fo:inline>
 
 			<fo:list-block provisional-label-separation="3pt" provisional-distance-between-starts="14pt">
 			
 								<fo:list-item><fo:list-item-label><fo:block line-height="12pt" font-size="10pt" space-before.optimum="1.5pt" space-after.optimum="1.5pt" keep-together="always">-</fo:block></fo:list-item-label>
-<fo:list-item-body start-indent="body-start()"><fo:block line-height="12pt" font-size="10pt" space-before.optimum="1.5pt" space-after.optimum="1.5pt" keep-together="always"><fo:basic-link color="#0000ff" text-decoration="underline" external-destination="http://inprogress.baeldung.com/">Home</fo:basic-link></fo:block></fo:list-item-body></fo:list-item>
+<fo:list-item-body start-indent="body-start()"><fo:block line-height="12pt" font-size="10pt" space-before.optimum="1.5pt" space-after.optimum="1.5pt" keep-together="always"><fo:basic-link color="#0000ff" text-decoration="underline" external-destination="http://inprogress.nklkarthi.com/">Home</fo:basic-link></fo:block></fo:list-item-body></fo:list-item>
 									</fo:list-block><!-- /#nav -->
 		<fo:block>
 	<fo:list-block provisional-label-separation="3pt" provisional-distance-between-starts="14pt">
 						<fo:list-item><fo:list-item-label><fo:block line-height="12pt" font-size="10pt" space-before.optimum="1.5pt" space-after.optimum="1.5pt" keep-together="always">-</fo:block></fo:list-item-label>
-<fo:list-item-body start-indent="body-start()"><fo:block line-height="12pt" font-size="10pt" space-before.optimum="1.5pt" space-after.optimum="1.5pt" keep-together="always"><fo:basic-link color="#0000ff" text-decoration="underline" external-destination="http://inprogress.baeldung.com/?feed=rss2"></fo:basic-link></fo:block></fo:list-item-body></fo:list-item>
+<fo:list-item-body start-indent="body-start()"><fo:block line-height="12pt" font-size="10pt" space-before.optimum="1.5pt" space-after.optimum="1.5pt" keep-together="always"><fo:basic-link color="#0000ff" text-decoration="underline" external-destination="http://inprogress.nklkarthi.com/?feed=rss2"></fo:basic-link></fo:block></fo:list-item-body></fo:list-item>
 			 series</fo:list-block></fo:block><!-- /#side-nav --><!-- /.menus -->
 
 	<fo:inline font-size="10pt"><fo:basic-link color="#0000ff" text-decoration="underline" internal-destination="top">Return to Content</fo:basic-link></fo:inline>
@@ -66,7 +66,7 @@
 			<!-- #main Starts -->
                         <fo:block space-before.optimum="1.5pt" space-after.optimum="1.5pt" keep-together="always" font-weight="bold" line-height="32pt" font-size="16pt">Registration &#38;#8211; Activate a New Account by Email</fo:block>		
 	
- </fo:block><fo:block><fo:inline font-size="10pt"><fo:basic-link color="#0000ff" text-decoration="underline" external-destination="http://inprogress.baeldung.com/?author=10">Elena</fo:basic-link></fo:inline>  <fo:inline font-size="10pt">October 23, 2014</fo:inline>   <fo:inline font-size="10pt"><fo:basic-link color="#0000ff" text-decoration="underline" external-destination="http://inprogress.baeldung.com/?cat=9">Spring Security</fo:basic-link></fo:inline>  </fo:block>
+ </fo:block><fo:block><fo:inline font-size="10pt"><fo:basic-link color="#0000ff" text-decoration="underline" external-destination="http://inprogress.nklkarthi.com/?author=10">Elena</fo:basic-link></fo:inline>  <fo:inline font-size="10pt">October 23, 2014</fo:inline>   <fo:inline font-size="10pt"><fo:basic-link color="#0000ff" text-decoration="underline" external-destination="http://inprogress.nklkarthi.com/?cat=9">Spring Security</fo:basic-link></fo:inline>  </fo:block>
 	<fo:inline font-size="10pt"></fo:inline><fo:block space-before.optimum="1.5pt" space-after.optimum="1.5pt" keep-together="always" line-height="32pt" font-size="16pt">1. Overview</fo:block>
 <fo:block line-height="12pt" space-before.optimum="1.5pt" space-after.optimum="1.5pt" keep-together="always"><fo:inline font-size="10pt">This article continues our ongoing </fo:inline><fo:inline font-size="10pt">Registration with Spring Security</fo:inline><fo:inline font-size="10pt"> by finishing the missing piece of the registration process &#38;#8211; </fo:inline><fo:inline font-size="10pt">verifying the email to confirm the user registration</fo:inline><fo:inline font-size="10pt">.</fo:inline></fo:block>
 <fo:block line-height="12pt" font-size="10pt" space-before.optimum="1.5pt" space-after.optimum="1.5pt" keep-together="always">Confirm Registration&#38;#8221; email sent after successful registration to verify his email address and activate his account. The user does this by clicking a unique account activation link sent to him as part of the email message.</fo:block>
@@ -445,21 +445,21 @@ public class UserService implements IUserService {
 			
 			
 						<fo:block>
-		   				   		<fo:inline font-size="10pt"><fo:basic-link color="#0000ff" text-decoration="underline" external-destination="http://inprogress.baeldung.com/?feed=rss2"></fo:basic-link></fo:inline></fo:block><!-- col-left -->
+		   				   		<fo:inline font-size="10pt"><fo:basic-link color="#0000ff" text-decoration="underline" external-destination="http://inprogress.nklkarthi.com/?feed=rss2"></fo:basic-link></fo:inline></fo:block><!-- col-left -->
 
 		
         <fo:inline font-size="10pt"><fo:block></fo:block></fo:inline>
 	
 	<fo:inline font-size="10pt"><fo:block></fo:block></fo:inline><!-- /.post -->
 	        <fo:inline font-size="10pt"><fo:block>
-	            </fo:block></fo:inline><fo:inline font-style="italic" font-size="10pt"><fo:block><fo:basic-link color="#0000ff" text-decoration="underline" external-destination="http://inprogress.baeldung.com/?p=653"> (published) Handling Static Resources With Spring</fo:basic-link></fo:block></fo:inline>
-	            <fo:inline font-style="italic" font-size="10pt"><fo:block><fo:basic-link color="#0000ff" text-decoration="underline" external-destination="http://inprogress.baeldung.com/?p=1430">Convert HTML to PDF using Apache FOP </fo:basic-link></fo:block></fo:inline>
+	            </fo:block></fo:inline><fo:inline font-style="italic" font-size="10pt"><fo:block><fo:basic-link color="#0000ff" text-decoration="underline" external-destination="http://inprogress.nklkarthi.com/?p=653"> (published) Handling Static Resources With Spring</fo:basic-link></fo:block></fo:inline>
+	            <fo:inline font-style="italic" font-size="10pt"><fo:block><fo:basic-link color="#0000ff" text-decoration="underline" external-destination="http://inprogress.nklkarthi.com/?p=1430">Convert HTML to PDF using Apache FOP </fo:basic-link></fo:block></fo:inline>
 	            <fo:inline font-size="10pt"><fo:block></fo:block></fo:inline>
 	        
 
 		<fo:inline font-size="10pt"><fo:block><fo:block space-before.optimum="1.5pt" space-after.optimum="1.5pt" keep-together="always" font-weight="bold" line-height="24pt" font-size="12pt">No comments yet.</fo:block></fo:block></fo:inline>								<fo:block>
 				<fo:block space-before.optimum="1.5pt" space-after.optimum="1.5pt" keep-together="always" font-weight="bold" line-height="28pt" font-size="14pt">Leave a Reply <fo:basic-link color="#0000ff" text-decoration="underline" external-destination="/?p=1092#respond">Click here to cancel reply.</fo:basic-link></fo:block></fo:block>
-									<fo:block line-height="12pt" space-before.optimum="1.5pt" space-after.optimum="1.5pt" keep-together="always"><fo:inline font-size="10pt">Logged in as </fo:inline><fo:inline font-size="10pt"><fo:basic-link color="#0000ff" text-decoration="underline" external-destination="http://inprogress.baeldung.com/wp-admin/profile.php">odeskAuthor8</fo:basic-link></fo:inline><fo:inline font-size="10pt">. </fo:inline><fo:inline font-size="10pt"><fo:basic-link color="#0000ff" text-decoration="underline" external-destination="http://inprogress.baeldung.com/wp-login.php?action=logout">Log out?</fo:basic-link></fo:inline></fo:block>																			<fo:block line-height="12pt" font-size="10pt" space-before.optimum="1.5pt" space-after.optimum="1.5pt" keep-together="always"></fo:block>												<fo:block line-height="12pt" font-size="10pt" space-before.optimum="1.5pt" space-after.optimum="1.5pt" keep-together="always">
+									<fo:block line-height="12pt" space-before.optimum="1.5pt" space-after.optimum="1.5pt" keep-together="always"><fo:inline font-size="10pt">Logged in as </fo:inline><fo:inline font-size="10pt"><fo:basic-link color="#0000ff" text-decoration="underline" external-destination="http://inprogress.nklkarthi.com/wp-admin/profile.php">odeskAuthor8</fo:basic-link></fo:inline><fo:inline font-size="10pt">. </fo:inline><fo:inline font-size="10pt"><fo:basic-link color="#0000ff" text-decoration="underline" external-destination="http://inprogress.nklkarthi.com/wp-login.php?action=logout">Log out?</fo:basic-link></fo:inline></fo:block>																			<fo:block line-height="12pt" font-size="10pt" space-before.optimum="1.5pt" space-after.optimum="1.5pt" keep-together="always"></fo:block>												<fo:block line-height="12pt" font-size="10pt" space-before.optimum="1.5pt" space-after.optimum="1.5pt" keep-together="always">
 							
 							
 

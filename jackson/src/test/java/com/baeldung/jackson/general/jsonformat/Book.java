@@ -1,7 +1,7 @@
-package com.baeldung.jackson.general.jsonformat;
+package com.nklkarthi.jackson.general.jsonformat;
 
-import com.baeldung.jackson.domain.Author;
-import com.baeldung.jackson.domain.Item;
+import com.nklkarthi.jackson.domain.Author;
+import com.nklkarthi.jackson.domain.Item;
 import com.fasterxml.jackson.annotation.JsonFormat;
 
 import java.math.BigDecimal;

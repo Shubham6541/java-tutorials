@@ -1,11 +1,11 @@
-package com.baeldung.web.rest;
+package com.nklkarthi.web.rest;
 
-import com.baeldung.BaeldungApp;
+import com.nklkarthi.nklkarthiApp;
 
-import com.baeldung.domain.Post;
-import com.baeldung.domain.User;
-import com.baeldung.repository.PostRepository;
-import com.baeldung.web.rest.errors.ExceptionTranslator;
+import com.nklkarthi.domain.Post;
+import com.nklkarthi.domain.User;
+import com.nklkarthi.repository.PostRepository;
+import com.nklkarthi.web.rest.errors.ExceptionTranslator;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -37,7 +37,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
  * @see PostResource
  */
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = BaeldungApp.class)
+@SpringBootTest(classes = nklkarthiApp.class)
 public class PostResourceIntTest {
 
     private static final String DEFAULT_TITLE = "AAAAAAAAAA";

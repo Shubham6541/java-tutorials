@@ -1,4 +1,4 @@
-package com.baeldung.persistence.service;
+package com.nklkarthi.persistence.service;
 
 import static org.apache.commons.lang3.RandomStringUtils.randomAlphabetic;
 import static org.junit.Assert.assertEquals;
@@ -20,8 +20,8 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.support.AnnotationConfigContextLoader;
 
-import com.baeldung.persistence.model.Foo;
-import com.baeldung.spring.PersistenceConfig;
+import com.nklkarthi.persistence.model.Foo;
+import com.nklkarthi.spring.PersistenceConfig;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = { PersistenceConfig.class }, loader = AnnotationConfigContextLoader.class)

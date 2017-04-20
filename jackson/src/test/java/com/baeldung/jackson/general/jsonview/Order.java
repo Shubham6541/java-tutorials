@@ -1,4 +1,4 @@
-package com.baeldung.jackson.general.jsonview;
+package com.nklkarthi.jackson.general.jsonview;
 
 import com.fasterxml.jackson.annotation.JsonView;
 

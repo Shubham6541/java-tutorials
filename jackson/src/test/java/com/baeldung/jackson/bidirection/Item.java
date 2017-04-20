@@ -1,4 +1,4 @@
-package com.baeldung.jackson.bidirection;
+package com.nklkarthi.jackson.bidirection;
 
 public class Item {
     public int id;

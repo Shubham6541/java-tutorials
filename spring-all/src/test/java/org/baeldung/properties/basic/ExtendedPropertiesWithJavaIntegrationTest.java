@@ -1,7 +1,7 @@
-package org.baeldung.properties.basic;
+package org.nklkarthi.properties.basic;
 
-import org.baeldung.properties.spring.BasicPropertiesWithJavaConfig;
-import org.baeldung.properties.spring.PropertiesWithJavaConfigOther;
+import org.nklkarthi.properties.spring.BasicPropertiesWithJavaConfig;
+import org.nklkarthi.properties.spring.PropertiesWithJavaConfigOther;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

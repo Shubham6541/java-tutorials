@@ -1,7 +1,7 @@
-package org.baeldung.ex.nontransientdataaccessexception;
+package org.nklkarthi.ex.nontransientdataaccessexception;
 
-import org.baeldung.ex.nontransientexception.cause.Cause1NonTransientConfig;
-import org.baeldung.persistence.service.IFooService;
+import org.nklkarthi.ex.nontransientexception.cause.Cause1NonTransientConfig;
+import org.nklkarthi.persistence.service.IFooService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

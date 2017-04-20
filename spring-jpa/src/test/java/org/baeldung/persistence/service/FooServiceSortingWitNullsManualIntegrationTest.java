@@ -1,4 +1,4 @@
-package org.baeldung.persistence.service;
+package org.nklkarthi.persistence.service;
 
 import static org.apache.commons.lang3.RandomStringUtils.randomAlphabetic;
 import static org.junit.Assert.assertNull;
@@ -9,8 +9,8 @@ import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.Query;
 
-import org.baeldung.config.PersistenceJPAConfig;
-import org.baeldung.persistence.model.Foo;
+import org.nklkarthi.config.PersistenceJPAConfig;
+import org.nklkarthi.persistence.model.Foo;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

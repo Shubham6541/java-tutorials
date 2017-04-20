@@ -1,13 +1,13 @@
-package com.baeldung.persistence.hibernate;
+package com.nklkarthi.persistence.hibernate;
 
 import static org.junit.Assert.assertNull;
 
 import java.util.List;
 import java.util.Set;
 
-import com.baeldung.persistence.model.Bar;
-import com.baeldung.persistence.model.Foo;
-import com.baeldung.spring.PersistenceConfig;
+import com.nklkarthi.persistence.model.Bar;
+import com.nklkarthi.persistence.model.Foo;
+import com.nklkarthi.spring.PersistenceConfig;
 import org.hibernate.Criteria;
 import org.hibernate.NullPrecedence;
 import org.hibernate.Query;

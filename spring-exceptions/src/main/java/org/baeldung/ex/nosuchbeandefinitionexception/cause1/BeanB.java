@@ -1,4 +1,4 @@
-package org.baeldung.ex.nosuchbeandefinitionexception.cause1;
+package org.nklkarthi.ex.nosuchbeandefinitionexception.cause1;
 
 public class BeanB {
     //

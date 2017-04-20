@@ -1,4 +1,4 @@
-package com.baeldung.spring.statemachine;
+package com.nklkarthi.spring.statemachine;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
@@ -11,7 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.statemachine.StateMachine;
 
-import com.baeldung.spring.statemachine.config.SimpleStateMachineConfiguration;
+import com.nklkarthi.spring.statemachine.config.SimpleStateMachineConfiguration;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.junit4.SpringRunner;

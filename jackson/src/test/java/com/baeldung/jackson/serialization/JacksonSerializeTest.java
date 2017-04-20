@@ -1,4 +1,4 @@
-package com.baeldung.jackson.serialization;
+package com.nklkarthi.jackson.serialization;
 
 import java.io.IOException;
 import java.text.ParseException;
@@ -6,9 +6,9 @@ import java.text.SimpleDateFormat;
 import java.util.Arrays;
 import java.util.TimeZone;
 
-import com.baeldung.jackson.entities.ActorJackson;
-import com.baeldung.jackson.entities.Movie;
-import com.baeldung.jackson.entities.MovieWithNullValue;
+import com.nklkarthi.jackson.entities.ActorJackson;
+import com.nklkarthi.jackson.entities.Movie;
+import com.nklkarthi.jackson.entities.MovieWithNullValue;
 import org.junit.Assert;
 import org.junit.Test;
 

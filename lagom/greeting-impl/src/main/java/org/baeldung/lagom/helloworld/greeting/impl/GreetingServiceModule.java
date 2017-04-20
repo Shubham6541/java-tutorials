@@ -1,7 +1,7 @@
-package org.baeldung.lagom.helloworld.greeting.impl;
+package org.nklkarthi.lagom.helloworld.greeting.impl;
 
-import org.baeldung.lagom.helloworld.greeting.api.GreetingService;
-import org.baeldung.lagom.helloworld.weather.api.WeatherService;
+import org.nklkarthi.lagom.helloworld.greeting.api.GreetingService;
+import org.nklkarthi.lagom.helloworld.weather.api.WeatherService;
 
 import com.google.inject.AbstractModule;
 import com.lightbend.lagom.javadsl.server.ServiceGuiceSupport;

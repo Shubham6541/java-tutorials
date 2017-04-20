@@ -1,4 +1,4 @@
-package com.baeldung.jacksonannotation.domain;
+package com.nklkarthi.jacksonannotation.domain;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -6,7 +6,7 @@ import java.util.Map;
 /**
  * Source code github.com/eugenp/tutorials
  *
- * @author Alex Theedom www.baeldung.com
+ * @author Alex Theedom www.nklkarthi.com
  * @version 1.0
  */
 public class Inventory {

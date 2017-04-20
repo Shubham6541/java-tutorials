@@ -1,4 +1,4 @@
-package com.baeldung.web.rest.errors;
+package com.nklkarthi.web.rest.errors;
 
 import java.util.List;
 

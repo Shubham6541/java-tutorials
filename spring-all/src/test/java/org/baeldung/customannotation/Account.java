@@ -1,4 +1,4 @@
-package org.baeldung.customannotation;
+package org.nklkarthi.customannotation;
 
 import java.io.Serializable;
 

@@ -1,4 +1,4 @@
-package com.baeldung.websocket;
+package com.nklkarthi.websocket;
 
 import java.io.IOException;
 import java.util.HashMap;
@@ -14,7 +14,7 @@ import javax.websocket.Session;
 import javax.websocket.server.PathParam;
 import javax.websocket.server.ServerEndpoint;
 
-import com.baeldung.model.Message;
+import com.nklkarthi.model.Message;
 
 @ServerEndpoint(value = "/chat/{username}", decoders = MessageDecoder.class, encoders = MessageEncoder.class)
 public class ChatEndpoint {

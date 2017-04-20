@@ -1,4 +1,4 @@
-package com.baeldung.hystrix;
+package com.nklkarthi.hystrix;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;

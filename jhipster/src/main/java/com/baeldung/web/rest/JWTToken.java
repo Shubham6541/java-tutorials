@@ -1,4 +1,4 @@
-package com.baeldung.web.rest;
+package com.nklkarthi.web.rest;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

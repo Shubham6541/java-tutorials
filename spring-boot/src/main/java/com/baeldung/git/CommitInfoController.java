@@ -1,4 +1,4 @@
-package com.baeldung.git;
+package com.nklkarthi.git;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestMapping;

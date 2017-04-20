@@ -1,6 +1,6 @@
-package com.baeldung.config;
+package com.nklkarthi.config;
 
-import com.baeldung.web.controller.handlermapping.WelcomeController;
+import com.nklkarthi.web.controller.handlermapping.WelcomeController;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.ViewResolver;

@@ -1,4 +1,4 @@
-package com.baeldung.thrift;
+package com.nklkarthi.thrift;
 
 import org.apache.thrift.transport.TTransportException;
 

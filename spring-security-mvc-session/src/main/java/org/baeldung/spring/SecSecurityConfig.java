@@ -1,6 +1,6 @@
-package org.baeldung.spring;
+package org.nklkarthi.spring;
 
-import org.baeldung.security.MySimpleUrlAuthenticationSuccessHandler;
+import org.nklkarthi.security.MySimpleUrlAuthenticationSuccessHandler;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;

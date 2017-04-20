@@ -1,9 +1,9 @@
-package org.baeldung.lagom.helloworld.weather.impl;
+package org.nklkarthi.lagom.helloworld.weather.impl;
 
 import java.util.concurrent.CompletableFuture;
 
-import org.baeldung.lagom.helloworld.weather.api.WeatherService;
-import org.baeldung.lagom.helloworld.weather.api.WeatherStats;
+import org.nklkarthi.lagom.helloworld.weather.api.WeatherService;
+import org.nklkarthi.lagom.helloworld.weather.api.WeatherStats;
 
 import com.lightbend.lagom.javadsl.api.ServiceCall;
 

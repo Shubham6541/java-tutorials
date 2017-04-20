@@ -1,6 +1,6 @@
-package org.baeldung.security.spring;
+package org.nklkarthi.security.spring;
 
-import org.baeldung.web.error.CustomAccessDeniedHandler;
+import org.nklkarthi.web.error.CustomAccessDeniedHandler;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.context.annotation.Configuration;

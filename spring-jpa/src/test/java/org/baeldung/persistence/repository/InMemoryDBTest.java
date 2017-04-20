@@ -1,4 +1,4 @@
-package org.baeldung.persistence.repository;
+package org.nklkarthi.persistence.repository;
 
 import javax.annotation.Resource;
 
@@ -9,9 +9,9 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.support.AnnotationConfigContextLoader;
 import org.springframework.transaction.annotation.Transactional;
 
-import org.baeldung.config.StudentJpaConfig;
-import org.baeldung.persistence.model.Student;
-import org.baeldung.persistence.dao.StudentRepository;
+import org.nklkarthi.config.StudentJpaConfig;
+import org.nklkarthi.persistence.model.Student;
+import org.nklkarthi.persistence.dao.StudentRepository;
 
 import static org.junit.Assert.*;
 

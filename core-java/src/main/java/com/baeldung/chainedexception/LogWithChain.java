@@ -1,9 +1,9 @@
-package com.baeldung.chainedexception;
+package com.nklkarthi.chainedexception;
 
-import com.baeldung.chainedexception.exceptions.GirlFriendOfManagerUpsetException;
-import com.baeldung.chainedexception.exceptions.ManagerUpsetException;
-import com.baeldung.chainedexception.exceptions.NoLeaveGrantedException;
-import com.baeldung.chainedexception.exceptions.TeamLeadUpsetException;
+import com.nklkarthi.chainedexception.exceptions.GirlFriendOfManagerUpsetException;
+import com.nklkarthi.chainedexception.exceptions.ManagerUpsetException;
+import com.nklkarthi.chainedexception.exceptions.NoLeaveGrantedException;
+import com.nklkarthi.chainedexception.exceptions.TeamLeadUpsetException;
 
 public class LogWithChain {
 

@@ -1,4 +1,4 @@
-package com.baeldung.equalshashcode.entities;
+package com.nklkarthi.equalshashcode.entities;
 
 import java.util.List;
 import java.util.Set;

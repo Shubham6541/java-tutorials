@@ -1,6 +1,6 @@
-package org.baeldung.okhttp;
+package org.nklkarthi.okhttp;
 
-import static org.baeldung.client.Consts.APPLICATION_PORT;
+import static org.nklkarthi.client.Consts.APPLICATION_PORT;
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.junit.Assert.assertThat;
 import static org.junit.Assert.fail;

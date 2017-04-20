@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>remoting-hessian-burlap</artifactId>
-        <groupId>com.baeldung</groupId>
+        <groupId>com.nklkarthi</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
@@ -13,7 +13,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.baeldung</groupId>
+            <groupId>com.nklkarthi</groupId>
             <artifactId>spring-remoting-http-server</artifactId>
             <version>${project.version}</version>
         </dependency>

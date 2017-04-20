@@ -1,4 +1,4 @@
-package com.baeldung.domain;
+package com.nklkarthi.domain;
 
 public class Book {
 

@@ -1,4 +1,4 @@
-package com.baeldung.spring.cloud.bootstrap.gateway;
+package com.nklkarthi.spring.cloud.bootstrap.gateway;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import org.apache.http.entity.ContentType;
@@ -107,7 +107,7 @@ public class IntegrationLiveTest {
         HttpHeaders headers = new HttpHeaders();
         headers.add("Cookie", sessionCookie);
         headers.add("ContentType", ContentType.APPLICATION_JSON.getMimeType());
-        Book book = new Book("Baeldung", "How to spring cloud");
+        Book book = new Book("nklkarthi", "How to spring cloud");
 
         HttpEntity<Book> httpEntity = new HttpEntity<>(book, headers);
 

@@ -1,6 +1,6 @@
-package com.baeldung.student.service;
+package com.nklkarthi.student.service;
 
-import com.baeldung.student.model.Student;
+import com.nklkarthi.student.model.Student;
 
 public interface StudentService {
 

@@ -1,6 +1,6 @@
-package com.baeldung.java8;
+package com.nklkarthi.java8;
 
-import com.baeldung.java_8_features.Detail;
+import com.nklkarthi.java_8_features.Detail;
 import org.junit.Before;
 import org.junit.Test;
 

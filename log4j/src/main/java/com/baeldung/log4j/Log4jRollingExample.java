@@ -1,4 +1,4 @@
-package com.baeldung.log4j;
+package com.nklkarthi.log4j;
 
 import java.util.stream.IntStream;
 

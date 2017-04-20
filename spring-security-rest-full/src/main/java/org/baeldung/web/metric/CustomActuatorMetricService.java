@@ -1,4 +1,4 @@
-package org.baeldung.web.metric;
+package org.nklkarthi.web.metric;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;

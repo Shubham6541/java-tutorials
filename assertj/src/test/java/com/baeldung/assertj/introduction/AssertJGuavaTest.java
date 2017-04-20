@@ -1,4 +1,4 @@
-package com.baeldung.assertj.introduction;
+package com.nklkarthi.assertj.introduction;
 
 import com.google.common.base.Optional;
 import com.google.common.collect.ArrayListMultimap;

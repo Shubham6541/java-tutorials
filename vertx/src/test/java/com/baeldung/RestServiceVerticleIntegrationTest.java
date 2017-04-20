@@ -1,11 +1,11 @@
-package com.baeldung;
+package com.nklkarthi;
 
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
-import com.baeldung.rest.RestServiceVerticle;
+import com.nklkarthi.rest.RestServiceVerticle;
 
 import io.vertx.core.Vertx;
 import io.vertx.ext.unit.Async;
@@ -34,7 +34,7 @@ public class RestServiceVerticleIntegrationTest {
         final Async async = testContext.async();
 
         vertx.createHttpClient()
-                .getNow(8080, "localhost", "/api/baeldung/articles/article/12345", response -> {
+                .getNow(8080, "localhost", "/api/nklkarthi/articles/article/12345", response -> {
                     response.handler(responseBody -> {
                         testContext.assertTrue(responseBody.toString()
                                 .contains("\"id\" : \"12345\""));

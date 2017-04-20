@@ -1,4 +1,4 @@
-package org.baeldung.spring_batch_intro;
+package org.nklkarthi.spring_batch_intro;
 
 import java.net.MalformedURLException;
 

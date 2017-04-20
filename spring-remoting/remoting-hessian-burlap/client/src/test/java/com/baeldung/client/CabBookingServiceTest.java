@@ -1,9 +1,9 @@
-package com.baeldung.client;
+package com.nklkarthi.client;
 
-import com.baeldung.api.Booking;
-import com.baeldung.api.BookingException;
-import com.baeldung.api.CabBookingService;
-import com.baeldung.server.Server;
+import com.nklkarthi.api.Booking;
+import com.nklkarthi.api.BookingException;
+import com.nklkarthi.api.CabBookingService;
+import com.nklkarthi.server.Server;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.runner.RunWith;

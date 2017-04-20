@@ -1,6 +1,6 @@
-package com.baeldung.configuration;
+package com.nklkarthi.configuration;
 
-import com.baeldung.dependency.ArbitraryDependency;
+import com.nklkarthi.dependency.ArbitraryDependency;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

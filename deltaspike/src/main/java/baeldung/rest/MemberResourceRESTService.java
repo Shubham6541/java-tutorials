@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package baeldung.rest;
+package nklkarthi.rest;
 
 import java.util.HashMap;
 import java.util.HashSet;
@@ -40,9 +40,9 @@ import javax.ws.rs.WebApplicationException;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
-import baeldung.data.MemberRepository;
-import baeldung.model.Member;
-import baeldung.service.MemberRegistration;
+import nklkarthi.data.MemberRepository;
+import nklkarthi.model.Member;
+import nklkarthi.service.MemberRegistration;
 
 /**
  * JAX-RS Example

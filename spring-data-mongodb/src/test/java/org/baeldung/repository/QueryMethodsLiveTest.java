@@ -1,12 +1,12 @@
-package org.baeldung.repository;
+package org.nklkarthi.repository;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
 
 import java.util.List;
 
-import org.baeldung.config.MongoConfig;
-import org.baeldung.model.User;
+import org.nklkarthi.config.MongoConfig;
+import org.nklkarthi.model.User;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.test.context.ContextConfiguration;

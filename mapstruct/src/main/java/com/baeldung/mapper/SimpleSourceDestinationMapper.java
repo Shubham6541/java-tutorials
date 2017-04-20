@@ -1,7 +1,7 @@
-package com.baeldung.mapper;
+package com.nklkarthi.mapper;
 
-import com.baeldung.dto.SimpleSource;
-import com.baeldung.entity.SimpleDestination;
+import com.nklkarthi.dto.SimpleSource;
+import com.nklkarthi.entity.SimpleDestination;
 import org.mapstruct.Mapper;
 
 @Mapper(componentModel = "spring")

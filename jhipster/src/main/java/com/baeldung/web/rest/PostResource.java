@@ -1,11 +1,11 @@
-package com.baeldung.web.rest;
+package com.nklkarthi.web.rest;
 
 import com.codahale.metrics.annotation.Timed;
-import com.baeldung.domain.Post;
+import com.nklkarthi.domain.Post;
 
-import com.baeldung.repository.PostRepository;
-import com.baeldung.web.rest.util.HeaderUtil;
-import com.baeldung.web.rest.util.PaginationUtil;
+import com.nklkarthi.repository.PostRepository;
+import com.nklkarthi.web.rest.util.HeaderUtil;
+import com.nklkarthi.web.rest.util.PaginationUtil;
 import io.swagger.annotations.ApiParam;
 import io.github.jhipster.web.util.ResponseUtil;
 import org.slf4j.Logger;

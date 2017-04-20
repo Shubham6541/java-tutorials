@@ -1,6 +1,6 @@
-package com.baeldung.web.controller;
+package com.nklkarthi.web.controller;
 
-import com.baeldung.model.Employee;
+import com.nklkarthi.model.Employee;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;

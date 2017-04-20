@@ -1,4 +1,4 @@
-package org.baeldung.persistence.katharsis;
+package org.nklkarthi.persistence.katharsis;
 
 import io.katharsis.invoker.KatharsisInvokerBuilder;
 import io.katharsis.locator.JsonServiceLocator;
@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class JsonApiFilter extends AbstractKatharsisFilter implements BeanFactoryAware {
 
-    private static final String DEFAULT_RESOURCE_SEARCH_PACKAGE = "org.baeldung.persistence";
+    private static final String DEFAULT_RESOURCE_SEARCH_PACKAGE = "org.nklkarthi.persistence";
 
     private static final String RESOURCE_DEFAULT_DOMAIN = "http://localhost:8080";
 

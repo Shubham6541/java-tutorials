@@ -1,7 +1,7 @@
-package com.baeldung.web.rest;
+package com.nklkarthi.web.rest;
 
-import com.baeldung.service.AuditEventService;
-import com.baeldung.web.rest.util.PaginationUtil;
+import com.nklkarthi.service.AuditEventService;
+import com.nklkarthi.web.rest.util.PaginationUtil;
 
 import io.github.jhipster.web.util.ResponseUtil;
 import io.swagger.annotations.ApiParam;

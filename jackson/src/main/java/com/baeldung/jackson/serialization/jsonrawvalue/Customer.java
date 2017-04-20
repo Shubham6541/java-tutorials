@@ -1,6 +1,6 @@
-package com.baeldung.jackson.serialization.jsonrawvalue;
+package com.nklkarthi.jackson.serialization.jsonrawvalue;
 
-import com.baeldung.jackson.domain.Person;
+import com.nklkarthi.jackson.domain.Person;
 import com.fasterxml.jackson.annotation.JsonRawValue;
 
 /**

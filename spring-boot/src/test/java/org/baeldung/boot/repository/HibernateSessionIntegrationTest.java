@@ -1,12 +1,12 @@
-package org.baeldung.boot.repository;
+package org.nklkarthi.boot.repository;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.CoreMatchers.notNullValue;
 import static org.junit.Assert.assertThat;
 
-import org.baeldung.boot.ApplicationIntegrationTest;
-import org.baeldung.boot.model.Foo;
-import org.baeldung.session.exception.repository.FooRepository;
+import org.nklkarthi.boot.ApplicationIntegrationTest;
+import org.nklkarthi.boot.model.Foo;
+import org.nklkarthi.session.exception.repository.FooRepository;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.TestPropertySource;

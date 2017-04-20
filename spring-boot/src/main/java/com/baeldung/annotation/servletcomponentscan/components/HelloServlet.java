@@ -1,4 +1,4 @@
-package com.baeldung.annotation.servletcomponentscan.components;
+package com.nklkarthi.annotation.servletcomponentscan.components;
 
 import javax.servlet.ServletConfig;
 import javax.servlet.annotation.WebInitParam;

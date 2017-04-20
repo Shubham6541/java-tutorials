@@ -1,5 +1,5 @@
-package com.baeldung.service.impl;
-import com.baeldung.service.api.BookService;
+package com.nklkarthi.service.impl;
+import com.nklkarthi.service.api.BookService;
 import org.springframework.roo.addon.layers.service.annotations.RooServiceImpl;
 
 /**

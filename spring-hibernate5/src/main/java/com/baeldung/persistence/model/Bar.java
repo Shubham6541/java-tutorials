@@ -1,4 +1,4 @@
-package com.baeldung.persistence.model;
+package com.nklkarthi.persistence.model;
 
 import java.io.Serializable;
 import java.util.Date;

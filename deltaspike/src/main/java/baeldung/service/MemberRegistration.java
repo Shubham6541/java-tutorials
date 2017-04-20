@@ -14,12 +14,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package baeldung.service;
+package nklkarthi.service;
 
-import baeldung.data.MemberRepository;
-import baeldung.data.SecondaryPersistenceUnit;
-import baeldung.model.Member;
-import baeldung.model.QMember;
+import nklkarthi.data.MemberRepository;
+import nklkarthi.data.SecondaryPersistenceUnit;
+import nklkarthi.model.Member;
+import nklkarthi.model.QMember;
 
 import javax.ejb.Stateless;
 import javax.enterprise.event.Event;

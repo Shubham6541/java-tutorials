@@ -1,6 +1,6 @@
-package org.baeldung.session.exception.repository;
+package org.nklkarthi.session.exception.repository;
 
-import org.baeldung.boot.model.Foo;
+import org.nklkarthi.boot.model.Foo;
 
 public interface FooRepository {
 

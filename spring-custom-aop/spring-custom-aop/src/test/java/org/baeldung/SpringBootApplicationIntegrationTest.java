@@ -1,10 +1,10 @@
-package org.baeldung;
+package org.nklkarthi;
 
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.hasSize;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 
-import org.baeldung.domain.Modes;
+import org.nklkarthi.domain.Modes;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

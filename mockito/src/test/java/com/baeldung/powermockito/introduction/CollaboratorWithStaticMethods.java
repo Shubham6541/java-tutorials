@@ -1,4 +1,4 @@
-package com.baeldung.powermockito.introduction;
+package com.nklkarthi.powermockito.introduction;
 
 public class CollaboratorWithStaticMethods {
 

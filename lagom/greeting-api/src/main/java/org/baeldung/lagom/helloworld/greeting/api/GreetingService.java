@@ -1,4 +1,4 @@
-package org.baeldung.lagom.helloworld.greeting.api;
+package org.nklkarthi.lagom.helloworld.greeting.api;
 
 import static com.lightbend.lagom.javadsl.api.Service.named;
 import static com.lightbend.lagom.javadsl.api.Service.restCall;

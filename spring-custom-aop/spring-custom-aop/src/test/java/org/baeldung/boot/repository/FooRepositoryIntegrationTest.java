@@ -1,9 +1,9 @@
-package org.baeldung.boot.repository;
+package org.nklkarthi.boot.repository;
 
 import static org.junit.Assert.assertThat;
 
-import org.baeldung.boot.DemoApplicationIntegrationTest;
-import org.baeldung.boot.model.Foo;
+import org.nklkarthi.boot.DemoApplicationIntegrationTest;
+import org.nklkarthi.boot.model.Foo;
 
 import static org.hamcrest.Matchers.notNullValue;
 import static org.hamcrest.Matchers.is;

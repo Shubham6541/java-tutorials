@@ -1,7 +1,7 @@
-package com.baeldung.arraycopy;
+package com.nklkarthi.arraycopy;
 
-import com.baeldung.arraycopy.model.Address;
-import com.baeldung.arraycopy.model.Employee;
+import com.nklkarthi.arraycopy.model.Address;
+import com.nklkarthi.arraycopy.model.Employee;
 import org.apache.commons.lang3.SerializationUtils;
 import org.junit.Assert;
 import org.junit.BeforeClass;

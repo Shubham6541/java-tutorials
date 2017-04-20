@@ -1,11 +1,11 @@
-package com.baeldung.mutation.test;
+package com.nklkarthi.mutation.test;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
-import com.baeldung.testing.mutation.Palindrome;
+import com.nklkarthi.testing.mutation.Palindrome;
 
 public class TestPalindrome {
     @Test

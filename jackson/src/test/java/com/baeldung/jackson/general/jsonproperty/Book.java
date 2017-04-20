@@ -1,4 +1,4 @@
-package com.baeldung.jackson.general.jsonproperty;
+package com.nklkarthi.jackson.general.jsonproperty;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

@@ -1,6 +1,6 @@
-package com.baeldung.stripe;
+package com.nklkarthi.stripe;
 
-import com.baeldung.stripe.ChargeRequest.Currency;
+import com.nklkarthi.stripe.ChargeRequest.Currency;
 import com.stripe.exception.StripeException;
 import com.stripe.model.Charge;
 import lombok.extern.java.Log;

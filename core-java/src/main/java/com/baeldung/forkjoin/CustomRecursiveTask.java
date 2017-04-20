@@ -1,4 +1,4 @@
-package com.baeldung.forkjoin;
+package com.nklkarthi.forkjoin;
 
 import java.util.ArrayList;
 import java.util.Arrays;

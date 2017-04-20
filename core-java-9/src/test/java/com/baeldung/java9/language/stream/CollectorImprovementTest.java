@@ -1,4 +1,4 @@
-package com.baeldung.java9.language.stream;
+package com.nklkarthi.java9.language.stream;
 
 import org.junit.Test;
 

@@ -1,3 +1,3 @@
-javac --module-path mods -d mods/com.baeldung.student.service.dbimpl^
- src/modules/com.baeldung.student.service.dbimpl/module-info.java^
- src/modules/com.baeldung.student.service.dbimpl/com/baeldung/student/service/dbimpl/StudentDbService.java
+javac --module-path mods -d mods/com.nklkarthi.student.service.dbimpl^
+ src/modules/com.nklkarthi.student.service.dbimpl/module-info.java^
+ src/modules/com.nklkarthi.student.service.dbimpl/com/nklkarthi/student/service/dbimpl/StudentDbService.java

@@ -1,4 +1,4 @@
-package org.baeldung.voter;
+package org.nklkarthi.voter;
 
 import java.time.LocalDateTime;
 import java.util.Collection;

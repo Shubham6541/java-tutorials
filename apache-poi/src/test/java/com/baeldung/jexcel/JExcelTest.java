@@ -1,4 +1,4 @@
-package com.baeldung.jexcel;
+package com.nklkarthi.jexcel;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -9,7 +9,7 @@ import java.util.Map;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.baeldung.jexcel.JExcelHelper;
+import com.nklkarthi.jexcel.JExcelHelper;
 
 import jxl.write.WriteException;
 import jxl.read.biff.BiffException;

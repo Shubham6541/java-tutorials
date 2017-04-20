@@ -1,4 +1,4 @@
-package com.baeldung.springamqpsimple.broadcast;
+package com.nklkarthi.springamqpsimple.broadcast;
 
 import org.springframework.amqp.core.BindingBuilder;
 import org.springframework.amqp.core.Declarable;
@@ -20,13 +20,13 @@ import java.util.List;
 @Profile("!test")
 public class BroadcastConfig {
 
-    public final static String fanoutQueue1Name = "com.baeldung.spring-amqp-simple.fanout.queue1";
-    public final static String fanoutQueue2Name = "com.baeldung.spring-amqp-simple.fanout.queue2";
-    public final static String fanoutExchangeName = "com.baeldung.spring-amqp-simple.fanout.exchange";
+    public final static String fanoutQueue1Name = "com.nklkarthi.spring-amqp-simple.fanout.queue1";
+    public final static String fanoutQueue2Name = "com.nklkarthi.spring-amqp-simple.fanout.queue2";
+    public final static String fanoutExchangeName = "com.nklkarthi.spring-amqp-simple.fanout.exchange";
 
-    public final static String topicQueue1Name = "com.baeldung.spring-amqp-simple.topic.queue1";
-    public final static String topicQueue2Name = "com.baeldung.spring-amqp-simple.topic.queue2";
-    public final static String topicExchangeName = "com.baeldung.spring-amql-simple.topic.exchange";
+    public final static String topicQueue1Name = "com.nklkarthi.spring-amqp-simple.topic.queue1";
+    public final static String topicQueue2Name = "com.nklkarthi.spring-amqp-simple.topic.queue2";
+    public final static String topicExchangeName = "com.nklkarthi.spring-amql-simple.topic.exchange";
 
     @Bean
     public List<Declarable> topicBindings() {

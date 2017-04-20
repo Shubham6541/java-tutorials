@@ -1,7 +1,7 @@
-package com.baeldung.mvc.velocity.controller;
+package com.nklkarthi.mvc.velocity.controller;
 
-import com.baeldung.mvc.velocity.domain.Tutorial;
-import com.baeldung.mvc.velocity.service.ITutorialsService;
+import com.nklkarthi.mvc.velocity.domain.Tutorial;
+import com.nklkarthi.mvc.velocity.service.ITutorialsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

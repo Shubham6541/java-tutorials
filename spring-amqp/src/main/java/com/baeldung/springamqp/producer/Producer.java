@@ -1,4 +1,4 @@
-package com.baeldung.springamqp.producer;
+package com.nklkarthi.springamqp.producer;
 
 import org.springframework.amqp.core.AmqpTemplate;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;

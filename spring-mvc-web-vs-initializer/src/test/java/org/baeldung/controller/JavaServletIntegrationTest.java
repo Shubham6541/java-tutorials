@@ -1,6 +1,6 @@
-package org.baeldung.controller;
+package org.nklkarthi.controller;
 
-import org.baeldung.config.MvcConfig;
+import org.nklkarthi.config.MvcConfig;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

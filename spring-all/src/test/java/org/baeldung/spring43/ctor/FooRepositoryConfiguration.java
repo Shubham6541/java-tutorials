@@ -1,4 +1,4 @@
-package org.baeldung.spring43.ctor;
+package org.nklkarthi.spring43.ctor;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

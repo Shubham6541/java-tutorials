@@ -1,4 +1,4 @@
-package org.baeldung.model;
+package org.nklkarthi.model;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;

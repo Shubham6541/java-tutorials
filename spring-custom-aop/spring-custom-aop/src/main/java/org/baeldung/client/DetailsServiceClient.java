@@ -1,4 +1,4 @@
-package org.baeldung.client;
+package org.nklkarthi.client;
 
 import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.stereotype.Service;

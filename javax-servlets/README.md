@@ -1,2 +1,2 @@
 ### Relevant Articles:
-- [Introduction to Java Servlets](http://www.baeldung.com/intro-to-servlets)
+- [Introduction to Java Servlets](http://www.nklkarthi.com/intro-to-servlets)

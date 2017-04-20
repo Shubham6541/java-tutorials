@@ -1,4 +1,4 @@
-package com.baeldung.rxjava;
+package com.nklkarthi.rxjava;
 
 import org.junit.Test;
 import rx.Observable;

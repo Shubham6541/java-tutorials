@@ -1,4 +1,4 @@
-package com.baeldung.java.collections;
+package com.nklkarthi.java.collections;
 
 import org.junit.Test;
 

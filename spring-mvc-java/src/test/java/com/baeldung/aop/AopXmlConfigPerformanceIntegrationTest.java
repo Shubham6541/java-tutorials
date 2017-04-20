@@ -1,6 +1,6 @@
-package com.baeldung.aop;
+package com.nklkarthi.aop;
 
-import com.baeldung.dao.FooDao;
+import com.nklkarthi.dao.FooDao;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -21,7 +21,7 @@ import static org.junit.Assert.assertThat;
 import static org.junit.Assert.assertTrue;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration("/com/baeldung/aop/beans.xml")
+@ContextConfiguration("/com/nklkarthi/aop/beans.xml")
 public class AopXmlConfigPerformanceIntegrationTest {
 
     @Before

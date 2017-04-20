@@ -1,4 +1,4 @@
-package com.baeldung.hibernate;
+package com.nklkarthi.hibernate;
 import static org.junit.Assert.assertNotEquals;
 
 import java.sql.Connection;
@@ -12,7 +12,7 @@ import org.hibernate.Transaction;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.baeldung.hibernate.pojo.Supplier;
+import com.nklkarthi.hibernate.pojo.Supplier;
 
 
 public class MultiTenantHibernateTest  {

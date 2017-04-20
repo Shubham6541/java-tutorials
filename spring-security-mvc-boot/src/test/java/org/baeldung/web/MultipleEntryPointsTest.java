@@ -1,6 +1,6 @@
-package org.baeldung.web;
+package org.nklkarthi.web;
 
-import org.baeldung.multipleentrypoints.MultipleEntryPointsApplication;
+import org.nklkarthi.multipleentrypoints.MultipleEntryPointsApplication;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

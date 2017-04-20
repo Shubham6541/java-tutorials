@@ -1,6 +1,6 @@
-package com.baeldung.jackson.inclusion.jsonignore;
+package com.nklkarthi.jackson.inclusion.jsonignore;
 
-import com.baeldung.jackson.domain.Item;
+import com.nklkarthi.jackson.domain.Item;
 
 import java.util.ArrayList;
 import java.util.List;

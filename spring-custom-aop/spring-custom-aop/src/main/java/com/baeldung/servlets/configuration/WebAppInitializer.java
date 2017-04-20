@@ -1,4 +1,4 @@
-package com.baeldung.servlets.configuration;
+package com.nklkarthi.servlets.configuration;
 
 import org.springframework.web.WebApplicationInitializer;
 import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;

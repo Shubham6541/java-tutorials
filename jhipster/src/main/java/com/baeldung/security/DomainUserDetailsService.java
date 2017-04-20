@@ -1,7 +1,7 @@
-package com.baeldung.security;
+package com.nklkarthi.security;
 
-import com.baeldung.domain.User;
-import com.baeldung.repository.UserRepository;
+import com.nklkarthi.domain.User;
+import com.nklkarthi.repository.UserRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.security.core.GrantedAuthority;

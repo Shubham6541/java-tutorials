@@ -147,7 +147,7 @@ End Shortcoder content
         <para>Starting with Spring 3.2, it is <emphasis role="bold">no longer necessary to add cglib as an explicit dependency</emphasis>. This is because Spring is in now inlining <emphasis>cglib</emphasis> – which will ensure that all class based proxying functionality will work out of the box with Spring 3.2.</para>
         <para>The new cglib code is placed under the Spring package: <emphasis>org.springframework.cglib</emphasis> (replacing the original <emphasis>net.sf.cglib</emphasis>). The reason for the package change is to avoid conflicts with any <emphasis>cglib</emphasis> versions already existing on the classpath.</para>
         <para>Also, the new cglib 3.0 is now used, upgraded from the older 2.2 dependency (see this <link xl:href="https://jira.springsource.org/browse/SPR-9669">JIRA issue</link> for more details).</para>
-        <para>Finally, now that Spring 4.0 is out in the wild, changes like this one (removing the cglib dependency) are to be expected with Java 8 just around the corner – you can watch <link xl:href="https://jira.springsource.org/browse/SPR-9639">this Spring Jira</link> to keep track of the Spring support, and <link xl:href="http://www.baeldung.com/java8">the Java 8 Resources page</link> to keep tabs on the that.</para>
+        <para>Finally, now that Spring 4.0 is out in the wild, changes like this one (removing the cglib dependency) are to be expected with Java 8 just around the corner – you can watch <link xl:href="https://jira.springsource.org/browse/SPR-9639">this Spring Jira</link> to keep track of the Spring support, and <link xl:href="http://www.nklkarthi.com/java8">the Java 8 Resources page</link> to keep tabs on the that.</para>
       </section>
     </section>
     <section xml:id="java_config.1">
@@ -176,7 +176,7 @@ public class AppConfig{
       <screen>&lt;context:property-placeholder
 location=&quot;classpath:persistence.properties, classpath:web.properties&quot;
 ignore-unresolvable=&quot;true&quot;/&gt;</screen>
-      <para>For a more in depth discussion on why it was necessary to manually register the <emphasis>PropertySourcesPlaceholderConfigurer</emphasis> bean, see the <link xl:href="http://www.baeldung.com/2012/02/06/properties-with-spring/">Properties with Spring Tutorial</link>.</para>
+      <para>For a more in depth discussion on why it was necessary to manually register the <emphasis>PropertySourcesPlaceholderConfigurer</emphasis> bean, see the <link xl:href="http://www.nklkarthi.com/2012/02/06/properties-with-spring/">Properties with Spring Tutorial</link>.</para>
       <section xml:id="web_xml.1">
         <title><emphasis role="bold">3.1. The web.xml</emphasis></title>
         <screen>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
@@ -239,7 +239,7 @@ ignore-unresolvable=&quot;true&quot;/&gt;</screen>
       <title><anchor xml:id="dbdoclet.4_Conclusion"/><emphasis role="bold">4. Conclusion</emphasis></title>
       <para>The presented approach allows for a smooth <emphasis role="bold">migration of the Spring configuration</emphasis> from XML to Java, mixing the old and the new. This is important for older projects, which may have a lot of XML based configuration that cannot be migrated all at once.</para>
       <para>This way, in a migration, the XML beans can be ported in small increments.</para>
-      <para>In <link xl:href="http://www.baeldung.com/2011/10/25/building-a-restful-web-service-with-spring-3-1-and-java-based-configuration-part-2/">the next article on REST with Spring</link>, I cover setting up MVC in the project, configuration of the HTTP status codes, payload marshalling and content negotiation.</para>
+      <para>In <link xl:href="http://www.nklkarthi.com/2011/10/25/building-a-restful-web-service-with-spring-3-1-and-java-based-configuration-part-2/">the next article on REST with Spring</link>, I cover setting up MVC in the project, configuration of the HTTP status codes, payload marshalling and content negotiation.</para>
       <para><link xl:href="https://my.leadpages.net/leadbox/147e9e473f72a2%3A13a71ac76b46dc/5745710343389184/">The implementation of this <emphasis>Bootstrap a Spring Web App Tutorial</emphasis> can be downloaded as a working sample project.</link></para>
       <para>This is an Eclipse based project, so it should be easy to import and run as it is.</para>
       <!--
@@ -262,7 +262,7 @@ End OptinSkin
       <!--
 /.entry
 -->
-      <para><emphasis role="italic"/><link xl:href="http://www.baeldung.com/tag/java-2/">java</link>, <link xl:href="http://www.baeldung.com/tag/spring/">Spring</link></para>
+      <para><emphasis role="italic"/><link xl:href="http://www.nklkarthi.com/tag/java-2/">java</link>, <link xl:href="http://www.nklkarthi.com/tag/spring/">Spring</link></para>
       <!--
 /.post
 -->
@@ -287,7 +287,7 @@ End OptinSkin
 /#content
 -->
       <anchor xml:id="copyright"/>
-      <para>© 2014 Baeldung. All Rights Reserved. </para>
+      <para>© 2014 nklkarthi. All Rights Reserved. </para>
       <anchor xml:id="credit"/>
       <!--
 /#inner-wrapper
@@ -432,7 +432,7 @@ End Shortcoder content
     </section>
     <section xml:id="java-config.1">
       <title><anchor xml:id="dbdoclet.3_The_Java_configuration"/><emphasis role="bold">3. The Java configuration</emphasis></title>
-      <para><link xl:href="http://www.baeldung.com/wp-content/uploads/2013/11/SPRING-JAVA-CONFIGURATION.jpg"/></para>
+      <para><link xl:href="http://www.nklkarthi.com/wp-content/uploads/2013/11/SPRING-JAVA-CONFIGURATION.jpg"/></para>
       <screen>@Configuration
 @EnableWebMvc
 public class WebConfig{
@@ -546,7 +546,7 @@ public class ResourceNotFoundException extends RuntimeException{
     </section>
     <section xml:id="maven.1">
       <title><anchor xml:id="dbdoclet.7_Additional_Maven_dependencies"/><emphasis role="bold">7. Additional Maven dependencies</emphasis><emphasis role="bold"></emphasis></title>
-      <para>In addition to the <emphasis>spring-webmvc</emphasis> dependency <link xl:href="http://www.baeldung.com/spring-with-maven#mvc">required for the standard web application</link>, we’ll need to set up content marshalling and unmarshalling for the REST API:</para>
+      <para>In addition to the <emphasis>spring-webmvc</emphasis> dependency <link xl:href="http://www.nklkarthi.com/spring-with-maven#mvc">required for the standard web application</link>, we’ll need to set up content marshalling and unmarshalling for the REST API:</para>
       <screen>&lt;dependencies&gt;
    &lt;dependency&gt;
 Â Â     &lt;groupId&gt;com.fasterxml.jackson.core&lt;/groupId&gt;
@@ -570,7 +570,7 @@ public class ResourceNotFoundException extends RuntimeException{
     <section xml:id="conclusion.1">
       <title><anchor xml:id="dbdoclet.8_Conclusion"/><emphasis role="bold">8. Conclusion</emphasis></title>
       <para>This tutorial illustrated how to implement and configure a REST Service using Spring 4 and Java based configuration, discussing HTTP response codes, basic Content Negotiation and marshaling.</para>
-      <para>In the next articles of the series I will focus on <link xl:href="http://www.baeldung.com/2011/11/06/restful-web-service-discoverability-part-4/">Discoverability of the API</link>, advanced <emphasis role="bold">content negotiation</emphasis> and working with <emphasis role="bold">additional representations</emphasis> of a Resource.</para>
+      <para>In the next articles of the series I will focus on <link xl:href="http://www.nklkarthi.com/2011/11/06/restful-web-service-discoverability-part-4/">Discoverability of the API</link>, advanced <emphasis role="bold">content negotiation</emphasis> and working with <emphasis role="bold">additional representations</emphasis> of a Resource.</para>
       <para><link xl:href="https://my.leadpages.net/leadbox/143ecbd73f72a2%3A13a71ac76b46dc/5762893836451840/">The implementation of this <emphasis>Spring REST API Tutorial</emphasis> can be downloaded as a working sample project.</link></para>
       <para>This is an Eclipse based project, so it should be easy to import and run as it is.</para>
       <!--
@@ -592,7 +592,7 @@ End OptinSkin
       <!--
 /.entry
 -->
-      <para><emphasis role="italic"/><link xl:href="http://www.baeldung.com/tag/java-2/">java</link>, <link xl:href="http://www.baeldung.com/tag/rest/">REST</link>, <link xl:href="http://www.baeldung.com/tag/spring/">Spring</link>, <link xl:href="http://www.baeldung.com/tag/testing/">testing</link></para>
+      <para><emphasis role="italic"/><link xl:href="http://www.nklkarthi.com/tag/java-2/">java</link>, <link xl:href="http://www.nklkarthi.com/tag/rest/">REST</link>, <link xl:href="http://www.nklkarthi.com/tag/spring/">Spring</link>, <link xl:href="http://www.nklkarthi.com/tag/testing/">testing</link></para>
       <!--
 /.post
 -->
@@ -617,7 +617,7 @@ End OptinSkin
 /#content
 -->
       <anchor xml:id="copyright"/>
-      <para>© 2014 Baeldung. All Rights Reserved. </para>
+      <para>© 2014 nklkarthi. All Rights Reserved. </para>
       <anchor xml:id="credit"/>
       <!--
 /#inner-wrapper
@@ -799,7 +799,7 @@ End Shortcoder content
    &lt;/authentication-manager&gt;
 
 &lt;/beans:beans&gt;</screen>
-       <para> Most of the configuration is done using the <emphasis role="bold">security namespace</emphasis> – for this to be enabled, the schema locations must be defined and pointed to the correct 3.1 or 3.2 XSD versions. The namespace is designed so that it expresses the common uses of Spring Security while still providing hooks raw beans to accommodate more advanced scenarios. <link xl:href="http://products.baeldung.com/rest-api-with-spring"><emphasis role="bold">&gt;&gt; Signup for my upcoming Video Course on Building a REST API with Spring 4</emphasis></link></para>
+       <para> Most of the configuration is done using the <emphasis role="bold">security namespace</emphasis> – for this to be enabled, the schema locations must be defined and pointed to the correct 3.1 or 3.2 XSD versions. The namespace is designed so that it expresses the common uses of Spring Security while still providing hooks raw beans to accommodate more advanced scenarios. <link xl:href="http://products.nklkarthi.com/rest-api-with-spring"><emphasis role="bold">&gt;&gt; Signup for my upcoming Video Course on Building a REST API with Spring 4</emphasis></link></para>
       <section xml:id="ch_3_1.1">
         <title><emphasis role="bold">3.1. The &lt;http&gt; element</emphasis></title>
         <para>The <emphasis>&lt;http&gt;</emphasis> element is the main container element for HTTP security configuration. In the current implementation, it only secured a single mapping: <emphasis>/api/admin/**</emphasis>. Note that the mapping is <emphasis role="bold">relative to the root context</emphasis> of the web application, not to the <emphasis>rest</emphasis> Servlet; this is because the entire security configuration lives in the root Spring context and not in the child context of the Servlet.</para>
@@ -894,8 +894,8 @@ Date: Wed, 24 Jul 2013 20:31:13 GMT
     </section>
     <section xml:id="maven.1">
       <title><anchor xml:id="dbdoclet.4_Maven_and_other_trouble"/><emphasis role="bold">4. Maven and other trouble</emphasis></title>
-      <para>The Spring <link xl:href="http://www.baeldung.com/spring-with-maven#mvc">core dependencies</link> necessary for a web application and for the REST Service have been discussed in detail. For security, we’ll need to add: <emphasis>spring-security-web</emphasis> and <emphasis>spring-security-config</emphasis> – all of these have also been covered in the <link xl:href="http://www.baeldung.com/spring-security-with-maven">Maven for Spring Security</link> tutorial.</para>
-      <para>It’s worth paying close attention to the way Maven will resolve the older Spring dependencies – the resolution strategy will start <link xl:href="http://www.baeldung.com/spring-security-with-maven#maven_problem">causing problems</link> once the security artifacts are added to the pom. To address this problem, some of the core dependencies will need to be overridden in order to keep them at the right version.</para>
+      <para>The Spring <link xl:href="http://www.nklkarthi.com/spring-with-maven#mvc">core dependencies</link> necessary for a web application and for the REST Service have been discussed in detail. For security, we’ll need to add: <emphasis>spring-security-web</emphasis> and <emphasis>spring-security-config</emphasis> – all of these have also been covered in the <link xl:href="http://www.nklkarthi.com/spring-security-with-maven">Maven for Spring Security</link> tutorial.</para>
+      <para>It’s worth paying close attention to the way Maven will resolve the older Spring dependencies – the resolution strategy will start <link xl:href="http://www.nklkarthi.com/spring-security-with-maven#maven_problem">causing problems</link> once the security artifacts are added to the pom. To address this problem, some of the core dependencies will need to be overridden in order to keep them at the right version.</para>
     </section>
     <section xml:id="conclusion.1">
       <title><anchor xml:id="dbdoclet.5_Conclusion"/><emphasis role="bold">5. Conclusion</emphasis></title>
@@ -920,7 +920,7 @@ End OptinSkin
       <!--
 /.entry
 -->
-      <para><emphasis role="italic"/><link xl:href="http://www.baeldung.com/tag/rest/">REST</link>, <link xl:href="http://www.baeldung.com/tag/security/">security</link>, <link xl:href="http://www.baeldung.com/tag/spring/">Spring</link></para>
+      <para><emphasis role="italic"/><link xl:href="http://www.nklkarthi.com/tag/rest/">REST</link>, <link xl:href="http://www.nklkarthi.com/tag/security/">security</link>, <link xl:href="http://www.nklkarthi.com/tag/spring/">Spring</link></para>
       <!--
 /.post
 -->
@@ -945,7 +945,7 @@ End OptinSkin
 /#content
 -->
       <anchor xml:id="copyright"/>
-      <para>© 2014 Baeldung. All Rights Reserved. </para>
+      <para>© 2014 nklkarthi. All Rights Reserved. </para>
       <anchor xml:id="credit"/>
       <!--
 /#inner-wrapper
@@ -1031,7 +1031,7 @@ End Shortcoder content
 -->
   <section xml:id="overview.1">
     <title><anchor xml:id="dbdoclet.1_Overview"/><emphasis role="bold">1. Overview</emphasis></title>
-    <para>This tutorial shows how to set up, configure and customize <emphasis role="bold">Basic Authentication with Spring</emphasis>. We’re going to built on top of the simple <link xl:href="http://www.baeldung.com/spring-mvc-tutorial">Spring MVC example</link>, and secure the UI of the MVC application with the Basic Auth mechanism provided by Spring Security.</para>
+    <para>This tutorial shows how to set up, configure and customize <emphasis role="bold">Basic Authentication with Spring</emphasis>. We’re going to built on top of the simple <link xl:href="http://www.nklkarthi.com/spring-mvc-tutorial">Spring MVC example</link>, and secure the UI of the MVC application with the Basic Auth mechanism provided by Spring Security.</para>
     <section xml:id="configuration.1">
       <title><anchor xml:id="dbdoclet.2_The_Spring_Security_Configuration"/><emphasis role="bold">2. The Spring Security Configuration</emphasis></title>
       <para>The Configuration for Spring Security is still XML:</para>
@@ -1062,7 +1062,7 @@ End Shortcoder content
 &lt;/beans:beans&gt;</screen>
       <para>This is one of the last pieces of configuration in Spring that still need XML – <link xl:href="https://github.com/SpringSource/spring-security-javaconfig">Java Configuration for Spring Security</link> is still a work in progress.</para>
       <para>What is relevant here is the <emphasis>&lt;http-basic&gt;</emphasis> element inside the main <emphasis>&lt;http&gt;</emphasis> element of the configuration – this is enough to enable Basic Authentication for the entire application. The Authentication Manager is not the focus of this tutorial, so we are using an in memory manager with the user and password defined in plaintext.</para>
-      <para>The <emphasis>web.xml</emphasis> of the web application enabling Spring Security has already been discussed in the <link xl:href="http://www.baeldung.com/spring-security-login#web_xml">Spring Logout tutorial</link>.</para>
+      <para>The <emphasis>web.xml</emphasis> of the web application enabling Spring Security has already been discussed in the <link xl:href="http://www.nklkarthi.com/spring-security-login#web_xml">Spring Logout tutorial</link>.</para>
     </section>
     <section xml:id="usage.1">
       <title><anchor xml:id="dbdoclet.3_Consuming_The_Secured_Application"/><emphasis role="bold">3. Consuming The Secured Application</emphasis></title>
@@ -1111,7 +1111,7 @@ public class MyBasicAuthenticationEntryPoint extends BasicAuthenticationEntryPoi
 
     @Override
     public void afterPropertiesSet() throws Exception {
-        setRealmName(&quot;Baeldung&quot;);
+        setRealmName(&quot;nklkarthi&quot;);
         super.afterPropertiesSet();
     }
 }</screen>
@@ -1119,7 +1119,7 @@ public class MyBasicAuthenticationEntryPoint extends BasicAuthenticationEntryPoi
     </section>
     <section xml:id="maven.1">
       <title><anchor xml:id="dbdoclet.5_The_Maven_Dependencies"/><emphasis role="bold">5. The Maven Dependencies</emphasis></title>
-      <para>The Maven dependencies for Spring Security have been discussed before in the <link xl:href="http://www.baeldung.com/spring-security-with-maven">Spring Security with Maven article</link> – we will need both <emphasis>spring-security-web</emphasis> and <emphasis>spring-security-config</emphasis> available at runtime.</para>
+      <para>The Maven dependencies for Spring Security have been discussed before in the <link xl:href="http://www.nklkarthi.com/spring-security-with-maven">Spring Security with Maven article</link> – we will need both <emphasis>spring-security-web</emphasis> and <emphasis>spring-security-config</emphasis> available at runtime.</para>
     </section>
     <section xml:id="conclusion.1">
       <title><anchor xml:id="dbdoclet.6_Conclusion"/><emphasis role="bold">6. Conclusion</emphasis></title>
@@ -1145,7 +1145,7 @@ End OptinSkin
       <!--
 /.entry
 -->
-      <para><emphasis role="italic"/><link xl:href="http://www.baeldung.com/tag/security/">security</link>, <link xl:href="http://www.baeldung.com/tag/spring/">Spring</link></para>
+      <para><emphasis role="italic"/><link xl:href="http://www.nklkarthi.com/tag/security/">security</link>, <link xl:href="http://www.nklkarthi.com/tag/spring/">Spring</link></para>
       <!--
 /.post
 -->
@@ -1170,7 +1170,7 @@ End OptinSkin
 /#content
 -->
       <anchor xml:id="copyright"/>
-      <para>© 2014 Baeldung. All Rights Reserved. </para>
+      <para>© 2014 nklkarthi. All Rights Reserved. </para>
       <anchor xml:id="credit"/>
       <!--
 /#inner-wrapper
@@ -1244,7 +1244,7 @@ End Shortcoder content
 -->
   <section xml:id="overview.1">
     <title><anchor xml:id="dbdoclet.1_Overview"/><emphasis role="bold">1. Overview</emphasis></title>
-    <para>This tutorial shows how to set up, configure and customize Digest Authentication with Spring. Similar to the previous <link xl:href="http://www.baeldung.com/spring-security-basic-authentication">article covering Basic Authentication</link>, weâ€™re going to built on top of the Spring MVC tutorial, and secure the application with the Digest Auth mechanism provided by Spring Security.</para>
+    <para>This tutorial shows how to set up, configure and customize Digest Authentication with Spring. Similar to the previous <link xl:href="http://www.nklkarthi.com/spring-security-basic-authentication">article covering Basic Authentication</link>, weâ€™re going to built on top of the Spring MVC tutorial, and secure the application with the Digest Auth mechanism provided by Spring Security.</para>
     <section xml:id="configuration.1">
       <title><anchor xml:id="dbdoclet.2_The_Security_XML_Configuration"/><emphasis role="bold">2. The Security XML Configuration</emphasis></title>
       <para>First thing to understand about the configuration is that, while Spring Security does have full out of the box support for the Digest authentication mechanism, this support is <emphasis role="bold">not as well integrated into the namespace</emphasis> as Basic Authentication was.</para>
@@ -1340,7 +1340,7 @@ Date: Fri, 12 Jul 2013 14:15:29 GMT
     </section>
     <section xml:id="maven.1">
       <title><anchor xml:id="dbdoclet.4_The_Maven_Dependencies"/><emphasis role="bold">4. The Maven Dependencies</emphasis></title>
-      <para>The security dependencies are discussed in depth in the <link xl:href="http://www.baeldung.com/spring-security-with-maven">Spring Security Maven tutorial</link>. In short, we will need to define <emphasis>spring-security-web</emphasis> and <emphasis>spring-security-config</emphasis> as dependencies in our <emphasis>pom.xml</emphasis>.</para>
+      <para>The security dependencies are discussed in depth in the <link xl:href="http://www.nklkarthi.com/spring-security-with-maven">Spring Security Maven tutorial</link>. In short, we will need to define <emphasis>spring-security-web</emphasis> and <emphasis>spring-security-config</emphasis> as dependencies in our <emphasis>pom.xml</emphasis>.</para>
     </section>
     <section xml:id="conclusion.1">
       <title><anchor xml:id="dbdoclet.5_Conclusion"/><emphasis role="bold">5. Conclusion</emphasis></title>
@@ -1348,7 +1348,7 @@ Date: Fri, 12 Jul 2013 14:15:29 GMT
       <para>The implementation of these examples can be found in <link xl:href="https://github.com/eugenp/tutorials/tree/master/spring-security-mvc-digest-auth#readme">the github project</link> â€“ this is an Eclipse based project, so it should be easy to import and run as it is.</para>
       <para>When the project runs locally, the homepage html can be accessed at (or, with minimal Tomcat configuration, on port 80):</para>
       <para><link xl:href="http://localhost:8080/spring-security-mvc-digest-auth/homepage.html">http://localhost:8080/spring-security-mvc-digest-auth/homepage.html</link></para>
-      <para>Finally, there is no reason an application needs to <link xl:href="http://www.baeldung.com/2011/11/20/basic-and-digest-authentication-for-a-restful-service-with-spring-security-3-1/">choose between Basic and Digest authentication</link> – <emphasis role="bold">both can be set up simultaneously on the same URI structure</emphasis>, in such a way that the client can pick between the two mechanisms when consuming the web application.</para>
+      <para>Finally, there is no reason an application needs to <link xl:href="http://www.nklkarthi.com/2011/11/20/basic-and-digest-authentication-for-a-restful-service-with-spring-security-3-1/">choose between Basic and Digest authentication</link> – <emphasis role="bold">both can be set up simultaneously on the same URI structure</emphasis>, in such a way that the client can pick between the two mechanisms when consuming the web application.</para>
       <!--
 Start Shortcoder content
 -->
@@ -1368,7 +1368,7 @@ End OptinSkin
       <!--
 /.entry
 -->
-      <para><emphasis role="italic"/><link xl:href="http://www.baeldung.com/tag/security/">security</link>, <link xl:href="http://www.baeldung.com/tag/spring/">Spring</link></para>
+      <para><emphasis role="italic"/><link xl:href="http://www.nklkarthi.com/tag/security/">security</link>, <link xl:href="http://www.nklkarthi.com/tag/spring/">Spring</link></para>
       <!--
 /.post
 -->
@@ -1393,7 +1393,7 @@ End OptinSkin
 /#content
 -->
       <anchor xml:id="copyright"/>
-      <para>© 2014 Baeldung. All Rights Reserved. </para>
+      <para>© 2014 nklkarthi. All Rights Reserved. </para>
       <anchor xml:id="credit"/>
       <!--
 /#inner-wrapper
@@ -1504,7 +1504,7 @@ End Shortcoder content
     </itemizedlist>
     <section xml:id="overview.1">
       <title><anchor xml:id="dbdoclet.1_Overview"/><emphasis role="bold">1. Overview</emphasis></title>
-      <para>This article discusses how to <emphasis role="bold">set up both Basic and Digest Authentication on the same URI structure of a REST API</emphasis>. In a previous article, we discussed another method of securing the REST Service – <link xl:href="http://www.baeldung.com/2011/10/31/securing-a-restful-web-service-with-spring-security-3-1-part-3/">form based authentication</link>, so Basic and Digest authentication is the natural alternative, as well as the more RESTful one.</para>
+      <para>This article discusses how to <emphasis role="bold">set up both Basic and Digest Authentication on the same URI structure of a REST API</emphasis>. In a previous article, we discussed another method of securing the REST Service – <link xl:href="http://www.nklkarthi.com/2011/10/31/securing-a-restful-web-service-with-spring-security-3-1-part-3/">form based authentication</link>, so Basic and Digest authentication is the natural alternative, as well as the more RESTful one.</para>
     </section>
     <section xml:id="basic.1">
       <title><anchor xml:id="dbdoclet.2_Configuration_of_Basic_Authentication"/><emphasis role="bold">2. Configuration of Basic Authentication</emphasis></title>
@@ -1624,7 +1624,7 @@ End OptinSkin
       <!--
 /.entry
 -->
-      <para><emphasis role="italic"/><link xl:href="http://www.baeldung.com/tag/rest/">REST</link>, <link xl:href="http://www.baeldung.com/tag/security/">security</link>, <link xl:href="http://www.baeldung.com/tag/spring/">Spring</link></para>
+      <para><emphasis role="italic"/><link xl:href="http://www.nklkarthi.com/tag/rest/">REST</link>, <link xl:href="http://www.nklkarthi.com/tag/security/">security</link>, <link xl:href="http://www.nklkarthi.com/tag/spring/">Spring</link></para>
       <!--
 /.post
 -->
@@ -1649,7 +1649,7 @@ End OptinSkin
 /#content
 -->
       <anchor xml:id="copyright"/>
-      <para>© 2014 Baeldung. All Rights Reserved. </para>
+      <para>© 2014 nklkarthi. All Rights Reserved. </para>
       <anchor xml:id="credit"/>
       <!--
 /#inner-wrapper

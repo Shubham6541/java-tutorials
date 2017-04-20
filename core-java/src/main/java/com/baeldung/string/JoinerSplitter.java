@@ -1,4 +1,4 @@
-package com.baeldung.string;
+package com.nklkarthi.string;
 
 import java.util.Arrays;
 import java.util.List;

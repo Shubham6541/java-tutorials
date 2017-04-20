@@ -1,4 +1,4 @@
-package com.baeldung.solr.fulltext.search.service;
+package com.nklkarthi.solr.fulltext.search.service;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.fail;
@@ -20,7 +20,7 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import com.baeldung.solr.fulltext.search.model.Item;
+import com.nklkarthi.solr.fulltext.search.model.Item;
 
 public class ItemSearchServiceLiveTest {
 

@@ -1,4 +1,4 @@
-package com.baeldung.circulardependency;
+package com.nklkarthi.circulardependency;
 
 import org.junit.Assert;
 import org.junit.Test;

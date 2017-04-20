@@ -1,10 +1,10 @@
-package com.baeldung;
+package com.nklkarthi;
 
 import org.junit.After;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.JUnit4;
-import com.baeldung.model.Employee;
+import com.nklkarthi.model.Employee;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
@@ -22,7 +22,7 @@ public class ApplicationTest {
 
 	@Test
 	public void givenDefaultUrl_getStaticText() {
-		assertEquals("Welcome to baeldung ratpack!!!", appUnderTest.getHttpClient().getText("/"));
+		assertEquals("Welcome to nklkarthi ratpack!!!", appUnderTest.getHttpClient().getText("/"));
 	}
 
 	@Test

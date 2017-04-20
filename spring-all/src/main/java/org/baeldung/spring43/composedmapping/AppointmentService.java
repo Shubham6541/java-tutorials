@@ -1,4 +1,4 @@
-package org.baeldung.spring43.composedmapping;
+package org.nklkarthi.spring43.composedmapping;
 
 import java.util.Map;
 

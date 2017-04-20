@@ -1,4 +1,4 @@
-package org.baeldung.controller.servlet;
+package org.nklkarthi.controller.servlet;
 
 import java.io.IOException;
 import java.io.PrintWriter;

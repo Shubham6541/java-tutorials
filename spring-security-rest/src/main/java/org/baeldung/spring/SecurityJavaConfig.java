@@ -1,6 +1,6 @@
-package org.baeldung.spring;
+package org.nklkarthi.spring;
 
-import org.baeldung.security.MySavedRequestAwareAuthenticationSuccessHandler;
+import org.nklkarthi.security.MySavedRequestAwareAuthenticationSuccessHandler;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -13,7 +13,7 @@ import org.springframework.security.web.authentication.SimpleUrlAuthenticationFa
 
 @Configuration
 @EnableWebSecurity
-@ComponentScan("org.baeldung.security")
+@ComponentScan("org.nklkarthi.security")
 public class SecurityJavaConfig extends WebSecurityConfigurerAdapter {
 
     // @Autowired

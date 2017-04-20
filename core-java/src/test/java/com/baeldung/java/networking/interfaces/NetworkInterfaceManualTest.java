@@ -1,4 +1,4 @@
-package com.baeldung.java.networking.interfaces;
+package com.nklkarthi.java.networking.interfaces;
 
 import org.junit.Test;
 

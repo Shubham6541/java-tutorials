@@ -1,4 +1,4 @@
-package org.baeldung.gson.serialization;
+package org.nklkarthi.gson.serialization;
 
 public class SourceClass {
     private int intValue;

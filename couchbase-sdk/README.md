@@ -1,10 +1,10 @@
 ## Couchbase SDK Tutorial Project
 
 ### Relevant Articles:
-- [Introduction to Couchbase SDK for Java](http://www.baeldung.com/java-couchbase-sdk)
-- [Using Couchbase in a Spring Application](http://www.baeldung.com/couchbase-sdk-spring)
-- [Asynchronous Batch Opereations in Couchbase](http://www.baeldung.com/async-batch-operations-in-couchbase)
-- [Querying Couchbase with MapReduce Views](http://www.baeldung.com/couchbase-query-mapreduce-view)
+- [Introduction to Couchbase SDK for Java](http://www.nklkarthi.com/java-couchbase-sdk)
+- [Using Couchbase in a Spring Application](http://www.nklkarthi.com/couchbase-sdk-spring)
+- [Asynchronous Batch Opereations in Couchbase](http://www.nklkarthi.com/async-batch-operations-in-couchbase)
+- [Querying Couchbase with MapReduce Views](http://www.nklkarthi.com/couchbase-query-mapreduce-view)
 
 ### Overview
 This Maven project contains the Java code for the Couchbase entities and Spring services
@@ -25,24 +25,24 @@ mvn clean install
 
 ### Package Organization
 Java classes for the intro tutorial are in the
-org.baeldung.couchbase.intro package.
+org.nklkarthi.couchbase.intro package.
 
 Java classes for the Spring service tutorial are in the
-org.baeldung.couchbase.spring package hierarchy.
+org.nklkarthi.couchbase.spring package hierarchy.
 
 Java classes for the Asynchronous Couchbase tutorial are in the
-org.baeldung.couchbase.async package hierarchy.
+org.nklkarthi.couchbase.async package hierarchy.
 
 
 ### Running the tests
 The test classes for the Spring service tutorial are:
-- org.baeldung.couchbase.spring.service.ClusterServiceTest
-- org.baeldung.couchbase.spring.person.PersonCrudServiceTest
+- org.nklkarthi.couchbase.spring.service.ClusterServiceTest
+- org.nklkarthi.couchbase.spring.person.PersonCrudServiceTest
 
 The test classes for the Asynchronous Couchbase tutorial are in the
-org.baeldung.couchbase.async package hierarchy:
-- org.baeldung.couchbase.async.service.ClusterServiceTest
-- org.baeldung.couchbase.async.person.PersonCrudServiceTest
+org.nklkarthi.couchbase.async package hierarchy:
+- org.nklkarthi.couchbase.async.service.ClusterServiceTest
+- org.nklkarthi.couchbase.async.person.PersonCrudServiceTest
 
 The test classes may be run as JUnit tests from your IDE
 or using the Maven command line:

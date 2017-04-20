@@ -1,6 +1,6 @@
-package com.baeldung.utility;
+package com.nklkarthi.utility;
 
-import com.baeldung.pojo.Customer;
+import com.nklkarthi.pojo.Customer;
 import com.thoughtworks.xstream.converters.SingleValueConverter;
 
 import java.text.SimpleDateFormat;

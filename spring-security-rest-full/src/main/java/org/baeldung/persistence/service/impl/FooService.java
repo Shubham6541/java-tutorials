@@ -1,11 +1,11 @@
-package org.baeldung.persistence.service.impl;
+package org.nklkarthi.persistence.service.impl;
 
 import java.util.List;
 
-import org.baeldung.persistence.dao.IFooDao;
-import org.baeldung.persistence.model.Foo;
-import org.baeldung.persistence.service.IFooService;
-import org.baeldung.persistence.service.common.AbstractService;
+import org.nklkarthi.persistence.dao.IFooDao;
+import org.nklkarthi.persistence.model.Foo;
+import org.nklkarthi.persistence.service.IFooService;
+import org.nklkarthi.persistence.service.common.AbstractService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.security.access.prepost.PreAuthorize;

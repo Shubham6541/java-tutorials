@@ -1,4 +1,4 @@
-package com.baeldung.server.rest;
+package com.nklkarthi.server.rest;
 
 import java.util.List;
 
@@ -17,8 +17,8 @@ import javax.ws.rs.core.UriInfo;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
-import com.baeldung.server.model.Employee;
-import com.baeldung.server.repository.EmployeeRepository;
+import com.nklkarthi.server.model.Employee;
+import com.nklkarthi.server.repository.EmployeeRepository;
 
 @Path("/employees")
 public class EmployeeResource {

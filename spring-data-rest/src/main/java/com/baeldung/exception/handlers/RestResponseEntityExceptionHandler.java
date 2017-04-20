@@ -1,4 +1,4 @@
-package com.baeldung.exception.handlers;
+package com.nklkarthi.exception.handlers;
 
 import org.springframework.data.rest.core.RepositoryConstraintViolationException;
 import org.springframework.http.HttpHeaders;

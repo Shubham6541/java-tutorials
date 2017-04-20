@@ -1,10 +1,10 @@
-package org.baeldung.ex.dataintegrityviolationexception;
+package org.nklkarthi.ex.dataintegrityviolationexception;
 
-import org.baeldung.ex.dataintegrityviolationexception.spring.Cause1DataContextWithJavaConfig;
-import org.baeldung.persistence.model.Child;
-import org.baeldung.persistence.model.Parent;
-import org.baeldung.persistence.service.IChildService;
-import org.baeldung.persistence.service.IParentService;
+import org.nklkarthi.ex.dataintegrityviolationexception.spring.Cause1DataContextWithJavaConfig;
+import org.nklkarthi.persistence.model.Child;
+import org.nklkarthi.persistence.model.Parent;
+import org.nklkarthi.persistence.service.IChildService;
+import org.nklkarthi.persistence.service.IParentService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

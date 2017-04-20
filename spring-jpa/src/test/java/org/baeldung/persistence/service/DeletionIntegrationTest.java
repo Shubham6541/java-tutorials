@@ -1,9 +1,9 @@
-package org.baeldung.persistence.service;
+package org.nklkarthi.persistence.service;
 
-import org.baeldung.persistence.deletion.config.PersistenceJPAConfigDeletion;
-import org.baeldung.persistence.deletion.model.Bar;
-import org.baeldung.persistence.deletion.model.Baz;
-import org.baeldung.persistence.deletion.model.Foo;
+import org.nklkarthi.persistence.deletion.config.PersistenceJPAConfigDeletion;
+import org.nklkarthi.persistence.deletion.model.Bar;
+import org.nklkarthi.persistence.deletion.model.Baz;
+import org.nklkarthi.persistence.deletion.model.Foo;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

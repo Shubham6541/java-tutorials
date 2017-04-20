@@ -1,6 +1,6 @@
-package com.baeldung.spring.spel.examples;
+package com.nklkarthi.spring.spel.examples;
 
-import com.baeldung.spring.spel.entity.Car;
+import com.nklkarthi.spring.spel.entity.Car;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 

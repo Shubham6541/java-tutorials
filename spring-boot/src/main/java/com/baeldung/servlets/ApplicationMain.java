@@ -1,11 +1,11 @@
-package com.baeldung.servlets;
+package com.nklkarthi.servlets;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.support.SpringBootServletInitializer;
 
-import com.baeldung.autoconfiguration.MySQLAutoconfiguration;
+import com.nklkarthi.autoconfiguration.MySQLAutoconfiguration;
 
 @SpringBootApplication(exclude=MySQLAutoconfiguration.class)
 public class ApplicationMain extends SpringBootServletInitializer {

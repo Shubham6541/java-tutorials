@@ -1,4 +1,4 @@
-package com.baeldung.concurrent.blockingqueue;
+package com.nklkarthi.concurrent.blockingqueue;
 
 import java.util.concurrent.BlockingQueue;
 

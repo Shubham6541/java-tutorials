@@ -1,4 +1,4 @@
-package com.baeldung.java8;
+package com.nklkarthi.java8;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;

@@ -1,11 +1,11 @@
-package com.baeldung.spring.mybatis.application;
+package com.nklkarthi.spring.mybatis.application;
 
 import java.util.Date;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import com.baeldung.spring.mybatis.model.Student;
-import com.baeldung.spring.mybatis.service.StudentService;
+import com.nklkarthi.spring.mybatis.model.Student;
+import com.nklkarthi.spring.mybatis.service.StudentService;
 
 public class SpringMyBatisApplication {
 	

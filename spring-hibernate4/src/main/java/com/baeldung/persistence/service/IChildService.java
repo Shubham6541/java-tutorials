@@ -1,7 +1,7 @@
-package com.baeldung.persistence.service;
+package com.nklkarthi.persistence.service;
 
-import com.baeldung.persistence.model.Child;
-import com.baeldung.persistence.dao.common.IOperations;
+import com.nklkarthi.persistence.model.Child;
+import com.nklkarthi.persistence.dao.common.IOperations;
 
 public interface IChildService extends IOperations<Child> {
     //

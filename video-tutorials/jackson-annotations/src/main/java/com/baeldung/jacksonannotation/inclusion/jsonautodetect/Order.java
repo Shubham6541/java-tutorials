@@ -1,4 +1,4 @@
-package com.baeldung.jacksonannotation.inclusion.jsonautodetect;
+package com.nklkarthi.jacksonannotation.inclusion.jsonautodetect;
 
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.JsonAutoDetect.Visibility;
@@ -8,7 +8,7 @@ import java.util.UUID;
 /**
  * Source code github.com/eugenp/tutorials
  *
- * @author Alex Theedom www.baeldung.com
+ * @author Alex Theedom www.nklkarthi.com
  * @version 1.0
  */
 @JsonAutoDetect(fieldVisibility = Visibility.ANY)

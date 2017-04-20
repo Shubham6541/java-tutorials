@@ -1,4 +1,4 @@
-package com.baeldung.spring.dispatcher.servlet.web;
+package com.nklkarthi.spring.dispatcher.servlet.web;
 
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;

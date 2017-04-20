@@ -1,4 +1,4 @@
-package com.baeldung.printscreen;
+package com.nklkarthi.printscreen;
 
 import org.junit.After;
 import org.junit.Test;

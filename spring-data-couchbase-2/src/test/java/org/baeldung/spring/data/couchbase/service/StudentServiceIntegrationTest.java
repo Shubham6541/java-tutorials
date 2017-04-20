@@ -1,4 +1,4 @@
-package org.baeldung.spring.data.couchbase.service;
+package org.nklkarthi.spring.data.couchbase.service;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
@@ -9,9 +9,9 @@ import java.util.List;
 
 import javax.validation.ConstraintViolationException;
 
-import org.baeldung.spring.data.couchbase.IntegrationTest;
-import org.baeldung.spring.data.couchbase.MyCouchbaseConfig;
-import org.baeldung.spring.data.couchbase.model.Student;
+import org.nklkarthi.spring.data.couchbase.IntegrationTest;
+import org.nklkarthi.spring.data.couchbase.MyCouchbaseConfig;
+import org.nklkarthi.spring.data.couchbase.model.Student;
 import org.joda.time.DateTime;
 import org.junit.BeforeClass;
 import org.junit.Test;

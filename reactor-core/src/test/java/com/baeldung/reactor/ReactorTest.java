@@ -1,4 +1,4 @@
-package com.baeldung.reactor;
+package com.nklkarthi.reactor;
 
 import org.junit.Test;
 import org.reactivestreams.Subscriber;

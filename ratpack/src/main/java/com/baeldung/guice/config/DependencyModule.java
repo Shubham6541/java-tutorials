@@ -1,7 +1,7 @@
-package com.baeldung.guice.config;
+package com.nklkarthi.guice.config;
 
-import com.baeldung.guice.service.DataPumpService;
-import com.baeldung.guice.service.impl.DataPumpServiceImpl;
+import com.nklkarthi.guice.service.DataPumpService;
+import com.nklkarthi.guice.service.impl.DataPumpServiceImpl;
 import com.google.inject.AbstractModule;
 import com.google.inject.Scopes;
 

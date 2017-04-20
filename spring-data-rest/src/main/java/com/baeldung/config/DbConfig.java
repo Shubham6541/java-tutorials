@@ -1,4 +1,4 @@
-package com.baeldung.config;
+package com.nklkarthi.config;
 
 import java.util.Properties;
 
@@ -15,7 +15,7 @@ import org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;
 import org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter;
 
 //@Configuration
-@EnableJpaRepositories(basePackages = "com.baeldung.repositories")
+@EnableJpaRepositories(basePackages = "com.nklkarthi.repositories")
 // @PropertySource("persistence-h2.properties")
 // @PropertySource("persistence-hsqldb.properties")
 // @PropertySource("persistence-derby.properties")
@@ -38,7 +38,7 @@ public class DbConfig {
     public LocalContainerEntityManagerFactoryBean entityManagerFactory() {
         final LocalContainerEntityManagerFactoryBean em = new LocalContainerEntityManagerFactoryBean();
         em.setDataSource(dataSource());
-        em.setPackagesToScan(new String[] { "com.baeldung.models" });
+        em.setPackagesToScan(new String[] { "com.nklkarthi.models" });
         em.setJpaVendorAdapter(new HibernateJpaVendorAdapter());
         em.setJpaProperties(additionalProperties());
         return em;

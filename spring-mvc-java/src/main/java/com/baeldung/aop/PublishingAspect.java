@@ -1,6 +1,6 @@
-package com.baeldung.aop;
+package com.nklkarthi.aop;
 
-import com.baeldung.events.FooCreationEvent;
+import com.nklkarthi.events.FooCreationEvent;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.AfterReturning;
 import org.aspectj.lang.annotation.Aspect;

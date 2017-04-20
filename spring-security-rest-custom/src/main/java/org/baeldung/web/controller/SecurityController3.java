@@ -1,4 +1,4 @@
-package org.baeldung.web.controller;
+package org.nklkarthi.web.controller;
 
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.userdetails.UserDetails;

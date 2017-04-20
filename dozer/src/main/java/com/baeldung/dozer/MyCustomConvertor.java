@@ -1,4 +1,4 @@
-package com.baeldung.dozer;
+package com.nklkarthi.dozer;
 
 import java.text.DateFormat;
 import java.text.ParseException;

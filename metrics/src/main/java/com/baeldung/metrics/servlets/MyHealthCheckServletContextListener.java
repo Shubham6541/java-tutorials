@@ -1,6 +1,6 @@
-package com.baeldung.metrics.servlets;
+package com.nklkarthi.metrics.servlets;
 
-import com.baeldung.metrics.healthchecks.DatabaseHealthCheck;
+import com.nklkarthi.metrics.healthchecks.DatabaseHealthCheck;
 import com.codahale.metrics.health.HealthCheckRegistry;
 import com.codahale.metrics.servlets.HealthCheckServlet;
 

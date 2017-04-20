@@ -1,4 +1,4 @@
-package com.baeldung.spring.cloud.eureka.client;
+package com.nklkarthi.spring.cloud.eureka.client;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 

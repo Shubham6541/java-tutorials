@@ -1,4 +1,4 @@
-package com.baeldung.spring.data.solr.repository;
+package com.nklkarthi.spring.data.solr.repository;
 
 import java.util.List;
 
@@ -7,7 +7,7 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.data.solr.repository.Query;
 import org.springframework.data.solr.repository.SolrCrudRepository;
 
-import com.baeldung.spring.data.solr.model.Product;
+import com.nklkarthi.spring.data.solr.model.Product;
 
 public interface ProductRepository extends SolrCrudRepository<Product, String> {
 

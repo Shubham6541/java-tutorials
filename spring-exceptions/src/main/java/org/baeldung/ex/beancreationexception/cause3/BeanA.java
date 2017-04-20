@@ -1,4 +1,4 @@
-package org.baeldung.ex.beancreationexception.cause3;
+package org.nklkarthi.ex.beancreationexception.cause3;
 
 import org.springframework.stereotype.Component;
 

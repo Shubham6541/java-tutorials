@@ -1,4 +1,4 @@
-package com.baeldung.spring.cloud.bootstrap.svcrating.rating;
+package com.nklkarthi.spring.cloud.bootstrap.svcrating.rating;
 
 import java.util.List;
 import java.util.Map;

@@ -1,8 +1,8 @@
-package com.baeldung.aop;
+package com.nklkarthi.aop;
 
-import com.baeldung.config.TestConfig;
-import com.baeldung.dao.FooDao;
-import com.baeldung.model.Foo;
+import com.nklkarthi.config.TestConfig;
+import com.nklkarthi.dao.FooDao;
+import com.nklkarthi.model.Foo;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

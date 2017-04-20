@@ -1,4 +1,4 @@
-package org.baeldung.web.util;
+package org.nklkarthi.web.util;
 
 public class SpecSearchCriteria {
 

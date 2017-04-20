@@ -1,4 +1,4 @@
-package com.baeldung.jackson.general.jsonidentityinfo;
+package com.nklkarthi.jackson.general.jsonidentityinfo;
 
 
 import java.util.List;

@@ -1,4 +1,4 @@
-package org.baeldung.httpclient.base;
+package org.nklkarthi.httpclient.base;
 
 import java.io.IOException;
 import java.io.InputStream;

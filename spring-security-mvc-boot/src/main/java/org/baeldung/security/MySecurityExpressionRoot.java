@@ -1,11 +1,11 @@
-package org.baeldung.security;
+package org.nklkarthi.security;
 
 import java.io.Serializable;
 import java.util.Collection;
 import java.util.HashSet;
 import java.util.Set;
 
-import org.baeldung.persistence.model.User;
+import org.nklkarthi.persistence.model.User;
 import org.springframework.security.access.PermissionEvaluator;
 import org.springframework.security.access.expression.method.MethodSecurityExpressionOperations;
 import org.springframework.security.access.hierarchicalroles.RoleHierarchy;

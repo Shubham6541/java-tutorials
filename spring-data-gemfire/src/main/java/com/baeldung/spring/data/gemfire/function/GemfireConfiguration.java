@@ -1,7 +1,7 @@
-package com.baeldung.spring.data.gemfire.function;
+package com.nklkarthi.spring.data.gemfire.function;
 
-import com.baeldung.spring.data.gemfire.model.Employee;
-import com.baeldung.spring.data.gemfire.repository.EmployeeRepository;
+import com.nklkarthi.spring.data.gemfire.model.Employee;
+import com.nklkarthi.spring.data.gemfire.repository.EmployeeRepository;
 import com.gemstone.gemfire.cache.DataPolicy;
 import com.gemstone.gemfire.cache.GemFireCache;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,9 +17,9 @@ import java.util.Properties;
 
 @Configuration
 @ComponentScan
-@EnableGemfireRepositories(basePackages = "com.baeldung.spring.data.gemfire.repository")
+@EnableGemfireRepositories(basePackages = "com.nklkarthi.spring.data.gemfire.repository")
 @EnableGemfireFunctions
-@EnableGemfireFunctionExecutions(basePackages = "com.baeldung.spring.data.gemfire.function")
+@EnableGemfireFunctionExecutions(basePackages = "com.nklkarthi.spring.data.gemfire.function")
 public class GemfireConfiguration {
 
     @Autowired

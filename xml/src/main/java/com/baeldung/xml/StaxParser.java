@@ -1,4 +1,4 @@
-package com.baeldung.xml;
+package com.nklkarthi.xml;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -17,7 +17,7 @@ import javax.xml.stream.events.EndElement;
 import javax.xml.stream.events.StartElement;
 import javax.xml.stream.events.XMLEvent;
 
-import com.baeldung.xml.binding.Tutorial;
+import com.nklkarthi.xml.binding.Tutorial;
 
 public class StaxParser {
 

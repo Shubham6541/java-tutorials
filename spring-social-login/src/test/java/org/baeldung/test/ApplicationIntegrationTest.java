@@ -1,6 +1,6 @@
-package org.baeldung.test;
+package org.nklkarthi.test;
 
-import org.baeldung.config.Application;
+import org.nklkarthi.config.Application;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;

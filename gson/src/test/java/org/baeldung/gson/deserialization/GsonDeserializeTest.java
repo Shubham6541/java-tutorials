@@ -1,10 +1,10 @@
-package org.baeldung.gson.deserialization;
+package org.nklkarthi.gson.deserialization;
 
 import java.text.ParseException;
 
-import org.baeldung.gson.entities.ActorGson;
-import org.baeldung.gson.entities.Movie;
-import org.baeldung.gson.serialization.ActorGsonDeserializer;
+import org.nklkarthi.gson.entities.ActorGson;
+import org.nklkarthi.gson.entities.Movie;
+import org.nklkarthi.gson.serialization.ActorGsonDeserializer;
 import org.junit.Assert;
 import org.junit.Test;
 

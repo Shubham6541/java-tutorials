@@ -1,4 +1,4 @@
-package org.baeldung.scheduling;
+package org.nklkarthi.scheduling;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

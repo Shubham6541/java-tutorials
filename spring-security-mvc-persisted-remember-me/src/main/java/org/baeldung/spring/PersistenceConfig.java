@@ -1,4 +1,4 @@
-package org.baeldung.spring;
+package org.nklkarthi.spring;
 
 import javax.sql.DataSource;
 

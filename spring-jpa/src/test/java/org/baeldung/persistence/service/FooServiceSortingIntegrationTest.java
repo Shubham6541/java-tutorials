@@ -1,4 +1,4 @@
-package org.baeldung.persistence.service;
+package org.nklkarthi.persistence.service;
 
 import java.util.List;
 
@@ -10,9 +10,9 @@ import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Root;
 
-import org.baeldung.config.PersistenceJPAConfig;
-import org.baeldung.persistence.model.Bar;
-import org.baeldung.persistence.model.Foo;
+import org.nklkarthi.config.PersistenceJPAConfig;
+import org.nklkarthi.persistence.model.Bar;
+import org.nklkarthi.persistence.model.Foo;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.test.context.ContextConfiguration;

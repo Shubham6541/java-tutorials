@@ -1,4 +1,4 @@
-package com.baeldung.rest.jbehave;
+package com.nklkarthi.rest.jbehave;
 
 /**
  * @author aiet

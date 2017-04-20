@@ -1,4 +1,4 @@
-package org.baeldung.springevents.synchronous;
+package org.nklkarthi.springevents.synchronous;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationEventPublisher;

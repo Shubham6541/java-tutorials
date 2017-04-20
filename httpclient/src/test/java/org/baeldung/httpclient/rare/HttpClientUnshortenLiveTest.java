@@ -1,4 +1,4 @@
-package org.baeldung.httpclient.rare;
+package org.nklkarthi.httpclient.rare;
 
 import static org.hamcrest.Matchers.equalTo;
 import static org.junit.Assert.assertThat;
@@ -38,14 +38,14 @@ public class HttpClientUnshortenLiveTest {
 
     @Test
     public final void givenShortenedOnce_whenUrlIsUnshortened_thenCorrectResult() throws IOException {
-        final String expectedResult = "http://www.baeldung.com/rest-versioning";
+        final String expectedResult = "http://www.nklkarthi.com/rest-versioning";
         final String actualResult = expandSingleLevel("http://bit.ly/13jEoS1");
         assertThat(actualResult, equalTo(expectedResult));
     }
 
     @Test
     public final void givenShortenedMultiple_whenUrlIsUnshortened_thenCorrectResult() throws IOException {
-        final String expectedResult = "http://www.baeldung.com/rest-versioning";
+        final String expectedResult = "http://www.nklkarthi.com/rest-versioning";
         final String actualResult = expand("http://t.co/e4rDDbnzmk");
         assertThat(actualResult, equalTo(expectedResult));
     }

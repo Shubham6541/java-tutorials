@@ -1,4 +1,4 @@
-package com.baeldung.javaslang;
+package com.nklkarthi.javaslang;
 
 import javaslang.collection.List;
 import javaslang.control.Validation;

@@ -1,4 +1,4 @@
-package com.baeldung.spring.cloud.bootstrap.gateway;
+package com.nklkarthi.spring.cloud.bootstrap.gateway;
 
 import com.netflix.appinfo.InstanceInfo;
 import com.netflix.discovery.EurekaClient;

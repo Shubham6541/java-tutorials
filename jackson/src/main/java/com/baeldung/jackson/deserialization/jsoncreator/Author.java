@@ -1,8 +1,8 @@
-package com.baeldung.jackson.deserialization.jsoncreator;
+package com.nklkarthi.jackson.deserialization.jsoncreator;
 
 
-import com.baeldung.jackson.domain.Person;
-import com.baeldung.jackson.domain.Item;
+import com.nklkarthi.jackson.domain.Person;
+import com.nklkarthi.jackson.domain.Item;
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
 

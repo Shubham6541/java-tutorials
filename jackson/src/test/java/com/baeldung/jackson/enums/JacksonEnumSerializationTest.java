@@ -1,4 +1,4 @@
-package com.baeldung.jackson.enums;
+package com.nklkarthi.jackson.enums;
 
 import static org.hamcrest.Matchers.containsString;
 import static org.junit.Assert.assertThat;

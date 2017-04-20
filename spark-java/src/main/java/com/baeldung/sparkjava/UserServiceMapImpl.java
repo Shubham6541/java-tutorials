@@ -1,4 +1,4 @@
-package com.baeldung.sparkjava;
+package com.nklkarthi.sparkjava;
 
 import java.util.Collection;
 import java.util.HashMap;

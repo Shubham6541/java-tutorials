@@ -1,7 +1,7 @@
-package com.baeldung.jupiter;
+package com.nklkarthi.jupiter;
 
-import com.baeldung.IntegrationTestExample1;
-import com.baeldung.IntegrationTestExample2;
+import com.nklkarthi.IntegrationTestExample1;
+import com.nklkarthi.IntegrationTestExample2;
 import org.junit.experimental.ParallelComputer;
 import org.junit.jupiter.api.Test;
 import org.junit.runner.Computer;

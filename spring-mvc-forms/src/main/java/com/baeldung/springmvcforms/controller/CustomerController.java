@@ -1,4 +1,4 @@
-package com.baeldung.springmvcforms.controller;
+package com.nklkarthi.springmvcforms.controller;
 
 import javax.validation.Valid;
 
@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.baeldung.springmvcforms.domain.Customer;
-import com.baeldung.springmvcforms.validator.CustomerValidator;
+import com.nklkarthi.springmvcforms.domain.Customer;
+import com.nklkarthi.springmvcforms.validator.CustomerValidator;
 
 @Controller
 public class CustomerController {

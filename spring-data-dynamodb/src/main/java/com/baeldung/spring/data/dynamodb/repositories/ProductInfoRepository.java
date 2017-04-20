@@ -1,6 +1,6 @@
-package com.baeldung.spring.data.dynamodb.repositories;
+package com.nklkarthi.spring.data.dynamodb.repositories;
 
-import com.baeldung.spring.data.dynamodb.model.ProductInfo;
+import com.nklkarthi.spring.data.dynamodb.model.ProductInfo;
 import org.socialsignin.spring.data.dynamodb.repository.EnableScan;
 import org.springframework.data.repository.CrudRepository;
 

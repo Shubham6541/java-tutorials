@@ -1,4 +1,4 @@
-package com.baeldung;
+package com.nklkarthi;
 
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
@@ -101,10 +101,10 @@ public class RedissonIntegrationTest {
     public void givenTopicSubscribedToAChannel_thenReceiveMessageFromChannel() throws ExecutionException, InterruptedException {
         CompletableFuture<String> future = new CompletableFuture<>();
 
-        RTopic<CustomMessage> subscribeTopic = client.getTopic("baeldung");
+        RTopic<CustomMessage> subscribeTopic = client.getTopic("nklkarthi");
         subscribeTopic.addListener((channel, customMessage) -> future.complete(customMessage.getMessage()));
 
-        RTopic<CustomMessage> publishTopic = client.getTopic("baeldung");
+        RTopic<CustomMessage> publishTopic = client.getTopic("nklkarthi");
         long clientsReceivedMessage
           = publishTopic.publish(new CustomMessage("This is a message"));
 

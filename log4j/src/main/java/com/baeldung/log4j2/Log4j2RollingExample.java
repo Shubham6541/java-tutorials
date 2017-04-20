@@ -1,4 +1,4 @@
-package com.baeldung.log4j2;
+package com.nklkarthi.log4j2;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

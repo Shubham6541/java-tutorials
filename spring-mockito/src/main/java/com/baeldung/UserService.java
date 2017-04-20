@@ -1,4 +1,4 @@
-package com.baeldung;
+package com.nklkarthi;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

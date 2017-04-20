@@ -1,6 +1,6 @@
-package com.baeldung.cglib.proxy;
+package com.nklkarthi.cglib.proxy;
 
-import com.baeldung.cglib.mixin.*;
+import com.nklkarthi.cglib.mixin.*;
 import net.sf.cglib.proxy.Mixin;
 import org.junit.Test;
 

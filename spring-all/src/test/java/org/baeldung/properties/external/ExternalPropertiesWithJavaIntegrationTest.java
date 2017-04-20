@@ -1,6 +1,6 @@
-package org.baeldung.properties.external;
+package org.nklkarthi.properties.external;
 
-import org.baeldung.properties.spring.PropertiesWithJavaConfigOther;
+import org.nklkarthi.properties.spring.PropertiesWithJavaConfigOther;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;

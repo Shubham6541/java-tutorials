@@ -1,4 +1,4 @@
-package com.baeldung.spring.mail;
+package com.nklkarthi.spring.mail;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.FileSystemResource;

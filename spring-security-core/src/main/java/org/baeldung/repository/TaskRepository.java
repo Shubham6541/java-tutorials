@@ -1,6 +1,6 @@
-package org.baeldung.repository;
+package org.nklkarthi.repository;
 
-import org.baeldung.entity.Task;
+import org.nklkarthi.entity.Task;
 import org.springframework.data.repository.CrudRepository;
 
 public interface TaskRepository extends CrudRepository<Task, Long> {

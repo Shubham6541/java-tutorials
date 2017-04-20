@@ -1,6 +1,6 @@
-package com.baeldung.jacksonannotation.inclusion.jsonignoreproperties;
+package com.nklkarthi.jacksonannotation.inclusion.jsonignoreproperties;
 
-import com.baeldung.jacksonannotation.domain.Author;
+import com.nklkarthi.jacksonannotation.domain.Author;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.Test;
@@ -11,7 +11,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 /**
  * Source code github.com/eugenp/tutorials
  *
- * @author Alex Theedom www.baeldung.com
+ * @author Alex Theedom www.nklkarthi.com
  * @version 1.0
  */
 public class JsonIgnorePropertiesTest {

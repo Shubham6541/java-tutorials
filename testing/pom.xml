@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.baeldung</groupId>
+    <groupId>com.nklkarthi</groupId>
     <artifactId>mutation-testing</artifactId>
     <version>0.1-SNAPSHOT</version>
     <name>mutation-testing</name>
@@ -32,10 +32,10 @@
                 <version>${pitest.version}</version>
                 <configuration>
                     <targetClasses>
-                        <param>com.baeldung.testing.mutation.*</param>
+                        <param>com.nklkarthi.testing.mutation.*</param>
                     </targetClasses>
                     <targetTests>
-                        <param>com.baeldung.mutation.test.*</param>
+                        <param>com.nklkarthi.mutation.test.*</param>
                     </targetTests>
                 </configuration>
             </plugin>

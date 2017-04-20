@@ -1,4 +1,4 @@
-package org.baeldung.spring.data.couchbase.service;
+package org.nklkarthi.spring.data.couchbase.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;

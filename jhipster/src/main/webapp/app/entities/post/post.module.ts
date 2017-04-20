@@ -1,8 +1,8 @@
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
-import { BaeldungSharedModule } from '../../shared';
-import { BaeldungAdminModule } from '../../admin/admin.module';
+import { nklkarthiSharedModule } from '../../shared';
+import { nklkarthiAdminModule } from '../../admin/admin.module';
 
 import {
     PostService,
@@ -24,8 +24,8 @@ let ENTITY_STATES = [
 
 @NgModule({
     imports: [
-        BaeldungSharedModule,
-        BaeldungAdminModule,
+        nklkarthiSharedModule,
+        nklkarthiAdminModule,
         RouterModule.forRoot(ENTITY_STATES, { useHash: true })
     ],
     declarations: [
@@ -49,4 +49,4 @@ let ENTITY_STATES = [
     ],
     schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
-export class BaeldungPostModule {}
+export class nklkarthiPostModule {}

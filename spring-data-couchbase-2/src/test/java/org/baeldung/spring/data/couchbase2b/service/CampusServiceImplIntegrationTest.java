@@ -1,4 +1,4 @@
-package org.baeldung.spring.data.couchbase2b.service;
+package org.nklkarthi.spring.data.couchbase2b.service;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
@@ -9,9 +9,9 @@ import java.util.Set;
 
 import javax.annotation.PostConstruct;
 
-import org.baeldung.spring.data.couchbase.model.Campus;
-import org.baeldung.spring.data.couchbase2b.MultiBucketIntegationTest;
-import org.baeldung.spring.data.couchbase2b.repos.CampusRepository;
+import org.nklkarthi.spring.data.couchbase.model.Campus;
+import org.nklkarthi.spring.data.couchbase2b.MultiBucketIntegationTest;
+import org.nklkarthi.spring.data.couchbase2b.repos.CampusRepository;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.geo.Distance;

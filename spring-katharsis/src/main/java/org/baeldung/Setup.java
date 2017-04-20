@@ -1,14 +1,14 @@
-package org.baeldung;
+package org.nklkarthi;
 
 import java.util.Arrays;
 import java.util.HashSet;
 
 import javax.annotation.PostConstruct;
 
-import org.baeldung.persistence.dao.RoleRepository;
-import org.baeldung.persistence.dao.UserRepository;
-import org.baeldung.persistence.model.Role;
-import org.baeldung.persistence.model.User;
+import org.nklkarthi.persistence.dao.RoleRepository;
+import org.nklkarthi.persistence.dao.UserRepository;
+import org.nklkarthi.persistence.model.Role;
+import org.nklkarthi.persistence.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

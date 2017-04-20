@@ -1,4 +1,4 @@
-package org.baeldung.jsoncomponent;
+package org.nklkarthi.jsoncomponent;
 
 import javafx.scene.paint.Color;
 

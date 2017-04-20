@@ -1,9 +1,9 @@
-package org.baeldung.persistence.dao;
+package org.nklkarthi.persistence.dao;
 
 import java.util.List;
 
-import org.baeldung.persistence.model.User;
-import org.baeldung.web.util.SearchCriteria;
+import org.nklkarthi.persistence.model.User;
+import org.nklkarthi.web.util.SearchCriteria;
 
 public interface IUserDAO {
     List<User> searchUser(List<SearchCriteria> params);

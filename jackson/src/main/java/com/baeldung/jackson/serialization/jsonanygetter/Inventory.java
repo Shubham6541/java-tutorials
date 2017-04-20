@@ -1,7 +1,7 @@
-package com.baeldung.jackson.serialization.jsonanygetter;
+package com.nklkarthi.jackson.serialization.jsonanygetter;
 
-import com.baeldung.jackson.domain.Author;
-import com.baeldung.jackson.domain.Item;
+import com.nklkarthi.jackson.domain.Author;
+import com.nklkarthi.jackson.domain.Item;
 import com.fasterxml.jackson.annotation.JsonAnyGetter;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 

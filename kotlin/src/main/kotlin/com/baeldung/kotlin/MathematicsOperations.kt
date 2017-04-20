@@ -1,4 +1,4 @@
-package com.baeldung.kotlin
+package com.nklkarthi.kotlin
 
 class MathematicsOperations {
     fun addTwoNumbers(a: Int, b: Int): Int {

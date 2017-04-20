@@ -1,4 +1,4 @@
-package org.baeldung.gson.serialization.test;
+package org.nklkarthi.gson.serialization.test;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
@@ -9,10 +9,10 @@ import java.util.Collection;
 import java.util.Date;
 import java.util.GregorianCalendar;
 
-import org.baeldung.gson.serialization.DifferentNameSerializer;
-import org.baeldung.gson.serialization.IgnoringFieldsNotMatchingCriteriaSerializer;
-import org.baeldung.gson.serialization.IgnoringFieldsSerializer;
-import org.baeldung.gson.serialization.SourceClass;
+import org.nklkarthi.gson.serialization.DifferentNameSerializer;
+import org.nklkarthi.gson.serialization.IgnoringFieldsNotMatchingCriteriaSerializer;
+import org.nklkarthi.gson.serialization.IgnoringFieldsSerializer;
+import org.nklkarthi.gson.serialization.SourceClass;
 import org.joda.time.DateTime;
 import org.junit.Test;
 

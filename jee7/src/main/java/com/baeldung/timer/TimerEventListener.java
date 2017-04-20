@@ -1,4 +1,4 @@
-package com.baeldung.timer;
+package com.nklkarthi.timer;
 
 import javax.ejb.Singleton;
 import javax.ejb.Startup;

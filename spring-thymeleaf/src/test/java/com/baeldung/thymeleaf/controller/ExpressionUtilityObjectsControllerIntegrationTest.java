@@ -1,4 +1,4 @@
-package com.baeldung.thymeleaf.controller;
+package com.nklkarthi.thymeleaf.controller;
 
 import static org.springframework.security.test.web.servlet.request.SecurityMockMvcRequestPostProcessors.csrf;
 import static org.springframework.security.test.web.servlet.request.SecurityMockMvcRequestPostProcessors.user;
@@ -21,10 +21,10 @@ import org.springframework.test.web.servlet.request.RequestPostProcessor;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.web.context.WebApplicationContext;
 
-import com.baeldung.thymeleaf.config.InitSecurity;
-import com.baeldung.thymeleaf.config.WebApp;
-import com.baeldung.thymeleaf.config.WebMVCConfig;
-import com.baeldung.thymeleaf.config.WebMVCSecurity;
+import com.nklkarthi.thymeleaf.config.InitSecurity;
+import com.nklkarthi.thymeleaf.config.WebApp;
+import com.nklkarthi.thymeleaf.config.WebMVCConfig;
+import com.nklkarthi.thymeleaf.config.WebMVCSecurity;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @WebAppConfiguration

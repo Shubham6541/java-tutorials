@@ -1,4 +1,4 @@
-package com.baeldung.weakhashmap;
+package com.nklkarthi.weakhashmap;
 
 
 import org.junit.Test;

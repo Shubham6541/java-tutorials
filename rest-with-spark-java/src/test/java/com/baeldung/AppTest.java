@@ -1,4 +1,4 @@
-package com.baeldung;
+package com.nklkarthi;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -8,7 +8,7 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.baeldung.domain.Book;
+import com.nklkarthi.domain.Book;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 

@@ -1,4 +1,4 @@
-package org.baeldung.equalshashcode.entities;
+package org.nklkarthi.equalshashcode.entities;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -7,7 +7,7 @@ import java.util.List;
 import org.junit.Assert;
 import org.junit.Test;
 
-import com.baeldung.equalshashcode.entities.ComplexClass;
+import com.nklkarthi.equalshashcode.entities.ComplexClass;
 
 public class ComplexClassUnitTest {
 

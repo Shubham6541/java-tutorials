@@ -1,4 +1,4 @@
-package org.baeldung.boot.exceptions;
+package org.nklkarthi.boot.exceptions;
 
 public class CommonException extends RuntimeException{
 

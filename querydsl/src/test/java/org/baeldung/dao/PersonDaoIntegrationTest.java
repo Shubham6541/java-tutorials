@@ -1,8 +1,8 @@
-package org.baeldung.dao;
+package org.nklkarthi.dao;
 
 import java.util.Map;
 
-import org.baeldung.entity.Person;
+import org.nklkarthi.entity.Person;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

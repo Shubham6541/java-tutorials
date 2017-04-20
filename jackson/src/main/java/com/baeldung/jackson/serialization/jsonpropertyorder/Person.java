@@ -1,4 +1,4 @@
-package com.baeldung.jackson.serialization.jsonpropertyorder;
+package com.nklkarthi.jackson.serialization.jsonpropertyorder;
 
 import java.util.UUID;
 

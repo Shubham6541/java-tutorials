@@ -1,10 +1,10 @@
-package org.baeldung.properties.parentchild;
+package org.nklkarthi.properties.parentchild;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNull;
 
-import org.baeldung.properties.parentchild.config.ChildConfig;
-import org.baeldung.properties.parentchild.config.ParentConfig;
+import org.nklkarthi.properties.parentchild.config.ChildConfig;
+import org.nklkarthi.properties.parentchild.config.ParentConfig;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

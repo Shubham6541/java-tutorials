@@ -1,7 +1,7 @@
-package com.baeldung.spring.statemachine;
+package com.nklkarthi.spring.statemachine;
 
-import com.baeldung.spring.statemachine.config.ForkJoinStateMachineConfiguration;
-import com.baeldung.spring.statemachine.config.JunctionStateMachineConfiguration;
+import com.nklkarthi.spring.statemachine.config.ForkJoinStateMachineConfiguration;
+import com.nklkarthi.spring.statemachine.config.JunctionStateMachineConfiguration;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;

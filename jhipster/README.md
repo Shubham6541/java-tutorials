@@ -1,9 +1,9 @@
 ### Relevant articles
 
-- [Intro to JHipster](http://www.baeldung.com/jhipster)
+- [Intro to JHipster](http://www.nklkarthi.com/jhipster)
 
 
-# baeldung
+# nklkarthi
 This application was generated using JHipster 4.0.8, you can find documentation and help at [https://jhipster.github.io/documentation-archive/v4.0.8](https://jhipster.github.io/documentation-archive/v4.0.8).
 
 ## Development
@@ -75,7 +75,7 @@ will generate few files:
 
 ## Building for production
 
-To optimize the baeldung application for production, run:
+To optimize the nklkarthi application for production, run:
 
     ./mvnw -Pprod clean package
 

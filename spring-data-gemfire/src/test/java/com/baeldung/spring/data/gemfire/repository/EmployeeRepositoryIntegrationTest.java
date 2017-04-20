@@ -1,8 +1,8 @@
-package com.baeldung.spring.data.gemfire.repository;
+package com.nklkarthi.spring.data.gemfire.repository;
 
-import com.baeldung.spring.data.gemfire.function.FunctionExecution;
-import com.baeldung.spring.data.gemfire.function.GemfireConfiguration;
-import com.baeldung.spring.data.gemfire.model.Employee;
+import com.nklkarthi.spring.data.gemfire.function.FunctionExecution;
+import com.nklkarthi.spring.data.gemfire.function.GemfireConfiguration;
+import com.nklkarthi.spring.data.gemfire.model.Employee;
 import com.google.common.collect.Lists;
 import org.junit.After;
 import org.junit.Test;

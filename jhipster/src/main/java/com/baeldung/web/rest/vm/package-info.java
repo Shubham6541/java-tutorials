@@ -1,4 +1,4 @@
 /**
  * View Models used by Spring MVC REST controllers.
  */
-package com.baeldung.web.rest.vm;
+package com.nklkarthi.web.rest.vm;

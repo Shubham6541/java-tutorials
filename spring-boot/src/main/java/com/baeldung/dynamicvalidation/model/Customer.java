@@ -1,4 +1,4 @@
-package com.baeldung.dynamicvalidation.model;
+package com.nklkarthi.dynamicvalidation.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -6,7 +6,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.validation.constraints.NotNull;
 
-import com.baeldung.dynamicvalidation.ContactInfo;
+import com.nklkarthi.dynamicvalidation.ContactInfo;
 
 @Entity
 public class Customer {

@@ -1,4 +1,4 @@
-package org.baeldung.config;
+package org.nklkarthi.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -9,7 +9,7 @@ import com.mongodb.Mongo;
 import com.mongodb.MongoClient;
 
 @Configuration
-@EnableMongoRepositories(basePackages = "org.baeldung.repository")
+@EnableMongoRepositories(basePackages = "org.nklkarthi.repository")
 public class SimpleMongoConfig {
 
     @Bean

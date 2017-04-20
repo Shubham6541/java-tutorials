@@ -1,4 +1,4 @@
-package org.baeldung.basic;
+package org.nklkarthi.basic;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -24,7 +24,7 @@ public class MyBasicAuthenticationEntryPoint extends BasicAuthenticationEntryPoi
 
     @Override
     public void afterPropertiesSet() throws Exception {
-        setRealmName("Baeldung");
+        setRealmName("nklkarthi");
         super.afterPropertiesSet();
     }
 

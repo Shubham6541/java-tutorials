@@ -1,4 +1,4 @@
-package com.baeldung.cxf.aegis;
+package com.nklkarthi.cxf.aegis;
 
 import java.util.Map;
 

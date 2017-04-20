@@ -1,4 +1,4 @@
-package com.baeldung.mockito.java8;
+package com.nklkarthi.mockito.java8;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;

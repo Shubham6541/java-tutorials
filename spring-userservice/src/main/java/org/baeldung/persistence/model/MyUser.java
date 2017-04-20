@@ -1,4 +1,4 @@
-package org.baeldung.persistence.model;
+package org.nklkarthi.persistence.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

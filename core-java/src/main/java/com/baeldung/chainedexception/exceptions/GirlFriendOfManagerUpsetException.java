@@ -1,4 +1,4 @@
-package com.baeldung.chainedexception.exceptions;
+package com.nklkarthi.chainedexception.exceptions;
 
 public class GirlFriendOfManagerUpsetException extends Exception {
 

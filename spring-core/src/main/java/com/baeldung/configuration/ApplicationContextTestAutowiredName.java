@@ -1,9 +1,9 @@
-package com.baeldung.configuration;
+package com.nklkarthi.configuration;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@ComponentScan(basePackages = {"com.baeldung.dependency"})
+@ComponentScan(basePackages = {"com.nklkarthi.dependency"})
 public class ApplicationContextTestAutowiredName {
 }

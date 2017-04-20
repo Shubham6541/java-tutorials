@@ -1,4 +1,4 @@
-package com.baeldung.applicationcontext;
+package com.nklkarthi.applicationcontext;
 
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;

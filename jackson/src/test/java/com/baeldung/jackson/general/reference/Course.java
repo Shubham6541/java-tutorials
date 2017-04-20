@@ -1,4 +1,4 @@
-package com.baeldung.jackson.general.reference;
+package com.nklkarthi.jackson.general.reference;
 
 
 import java.util.List;

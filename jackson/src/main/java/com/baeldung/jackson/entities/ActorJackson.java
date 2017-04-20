@@ -1,4 +1,4 @@
-package com.baeldung.jackson.entities;
+package com.nklkarthi.jackson.entities;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;

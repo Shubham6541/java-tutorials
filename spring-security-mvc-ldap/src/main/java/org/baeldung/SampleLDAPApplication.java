@@ -1,4 +1,4 @@
-package org.baeldung;
+package org.nklkarthi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
@@ -12,7 +12,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
  *
  */
 @EnableAutoConfiguration
-@ComponentScan("org.baeldung")
+@ComponentScan("org.nklkarthi")
 public class SampleLDAPApplication extends WebMvcConfigurerAdapter {
 
     public static void main(String[] args) {

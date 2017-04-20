@@ -1,4 +1,4 @@
 /**
  * JPA domain objects.
  */
-package com.baeldung.domain;
+package com.nklkarthi.domain;

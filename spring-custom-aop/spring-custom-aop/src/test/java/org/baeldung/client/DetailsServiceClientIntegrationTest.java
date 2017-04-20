@@ -1,4 +1,4 @@
-package org.baeldung.client;
+package org.nklkarthi.client;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.Before;

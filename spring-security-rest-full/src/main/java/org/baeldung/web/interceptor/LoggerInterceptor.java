@@ -1,4 +1,4 @@
-package org.baeldung.web.interceptor;
+package org.nklkarthi.web.interceptor;
 
 import com.google.common.base.Strings;
 import org.slf4j.Logger;

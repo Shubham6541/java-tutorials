@@ -1,10 +1,10 @@
-package com.baeldung.spring_data_tests;
+package com.nklkarthi.spring_data_tests;
 
-import com.baeldung.spring_data.model.Book;
-import com.baeldung.spring_data.model.JavaBook;
-import com.baeldung.spring_data.repository.BookRepository;
-import com.baeldung.spring_data.repository.JavaBookRepository;
-import com.baeldung.spring_data_app.MainApp;
+import com.nklkarthi.spring_data.model.Book;
+import com.nklkarthi.spring_data.model.JavaBook;
+import com.nklkarthi.spring_data.repository.BookRepository;
+import com.nklkarthi.spring_data.repository.JavaBookRepository;
+import com.nklkarthi.spring_data_app.MainApp;
 import javaslang.collection.List;
 import javaslang.collection.Seq;
 import javaslang.control.Option;

@@ -1,6 +1,6 @@
-package org.baeldung.config;
+package org.nklkarthi.config;
 
-import org.baeldung.config.converter.KryoHttpMessageConverter;
+import org.nklkarthi.config.converter.KryoHttpMessageConverter;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.converter.HttpMessageConverter;
@@ -20,7 +20,7 @@ import java.util.List;
  */
 @Configuration
 @EnableWebMvc
-@ComponentScan({ "org.baeldung.web" })
+@ComponentScan({ "org.nklkarthi.web" })
 public class WebConfig extends WebMvcConfigurerAdapter {
 
     public WebConfig() {

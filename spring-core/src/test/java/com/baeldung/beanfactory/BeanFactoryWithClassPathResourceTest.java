@@ -1,4 +1,4 @@
-package com.baeldung.beanfactory;
+package com.nklkarthi.beanfactory;
 
 import org.junit.Test;
 import org.springframework.beans.factory.BeanFactory;

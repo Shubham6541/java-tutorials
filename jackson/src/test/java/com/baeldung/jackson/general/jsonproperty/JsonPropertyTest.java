@@ -1,4 +1,4 @@
-package com.baeldung.jackson.general.jsonproperty;
+package com.nklkarthi.jackson.general.jsonproperty;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;

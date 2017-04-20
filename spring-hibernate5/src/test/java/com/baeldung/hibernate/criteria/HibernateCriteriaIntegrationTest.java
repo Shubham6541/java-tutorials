@@ -1,4 +1,4 @@
-package com.baeldung.hibernate.criteria;
+package com.nklkarthi.hibernate.criteria;
 
 import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertTrue;
@@ -8,9 +8,9 @@ import java.util.List;
 import org.hibernate.Session;
 import org.junit.Test;
 
-import com.baeldung.hibernate.criteria.model.Item;
-import com.baeldung.hibernate.criteria.util.HibernateUtil;
-import com.baeldung.hibernate.criteria.view.ApplicationView;
+import com.nklkarthi.hibernate.criteria.model.Item;
+import com.nklkarthi.hibernate.criteria.util.HibernateUtil;
+import com.nklkarthi.hibernate.criteria.view.ApplicationView;
 
 public class HibernateCriteriaIntegrationTest {
 

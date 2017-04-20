@@ -1,4 +1,4 @@
-package com.baeldung.spring.data.neo4j.config;
+package com.nklkarthi.spring.data.neo4j.config;
 
 import org.neo4j.ogm.session.SessionFactory;
 import org.springframework.context.annotation.Bean;
@@ -11,8 +11,8 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @Configuration
 @EnableTransactionManagement
-@ComponentScan(basePackages = { "com.baeldung.spring.data.neo4j.services" })
-@EnableNeo4jRepositories(basePackages = "com.baeldung.spring.data.neo4j.repostory")
+@ComponentScan(basePackages = { "com.nklkarthi.spring.data.neo4j.services" })
+@EnableNeo4jRepositories(basePackages = "com.nklkarthi.spring.data.neo4j.repostory")
 @Profile({ "embedded", "test" })
 public class MovieDatabaseNeo4jTestConfiguration extends Neo4jConfiguration {
 
@@ -26,7 +26,7 @@ public class MovieDatabaseNeo4jTestConfiguration extends Neo4jConfiguration {
 
     @Bean
     public SessionFactory getSessionFactory() {
-        return new SessionFactory(getConfiguration(), "com.baeldung.spring.data.neo4j.domain");
+        return new SessionFactory(getConfiguration(), "com.nklkarthi.spring.data.neo4j.domain");
     }
 
 }

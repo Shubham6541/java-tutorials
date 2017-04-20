@@ -1,4 +1,4 @@
-package com.baeldung.webjar;
+package com.nklkarthi.webjar;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

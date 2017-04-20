@@ -1,2 +1,2 @@
 ### Relevant Articles:
-- [A Guide to Mapping With Dozer](http://www.baeldung.com/dozer)
+- [A Guide to Mapping With Dozer](http://www.nklkarthi.com/dozer)

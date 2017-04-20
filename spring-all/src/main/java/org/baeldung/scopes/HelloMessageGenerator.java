@@ -1,4 +1,4 @@
-package org.baeldung.scopes;
+package org.nklkarthi.scopes;
 
 public class HelloMessageGenerator {
 

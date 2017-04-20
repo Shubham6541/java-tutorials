@@ -1,4 +1,4 @@
-package com.baeldung.spring.web.config;
+package com.nklkarthi.spring.web.config;
 
 import org.springframework.web.WebApplicationInitializer;
 import org.springframework.web.context.ContextLoaderListener;
@@ -24,7 +24,7 @@ public class MainWebAppInitializer implements WebApplicationInitializer {
 
         // Create the 'root' Spring application context
         final AnnotationConfigWebApplicationContext root = new AnnotationConfigWebApplicationContext();
-        root.scan("com.baeldung.spring.web.config");
+        root.scan("com.nklkarthi.spring.web.config");
         // root.getEnvironment().setDefaultProfiles("embedded");
 
         sc.addListener(new ContextLoaderListener(root));

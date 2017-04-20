@@ -1,7 +1,7 @@
-package org.baeldung.persistence.service;
+package org.nklkarthi.persistence.service;
 
-import org.baeldung.persistence.common.IOperations;
-import org.baeldung.persistence.model.Parent;
+import org.nklkarthi.persistence.common.IOperations;
+import org.nklkarthi.persistence.model.Parent;
 
 public interface IParentService extends IOperations<Parent> {
     //

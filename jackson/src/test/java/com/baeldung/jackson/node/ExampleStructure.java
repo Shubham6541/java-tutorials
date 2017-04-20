@@ -1,4 +1,4 @@
-package com.baeldung.jackson.node;
+package com.nklkarthi.jackson.node;
 
 import java.io.IOException;
 import java.io.InputStream;

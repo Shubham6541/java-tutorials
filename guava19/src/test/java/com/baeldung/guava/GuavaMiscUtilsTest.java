@@ -1,4 +1,4 @@
-package com.baeldung.guava;
+package com.nklkarthi.guava;
 
 import com.google.common.base.Throwables;
 import com.google.common.collect.*;

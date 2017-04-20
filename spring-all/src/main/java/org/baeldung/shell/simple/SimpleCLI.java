@@ -1,4 +1,4 @@
-package org.baeldung.shell.simple;
+package org.nklkarthi.shell.simple;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;

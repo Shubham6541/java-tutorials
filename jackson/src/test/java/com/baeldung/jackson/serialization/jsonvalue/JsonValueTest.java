@@ -1,4 +1,4 @@
-package com.baeldung.jackson.serialization.jsonvalue;
+package com.nklkarthi.jackson.serialization.jsonvalue;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;

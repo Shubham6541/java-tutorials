@@ -1,17 +1,17 @@
-package com.baeldung.java9.reactive;
+package com.nklkarthi.java9.reactive;
 
 import java.util.ArrayList;
 import java.util.concurrent.Flow.Subscriber;
 import java.util.concurrent.Flow.Subscription;
 
-public class BaeldungBatchSubscriberImpl<T> implements Subscriber<String> {
+public class nklkarthiBatchSubscriberImpl<T> implements Subscriber<String> {
     private Subscription subscription;
     private boolean completed = false;
     private int counter;
     private ArrayList<String> buffer;
     public static final int BUFFER_SIZE = 5;
 
-    public BaeldungBatchSubscriberImpl() {
+    public nklkarthiBatchSubscriberImpl() {
         buffer = new ArrayList<String>();
     }
 

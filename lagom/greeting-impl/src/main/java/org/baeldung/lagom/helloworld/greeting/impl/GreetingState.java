@@ -1,4 +1,4 @@
-package org.baeldung.lagom.helloworld.greeting.impl;
+package org.nklkarthi.lagom.helloworld.greeting.impl;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;

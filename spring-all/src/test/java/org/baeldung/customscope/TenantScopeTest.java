@@ -1,4 +1,4 @@
-package org.baeldung.customscope;
+package org.nklkarthi.customscope;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.not;
@@ -47,7 +47,7 @@ public class TenantScopeTest {
     public final void whenComponentScan_thenContextContainsFooAndBar() {
         AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext();
         try{
-            ctx.scan("org.baeldung.customscope");
+            ctx.scan("org.nklkarthi.customscope");
             ctx.refresh();
             
             TenantBean foo = (TenantBean) ctx.getBean("foo", TenantBean.class);

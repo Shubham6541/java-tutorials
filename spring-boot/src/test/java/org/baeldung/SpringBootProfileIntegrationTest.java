@@ -1,11 +1,11 @@
-package org.baeldung;
+package org.nklkarthi;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 
-import org.baeldung.config.H2TestProfileJPAConfig;
-import org.baeldung.domain.GenericEntity;
-import org.baeldung.repository.GenericEntityRepository;
+import org.nklkarthi.config.H2TestProfileJPAConfig;
+import org.nklkarthi.domain.GenericEntity;
+import org.nklkarthi.repository.GenericEntityRepository;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

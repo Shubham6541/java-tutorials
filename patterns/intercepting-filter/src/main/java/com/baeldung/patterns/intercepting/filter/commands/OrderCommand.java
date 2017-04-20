@@ -1,9 +1,9 @@
-package com.baeldung.patterns.intercepting.filter.commands;
+package com.nklkarthi.patterns.intercepting.filter.commands;
 
-import com.baeldung.patterns.intercepting.filter.data.Book;
-import com.baeldung.patterns.intercepting.filter.data.Bookshelf;
-import com.baeldung.patterns.intercepting.filter.data.Order;
-import com.baeldung.patterns.intercepting.filter.data.OrderImpl;
+import com.nklkarthi.patterns.intercepting.filter.data.Book;
+import com.nklkarthi.patterns.intercepting.filter.data.Bookshelf;
+import com.nklkarthi.patterns.intercepting.filter.data.Order;
+import com.nklkarthi.patterns.intercepting.filter.data.OrderImpl;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpSession;

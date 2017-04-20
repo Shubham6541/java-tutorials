@@ -1,4 +1,4 @@
-package com.baeldung.autovalue;
+package com.nklkarthi.autovalue;
 
 import static org.junit.Assert.*;
 

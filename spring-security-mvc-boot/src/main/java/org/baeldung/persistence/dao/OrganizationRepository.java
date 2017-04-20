@@ -1,6 +1,6 @@
-package org.baeldung.persistence.dao;
+package org.nklkarthi.persistence.dao;
 
-import org.baeldung.persistence.model.Organization;
+import org.nklkarthi.persistence.model.Organization;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface OrganizationRepository extends JpaRepository<Organization, Long> {

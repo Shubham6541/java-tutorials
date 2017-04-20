@@ -1,7 +1,7 @@
-package org.baeldung.config;
+package org.nklkarthi.config;
 
-import org.baeldung.security.CustomMethodSecurityExpressionHandler;
-import org.baeldung.security.CustomPermissionEvaluator;
+import org.nklkarthi.security.CustomMethodSecurityExpressionHandler;
+import org.nklkarthi.security.CustomPermissionEvaluator;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.access.expression.method.MethodSecurityExpressionHandler;
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;

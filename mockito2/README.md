@@ -1,6 +1,6 @@
 ### Relevant articles
 
-- [Mockito’s Java 8 Features](http://www.baeldung.com/mockito-2-java-8)
+- [Mockito’s Java 8 Features](http://www.nklkarthi.com/mockito-2-java-8)
 
 ## Mockito 2 and Java 8 Tips
 

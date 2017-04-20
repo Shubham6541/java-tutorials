@@ -1,4 +1,4 @@
-package com.baeldung.spring.interceptor;
+package com.nklkarthi.spring.interceptor;
 
 import org.springframework.web.servlet.ModelAndView;
 import javax.servlet.http.HttpServletRequest;

@@ -1,6 +1,6 @@
-package org.baeldung.springquartz.basics.scheduler;
+package org.nklkarthi.springquartz.basics.scheduler;
 
-import org.baeldung.springquartz.basics.service.SampleJobService;
+import org.nklkarthi.springquartz.basics.service.SampleJobService;
 import org.quartz.Job;
 import org.quartz.JobExecutionContext;
 import org.quartz.JobExecutionException;

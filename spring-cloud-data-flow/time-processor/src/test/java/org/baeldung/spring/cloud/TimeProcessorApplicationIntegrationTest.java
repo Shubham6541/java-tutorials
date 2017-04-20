@@ -1,4 +1,4 @@
-package org.baeldung.spring.cloud;
+package org.nklkarthi.spring.cloud;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

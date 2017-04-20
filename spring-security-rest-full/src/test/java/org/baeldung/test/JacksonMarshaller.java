@@ -1,9 +1,9 @@
-package org.baeldung.test;
+package org.nklkarthi.test;
 
 import java.io.IOException;
 import java.util.List;
 
-import org.baeldung.persistence.model.Foo;
+import org.nklkarthi.persistence.model.Foo;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.MediaType;

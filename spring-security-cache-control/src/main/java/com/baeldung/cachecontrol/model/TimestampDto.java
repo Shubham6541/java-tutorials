@@ -1,4 +1,4 @@
-package com.baeldung.cachecontrol.model;
+package com.nklkarthi.cachecontrol.model;
 
 
 public class TimestampDto {

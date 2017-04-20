@@ -1,4 +1,4 @@
-package com.baeldung.spring.kafka;
+package com.nklkarthi.spring.kafka;
 
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.TimeUnit;
@@ -26,7 +26,7 @@ public class KafkaApplication {
         MessageProducer producer = context.getBean(MessageProducer.class);
         MessageListener listener = context.getBean(MessageListener.class);
         /*
-         * Sending a Hello World message to topic 'baeldung'. 
+         * Sending a Hello World message to topic 'nklkarthi'. 
          * Must be recieved by both listeners with group foo
          * and bar with containerFactory fooKafkaListenerContainerFactory
          * and barKafkaListenerContainerFactory respectively.
@@ -52,7 +52,7 @@ public class KafkaApplication {
          * configuration,  all messages with char sequence
          * 'World' will be discarded.
          */
-        producer.sendMessageToFiltered("Hello Baeldung!");
+        producer.sendMessageToFiltered("Hello nklkarthi!");
         producer.sendMessageToFiltered("Hello World!");
         listener.filterLatch.await(10, TimeUnit.SECONDS);
 

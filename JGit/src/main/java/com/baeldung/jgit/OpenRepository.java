@@ -1,6 +1,6 @@
-package com.baeldung.jgit;
+package com.nklkarthi.jgit;
 
-import com.baeldung.jgit.helper.Helper;
+import com.nklkarthi.jgit.helper.Helper;
 import org.eclipse.jgit.api.Git;
 import org.eclipse.jgit.api.errors.GitAPIException;
 import org.eclipse.jgit.lib.Ref;

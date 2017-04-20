@@ -1,6 +1,6 @@
-package com.baeldung.repository;
+package com.nklkarthi.repository;
 
-import com.baeldung.domain.Comment;
+import com.nklkarthi.domain.Comment;
 
 import org.springframework.data.jpa.repository.*;
 

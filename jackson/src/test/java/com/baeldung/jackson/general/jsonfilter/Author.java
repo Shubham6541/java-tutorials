@@ -1,7 +1,7 @@
-package com.baeldung.jackson.general.jsonfilter;
+package com.nklkarthi.jackson.general.jsonfilter;
 
-import com.baeldung.jackson.domain.Person;
-import com.baeldung.jackson.domain.Item;
+import com.nklkarthi.jackson.domain.Person;
+import com.nklkarthi.jackson.domain.Item;
 import com.fasterxml.jackson.annotation.JsonFilter;
 
 import java.util.ArrayList;

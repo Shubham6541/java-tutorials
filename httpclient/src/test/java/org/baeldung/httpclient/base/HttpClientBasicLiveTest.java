@@ -1,4 +1,4 @@
-package org.baeldung.httpclient.base;
+package org.nklkarthi.httpclient.base;
 
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.notNullValue;

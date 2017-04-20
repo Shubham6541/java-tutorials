@@ -1,9 +1,9 @@
-package org.baeldung;
+package org.nklkarthi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.context.ApplicationContext;
 
-import com.baeldung.autoconfiguration.MySQLAutoconfiguration;
+import com.nklkarthi.autoconfiguration.MySQLAutoconfiguration;
 
 @org.springframework.boot.autoconfigure.SpringBootApplication(exclude=MySQLAutoconfiguration.class)
 public class Application {

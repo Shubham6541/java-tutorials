@@ -1,6 +1,6 @@
-package org.baeldung.web.controller;
+package org.nklkarthi.web.controller;
 
-import org.baeldung.web.dto.Company;
+import org.nklkarthi.web.dto.Company;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

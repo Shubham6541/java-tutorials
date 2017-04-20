@@ -1,4 +1,4 @@
-package org.baeldung.spring.cloud;
+package org.nklkarthi.spring.cloud;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;

@@ -1,4 +1,4 @@
-package com.baeldung.ejb.tutorial;
+package com.nklkarthi.ejb.tutorial;
 
 import javax.annotation.Resource;
 import javax.ejb.SessionContext;

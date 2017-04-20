@@ -1,4 +1,4 @@
-package com.baeldung.servlets;
+package com.nklkarthi.servlets;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;

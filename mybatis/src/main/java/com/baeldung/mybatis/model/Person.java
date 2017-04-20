@@ -1,4 +1,4 @@
-package com.baeldung.mybatis.model;
+package com.nklkarthi.mybatis.model;
 
 import java.util.ArrayList;
 import java.util.List;

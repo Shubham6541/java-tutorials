@@ -1,10 +1,10 @@
-package com.baeldung.spring.mybatis.mappers;
+package com.nklkarthi.spring.mybatis.mappers;
 
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Options;
 import org.apache.ibatis.annotations.Select;
 
-import com.baeldung.spring.mybatis.model.Student;
+import com.nklkarthi.spring.mybatis.model.Student;
 
 public interface StudentMapper {
 	@Insert("INSERT INTO student(userName, password, firstName,lastName, dateOfBirth, emailAddress) VALUES"

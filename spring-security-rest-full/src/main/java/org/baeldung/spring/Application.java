@@ -1,4 +1,4 @@
-package org.baeldung.spring;
+package org.nklkarthi.spring;
 
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
@@ -21,7 +21,7 @@ import org.springframework.web.filter.ShallowEtagHeaderFilter;
  */
 @EnableScheduling
 @EnableAutoConfiguration
-@ComponentScan("org.baeldung")
+@ComponentScan("org.nklkarthi")
 @SpringBootApplication
 public class Application extends SpringBootServletInitializer {
 

@@ -1,7 +1,7 @@
-package com.baeldung.jackson.serialization.jsonpropertyorder;
+package com.nklkarthi.jackson.serialization.jsonpropertyorder;
 
 
-import com.baeldung.jackson.domain.Item;
+import com.nklkarthi.jackson.domain.Item;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 
 import java.util.ArrayList;

@@ -1,8 +1,8 @@
-package org.baeldung.ex.dataintegrityviolationexception;
+package org.nklkarthi.ex.dataintegrityviolationexception;
 
-import org.baeldung.ex.dataintegrityviolationexception.spring.Cause2DataContextWithJavaConfig;
-import org.baeldung.persistence.model.Foo;
-import org.baeldung.persistence.service.IFooService;
+import org.nklkarthi.ex.dataintegrityviolationexception.spring.Cause2DataContextWithJavaConfig;
+import org.nklkarthi.persistence.model.Foo;
+import org.nklkarthi.persistence.service.IFooService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

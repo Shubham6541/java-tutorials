@@ -1,6 +1,6 @@
-package com.baeldung.protobuf;
+package com.nklkarthi.protobuf;
 
-import com.baeldung.protobuf.BaeldungTraining.Course;
+import com.nklkarthi.protobuf.nklkarthiTraining.Course;
 import com.googlecode.protobuf.format.JsonFormat;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.HttpGet;
@@ -65,9 +65,9 @@ public class ApplicationIntegrationTest {
         assertThat(response, containsString("first_name"));
         assertThat(response, containsString("last_name"));
         assertThat(response, containsString("email"));
-        assertThat(response, containsString("john.doe@baeldung.com"));
-        assertThat(response, containsString("richard.roe@baeldung.com"));
-        assertThat(response, containsString("jane.doe@baeldung.com"));
+        assertThat(response, containsString("john.doe@nklkarthi.com"));
+        assertThat(response, containsString("richard.roe@nklkarthi.com"));
+        assertThat(response, containsString("jane.doe@nklkarthi.com"));
         assertThat(response, containsString("phone"));
         assertThat(response, containsString("number"));
         assertThat(response, containsString("type"));

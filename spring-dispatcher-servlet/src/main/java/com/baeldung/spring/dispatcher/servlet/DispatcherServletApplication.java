@@ -1,4 +1,4 @@
-package com.baeldung.spring.dispatcher.servlet;
+package com.nklkarthi.spring.dispatcher.servlet;
 
 import org.springframework.web.context.ContextLoaderListener;
 import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;

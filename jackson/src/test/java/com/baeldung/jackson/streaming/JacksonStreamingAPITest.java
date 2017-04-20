@@ -1,4 +1,4 @@
-package com.baeldung.jackson.streaming;
+package com.nklkarthi.jackson.streaming;
 
 
 import com.fasterxml.jackson.core.*;

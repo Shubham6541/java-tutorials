@@ -1,4 +1,4 @@
-package com.baeldung.jacksonannotation.serialization.jsonvalue;
+package com.nklkarthi.jacksonannotation.serialization.jsonvalue;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -9,7 +9,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 /**
  * Source code github.com/eugenp/tutorials
  *
- * @author Alex Theedom www.baeldung.com
+ * @author Alex Theedom www.nklkarthi.com
  * @version 1.0
  */
 public class JsonValueTest {

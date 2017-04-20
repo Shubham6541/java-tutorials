@@ -1,4 +1,4 @@
-package org.baeldung.httpclient.conn;
+package org.nklkarthi.httpclient.conn;
 
 import static org.junit.Assert.assertTrue;
 
@@ -38,7 +38,7 @@ import org.junit.Test;
 
 public class HttpClientConnectionManagementLiveTest {
     private static final String SERVER1 = "http://www.petrikainulainen.net/";
-    private static final String SERVER7 = "http://www.baeldung.com/";
+    private static final String SERVER7 = "http://www.nklkarthi.com/";
 
     private BasicHttpClientConnectionManager basicConnManager;
     private PoolingHttpClientConnectionManager poolingConnManager;
@@ -59,7 +59,7 @@ public class HttpClientConnectionManagementLiveTest {
     public final void before() {
         get1 = new HttpGet(SERVER1);
         get2 = new HttpGet(SERVER7);
-        route = new HttpRoute(new HttpHost("www.baeldung.com", 80));
+        route = new HttpRoute(new HttpHost("www.nklkarthi.com", 80));
     }
 
     @After

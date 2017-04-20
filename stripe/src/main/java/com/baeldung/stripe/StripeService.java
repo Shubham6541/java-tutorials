@@ -1,4 +1,4 @@
-package com.baeldung.stripe;
+package com.nklkarthi.stripe;
 
 import com.stripe.Stripe;
 import com.stripe.exception.APIConnectionException;

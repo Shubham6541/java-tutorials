@@ -1,7 +1,7 @@
-package com.baeldung.patterns.front.controller;
+package com.nklkarthi.patterns.front.controller;
 
-import com.baeldung.patterns.front.controller.commands.FrontCommand;
-import com.baeldung.patterns.front.controller.commands.UnknownCommand;
+import com.nklkarthi.patterns.front.controller.commands.FrontCommand;
+import com.nklkarthi.patterns.front.controller.commands.UnknownCommand;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -24,7 +24,7 @@ public class FrontControllerServlet extends HttpServlet {
         try {
             Class type = Class.forName(
               String.format(
-                "com.baeldung.patterns.front.controller.commands.%sCommand",
+                "com.nklkarthi.patterns.front.controller.commands.%sCommand",
                 request.getParameter("command")
               )
             );

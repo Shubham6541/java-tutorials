@@ -1,4 +1,4 @@
-package com.baeldung.springintegration.controllers;
+package com.nklkarthi.springintegration.controllers;
 
 import javax.annotation.PostConstruct;
 import javax.el.ELContextEvent;
@@ -30,7 +30,7 @@ public class ELSampleBean {
         FacesContext.getCurrentInstance().getApplication().addELContextListener(new ELContextListener() {
             @Override
             public void contextCreated(ELContextEvent evt) {
-                evt.getELContext().getImportHandler().importClass("com.baeldung.springintegration.controllers.ELSampleBean");
+                evt.getELContext().getImportHandler().importClass("com.nklkarthi.springintegration.controllers.ELSampleBean");
             }
         });
     }

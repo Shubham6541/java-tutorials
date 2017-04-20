@@ -1,4 +1,4 @@
-package com.baeldung.hibernate.criteria;
+package com.nklkarthi.hibernate.criteria;
 
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;

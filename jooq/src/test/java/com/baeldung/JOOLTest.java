@@ -1,4 +1,4 @@
-package com.baeldung;
+package com.nklkarthi;
 
 import org.jooq.lambda.Seq;
 import org.jooq.lambda.Unchecked;

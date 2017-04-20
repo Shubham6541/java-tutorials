@@ -1,6 +1,6 @@
-package com.baeldung.patterns.intercepting.filter.commands;
+package com.nklkarthi.patterns.intercepting.filter.commands;
 
-import com.baeldung.patterns.intercepting.filter.data.Bookshelf;
+import com.nklkarthi.patterns.intercepting.filter.data.Bookshelf;
 
 import javax.servlet.ServletException;
 import java.io.IOException;

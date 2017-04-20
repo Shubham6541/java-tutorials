@@ -1,4 +1,4 @@
-package com.baeldung.jsp;
+package com.nklkarthi.jsp;
 
 import java.io.IOException;
 import javax.servlet.ServletException;

@@ -1,4 +1,4 @@
-package com.baeldung.factorybean;
+package com.nklkarthi.factorybean;
 
 import static org.hamcrest.core.IsEqual.equalTo;
 import static org.junit.Assert.assertThat;

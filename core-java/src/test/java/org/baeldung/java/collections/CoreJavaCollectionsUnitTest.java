@@ -1,4 +1,4 @@
-package org.baeldung.java.collections;
+package org.nklkarthi.java.collections;
 
 import java.util.ArrayList;
 import java.util.Arrays;

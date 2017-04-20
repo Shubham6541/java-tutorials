@@ -1,4 +1,4 @@
-package com.baeldung.transferqueue;
+package com.nklkarthi.transferqueue;
 
 import java.util.concurrent.TransferQueue;
 

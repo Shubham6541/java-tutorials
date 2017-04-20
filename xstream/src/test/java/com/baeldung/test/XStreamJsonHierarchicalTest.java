@@ -1,9 +1,9 @@
-package com.baeldung.test;
+package com.nklkarthi.test;
 
-import com.baeldung.initializer.SimpleXstreamInitializer;
-import com.baeldung.pojo.ContactDetails;
-import com.baeldung.pojo.Customer;
-import com.baeldung.utility.SimpleDataGeneration;
+import com.nklkarthi.initializer.SimpleXstreamInitializer;
+import com.nklkarthi.pojo.ContactDetails;
+import com.nklkarthi.pojo.Customer;
+import com.nklkarthi.utility.SimpleDataGeneration;
 import com.thoughtworks.xstream.XStream;
 import org.junit.Assert;
 import org.junit.Before;

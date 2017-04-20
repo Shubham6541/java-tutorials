@@ -1,8 +1,8 @@
-package com.baeldung.mdc.log4j;
+package com.nklkarthi.mdc.log4j;
 
 import org.apache.log4j.MDC;
 
-import com.baeldung.mdc.Transfer;
+import com.nklkarthi.mdc.Transfer;
 
 public class Log4JRunnable implements Runnable {
 

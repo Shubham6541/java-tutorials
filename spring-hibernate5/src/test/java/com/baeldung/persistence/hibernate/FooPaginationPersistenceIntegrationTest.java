@@ -1,4 +1,4 @@
-package com.baeldung.persistence.hibernate;
+package com.nklkarthi.persistence.hibernate;
 
 import static org.apache.commons.lang3.RandomStringUtils.randomAlphabetic;
 import static org.hamcrest.Matchers.hasSize;
@@ -25,9 +25,9 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.support.AnnotationConfigContextLoader;
 
-import com.baeldung.persistence.model.Foo;
-import com.baeldung.persistence.service.IFooService;
-import com.baeldung.spring.PersistenceConfig;
+import com.nklkarthi.persistence.model.Foo;
+import com.nklkarthi.persistence.service.IFooService;
+import com.nklkarthi.spring.PersistenceConfig;
 import com.google.common.collect.Lists;
 
 @RunWith(SpringJUnit4ClassRunner.class)

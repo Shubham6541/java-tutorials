@@ -1,4 +1,4 @@
-package com.baeldung.concurrent.future;
+package com.nklkarthi.concurrent.future;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Future;

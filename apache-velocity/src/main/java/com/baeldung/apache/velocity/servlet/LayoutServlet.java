@@ -1,7 +1,7 @@
-package com.baeldung.apache.velocity.servlet;
+package com.nklkarthi.apache.velocity.servlet;
 
-import com.baeldung.apache.velocity.model.Product;
-import com.baeldung.apache.velocity.service.ProductService;
+import com.nklkarthi.apache.velocity.model.Product;
+import com.nklkarthi.apache.velocity.service.ProductService;
 import org.apache.velocity.Template;
 import org.apache.velocity.context.Context;
 import org.apache.velocity.tools.view.VelocityLayoutServlet;

@@ -1,4 +1,4 @@
-package org.baeldung.core.exceptions;
+package org.nklkarthi.core.exceptions;
 
 import java.io.BufferedReader;
 import java.io.File;

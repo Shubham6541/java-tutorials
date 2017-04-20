@@ -1,6 +1,6 @@
-package com.baeldung.jackson.general.jsonproperty;
+package com.nklkarthi.jackson.general.jsonproperty;
 
-import com.baeldung.jackson.domain.Person;
+import com.nklkarthi.jackson.domain.Person;
 
 import java.util.ArrayList;
 import java.util.List;

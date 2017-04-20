@@ -1,4 +1,4 @@
-package com.baeldung.spring.domain;
+package com.nklkarthi.spring.domain;
 
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;

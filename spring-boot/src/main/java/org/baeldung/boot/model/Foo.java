@@ -1,4 +1,4 @@
-package org.baeldung.boot.model;
+package org.nklkarthi.boot.model;
 
 import java.io.Serializable;
 

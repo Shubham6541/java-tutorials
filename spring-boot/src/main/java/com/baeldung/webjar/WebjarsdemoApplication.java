@@ -1,10 +1,10 @@
-package com.baeldung.webjar;
+package com.nklkarthi.webjar;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
-import com.baeldung.autoconfiguration.MySQLAutoconfiguration;
+import com.nklkarthi.autoconfiguration.MySQLAutoconfiguration;
 
 @SpringBootApplication(exclude=MySQLAutoconfiguration.class)
 public class WebjarsdemoApplication {

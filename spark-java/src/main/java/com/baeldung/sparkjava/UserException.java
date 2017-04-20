@@ -1,4 +1,4 @@
-package com.baeldung.sparkjava;
+package com.nklkarthi.sparkjava;
 
 public class UserException extends Exception {
 

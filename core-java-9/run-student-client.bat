@@ -1,1 +1,1 @@
-java --module-path mods -m com.baeldung.student.client/com.baeldung.student.client.StudentClient
+java --module-path mods -m com.nklkarthi.student.client/com.nklkarthi.student.client.StudentClient

@@ -1,4 +1,4 @@
-package org.baeldung.web.hateoas.event;
+package org.nklkarthi.web.hateoas.event;
 
 import javax.servlet.http.HttpServletResponse;
 

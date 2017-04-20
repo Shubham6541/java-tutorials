@@ -1,8 +1,8 @@
-package com.baeldung.jackson.serialization;
+package com.nklkarthi.jackson.serialization;
 
 import java.io.IOException;
 
-import com.baeldung.jackson.dtos.ItemWithSerializer;
+import com.nklkarthi.jackson.dtos.ItemWithSerializer;
 import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.SerializerProvider;

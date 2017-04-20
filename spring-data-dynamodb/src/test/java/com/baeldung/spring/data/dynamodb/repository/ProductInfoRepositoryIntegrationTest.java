@@ -1,13 +1,13 @@
-package com.baeldung.spring.data.dynamodb.repository;
+package com.nklkarthi.spring.data.dynamodb.repository;
 
 import com.amazonaws.services.dynamodbv2.AmazonDynamoDB;
 import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBMapper;
 import com.amazonaws.services.dynamodbv2.model.CreateTableRequest;
 import com.amazonaws.services.dynamodbv2.model.ProvisionedThroughput;
 import com.amazonaws.services.dynamodbv2.model.ResourceInUseException;
-import com.baeldung.Application;
-import com.baeldung.spring.data.dynamodb.model.ProductInfo;
-import com.baeldung.spring.data.dynamodb.repositories.ProductInfoRepository;
+import com.nklkarthi.Application;
+import com.nklkarthi.spring.data.dynamodb.model.ProductInfo;
+import com.nklkarthi.spring.data.dynamodb.repositories.ProductInfoRepository;
 import org.junit.Before;
 import org.junit.Ignore;
 import org.junit.Test;

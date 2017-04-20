@@ -1,4 +1,4 @@
-package org.baeldung.spring.data.couchbase2b;
+package org.nklkarthi.spring.data.couchbase2b;
 
 import org.junit.runner.RunWith;
 import org.springframework.test.context.ContextConfiguration;

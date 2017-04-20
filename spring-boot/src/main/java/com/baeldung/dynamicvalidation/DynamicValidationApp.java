@@ -1,4 +1,4 @@
-package com.baeldung.dynamicvalidation;
+package com.nklkarthi.dynamicvalidation;
 
 import javax.annotation.security.RolesAllowed;
 

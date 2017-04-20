@@ -1,4 +1,4 @@
-package org.baeldung.customscope;
+package org.nklkarthi.customscope;
 
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanFactoryPostProcessor;

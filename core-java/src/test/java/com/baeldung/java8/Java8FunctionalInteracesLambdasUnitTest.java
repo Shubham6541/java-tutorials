@@ -1,8 +1,8 @@
-package com.baeldung.java8;
+package com.nklkarthi.java8;
 
-import com.baeldung.Foo;
-import com.baeldung.FooExtended;
-import com.baeldung.UseFoo;
+import com.nklkarthi.Foo;
+import com.nklkarthi.FooExtended;
+import com.nklkarthi.UseFoo;
 import org.junit.Before;
 import org.junit.Test;
 

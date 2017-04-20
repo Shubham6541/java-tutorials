@@ -1,4 +1,4 @@
-package com.baeldung.mvc.velocity.domain;
+package com.nklkarthi.mvc.velocity.domain;
 
 public class Tutorial {
 

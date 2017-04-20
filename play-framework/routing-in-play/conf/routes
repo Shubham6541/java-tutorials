@@ -1,4 +1,4 @@
-GET     /    controllers.HomeController.index(author="Baeldung",id:Int?=1)
+GET     /    controllers.HomeController.index(author="nklkarthi",id:Int?=1)
 GET     /:author     controllers.HomeController.index(author,id:Int?=1)
 GET     /greet/:name/:age    controllers.HomeController.greet(name,age:Integer)
 GET     /square/$num<[0-9]+>    controllers.HomeController.squareMe(num:Long)

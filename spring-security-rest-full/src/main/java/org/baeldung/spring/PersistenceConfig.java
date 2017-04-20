@@ -1,4 +1,4 @@
-package org.baeldung.spring;
+package org.nklkarthi.spring;
 
 import java.util.Properties;
 
@@ -24,9 +24,9 @@ import com.google.common.base.Preconditions;
 @Configuration
 @EnableTransactionManagement
 @PropertySource({ "classpath:persistence-${envTarget:h2}.properties" })
-@ComponentScan({ "org.baeldung.persistence" })
+@ComponentScan({ "org.nklkarthi.persistence" })
 // @ImportResource("classpath*:springDataPersistenceConfig.xml")
-@EnableJpaRepositories(basePackages = "org.baeldung.persistence.dao")
+@EnableJpaRepositories(basePackages = "org.nklkarthi.persistence.dao")
 public class PersistenceConfig {
 
     @Autowired
@@ -40,7 +40,7 @@ public class PersistenceConfig {
     public LocalContainerEntityManagerFactoryBean entityManagerFactory() {
         final LocalContainerEntityManagerFactoryBean em = new LocalContainerEntityManagerFactoryBean();
         em.setDataSource(dataSource());
-        em.setPackagesToScan(new String[] { "org.baeldung.persistence.model" });
+        em.setPackagesToScan(new String[] { "org.nklkarthi.persistence.model" });
 
         final HibernateJpaVendorAdapter vendorAdapter = new HibernateJpaVendorAdapter();
         // vendorAdapter.set

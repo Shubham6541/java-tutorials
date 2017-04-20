@@ -1,9 +1,9 @@
-package com.baeldung.axon.aggregates;
+package com.nklkarthi.axon.aggregates;
 
-import com.baeldung.axon.commands.CreateMessageCommand;
-import com.baeldung.axon.commands.MarkReadMessageCommand;
-import com.baeldung.axon.events.MessageCreatedEvent;
-import com.baeldung.axon.events.MessageReadEvent;
+import com.nklkarthi.axon.commands.CreateMessageCommand;
+import com.nklkarthi.axon.commands.MarkReadMessageCommand;
+import com.nklkarthi.axon.events.MessageCreatedEvent;
+import com.nklkarthi.axon.events.MessageReadEvent;
 import org.axonframework.commandhandling.CommandHandler;
 import org.axonframework.commandhandling.model.AggregateIdentifier;
 import org.axonframework.eventhandling.EventHandler;

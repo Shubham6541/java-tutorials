@@ -1,4 +1,4 @@
-package com.baeldung.setterdi.domain;
+package com.nklkarthi.setterdi.domain;
 
 public class Trailer {
     public Trailer() {

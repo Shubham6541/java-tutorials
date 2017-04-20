@@ -1,14 +1,14 @@
 
-package com.baeldung.examples.guice.binding;
+package com.nklkarthi.examples.guice.binding;
 
-import com.baeldung.examples.guice.aop.MessageLogger;
-import com.baeldung.examples.guice.aop.MessageSentLoggable;
+import com.nklkarthi.examples.guice.aop.MessageLogger;
+import com.nklkarthi.examples.guice.aop.MessageSentLoggable;
 import com.google.inject.AbstractModule;
 import com.google.inject.matcher.Matchers;
 
 /**
  *
- * @author baeldung
+ * @author nklkarthi
  */
 public class AOPModule extends AbstractModule {
 

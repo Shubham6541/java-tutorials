@@ -1,6 +1,6 @@
-package org.baeldung.session.exception;
+package org.nklkarthi.session.exception;
 
-import org.baeldung.boot.model.Foo;
+import org.nklkarthi.boot.model.Foo;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;

@@ -1,9 +1,9 @@
-package com.baeldung.persistence.service;
+package com.nklkarthi.persistence.service;
 
 import static org.apache.commons.lang3.RandomStringUtils.randomAlphabetic;
 
-import com.baeldung.persistence.model.Foo;
-import com.baeldung.spring.PersistenceConfig;
+import com.nklkarthi.persistence.model.Foo;
+import com.nklkarthi.spring.PersistenceConfig;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;

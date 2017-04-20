@@ -1,15 +1,15 @@
-package com.baeldung.setterdi;
+package com.nklkarthi.setterdi;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
-import com.baeldung.setterdi.domain.Engine;
-import com.baeldung.setterdi.domain.Trailer;
-import com.baeldung.setterdi.domain.Transmission;
+import com.nklkarthi.setterdi.domain.Engine;
+import com.nklkarthi.setterdi.domain.Trailer;
+import com.nklkarthi.setterdi.domain.Transmission;
 
 @Configuration
-@ComponentScan("com.baeldung.setterdi")
+@ComponentScan("com.nklkarthi.setterdi")
 public class Config {
 
     @Bean

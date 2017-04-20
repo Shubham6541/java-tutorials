@@ -1,6 +1,6 @@
-package org.baeldung.config;
+package org.nklkarthi.config;
 
-import org.baeldung.security.OpenIdConnectFilter;
+import org.nklkarthi.security.OpenIdConnectFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

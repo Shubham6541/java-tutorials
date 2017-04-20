@@ -1,4 +1,4 @@
-package com.baeldung.model;
+package com.nklkarthi.model;
 
 import org.springframework.web.multipart.MultipartFile;
 

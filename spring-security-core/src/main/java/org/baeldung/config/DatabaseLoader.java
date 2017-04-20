@@ -1,7 +1,7 @@
-package org.baeldung.config;
+package org.nklkarthi.config;
 
-import org.baeldung.entity.Task;
-import org.baeldung.repository.TaskRepository;
+import org.nklkarthi.entity.Task;
+import org.nklkarthi.repository.TaskRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;

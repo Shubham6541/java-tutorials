@@ -32,4 +32,4 @@ test {
     }
 }
 
-mainClassName = "com.baeldung.Application"
+mainClassName = "com.nklkarthi.Application"

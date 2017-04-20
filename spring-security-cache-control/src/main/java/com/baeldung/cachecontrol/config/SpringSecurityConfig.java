@@ -1,4 +1,4 @@
-package com.baeldung.cachecontrol.config;
+package com.nklkarthi.cachecontrol.config;
 
 
 import org.springframework.context.annotation.Configuration;

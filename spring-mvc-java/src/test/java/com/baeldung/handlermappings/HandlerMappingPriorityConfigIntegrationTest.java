@@ -1,6 +1,6 @@
-package com.baeldung.handlermappings;
+package com.nklkarthi.handlermappings;
 
-import com.baeldung.config.HandlerMappingPrioritiesConfig;
+import com.nklkarthi.config.HandlerMappingPrioritiesConfig;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

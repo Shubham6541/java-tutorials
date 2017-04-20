@@ -1,4 +1,4 @@
-package org.baeldung.lagom.helloworld.weather.api;
+package org.nklkarthi.lagom.helloworld.weather.api;
 
 import static com.lightbend.lagom.javadsl.api.Service.named;
 import static com.lightbend.lagom.javadsl.api.Service.*;

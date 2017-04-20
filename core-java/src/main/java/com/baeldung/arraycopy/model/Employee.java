@@ -1,4 +1,4 @@
-package com.baeldung.arraycopy.model;
+package com.nklkarthi.arraycopy.model;
 
 import java.io.Serializable;
 

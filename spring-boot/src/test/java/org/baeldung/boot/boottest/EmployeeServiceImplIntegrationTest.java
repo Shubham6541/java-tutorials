@@ -1,4 +1,4 @@
-package org.baeldung.boot.boottest;
+package org.nklkarthi.boot.boottest;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -7,10 +7,10 @@ import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.Optional;
 
-import org.baeldung.boot.boottest.Employee;
-import org.baeldung.boot.boottest.EmployeeRepository;
-import org.baeldung.boot.boottest.EmployeeService;
-import org.baeldung.boot.boottest.EmployeeServiceImpl;
+import org.nklkarthi.boot.boottest.Employee;
+import org.nklkarthi.boot.boottest.EmployeeRepository;
+import org.nklkarthi.boot.boottest.EmployeeService;
+import org.nklkarthi.boot.boottest.EmployeeServiceImpl;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,6 +1,6 @@
-package com.baeldung.spring.dispatcher.servlet.web;
+package com.nklkarthi.spring.dispatcher.servlet.web;
 
-import com.baeldung.spring.dispatcher.servlet.models.Task;
+import com.nklkarthi.spring.dispatcher.servlet.models.Task;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;

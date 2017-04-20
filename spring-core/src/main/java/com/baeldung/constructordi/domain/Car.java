@@ -1,4 +1,4 @@
-package com.baeldung.constructordi.domain;
+package com.nklkarthi.constructordi.domain;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

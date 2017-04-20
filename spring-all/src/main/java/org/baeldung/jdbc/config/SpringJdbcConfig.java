@@ -1,4 +1,4 @@
-package org.baeldung.jdbc.config;
+package org.nklkarthi.jdbc.config;
 
 import javax.sql.DataSource;
 
@@ -10,7 +10,7 @@ import org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseBuilder;
 import org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseType;
 
 @Configuration
-@ComponentScan("org.baeldung.jdbc")
+@ComponentScan("org.nklkarthi.jdbc")
 public class SpringJdbcConfig {
 
     @Bean

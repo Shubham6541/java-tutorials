@@ -1,15 +1,15 @@
-package com.baeldung.persistence.audit;
+package com.nklkarthi.persistence.audit;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 
 import java.util.List;
 
-import com.baeldung.persistence.model.Foo;
-import com.baeldung.persistence.service.IBarAuditableService;
-import com.baeldung.persistence.service.IFooAuditableService;
-import com.baeldung.spring.PersistenceConfig;
-import com.baeldung.persistence.model.Bar;
+import com.nklkarthi.persistence.model.Foo;
+import com.nklkarthi.persistence.service.IBarAuditableService;
+import com.nklkarthi.persistence.service.IFooAuditableService;
+import com.nklkarthi.spring.PersistenceConfig;
+import com.nklkarthi.persistence.model.Bar;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.junit.After;

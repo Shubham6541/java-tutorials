@@ -1,4 +1,4 @@
-package com.baeldung.automata;
+package com.nklkarthi.automata;
 
 /**
  * State. Part of a finite state machine.

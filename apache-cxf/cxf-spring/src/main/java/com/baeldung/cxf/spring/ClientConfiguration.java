@@ -1,4 +1,4 @@
-package com.baeldung.cxf.spring;
+package com.nklkarthi.cxf.spring;
 
 import org.apache.cxf.jaxws.JaxWsProxyFactoryBean;
 import org.springframework.context.annotation.Bean;
@@ -14,8 +14,8 @@ public class ClientConfiguration {
     @Bean
     public JaxWsProxyFactoryBean proxyFactoryBean() {
         JaxWsProxyFactoryBean proxyFactory = new JaxWsProxyFactoryBean();
-        proxyFactory.setServiceClass(Baeldung.class);
-        proxyFactory.setAddress("http://localhost:8081/services/baeldung");
+        proxyFactory.setServiceClass(nklkarthi.class);
+        proxyFactory.setAddress("http://localhost:8081/services/nklkarthi");
         return proxyFactory;
     }
 }

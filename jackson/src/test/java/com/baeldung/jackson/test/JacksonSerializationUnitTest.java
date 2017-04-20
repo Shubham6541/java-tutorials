@@ -1,4 +1,4 @@
-package com.baeldung.jackson.test;
+package com.nklkarthi.jackson.test;
 
 import static org.hamcrest.Matchers.containsString;
 import static org.hamcrest.Matchers.not;
@@ -8,14 +8,14 @@ import static org.junit.Assert.assertThat;
 import java.io.IOException;
 import java.util.List;
 
-import com.baeldung.jackson.dtos.MyDtoFieldNameChanged;
-import com.baeldung.jackson.dtos.User;
-import com.baeldung.jackson.dtos.Item;
-import com.baeldung.jackson.dtos.ItemWithSerializer;
-import com.baeldung.jackson.dtos.MyDto;
-import com.baeldung.jackson.dtos.MyDtoNoAccessors;
-import com.baeldung.jackson.dtos.MyDtoNoAccessorsAndFieldVisibility;
-import com.baeldung.jackson.serialization.ItemSerializer;
+import com.nklkarthi.jackson.dtos.MyDtoFieldNameChanged;
+import com.nklkarthi.jackson.dtos.User;
+import com.nklkarthi.jackson.dtos.Item;
+import com.nklkarthi.jackson.dtos.ItemWithSerializer;
+import com.nklkarthi.jackson.dtos.MyDto;
+import com.nklkarthi.jackson.dtos.MyDtoNoAccessors;
+import com.nklkarthi.jackson.dtos.MyDtoNoAccessorsAndFieldVisibility;
+import com.nklkarthi.jackson.serialization.ItemSerializer;
 import org.junit.Test;
 
 import com.fasterxml.jackson.annotation.JsonAutoDetect.Visibility;

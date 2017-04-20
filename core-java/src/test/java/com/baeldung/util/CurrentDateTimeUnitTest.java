@@ -1,4 +1,4 @@
-package com.baeldung.util;
+package com.nklkarthi.util;
 
 import static org.junit.Assert.assertEquals;
 

@@ -1,4 +1,4 @@
-package com.baeldung.stringtokenizer;
+package com.nklkarthi.stringtokenizer;
 
 import java.io.BufferedReader;
 import java.io.IOException;

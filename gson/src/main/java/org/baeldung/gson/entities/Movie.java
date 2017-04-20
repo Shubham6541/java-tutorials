@@ -1,4 +1,4 @@
-package org.baeldung.gson.entities;
+package org.nklkarthi.gson.entities;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.baeldung.testing.mutation;
+package com.nklkarthi.testing.mutation;
 
 public class Palindrome {
     

@@ -1,4 +1,4 @@
-package com.baeldung.lombok;
+package com.nklkarthi.lombok;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;

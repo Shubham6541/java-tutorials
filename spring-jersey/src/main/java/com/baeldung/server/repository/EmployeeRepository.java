@@ -1,8 +1,8 @@
-package com.baeldung.server.repository;
+package com.nklkarthi.server.repository;
 
 import java.util.List;
 
-import com.baeldung.server.model.Employee;
+import com.nklkarthi.server.model.Employee;
 
 public interface EmployeeRepository {
 

@@ -1,4 +1,4 @@
-package com.baeldung.aop;
+package com.nklkarthi.aop;
 
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.Aspect;
@@ -27,11 +27,11 @@ public class LoggingAspect {
     public void repositoryMethods() {
     }
 
-    @Pointcut("@annotation(com.baeldung.aop.annotations.Loggable)")
+    @Pointcut("@annotation(com.nklkarthi.aop.annotations.Loggable)")
     public void loggableMethods() {
     }
 
-    @Pointcut("@args(com.baeldung.aop.annotations.Entity)")
+    @Pointcut("@args(com.nklkarthi.aop.annotations.Entity)")
     public void methodsAcceptingEntities() {
     }
 

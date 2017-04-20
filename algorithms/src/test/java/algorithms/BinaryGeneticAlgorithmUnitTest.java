@@ -3,7 +3,7 @@ package algorithms;
 import org.junit.Assert;
 import org.junit.Test;
 
-import com.baeldung.algorithms.ga.binary.SimpleGeneticAlgorithm;
+import com.nklkarthi.algorithms.ga.binary.SimpleGeneticAlgorithm;
 
 public class BinaryGeneticAlgorithmUnitTest {
 

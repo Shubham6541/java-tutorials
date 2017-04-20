@@ -1,4 +1,4 @@
-package com.baeldung.javasisst;
+package com.nklkarthi.javasisst;
 
 
 public class Point {

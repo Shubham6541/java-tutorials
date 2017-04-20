@@ -1,4 +1,4 @@
-package org.baeldung.okhttp;
+package org.nklkarthi.okhttp;
 
 import okhttp3.RequestBody;
 import okhttp3.MediaType;

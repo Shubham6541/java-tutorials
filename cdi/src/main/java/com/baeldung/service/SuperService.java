@@ -1,6 +1,6 @@
-package com.baeldung.service;
+package com.nklkarthi.service;
 
-import com.baeldung.interceptor.Audited;
+import com.nklkarthi.interceptor.Audited;
 
 public class SuperService {
     @Audited

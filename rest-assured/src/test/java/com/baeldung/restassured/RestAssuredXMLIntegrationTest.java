@@ -1,4 +1,4 @@
-package com.baeldung.restassured;
+package com.nklkarthi.restassured;
 
 import static com.github.tomakehurst.wiremock.client.WireMock.aResponse;
 import static com.github.tomakehurst.wiremock.client.WireMock.configureFor;

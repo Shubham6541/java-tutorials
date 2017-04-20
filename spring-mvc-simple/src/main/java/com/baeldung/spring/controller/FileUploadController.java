@@ -1,4 +1,4 @@
-package com.baeldung.spring.controller;
+package com.nklkarthi.spring.controller;
 
 import java.io.File;
 import java.io.FileOutputStream;

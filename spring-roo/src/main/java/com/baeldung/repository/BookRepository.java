@@ -1,5 +1,5 @@
-package com.baeldung.repository;
-import com.baeldung.domain.Book;
+package com.nklkarthi.repository;
+import com.nklkarthi.domain.Book;
 import org.springframework.roo.addon.layers.repository.jpa.annotations.RooJpaRepository;
 
 /**

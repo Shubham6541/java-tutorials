@@ -1,4 +1,4 @@
-package com.baeldung.concurrent.countdownlatch;
+package com.nklkarthi.concurrent.countdownlatch;
 
 import java.util.List;
 import java.util.concurrent.CountDownLatch;

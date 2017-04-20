@@ -1,4 +1,4 @@
-package com.baeldung.model;
+package com.nklkarthi.model;
 
 import java.io.File;
 
@@ -13,7 +13,7 @@ import org.apache.bval.extras.constraints.creditcard.Visa;
 import org.apache.bval.extras.constraints.file.Directory;
 import org.apache.bval.extras.constraints.net.InetAddress;
 
-import com.baeldung.validation.Password;
+import com.nklkarthi.validation.Password;
 
 public class User {
     @NotNull

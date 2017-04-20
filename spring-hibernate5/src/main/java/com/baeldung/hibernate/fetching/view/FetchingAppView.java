@@ -1,9 +1,9 @@
-package com.baeldung.hibernate.fetching.view;
+package com.nklkarthi.hibernate.fetching.view;
 
-import com.baeldung.hibernate.fetching.model.OrderDetail;
-import com.baeldung.hibernate.fetching.model.UserEager;
-import com.baeldung.hibernate.fetching.model.UserLazy;
-import com.baeldung.hibernate.fetching.util.HibernateUtil;
+import com.nklkarthi.hibernate.fetching.model.OrderDetail;
+import com.nklkarthi.hibernate.fetching.model.UserEager;
+import com.nklkarthi.hibernate.fetching.model.UserLazy;
+import com.nklkarthi.hibernate.fetching.util.HibernateUtil;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 

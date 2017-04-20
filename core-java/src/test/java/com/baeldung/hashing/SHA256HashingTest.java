@@ -1,4 +1,4 @@
-package com.baeldung.hashing;
+package com.nklkarthi.hashing;
 
 import org.junit.Test;
 

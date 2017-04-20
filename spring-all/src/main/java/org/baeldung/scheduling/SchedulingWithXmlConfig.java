@@ -1,4 +1,4 @@
-package org.baeldung.scheduling;
+package org.nklkarthi.scheduling;
 
 public class SchedulingWithXmlConfig {
 

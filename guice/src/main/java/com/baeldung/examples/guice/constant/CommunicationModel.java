@@ -1,9 +1,9 @@
 
-package com.baeldung.examples.guice.constant;
+package com.nklkarthi.examples.guice.constant;
 
 /**
  *
- * @author baeldung
+ * @author nklkarthi
  */
 public enum CommunicationModel {
 

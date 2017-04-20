@@ -1,9 +1,9 @@
-package org.baeldung.repository;
+package org.nklkarthi.repository;
 
 import static org.junit.Assert.*;
 
-import org.baeldung.config.MongoConfig;
-import org.baeldung.model.User;
+import org.nklkarthi.config.MongoConfig;
+import org.nklkarthi.model.User;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;

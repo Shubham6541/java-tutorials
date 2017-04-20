@@ -1,4 +1,4 @@
-package com.baeldung.servlets.props;
+package com.nklkarthi.servlets.props;
 
 import org.springframework.beans.factory.annotation.Autowired;
 

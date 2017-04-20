@@ -1,4 +1,4 @@
-package com.baeldung.neo4j;
+package com.nklkarthi.neo4j;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -22,16 +22,16 @@ public class Neo4JServerTest {
         Driver driver = GraphDatabase.driver("bolt://localhost:7687", AuthTokens.basic("neo4j", "12345"));
         Session session = driver.session();
 
-        session.run("CREATE (baeldung:Company {name:\"Baeldung\"}) " +
+        session.run("CREATE (nklkarthi:Company {name:\"nklkarthi\"}) " +
                 "-[:owns]-> (tesla:Car {make: 'tesla', model: 'modelX'})" +
-                "RETURN baeldung, tesla");
+                "RETURN nklkarthi, tesla");
 
         StatementResult result = session.run("MATCH (company:Company)-[:owns]-> (car:Car)" +
                 "WHERE car.make='tesla' and car.model='modelX'" +
                 "RETURN company.name");
 
         Assert.assertTrue(result.hasNext());
-        Assert.assertEquals(result.next().get("company.name").asString(), "Baeldung");
+        Assert.assertEquals(result.next().get("company.name").asString(), "nklkarthi");
 
         session.close();
         driver.close();
@@ -43,16 +43,16 @@ public class Neo4JServerTest {
 
         // Querying
         try (Statement stmt = con.createStatement()) {
-            stmt.execute("CREATE (baeldung:Company {name:\"Baeldung\"}) " +
+            stmt.execute("CREATE (nklkarthi:Company {name:\"nklkarthi\"}) " +
                     "-[:owns]-> (tesla:Car {make: 'tesla', model: 'modelX'})" +
-                    "RETURN baeldung, tesla");
+                    "RETURN nklkarthi, tesla");
 
             ResultSet rs = stmt.executeQuery("MATCH (company:Company)-[:owns]-> (car:Car)" +
                     "WHERE car.make='tesla' and car.model='modelX'" +
                     "RETURN company.name");
 
             while (rs.next()) {
-                Assert.assertEquals(rs.getString("company.name"), "Baeldung");
+                Assert.assertEquals(rs.getString("company.name"), "nklkarthi");
             }
         }
         con.close();

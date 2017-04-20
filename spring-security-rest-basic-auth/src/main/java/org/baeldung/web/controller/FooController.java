@@ -1,6 +1,6 @@
-package org.baeldung.web.controller;
+package org.nklkarthi.web.controller;
 
-import org.baeldung.web.dto.Foo;
+import org.nklkarthi.web.dto.Foo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.security.access.prepost.PreAuthorize;

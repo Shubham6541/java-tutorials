@@ -1,11 +1,11 @@
-package com.baeldung.springmvcforms.validator;
+package com.nklkarthi.springmvcforms.validator;
 
 import org.springframework.stereotype.Component;
 import org.springframework.validation.Errors;
 import org.springframework.validation.ValidationUtils;
 import org.springframework.validation.Validator;
 
-import com.baeldung.springmvcforms.domain.Customer;
+import com.nklkarthi.springmvcforms.domain.Customer;
 
 @Component
 public class CustomerValidator implements Validator {

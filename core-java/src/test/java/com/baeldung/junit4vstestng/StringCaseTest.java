@@ -1,4 +1,4 @@
-package com.baeldung.junit4vstestng;
+package com.nklkarthi.junit4vstestng;
 
 import static org.junit.Assert.assertEquals;
 
@@ -11,7 +11,7 @@ public class StringCaseTest {
 
     @BeforeClass
     public static void setup() {
-        data = "HELLO BAELDUNG";
+        data = "HELLO nklkarthi";
     }
 
     @Test

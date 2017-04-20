@@ -1,4 +1,4 @@
-package com.baeldung.thymeleaf.config;
+package com.nklkarthi.thymeleaf.config;
 
 import java.util.Locale;
 
@@ -26,15 +26,15 @@ import org.thymeleaf.spring4.view.ThymeleafViewResolver;
 import org.thymeleaf.templatemode.TemplateMode;
 import org.thymeleaf.templateresolver.ITemplateResolver;
 
-import com.baeldung.thymeleaf.formatter.NameFormatter;
-import com.baeldung.thymeleaf.utils.ArrayUtil;
+import com.nklkarthi.thymeleaf.formatter.NameFormatter;
+import com.nklkarthi.thymeleaf.utils.ArrayUtil;
 
 import nz.net.ultraq.thymeleaf.LayoutDialect;
 import nz.net.ultraq.thymeleaf.decorators.strategies.GroupingStrategy;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan({ "com.baeldung.thymeleaf" })
+@ComponentScan({ "com.nklkarthi.thymeleaf" })
 /**
  * Java configuration file that is used for Spring MVC and Thymeleaf
  * configurations

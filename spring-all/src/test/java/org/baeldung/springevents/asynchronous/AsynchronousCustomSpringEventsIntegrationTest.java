@@ -1,6 +1,6 @@
-package org.baeldung.springevents.asynchronous;
+package org.nklkarthi.springevents.asynchronous;
 
-import org.baeldung.springevents.synchronous.CustomSpringEventPublisher;
+import org.nklkarthi.springevents.synchronous.CustomSpringEventPublisher;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

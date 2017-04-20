@@ -1,9 +1,9 @@
-package org.baeldung.web.controller.status;
+package org.nklkarthi.web.controller.status;
 
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
-import org.baeldung.config.WebConfig;
+import org.nklkarthi.config.WebConfig;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

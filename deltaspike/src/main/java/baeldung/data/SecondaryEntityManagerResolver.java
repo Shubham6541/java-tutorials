@@ -1,4 +1,4 @@
-package baeldung.data;
+package nklkarthi.data;
 
 import org.apache.deltaspike.data.api.EntityManagerResolver;
 

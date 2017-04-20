@@ -1,6 +1,6 @@
-package com.baeldung.jackson.dtos.withEnum;
+package com.nklkarthi.jackson.dtos.withEnum;
 
-import com.baeldung.jackson.enums.Distance;
+import com.nklkarthi.jackson.enums.Distance;
 
 public class MyDtoWithEnumCustom {
 

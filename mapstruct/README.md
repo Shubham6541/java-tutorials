@@ -1,2 +1,2 @@
 ###Relevant Articles:
-- [Quick Guide to MapStruct](http://www.baeldung.com/mapstruct)
+- [Quick Guide to MapStruct](http://www.nklkarthi.com/mapstruct)

@@ -1,4 +1,4 @@
-package com.baeldung.jackson.domain;
+package com.nklkarthi.jackson.domain;
 
 /**
  * Source code github.com/readlearncode

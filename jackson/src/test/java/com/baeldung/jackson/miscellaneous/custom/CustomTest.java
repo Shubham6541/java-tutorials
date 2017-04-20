@@ -1,6 +1,6 @@
-package com.baeldung.jackson.miscellaneous.custom;
+package com.nklkarthi.jackson.miscellaneous.custom;
 
-import com.baeldung.jackson.domain.Author;
+import com.nklkarthi.jackson.domain.Author;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.Test;

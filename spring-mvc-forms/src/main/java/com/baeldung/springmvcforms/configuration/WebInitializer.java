@@ -1,4 +1,4 @@
-package com.baeldung.springmvcforms.configuration;
+package com.nklkarthi.springmvcforms.configuration;
 
 import org.springframework.web.WebApplicationInitializer;
 import org.springframework.web.context.ContextLoaderListener;

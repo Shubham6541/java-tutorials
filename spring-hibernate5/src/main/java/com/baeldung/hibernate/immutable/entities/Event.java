@@ -1,4 +1,4 @@
-package com.baeldung.hibernate.immutable.entities;
+package com.nklkarthi.hibernate.immutable.entities;
 
 import org.hibernate.annotations.Cascade;
 import org.hibernate.annotations.CascadeType;

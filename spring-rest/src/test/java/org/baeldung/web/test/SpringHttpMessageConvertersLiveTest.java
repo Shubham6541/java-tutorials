@@ -1,13 +1,13 @@
-package org.baeldung.web.test;
+package org.nklkarthi.web.test;
 
 import static org.hamcrest.Matchers.notNullValue;
 import static org.junit.Assert.assertThat;
 
 import java.util.Arrays;
 
-import org.baeldung.config.converter.KryoHttpMessageConverter;
-import org.baeldung.web.dto.Foo;
-import org.baeldung.web.dto.FooProtos;
+import org.nklkarthi.config.converter.KryoHttpMessageConverter;
+import org.nklkarthi.web.dto.Foo;
+import org.nklkarthi.web.dto.FooProtos;
 import org.junit.Assert;
 import org.junit.Test;
 import org.springframework.http.HttpEntity;

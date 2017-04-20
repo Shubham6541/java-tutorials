@@ -1,4 +1,4 @@
-package com.baeldung.interceptor;
+package com.nklkarthi.interceptor;
 
 import javax.interceptor.AroundInvoke;
 import javax.interceptor.Interceptor;

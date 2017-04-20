@@ -1,16 +1,16 @@
-package com.baeldung.web.rest;
+package com.nklkarthi.web.rest;
 
 import com.codahale.metrics.annotation.Timed;
 
-import com.baeldung.domain.User;
-import com.baeldung.repository.UserRepository;
-import com.baeldung.security.SecurityUtils;
-import com.baeldung.service.MailService;
-import com.baeldung.service.UserService;
-import com.baeldung.service.dto.UserDTO;
-import com.baeldung.web.rest.vm.KeyAndPasswordVM;
-import com.baeldung.web.rest.vm.ManagedUserVM;
-import com.baeldung.web.rest.util.HeaderUtil;
+import com.nklkarthi.domain.User;
+import com.nklkarthi.repository.UserRepository;
+import com.nklkarthi.security.SecurityUtils;
+import com.nklkarthi.service.MailService;
+import com.nklkarthi.service.UserService;
+import com.nklkarthi.service.dto.UserDTO;
+import com.nklkarthi.web.rest.vm.KeyAndPasswordVM;
+import com.nklkarthi.web.rest.vm.ManagedUserVM;
+import com.nklkarthi.web.rest.util.HeaderUtil;
 
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;

@@ -1,4 +1,4 @@
-package org.baeldung.profiles;
+package org.nklkarthi.profiles;
 
 public interface DatasourceConfig {
     void setup();

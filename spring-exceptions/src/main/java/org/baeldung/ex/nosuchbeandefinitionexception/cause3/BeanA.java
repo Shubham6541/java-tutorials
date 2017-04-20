@@ -1,4 +1,4 @@
-package org.baeldung.ex.nosuchbeandefinitionexception.cause3;
+package org.nklkarthi.ex.nosuchbeandefinitionexception.cause3;
 
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,7 +1,7 @@
-package com.baeldung.web.rest;
+package com.nklkarthi.web.rest;
 
 import io.github.jhipster.config.JHipsterProperties;
-import com.baeldung.BaeldungApp;
+import com.nklkarthi.nklkarthiApp;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -26,7 +26,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
  * @see ProfileInfoResource
  **/
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = BaeldungApp.class)
+@SpringBootTest(classes = nklkarthiApp.class)
 public class ProfileInfoResourceIntTest {
 
     @Mock

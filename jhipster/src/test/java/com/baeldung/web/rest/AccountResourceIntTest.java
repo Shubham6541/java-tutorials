@@ -1,15 +1,15 @@
-package com.baeldung.web.rest;
+package com.nklkarthi.web.rest;
 
-import com.baeldung.BaeldungApp;
-import com.baeldung.domain.Authority;
-import com.baeldung.domain.User;
-import com.baeldung.repository.AuthorityRepository;
-import com.baeldung.repository.UserRepository;
-import com.baeldung.security.AuthoritiesConstants;
-import com.baeldung.service.MailService;
-import com.baeldung.service.UserService;
-import com.baeldung.service.dto.UserDTO;
-import com.baeldung.web.rest.vm.ManagedUserVM;
+import com.nklkarthi.nklkarthiApp;
+import com.nklkarthi.domain.Authority;
+import com.nklkarthi.domain.User;
+import com.nklkarthi.repository.AuthorityRepository;
+import com.nklkarthi.repository.UserRepository;
+import com.nklkarthi.security.AuthoritiesConstants;
+import com.nklkarthi.service.MailService;
+import com.nklkarthi.service.UserService;
+import com.nklkarthi.service.dto.UserDTO;
+import com.nklkarthi.web.rest.vm.ManagedUserVM;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -39,7 +39,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
  * @see AccountResource
  */
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = BaeldungApp.class)
+@SpringBootTest(classes = nklkarthiApp.class)
 public class AccountResourceIntTest {
 
     @Autowired

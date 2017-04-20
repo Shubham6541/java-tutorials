@@ -1,4 +1,4 @@
-package org.baeldung.jasperreports;
+package org.nklkarthi.jasperreports;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;

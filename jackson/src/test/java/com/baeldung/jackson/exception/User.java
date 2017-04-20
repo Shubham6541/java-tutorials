@@ -1,4 +1,4 @@
-package com.baeldung.jackson.exception;
+package com.nklkarthi.jackson.exception;
 
 public class User {
     public int id;

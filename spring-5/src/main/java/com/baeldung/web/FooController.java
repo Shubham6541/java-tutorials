@@ -1,4 +1,4 @@
-package com.baeldung.web;
+package com.nklkarthi.web;
 
 import java.util.List;
 import java.util.Optional;
@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.baeldung.persistence.FooRepository;
+import com.nklkarthi.persistence.FooRepository;
 
 @RestController("/foos")
 public class FooController {

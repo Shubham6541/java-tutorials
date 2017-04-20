@@ -1,6 +1,6 @@
-package com.baeldung.patterns.intercepting.filter.commands;
+package com.nklkarthi.patterns.intercepting.filter.commands;
 
-import com.baeldung.patterns.intercepting.filter.data.Order;
+import com.nklkarthi.patterns.intercepting.filter.data.Order;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpSession;

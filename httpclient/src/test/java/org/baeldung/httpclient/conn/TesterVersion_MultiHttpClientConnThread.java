@@ -1,4 +1,4 @@
-package org.baeldung.httpclient.conn;
+package org.nklkarthi.httpclient.conn;
 
 import java.io.IOException;
 

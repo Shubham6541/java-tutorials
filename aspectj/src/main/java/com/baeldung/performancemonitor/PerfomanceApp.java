@@ -1,4 +1,4 @@
-package com.baeldung.performancemonitor;
+package com.nklkarthi.performancemonitor;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;

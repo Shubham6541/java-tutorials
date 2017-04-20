@@ -1,4 +1,4 @@
-package com.baeldung.springmvcforms.domain;
+package com.nklkarthi.springmvcforms.domain;
 
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;

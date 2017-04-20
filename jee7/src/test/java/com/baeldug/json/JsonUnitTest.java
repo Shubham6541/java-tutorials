@@ -19,9 +19,9 @@ import javax.json.stream.JsonParser.Event;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.baeldung.json.Person;
-import com.baeldung.json.PersonBuilder;
-import com.baeldung.json.PersonWriter;
+import com.nklkarthi.json.Person;
+import com.nklkarthi.json.PersonBuilder;
+import com.nklkarthi.json.PersonWriter;
 
 public class JsonUnitTest {
     private Person person;

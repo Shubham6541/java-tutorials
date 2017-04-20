@@ -1,4 +1,4 @@
-package com.baeldung.jgit;
+package com.nklkarthi.jgit;
 
 import java.io.File;
 import java.io.IOException;

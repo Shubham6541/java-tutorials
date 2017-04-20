@@ -1,6 +1,6 @@
-package org.baeldung.boot;
+package org.nklkarthi.boot;
 
-import org.baeldung.session.exception.Application;
+import org.nklkarthi.session.exception.Application;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,4 +1,4 @@
-package com.baeldung.jooq.introduction;
+package com.nklkarthi.jooq.introduction;
 
 import org.jooq.DSLContext;
 import org.jooq.Record3;
@@ -12,9 +12,9 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.transaction.annotation.Transactional;
 
-import static com.baeldung.jooq.introduction.db.public_.tables.Author.AUTHOR;
-import static com.baeldung.jooq.introduction.db.public_.tables.AuthorBook.AUTHOR_BOOK;
-import static com.baeldung.jooq.introduction.db.public_.tables.Book.BOOK;
+import static com.nklkarthi.jooq.introduction.db.public_.tables.Author.AUTHOR;
+import static com.nklkarthi.jooq.introduction.db.public_.tables.AuthorBook.AUTHOR_BOOK;
+import static com.nklkarthi.jooq.introduction.db.public_.tables.Book.BOOK;
 import static org.junit.Assert.assertEquals;
 
 @ContextConfiguration(classes = PersistenceContextIntegrationTest.class)
@@ -64,7 +64,7 @@ public class QueryIntegrationTest {
     @Test
     public void givenValidData_whenUpdating_thenSucceed() {
         dsl.update(AUTHOR)
-                .set(AUTHOR.LAST_NAME, "Baeldung")
+                .set(AUTHOR.LAST_NAME, "nklkarthi")
                 .where(AUTHOR.ID.equal(3))
                 .execute();
 
@@ -86,7 +86,7 @@ public class QueryIntegrationTest {
 
         assertEquals(1, result.size());
         assertEquals(Integer.valueOf(3), result.getValue(0, AUTHOR.ID));
-        assertEquals("Baeldung", result.getValue(0, AUTHOR.LAST_NAME));
+        assertEquals("nklkarthi", result.getValue(0, AUTHOR.LAST_NAME));
         assertEquals("Building your REST API with Spring", result.getValue(0, BOOK.TITLE));
     }
 

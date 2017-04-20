@@ -16,7 +16,7 @@
     </context-param>
     <context-param>
         <param-name>contextConfigLocation</param-name>
-        <param-value>org.baeldung.custom.config</param-value>
+        <param-value>org.nklkarthi.custom.config</param-value>
     </context-param>
 
     <listener>

@@ -1,6 +1,6 @@
-package org.baeldung.web.dao;
+package org.nklkarthi.web.dao;
 
-import org.baeldung.web.entity.Student;
+import org.nklkarthi.web.entity.Student;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface StudentRepository extends JpaRepository<Student, Long> 

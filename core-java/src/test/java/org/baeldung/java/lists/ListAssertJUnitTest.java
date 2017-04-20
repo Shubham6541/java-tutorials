@@ -1,4 +1,4 @@
-package org.baeldung.java.lists;
+package org.nklkarthi.java.lists;
 
 import org.junit.Test;
 

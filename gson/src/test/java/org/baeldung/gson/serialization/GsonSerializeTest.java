@@ -1,11 +1,11 @@
-package org.baeldung.gson.serialization;
+package org.nklkarthi.gson.serialization;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonParser;
-import org.baeldung.gson.entities.ActorGson;
-import org.baeldung.gson.entities.Movie;
-import org.baeldung.gson.entities.MovieWithNullValue;
+import org.nklkarthi.gson.entities.ActorGson;
+import org.nklkarthi.gson.entities.Movie;
+import org.nklkarthi.gson.entities.MovieWithNullValue;
 import org.junit.Assert;
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package com.baeldung.spring.cloud.bootstrap.svcbook;
+package com.nklkarthi.spring.cloud.bootstrap.svcbook;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.session.data.redis.config.annotation.web.http.EnableRedisHttpSession;

@@ -1,4 +1,4 @@
-package com.baeldung.dozer;
+package com.nklkarthi.dozer;
 
 public class Dest2 {
     private int id;

@@ -1,2 +1,2 @@
 ### Relevant Articles:
-- [Guide to the Spring BeanFactory](http://www.baeldung.com/spring-beanfactory)
+- [Guide to the Spring BeanFactory](http://www.nklkarthi.com/spring-beanfactory)

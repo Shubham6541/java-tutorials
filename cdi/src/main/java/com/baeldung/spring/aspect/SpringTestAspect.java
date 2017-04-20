@@ -1,4 +1,4 @@
-package com.baeldung.spring.aspect;
+package com.nklkarthi.spring.aspect;
 
 import java.util.List;
 
@@ -12,7 +12,7 @@ public class SpringTestAspect {
     @Autowired
     private List<String> accumulator;
 
-    @Around("execution(* com.baeldung.spring.service.SpringSuperService.*(..))")
+    @Around("execution(* com.nklkarthi.spring.service.SpringSuperService.*(..))")
     public Object auditMethod(ProceedingJoinPoint jp) throws Throwable {
         String methodName = jp.getSignature().getName();
         accumulator.add("Call to " + methodName);

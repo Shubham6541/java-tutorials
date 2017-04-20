@@ -1,7 +1,7 @@
-package org.baeldung.persistence.dao;
+package org.nklkarthi.persistence.dao;
 
-import org.baeldung.persistence.common.IOperations;
-import org.baeldung.persistence.model.Parent;
+import org.nklkarthi.persistence.common.IOperations;
+import org.nklkarthi.persistence.model.Parent;
 
 public interface IParentDao extends IOperations<Parent> {
     //

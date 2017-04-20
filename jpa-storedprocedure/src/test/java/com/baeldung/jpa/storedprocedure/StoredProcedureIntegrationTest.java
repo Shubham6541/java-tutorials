@@ -1,4 +1,4 @@
-package com.baeldung.jpa.storedprocedure;
+package com.nklkarthi.jpa.storedprocedure;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
@@ -13,7 +13,7 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import com.baeldung.jpa.model.Car;
+import com.nklkarthi.jpa.model.Car;
 
 public class StoredProcedureIntegrationTest {
 

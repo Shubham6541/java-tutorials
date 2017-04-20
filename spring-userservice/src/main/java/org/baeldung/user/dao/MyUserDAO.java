@@ -1,4 +1,4 @@
-package org.baeldung.user.dao;
+package org.nklkarthi.user.dao;
 
 import java.util.List;
 
@@ -6,7 +6,7 @@ import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.Query;
 
-import org.baeldung.persistence.model.MyUser;
+import org.nklkarthi.persistence.model.MyUser;
 import org.springframework.stereotype.Repository;
 
 @Repository

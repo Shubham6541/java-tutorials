@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package baeldung.test;
+package nklkarthi.test;
 
 import static org.junit.Assert.assertNotNull;
 
@@ -23,12 +23,12 @@ import java.util.logging.Logger;
 
 import javax.inject.Inject;
 
-import baeldung.data.*;
+import nklkarthi.data.*;
 import org.jboss.arquillian.container.test.api.Deployment;
 import org.jboss.arquillian.junit.Arquillian;
-import baeldung.model.Member;
-import baeldung.service.MemberRegistration;
-import baeldung.util.Resources;
+import nklkarthi.model.Member;
+import nklkarthi.service.MemberRegistration;
+import nklkarthi.util.Resources;
 import org.jboss.shrinkwrap.api.Archive;
 import org.jboss.shrinkwrap.api.ShrinkWrap;
 import org.jboss.shrinkwrap.api.asset.EmptyAsset;

@@ -1,6 +1,6 @@
-package com.baeldung.web.controller;
+package com.nklkarthi.web.controller;
 
-import com.baeldung.model.User;
+import com.nklkarthi.model.User;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;

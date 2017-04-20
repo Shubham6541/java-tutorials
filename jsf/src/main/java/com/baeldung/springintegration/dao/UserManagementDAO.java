@@ -1,4 +1,4 @@
-package com.baeldung.springintegration.dao;
+package com.nklkarthi.springintegration.dao;
 
 public interface UserManagementDAO {
 

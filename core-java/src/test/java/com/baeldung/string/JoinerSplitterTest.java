@@ -1,4 +1,4 @@
-package com.baeldung.string;
+package com.nklkarthi.string;
 
 import static org.junit.Assert.*;
 
@@ -7,7 +7,7 @@ import java.util.List;
 
 import org.junit.Test;
 
-import com.baeldung.string.JoinerSplitter;
+import com.nklkarthi.string.JoinerSplitter;
 
 public class JoinerSplitterTest {
 

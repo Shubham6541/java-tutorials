@@ -1,4 +1,4 @@
-package org.baeldung.config;
+package org.nklkarthi.config;
 
 import java.util.Properties;
 
@@ -18,7 +18,7 @@ import org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @Configuration
-@EnableJpaRepositories(basePackages = { "org.baeldung.repository", "org.baeldung.boot.repository" })
+@EnableJpaRepositories(basePackages = { "org.nklkarthi.repository", "org.nklkarthi.boot.repository" })
 @EnableTransactionManagement
 public class H2TestProfileJPAConfig {
 
@@ -41,7 +41,7 @@ public class H2TestProfileJPAConfig {
     public LocalContainerEntityManagerFactoryBean entityManagerFactory() {
         final LocalContainerEntityManagerFactoryBean em = new LocalContainerEntityManagerFactoryBean();
         em.setDataSource(dataSource());
-        em.setPackagesToScan(new String[] { "org.baeldung.domain", "org.baeldung.boot.model" });
+        em.setPackagesToScan(new String[] { "org.nklkarthi.domain", "org.nklkarthi.boot.model" });
         em.setJpaVendorAdapter(new HibernateJpaVendorAdapter());
         em.setJpaProperties(additionalProperties());
         return em;

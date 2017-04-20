@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.primechecker;
+package com.nklkarthi.algorithms.primechecker;
 
 import org.apache.commons.math3.primes.Primes;
 

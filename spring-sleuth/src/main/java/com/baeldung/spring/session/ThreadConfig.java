@@ -1,4 +1,4 @@
-package com.baeldung.spring.session;
+package com.nklkarthi.spring.session;
 
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.annotation.Autowired;

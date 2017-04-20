@@ -1,4 +1,4 @@
-package com.baeldung.doublecolon;
+package com.nklkarthi.doublecolon;
 
 import java.util.function.Function;
 

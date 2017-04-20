@@ -1,4 +1,4 @@
-package com.baeldung.functionalinterface;
+package com.nklkarthi.functionalinterface;
 
 @FunctionalInterface
 public interface ShortToByteFunction {

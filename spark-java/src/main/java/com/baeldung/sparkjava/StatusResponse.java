@@ -1,4 +1,4 @@
-package com.baeldung.sparkjava;
+package com.nklkarthi.sparkjava;
 
 public enum StatusResponse {
     SUCCESS("Success"), ERROR("Error");

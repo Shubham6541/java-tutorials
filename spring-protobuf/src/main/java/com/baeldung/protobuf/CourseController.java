@@ -1,11 +1,11 @@
-package com.baeldung.protobuf;
+package com.nklkarthi.protobuf;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.baeldung.protobuf.BaeldungTraining.Course;
+import com.nklkarthi.protobuf.nklkarthiTraining.Course;
 
 @RestController
 public class CourseController {

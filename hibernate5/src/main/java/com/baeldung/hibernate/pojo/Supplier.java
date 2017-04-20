@@ -1,4 +1,4 @@
-package com.baeldung.hibernate.pojo;
+package com.nklkarthi.hibernate.pojo;
 // Generated Feb 9, 2017 11:31:36 AM by Hibernate Tools 5.1.0.Final
 
 import javax.persistence.Entity;

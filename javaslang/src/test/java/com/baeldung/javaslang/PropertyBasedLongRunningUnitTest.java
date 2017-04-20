@@ -1,4 +1,4 @@
-package com.baeldung.javaslang;
+package com.nklkarthi.javaslang;
 
 import javaslang.CheckedFunction1;
 import javaslang.collection.Stream;

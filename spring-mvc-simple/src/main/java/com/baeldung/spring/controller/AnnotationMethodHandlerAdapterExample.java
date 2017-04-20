@@ -1,4 +1,4 @@
-package com.baeldung.spring.controller;
+package com.nklkarthi.spring.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

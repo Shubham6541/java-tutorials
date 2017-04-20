@@ -1,4 +1,4 @@
-package com.baeldung.socket;
+package com.nklkarthi.socket;
 
 import java.net.*;
 import java.io.*;

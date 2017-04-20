@@ -1,4 +1,4 @@
-package com.baeldung;
+package com.nklkarthi;
 
 import org.junit.Test;
 import org.junit.experimental.ParallelComputer;

@@ -1,4 +1,4 @@
-package com.baeldung.generics;
+package com.nklkarthi.generics;
 
 import java.util.Arrays;
 import java.util.List;

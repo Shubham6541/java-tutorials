@@ -1,4 +1,4 @@
-package com.baeldung.rest.jbehave;
+package com.nklkarthi.rest.jbehave;
 
 import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.HttpGet;

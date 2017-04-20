@@ -1,4 +1,4 @@
-package com.baeldung.spring.app.config;
+package com.nklkarthi.spring.app.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -16,7 +16,7 @@ import org.springframework.web.servlet.view.UrlBasedViewResolver;
  * User: Olga
  */
 @Configuration
-@ComponentScan("com.baeldung.spring")
+@ComponentScan("com.nklkarthi.spring")
 @EnableWebMvc //tha same as <mvc:annotation-driven/>
 public class AppConfig extends WebMvcConfigurerAdapter {
     @Override

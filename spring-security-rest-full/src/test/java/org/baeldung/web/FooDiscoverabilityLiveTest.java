@@ -1,10 +1,10 @@
-package org.baeldung.web;
+package org.nklkarthi.web;
 
 import static org.apache.commons.lang3.RandomStringUtils.randomAlphabetic;
 
-import org.baeldung.common.web.AbstractDiscoverabilityLiveTest;
-import org.baeldung.persistence.model.Foo;
-import org.baeldung.spring.ConfigTest;
+import org.nklkarthi.common.web.AbstractDiscoverabilityLiveTest;
+import org.nklkarthi.persistence.model.Foo;
+import org.nklkarthi.spring.ConfigTest;
 import org.junit.runner.RunWith;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.ContextConfiguration;

@@ -1,4 +1,4 @@
-package com.baeldung.metrics.core;
+package com.nklkarthi.metrics.core;
 
 import com.codahale.metrics.*;
 import org.junit.Test;

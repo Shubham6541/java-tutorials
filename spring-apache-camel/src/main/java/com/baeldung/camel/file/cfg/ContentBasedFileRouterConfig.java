@@ -1,4 +1,4 @@
-package com.baeldung.camel.file.cfg;
+package com.nklkarthi.camel.file.cfg;
 
 import java.util.Arrays;
 import java.util.List;
@@ -8,7 +8,7 @@ import org.apache.camel.spring.javaconfig.CamelConfiguration;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import com.baeldung.camel.file.ContentBasedFileRouter;
+import com.nklkarthi.camel.file.ContentBasedFileRouter;
 
 @Configuration
 public class ContentBasedFileRouterConfig extends CamelConfiguration {

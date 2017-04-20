@@ -1,7 +1,7 @@
-package com.baeldung.spring.controllers;
+package com.nklkarthi.spring.controllers;
 
-import com.baeldung.spring.mail.EmailServiceImpl;
-import com.baeldung.spring.web.dto.MailObject;
+import com.nklkarthi.spring.mail.EmailServiceImpl;
+import com.nklkarthi.spring.web.dto.MailObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;

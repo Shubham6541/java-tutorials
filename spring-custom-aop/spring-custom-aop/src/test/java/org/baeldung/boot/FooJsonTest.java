@@ -1,8 +1,8 @@
-package org.baeldung.boot;
+package org.nklkarthi.boot;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-import org.baeldung.boot.model.Foo;
+import org.nklkarthi.boot.model.Foo;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

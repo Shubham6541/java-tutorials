@@ -1,4 +1,4 @@
-package com.baeldung.jackson.field;
+package com.nklkarthi.jackson.field;
 
 public class MyDtoAccessLevel {
 

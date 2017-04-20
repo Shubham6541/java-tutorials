@@ -1,4 +1,4 @@
-package com.baeldung.jetty;
+package com.nklkarthi.jetty;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;

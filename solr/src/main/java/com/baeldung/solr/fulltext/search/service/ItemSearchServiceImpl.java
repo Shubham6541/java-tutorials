@@ -1,4 +1,4 @@
-package com.baeldung.solr.fulltext.search.service;
+package com.nklkarthi.solr.fulltext.search.service;
 
 import java.io.IOException;
 
@@ -6,7 +6,7 @@ import org.apache.solr.client.solrj.SolrClient;
 import org.apache.solr.client.solrj.SolrServerException;
 import org.apache.solr.common.SolrInputDocument;
 
-import com.baeldung.solr.fulltext.search.model.Item;
+import com.nklkarthi.solr.fulltext.search.model.Item;
 
 public class ItemSearchServiceImpl implements ItemSearchService {
 

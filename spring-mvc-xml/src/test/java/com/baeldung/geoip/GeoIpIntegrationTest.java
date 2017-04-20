@@ -1,4 +1,4 @@
-package com.baeldung.geoip;
+package com.nklkarthi.geoip;
 
 import java.io.File;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package org.baeldung.guava;
+package org.nklkarthi.guava;
 
 import com.google.common.eventbus.EventBus;
 import org.junit.After;

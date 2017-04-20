@@ -1,11 +1,11 @@
-package org.baeldung.test;
+package org.nklkarthi.test;
 
-import org.baeldung.properties.basic.ExtendedPropertiesWithJavaIntegrationTest;
-import org.baeldung.properties.basic.PropertiesWithMultipleXmlsIntegrationTest;
-import org.baeldung.properties.basic.PropertiesWithXmlIntegrationTest;
-import org.baeldung.properties.external.ExternalPropertiesWithJavaIntegrationTest;
-import org.baeldung.properties.external.ExternalPropertiesWithMultipleXmlsIntegrationTest;
-import org.baeldung.properties.external.ExternalPropertiesWithXmlManualTest;
+import org.nklkarthi.properties.basic.ExtendedPropertiesWithJavaIntegrationTest;
+import org.nklkarthi.properties.basic.PropertiesWithMultipleXmlsIntegrationTest;
+import org.nklkarthi.properties.basic.PropertiesWithXmlIntegrationTest;
+import org.nklkarthi.properties.external.ExternalPropertiesWithJavaIntegrationTest;
+import org.nklkarthi.properties.external.ExternalPropertiesWithMultipleXmlsIntegrationTest;
+import org.nklkarthi.properties.external.ExternalPropertiesWithXmlManualTest;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 import org.junit.runners.Suite.SuiteClasses;

@@ -1,10 +1,10 @@
-package com.baeldung.axon;
+package com.nklkarthi.axon;
 
-import com.baeldung.axon.aggregates.MessagesAggregate;
-import com.baeldung.axon.commands.CreateMessageCommand;
-import com.baeldung.axon.commands.MarkReadMessageCommand;
-import com.baeldung.axon.events.MessageCreatedEvent;
-import com.baeldung.axon.events.MessageReadEvent;
+import com.nklkarthi.axon.aggregates.MessagesAggregate;
+import com.nklkarthi.axon.commands.CreateMessageCommand;
+import com.nklkarthi.axon.commands.MarkReadMessageCommand;
+import com.nklkarthi.axon.events.MessageCreatedEvent;
+import com.nklkarthi.axon.events.MessageReadEvent;
 import org.axonframework.test.aggregate.AggregateTestFixture;
 import org.axonframework.test.aggregate.FixtureConfiguration;
 import org.junit.Before;

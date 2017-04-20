@@ -1,4 +1,4 @@
-package com.baeldung.factorybean;
+package com.nklkarthi.factorybean;
 
 import org.springframework.beans.factory.FactoryBean;
 

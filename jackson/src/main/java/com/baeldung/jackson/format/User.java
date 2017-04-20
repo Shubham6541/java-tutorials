@@ -1,8 +1,8 @@
-package com.baeldung.jackson.format;
+package com.nklkarthi.jackson.format;
 
 import java.util.Date;
 
-import com.baeldung.jackson.domain.Person;
+import com.nklkarthi.jackson.domain.Person;
 import com.fasterxml.jackson.annotation.JsonFormat;
 
 /**

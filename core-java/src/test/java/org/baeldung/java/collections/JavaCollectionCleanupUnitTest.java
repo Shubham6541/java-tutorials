@@ -1,4 +1,4 @@
-package org.baeldung.java.collections;
+package org.nklkarthi.java.collections;
 
 import static org.hamcrest.Matchers.hasSize;
 import static org.junit.Assert.assertThat;

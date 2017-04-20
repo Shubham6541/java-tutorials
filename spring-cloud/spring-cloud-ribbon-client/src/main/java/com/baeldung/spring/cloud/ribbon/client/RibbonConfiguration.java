@@ -1,4 +1,4 @@
-package com.baeldung.spring.cloud.ribbon.client;
+package com.nklkarthi.spring.cloud.ribbon.client;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

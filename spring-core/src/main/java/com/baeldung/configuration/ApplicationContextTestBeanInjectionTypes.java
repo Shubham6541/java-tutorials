@@ -1,18 +1,18 @@
-package com.baeldung.configuration;
+package com.nklkarthi.configuration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
-import com.baeldung.beaninjection.AnotherSampleDAOBean;
-import com.baeldung.beaninjection.ExampleDAOBean;
-import com.baeldung.beaninjection.ExampleServiceBean;
-import com.baeldung.beaninjection.IAnotherSampleDAO;
-import com.baeldung.beaninjection.IExampleDAO;
-import com.baeldung.beaninjection.IExampleService;
+import com.nklkarthi.beaninjection.AnotherSampleDAOBean;
+import com.nklkarthi.beaninjection.ExampleDAOBean;
+import com.nklkarthi.beaninjection.ExampleServiceBean;
+import com.nklkarthi.beaninjection.IAnotherSampleDAO;
+import com.nklkarthi.beaninjection.IExampleDAO;
+import com.nklkarthi.beaninjection.IExampleService;
 
 @Configuration
-@ComponentScan(basePackages = { "com.baeldung.beaninjection" })
+@ComponentScan(basePackages = { "com.nklkarthi.beaninjection" })
 public class ApplicationContextTestBeanInjectionTypes {
 
     @Bean

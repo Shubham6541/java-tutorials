@@ -1,11 +1,11 @@
-package org.baeldung.ex.mappingexception.spring;
+package org.nklkarthi.ex.mappingexception.spring;
 
 import java.util.Properties;
 
 import javax.sql.DataSource;
 
 import org.apache.tomcat.dbcp.dbcp.BasicDataSource;
-import org.baeldung.ex.mappingexception.cause3.persistence.model.Foo;
+import org.nklkarthi.ex.mappingexception.cause3.persistence.model.Foo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -22,7 +22,7 @@ import com.google.common.base.Preconditions;
 @Configuration
 @EnableTransactionManagement
 @PropertySource({ "classpath:persistence-mysql.properties" })
-@ComponentScan({ "org.baeldung.ex.mappingexception.cause2.persistence" })
+@ComponentScan({ "org.nklkarthi.ex.mappingexception.cause2.persistence" })
 public class Cause3PersistenceConfig {
 
     @Autowired
@@ -38,7 +38,7 @@ public class Cause3PersistenceConfig {
         sessionFactory.setDataSource(restDataSource());
         sessionFactory.setHibernateProperties(hibernateProperties());
 
-        // sessionFactory.setPackagesToScan(new String[] { "org.baeldung.ex.mappingexception.cause2.persistence.model" });
+        // sessionFactory.setPackagesToScan(new String[] { "org.nklkarthi.ex.mappingexception.cause2.persistence.model" });
         sessionFactory.setAnnotatedClasses(new Class[] { Foo.class });
 
         return sessionFactory;

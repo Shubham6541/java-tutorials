@@ -1,4 +1,4 @@
-package com.baeldung.client.rest;
+package com.nklkarthi.client.rest;
 
 import javax.ws.rs.client.Client;
 import javax.ws.rs.client.ClientBuilder;
@@ -6,7 +6,7 @@ import javax.ws.rs.client.Entity;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
-import com.baeldung.server.model.Employee;
+import com.nklkarthi.server.model.Employee;
 
 public class RestClient {
 

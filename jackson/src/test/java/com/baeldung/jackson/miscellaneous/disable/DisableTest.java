@@ -1,4 +1,4 @@
-package com.baeldung.jackson.miscellaneous.disable;
+package com.nklkarthi.jackson.miscellaneous.disable;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.MapperFeature;

@@ -1,4 +1,4 @@
-package com.baeldung.java.nio2.watcher;
+package com.nklkarthi.java.nio2.watcher;
 
 import java.io.IOException;
 import java.nio.file.FileSystems;

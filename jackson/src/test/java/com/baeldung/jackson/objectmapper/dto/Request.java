@@ -1,4 +1,4 @@
-package com.baeldung.jackson.objectmapper.dto;
+package com.nklkarthi.jackson.objectmapper.dto;
 
 import java.util.Date;
 

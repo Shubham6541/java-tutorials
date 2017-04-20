@@ -1,4 +1,4 @@
-package com.baeldung.entity;
+package com.nklkarthi.entity;
 
 import java.util.Date;
 

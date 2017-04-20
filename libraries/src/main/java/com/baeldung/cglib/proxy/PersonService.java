@@ -1,4 +1,4 @@
-package com.baeldung.cglib.proxy;
+package com.nklkarthi.cglib.proxy;
 
 public class PersonService {
     public String sayHello(String name) {

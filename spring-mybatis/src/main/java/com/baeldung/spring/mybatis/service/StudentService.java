@@ -1,6 +1,6 @@
-package com.baeldung.spring.mybatis.service;
+package com.nklkarthi.spring.mybatis.service;
 
-import com.baeldung.spring.mybatis.model.Student;
+import com.nklkarthi.spring.mybatis.model.Student;
 
 public interface StudentService {
 	public boolean insertStudent(Student student);

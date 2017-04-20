@@ -1,4 +1,4 @@
-package com.baeldung.hibernate.fetching.model;
+package com.nklkarthi.hibernate.fetching.model;
 
 import javax.persistence.*;
 import java.io.Serializable;

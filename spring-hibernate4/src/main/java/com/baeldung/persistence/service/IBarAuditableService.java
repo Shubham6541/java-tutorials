@@ -1,7 +1,7 @@
-package com.baeldung.persistence.service;
+package com.nklkarthi.persistence.service;
 
-import com.baeldung.persistence.dao.common.IAuditOperations;
-import com.baeldung.persistence.model.Bar;
+import com.nklkarthi.persistence.dao.common.IAuditOperations;
+import com.nklkarthi.persistence.model.Bar;
 
 public interface IBarAuditableService extends IBarService, IAuditOperations<Bar> {
 

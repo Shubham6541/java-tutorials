@@ -1,6 +1,6 @@
-package org.baeldung.model;
+package org.nklkarthi.model;
 
-import org.baeldung.annotation.CascadeSave;
+import org.nklkarthi.annotation.CascadeSave;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.annotation.PersistenceConstructor;

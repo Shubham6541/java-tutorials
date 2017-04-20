@@ -1,4 +1,4 @@
-package com.baeldung;
+package com.nklkarthi;
 
 import com.mongodb.BasicDBObject;
 import com.mongodb.DB;
@@ -25,7 +25,7 @@ public class MongoExample {
         DBCollection collection = database.getCollection("customers");
         BasicDBObject document = new BasicDBObject();
         document.put("name", "Shubham");
-        document.put("company", "Baeldung");
+        document.put("company", "nklkarthi");
         collection.insert(document);
 
         // update data

@@ -1,11 +1,11 @@
-package org.baeldung.security;
+package org.nklkarthi.security;
 
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
-import org.baeldung.persistence.model.Privilege;
-import org.baeldung.persistence.model.User;
+import org.nklkarthi.persistence.model.Privilege;
+import org.nklkarthi.persistence.model.User;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

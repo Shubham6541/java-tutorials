@@ -1,4 +1,4 @@
-package com.baeldung.jooq.introduction;
+package com.nklkarthi.jooq.introduction;
 
 import org.h2.jdbcx.JdbcDataSource;
 import org.jooq.SQLDialect;
@@ -19,7 +19,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 import javax.sql.DataSource;
 
 @Configuration
-@ComponentScan({ "com.baeldung.jooq.introduction.db.public_.tables" })
+@ComponentScan({ "com.nklkarthi.jooq.introduction.db.public_.tables" })
 @EnableTransactionManagement
 @PropertySource("classpath:intro_config.properties")
 public class PersistenceContextIntegrationTest {

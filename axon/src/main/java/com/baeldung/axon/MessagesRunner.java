@@ -1,9 +1,9 @@
-package com.baeldung.axon;
+package com.nklkarthi.axon;
 
-import com.baeldung.axon.aggregates.MessagesAggregate;
-import com.baeldung.axon.commands.CreateMessageCommand;
-import com.baeldung.axon.commands.MarkReadMessageCommand;
-import com.baeldung.axon.eventhandlers.MessagesEventHandler;
+import com.nklkarthi.axon.aggregates.MessagesAggregate;
+import com.nklkarthi.axon.commands.CreateMessageCommand;
+import com.nklkarthi.axon.commands.MarkReadMessageCommand;
+import com.nklkarthi.axon.eventhandlers.MessagesEventHandler;
 import org.axonframework.commandhandling.AggregateAnnotationCommandHandler;
 import org.axonframework.commandhandling.CommandBus;
 import org.axonframework.commandhandling.SimpleCommandBus;

@@ -1,4 +1,4 @@
-package com.baeldung.persistence.hibernate;
+package com.nklkarthi.persistence.hibernate;
 
 import static org.apache.commons.lang3.RandomStringUtils.randomAlphabetic;
 import static org.hamcrest.Matchers.hasSize;
@@ -7,9 +7,9 @@ import static org.junit.Assert.assertThat;
 
 import java.util.List;
 
-import com.baeldung.persistence.model.Foo;
-import com.baeldung.persistence.service.IFooService;
-import com.baeldung.spring.PersistenceConfig;
+import com.nklkarthi.persistence.model.Foo;
+import com.nklkarthi.persistence.service.IFooService;
+import com.nklkarthi.spring.PersistenceConfig;
 import org.hibernate.Criteria;
 import org.hibernate.Query;
 import org.hibernate.ScrollMode;

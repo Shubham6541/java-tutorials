@@ -1,7 +1,7 @@
-package org.baeldung.service;
+package org.nklkarthi.service;
 
-import org.baeldung.entity.Task;
-import org.baeldung.repository.TaskRepository;
+import org.nklkarthi.entity.Task;
+import org.nklkarthi.repository.TaskRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PostFilter;
 import org.springframework.security.access.prepost.PreFilter;

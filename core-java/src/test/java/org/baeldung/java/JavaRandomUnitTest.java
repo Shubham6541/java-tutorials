@@ -1,4 +1,4 @@
-package org.baeldung.java;
+package org.nklkarthi.java;
 
 import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.commons.math3.random.RandomDataGenerator;

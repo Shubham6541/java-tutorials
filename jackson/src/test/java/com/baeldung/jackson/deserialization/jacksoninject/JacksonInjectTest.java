@@ -1,4 +1,4 @@
-package com.baeldung.jackson.deserialization.jacksoninject;
+package com.nklkarthi.jackson.deserialization.jacksoninject;
 
 import com.fasterxml.jackson.databind.InjectableValues;
 import com.fasterxml.jackson.databind.ObjectMapper;

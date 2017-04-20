@@ -1,4 +1,4 @@
-package org.baeldung.web;
+package org.nklkarthi.web;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -7,7 +7,7 @@ import org.springframework.web.multipart.MultipartResolver;
 import org.springframework.web.multipart.commons.CommonsMultipartResolver;
 
 @Configuration
-@ComponentScan({ "org.baeldung.web" })
+@ComponentScan({ "org.nklkarthi.web" })
 public class TestConfig {
 
     @Bean

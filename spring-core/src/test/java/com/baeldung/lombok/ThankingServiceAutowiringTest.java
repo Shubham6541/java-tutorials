@@ -1,4 +1,4 @@
-package com.baeldung.lombok;
+package com.nklkarthi.lombok;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

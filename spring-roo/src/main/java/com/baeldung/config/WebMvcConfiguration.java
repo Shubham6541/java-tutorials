@@ -1,4 +1,4 @@
-package com.baeldung.config;
+package com.nklkarthi.config;
 import org.springframework.roo.addon.web.mvc.controller.annotations.config.RooWebMvcConfiguration;
 import org.springframework.roo.addon.web.mvc.thymeleaf.annotations.RooWebMvcThymeleafUIConfiguration;
 

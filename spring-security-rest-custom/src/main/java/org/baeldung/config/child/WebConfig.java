@@ -1,4 +1,4 @@
-package org.baeldung.config.child;
+package org.nklkarthi.config.child;
 
 import java.util.List;
 
@@ -13,7 +13,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 
 @Configuration
 @EnableWebMvc
-@ComponentScan("org.baeldung.web")
+@ComponentScan("org.nklkarthi.web")
 // @ImportResource({ "classpath:prop.xml" })
 // @PropertySource("classpath:foo.properties")
 public class WebConfig extends WebMvcConfigurerAdapter {

@@ -1,11 +1,11 @@
-package org.baeldung.security.csrf;
+package org.nklkarthi.security.csrf;
 
 import static org.apache.commons.lang3.RandomStringUtils.randomAlphabetic;
 import static org.springframework.security.test.web.servlet.request.SecurityMockMvcRequestPostProcessors.user;
 
 import javax.servlet.Filter;
 
-import org.baeldung.persistence.model.Foo;
+import org.nklkarthi.persistence.model.Foo;
 import org.junit.Before;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

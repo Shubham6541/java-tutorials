@@ -1,4 +1,4 @@
-package org.baeldung.gson.deserialization;
+package org.nklkarthi.gson.deserialization;
 
 import java.lang.reflect.Type;
 

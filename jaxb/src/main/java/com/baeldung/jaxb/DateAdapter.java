@@ -1,4 +1,4 @@
-package com.baeldung.jaxb;
+package com.nklkarthi.jaxb;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;

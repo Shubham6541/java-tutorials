@@ -1,6 +1,6 @@
 package broadcast;
 
-import com.baeldung.springamqpsimple.broadcast.BroadcastConfig;
+import com.nklkarthi.springamqpsimple.broadcast.BroadcastConfig;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;

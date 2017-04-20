@@ -1,4 +1,4 @@
-package com.baeldung.javers;
+package com.nklkarthi.javers;
 
 
 public class Address {

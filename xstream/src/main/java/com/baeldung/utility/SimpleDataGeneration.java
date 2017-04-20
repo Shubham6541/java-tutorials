@@ -1,7 +1,7 @@
-package com.baeldung.utility;
+package com.nklkarthi.utility;
 
-import com.baeldung.pojo.ContactDetails;
-import com.baeldung.pojo.Customer;
+import com.nklkarthi.pojo.ContactDetails;
+import com.nklkarthi.pojo.Customer;
 
 import java.util.ArrayList;
 import java.util.Calendar;

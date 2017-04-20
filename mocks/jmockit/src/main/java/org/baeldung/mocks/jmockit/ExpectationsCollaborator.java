@@ -1,4 +1,4 @@
-package org.baeldung.mocks.jmockit;
+package org.nklkarthi.mocks.jmockit;
 
 import java.util.List;
 

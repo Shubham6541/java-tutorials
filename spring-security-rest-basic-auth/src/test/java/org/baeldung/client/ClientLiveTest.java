@@ -1,11 +1,11 @@
-package org.baeldung.client;
+package org.nklkarthi.client;
 
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.assertThat;
 
-import org.baeldung.client.spring.ClientConfig;
-import org.baeldung.web.dto.Foo;
+import org.nklkarthi.client.spring.ClientConfig;
+import org.nklkarthi.web.dto.Foo;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

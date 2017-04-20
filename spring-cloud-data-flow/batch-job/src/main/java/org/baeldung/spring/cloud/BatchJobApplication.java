@@ -1,4 +1,4 @@
-package org.baeldung.spring.cloud;
+package org.nklkarthi.spring.cloud;
 
 import org.springframework.batch.core.configuration.annotation.EnableBatchProcessing;
 import org.springframework.boot.SpringApplication;

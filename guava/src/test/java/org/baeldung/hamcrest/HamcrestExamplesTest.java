@@ -1,4 +1,4 @@
-package org.baeldung.hamcrest;
+package org.nklkarthi.hamcrest;
 
 import static org.hamcrest.Matchers.contains;
 import static org.hamcrest.Matchers.containsInAnyOrder;

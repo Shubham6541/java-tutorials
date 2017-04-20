@@ -1,4 +1,4 @@
-package com.baeldung.web.controller;
+package com.nklkarthi.web.controller;
 
 import org.junit.Assert;
 import org.junit.Before;
@@ -9,8 +9,8 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
 
-import com.baeldung.model.Employee;
-import com.baeldung.spring.web.config.WebConfig;
+import com.nklkarthi.model.Employee;
+import com.nklkarthi.spring.web.config.WebConfig;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @WebAppConfiguration

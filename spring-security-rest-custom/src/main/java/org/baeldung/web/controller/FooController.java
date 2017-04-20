@@ -1,7 +1,7 @@
-package org.baeldung.web.controller;
+package org.nklkarthi.web.controller;
 
-import org.baeldung.service.IFooService;
-import org.baeldung.web.dto.Foo;
+import org.nklkarthi.service.IFooService;
+import org.nklkarthi.web.dto.Foo;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;

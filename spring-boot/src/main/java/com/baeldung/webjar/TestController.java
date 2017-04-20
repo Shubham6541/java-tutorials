@@ -1,4 +1,4 @@
-package com.baeldung.webjar;
+package com.nklkarthi.webjar;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

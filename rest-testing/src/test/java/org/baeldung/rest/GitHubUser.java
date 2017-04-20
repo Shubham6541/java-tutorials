@@ -1,4 +1,4 @@
-package org.baeldung.rest;
+package org.nklkarthi.rest;
 
 public class GitHubUser {
 

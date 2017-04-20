@@ -1,4 +1,4 @@
-package org.baeldung.java.sorting;
+package org.nklkarthi.java.sorting;
 
 import static org.junit.Assert.assertTrue;
 

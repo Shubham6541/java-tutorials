@@ -1,4 +1,4 @@
-package com.baeldung.jackson.annotation.extra;
+package com.nklkarthi.jackson.annotation.extra;
 
 import static org.hamcrest.CoreMatchers.containsString;
 import static org.hamcrest.CoreMatchers.instanceOf;
@@ -12,10 +12,10 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.baeldung.jackson.annotation.extra.AppendBeans.BeanWithAppend;
-import com.baeldung.jackson.annotation.extra.AppendBeans.BeanWithoutAppend;
-import com.baeldung.jackson.annotation.extra.IdentityReferenceBeans.BeanWithIdentityReference;
-import com.baeldung.jackson.annotation.extra.IdentityReferenceBeans.BeanWithoutIdentityReference;
+import com.nklkarthi.jackson.annotation.extra.AppendBeans.BeanWithAppend;
+import com.nklkarthi.jackson.annotation.extra.AppendBeans.BeanWithoutAppend;
+import com.nklkarthi.jackson.annotation.extra.IdentityReferenceBeans.BeanWithIdentityReference;
+import com.nklkarthi.jackson.annotation.extra.IdentityReferenceBeans.BeanWithoutIdentityReference;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectMapper.DefaultTyping;

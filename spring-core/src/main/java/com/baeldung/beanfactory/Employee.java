@@ -1,4 +1,4 @@
-package com.baeldung.beanfactory;
+package com.nklkarthi.beanfactory;
 
 public class Employee {
 

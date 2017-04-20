@@ -1,4 +1,4 @@
-package com.baeldung.java.networking.udp;
+package com.nklkarthi.java.networking.udp;
 
 import org.junit.After;
 import org.junit.Before;

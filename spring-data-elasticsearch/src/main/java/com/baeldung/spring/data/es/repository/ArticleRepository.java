@@ -1,6 +1,6 @@
-package com.baeldung.spring.data.es.repository;
+package com.nklkarthi.spring.data.es.repository;
 
-import com.baeldung.spring.data.es.model.Article;
+import com.nklkarthi.spring.data.es.model.Article;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.elasticsearch.annotations.Query;

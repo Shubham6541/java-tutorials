@@ -1,4 +1,4 @@
-package com.baeldung.spring.statemachine;
+package com.nklkarthi.spring.statemachine;
 
 import static org.junit.Assert.assertEquals;
 

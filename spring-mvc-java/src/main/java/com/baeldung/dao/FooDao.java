@@ -1,7 +1,7 @@
-package com.baeldung.dao;
+package com.nklkarthi.dao;
 
-import com.baeldung.aop.annotations.Loggable;
-import com.baeldung.model.Foo;
+import com.nklkarthi.aop.annotations.Loggable;
+import com.nklkarthi.model.Foo;
 import org.springframework.stereotype.Repository;
 
 @Repository

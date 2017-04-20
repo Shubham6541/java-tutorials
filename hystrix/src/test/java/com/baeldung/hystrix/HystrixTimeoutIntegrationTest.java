@@ -1,4 +1,4 @@
-package com.baeldung.hystrix;
+package com.nklkarthi.hystrix;
 
 import com.netflix.hystrix.HystrixCommand;
 import com.netflix.hystrix.HystrixCommandGroupKey;

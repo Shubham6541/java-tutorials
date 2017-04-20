@@ -1,4 +1,4 @@
-package org.baeldung.config;
+package org.nklkarthi.config;
 
 import java.util.HashMap;
 
@@ -21,7 +21,7 @@ import com.google.common.base.Preconditions;
 
 @Configuration
 @PropertySource({ "classpath:persistence-multiple-db.properties" })
-@EnableJpaRepositories(basePackages = "org.baeldung.persistence.multiple.dao.user", entityManagerFactoryRef = "userEntityManager", transactionManagerRef = "userTransactionManager")
+@EnableJpaRepositories(basePackages = "org.nklkarthi.persistence.multiple.dao.user", entityManagerFactoryRef = "userEntityManager", transactionManagerRef = "userTransactionManager")
 public class UserConfig {
     @Autowired
     private Environment env;
@@ -37,7 +37,7 @@ public class UserConfig {
     public LocalContainerEntityManagerFactoryBean userEntityManager() {
         final LocalContainerEntityManagerFactoryBean em = new LocalContainerEntityManagerFactoryBean();
         em.setDataSource(userDataSource());
-        em.setPackagesToScan(new String[] { "org.baeldung.persistence.multiple.model.user" });
+        em.setPackagesToScan(new String[] { "org.nklkarthi.persistence.multiple.model.user" });
 
         final HibernateJpaVendorAdapter vendorAdapter = new HibernateJpaVendorAdapter();
         em.setJpaVendorAdapter(vendorAdapter);

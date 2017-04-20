@@ -1,4 +1,4 @@
-package com.baeldung.spring.cloud.bootstrap.gateway;
+package com.nklkarthi.spring.cloud.bootstrap.gateway;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.session.data.redis.RedisFlushMode;

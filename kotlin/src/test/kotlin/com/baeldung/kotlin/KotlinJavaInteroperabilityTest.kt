@@ -1,6 +1,6 @@
-package com.baeldung.kotlin
+package com.nklkarthi.kotlin
 
-import com.baeldung.java.StringUtils
+import com.nklkarthi.java.StringUtils
 import org.junit.Test
 import kotlin.test.assertEquals
 

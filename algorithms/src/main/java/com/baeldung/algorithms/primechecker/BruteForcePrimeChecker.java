@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.primechecker;
+package com.nklkarthi.algorithms.primechecker;
 
 import java.util.stream.IntStream;
 import java.util.stream.LongStream;

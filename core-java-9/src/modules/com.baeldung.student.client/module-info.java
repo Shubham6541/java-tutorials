@@ -1,3 +1,3 @@
-module com.baeldung.student.client{
-    requires com.baeldung.student.service.dbimpl;
+module com.nklkarthi.student.client{
+    requires com.nklkarthi.student.service.dbimpl;
 }

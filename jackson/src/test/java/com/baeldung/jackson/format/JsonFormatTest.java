@@ -1,4 +1,4 @@
-package com.baeldung.jackson.format;
+package com.nklkarthi.jackson.format;
 
 import java.util.Date;
 

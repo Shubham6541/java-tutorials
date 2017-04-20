@@ -1,11 +1,11 @@
-package com.baeldung.rest.jbehave;
+package com.nklkarthi.rest.jbehave;
 
 import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpUriRequest;
 import org.apache.http.impl.client.HttpClientBuilder;
-import org.baeldung.rest.GitHubUser;
-import org.baeldung.rest.RetrieveUtil;
+import org.nklkarthi.rest.GitHubUser;
+import org.nklkarthi.rest.RetrieveUtil;
 import org.hamcrest.Matchers;
 import org.jbehave.core.annotations.Given;
 import org.jbehave.core.annotations.Then;
@@ -13,7 +13,7 @@ import org.jbehave.core.annotations.When;
 
 import java.io.IOException;
 
-import static com.baeldung.rest.jbehave.GithubUserNotFoundSteps.getGithubUserProfile;
+import static com.nklkarthi.rest.jbehave.GithubUserNotFoundSteps.getGithubUserProfile;
 import static org.hamcrest.MatcherAssert.assertThat;
 
 public class GithubUserResponsePayloadSteps {

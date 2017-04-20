@@ -1,9 +1,9 @@
-package org.baeldung.web;
+package org.nklkarthi.web;
 
-import org.baeldung.spring.ClientWebConfig;
-import org.baeldung.spring.SecurityJavaConfig;
-import org.baeldung.spring.WebConfig;
-import org.baeldung.web.controller.AsyncController;
+import org.nklkarthi.spring.ClientWebConfig;
+import org.nklkarthi.spring.SecurityJavaConfig;
+import org.nklkarthi.spring.WebConfig;
+import org.nklkarthi.web.controller.AsyncController;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

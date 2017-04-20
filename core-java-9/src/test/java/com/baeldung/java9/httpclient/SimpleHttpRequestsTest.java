@@ -1,4 +1,4 @@
-package com.baeldung.java9.httpclient;
+package com.nklkarthi.java9.httpclient;
 
 import static java.net.HttpURLConnection.HTTP_OK;
 import static org.junit.Assert.assertTrue;
@@ -30,7 +30,7 @@ public class SimpleHttpRequestsTest {
 
     @Before
     public void init() throws URISyntaxException {
-        httpURI = new URI("http://www.baeldung.com/");
+        httpURI = new URI("http://www.nklkarthi.com/");
     }
 
     @Test

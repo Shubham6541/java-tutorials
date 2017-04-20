@@ -1,4 +1,4 @@
-package org.baeldung.properties.external;
+package org.nklkarthi.properties.external;
 
 import org.junit.Ignore;
 import org.junit.Test;

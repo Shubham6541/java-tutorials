@@ -1,7 +1,7 @@
-package com.baeldung.jackson.serialization.jsonrootname;
+package com.nklkarthi.jackson.serialization.jsonrootname;
 
-import com.baeldung.jackson.domain.Item;
-import com.baeldung.jackson.domain.Person;
+import com.nklkarthi.jackson.domain.Item;
+import com.nklkarthi.jackson.domain.Person;
 import com.fasterxml.jackson.annotation.JsonRootName;
 
 import java.util.ArrayList;

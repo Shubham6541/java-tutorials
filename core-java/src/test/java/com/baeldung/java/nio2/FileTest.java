@@ -1,4 +1,4 @@
-package com.baeldung.java.nio2;
+package com.nklkarthi.java.nio2;
 
 import org.apache.commons.io.FileUtils;
 import org.junit.AfterClass;

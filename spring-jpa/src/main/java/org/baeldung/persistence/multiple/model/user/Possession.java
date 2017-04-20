@@ -1,4 +1,4 @@
-package org.baeldung.persistence.multiple.model.user;
+package org.nklkarthi.persistence.multiple.model.user;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

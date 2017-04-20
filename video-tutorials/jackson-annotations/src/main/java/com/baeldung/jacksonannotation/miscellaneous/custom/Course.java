@@ -1,13 +1,13 @@
-package com.baeldung.jacksonannotation.miscellaneous.custom;
+package com.nklkarthi.jacksonannotation.miscellaneous.custom;
 
-import com.baeldung.jacksonannotation.domain.Author;
+import com.nklkarthi.jacksonannotation.domain.Author;
 
 import java.util.List;
 
 /**
  * Source code github.com/eugenp/tutorials
  *
- * @author Alex Theedom www.baeldung.com
+ * @author Alex Theedom www.nklkarthi.com
  * @version 1.0
  */
 @CustomCourseAnnotation

@@ -1,4 +1,4 @@
-package com.baeldung.cachecontrol;
+package com.nklkarthi.cachecontrol;
 
 import static com.jayway.restassured.RestAssured.given;
 

@@ -1,4 +1,4 @@
-package com.baeldung.pdf;
+package com.nklkarthi.pdf;
 
 import java.awt.image.BufferedImage;
 import java.io.File;
@@ -20,7 +20,7 @@ import com.itextpdf.text.pdf.PdfWriter;
 public class PDF2ImageExample {
 
 	private static final String PDF = "src/main/resources/pdf.pdf";
-	private static final String JPG = "http://cdn2.baeldung.netdna-cdn.com/wp-content/uploads/2016/05/baeldung-rest-widget-main-1.2.0";
+	private static final String JPG = "http://cdn2.nklkarthi.netdna-cdn.com/wp-content/uploads/2016/05/nklkarthi-rest-widget-main-1.2.0";
 	private static final String GIF = "https://media.giphy.com/media/l3V0x6kdXUW9M4ONq/giphy";
 
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package org.baeldung.web.controller.advice;
+package org.nklkarthi.web.controller.advice;
 
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.servlet.mvc.method.annotation.AbstractJsonpResponseBodyAdvice;

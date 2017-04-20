@@ -1,10 +1,10 @@
-package org.baeldung.gson.serialization;
+package org.nklkarthi.gson.serialization;
 
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonSerializationContext;
 import com.google.gson.JsonSerializer;
-import org.baeldung.gson.entities.ActorGson;
+import org.nklkarthi.gson.entities.ActorGson;
 
 import java.lang.reflect.Type;
 import java.text.SimpleDateFormat;

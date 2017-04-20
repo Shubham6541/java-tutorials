@@ -1,4 +1,4 @@
-package com.baeldung.annotation.servletcomponentscan;
+package com.nklkarthi.annotation.servletcomponentscan;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

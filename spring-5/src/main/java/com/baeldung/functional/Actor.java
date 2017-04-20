@@ -1,4 +1,4 @@
-package com.baeldung.functional;
+package com.nklkarthi.functional;
 
 class Actor {
     private String firstname;

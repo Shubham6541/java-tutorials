@@ -1,4 +1,4 @@
-package com.baeldung.tiles.springmvc;
+package com.nklkarthi.tiles.springmvc;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -12,7 +12,7 @@ import org.springframework.web.servlet.view.tiles3.TilesViewResolver;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages = "com.baeldung.tiles.springmvc")
+@ComponentScan(basePackages = "com.nklkarthi.tiles.springmvc")
 public class ApplicationConfiguration extends WebMvcConfigurerAdapter {
 
     /**

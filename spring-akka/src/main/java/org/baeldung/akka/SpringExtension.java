@@ -1,4 +1,4 @@
-package org.baeldung.akka;
+package org.nklkarthi.akka;
 
 import akka.actor.AbstractExtensionId;
 import akka.actor.ExtendedActorSystem;

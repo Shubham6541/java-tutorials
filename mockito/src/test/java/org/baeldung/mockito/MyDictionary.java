@@ -1,4 +1,4 @@
-package org.baeldung.mockito;
+package org.nklkarthi.mockito;
 
 import java.util.HashMap;
 import java.util.Map;

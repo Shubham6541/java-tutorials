@@ -1,4 +1,4 @@
-package com.baeldung.generics;
+package com.nklkarthi.generics;
 
 import org.junit.Test;
 

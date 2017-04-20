@@ -1,4 +1,4 @@
-package com.baeldung.spring.spel.examples;
+package com.nklkarthi.spring.spel.examples;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;

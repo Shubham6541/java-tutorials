@@ -1,7 +1,7 @@
-package com.baeldung.web.controller;
+package com.nklkarthi.web.controller;
 
-import com.baeldung.model.Message;
-import com.baeldung.model.OutputMessage;
+import com.nklkarthi.model.Message;
+import com.nklkarthi.model.OutputMessage;
 import org.springframework.messaging.handler.annotation.MessageMapping;
 import org.springframework.messaging.handler.annotation.SendTo;
 import org.springframework.stereotype.Controller;

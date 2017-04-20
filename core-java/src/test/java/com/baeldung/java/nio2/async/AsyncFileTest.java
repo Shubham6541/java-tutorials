@@ -1,4 +1,4 @@
-package com.baeldung.java.nio2.async;
+package com.nklkarthi.java.nio2.async;
 
 import org.junit.Test;
 
@@ -31,7 +31,7 @@ public class AsyncFileTest {
         String fileContent = new String(buffer.array()).trim();
         buffer.clear();
 
-        assertEquals(fileContent, "baeldung.com");
+        assertEquals(fileContent, "nklkarthi.com");
     }
 
     @Test

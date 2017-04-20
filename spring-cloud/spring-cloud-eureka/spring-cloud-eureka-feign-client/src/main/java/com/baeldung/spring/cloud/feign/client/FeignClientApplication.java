@@ -1,4 +1,4 @@
-package com.baeldung.spring.cloud.feign.client;
+package com.nklkarthi.spring.cloud.feign.client;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;

@@ -1,4 +1,4 @@
-package com.baeldung.functional;
+package com.nklkarthi.functional;
 
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
@@ -64,7 +64,7 @@ public class FunctionalWebApplicationIntegrationTest {
 //    @Test
 //    public void givenLoginForm_whenPostValidToken_thenSuccess() throws Exception {
 //        MultiValueMap<String, String> formData = new LinkedMultiValueMap<>(1);
-//        formData.add("user", "baeldung");
+//        formData.add("user", "nklkarthi");
 //        formData.add("token", "you_know_what_to_do");
 //
 //        client
@@ -82,7 +82,7 @@ public class FunctionalWebApplicationIntegrationTest {
 //    @Test
 //    public void givenLoginForm_whenRequestWithInvalidToken_thenFail() throws Exception {
 //        MultiValueMap<String, String> formData = new LinkedMultiValueMap<>(2);
-//        formData.add("user", "baeldung");
+//        formData.add("user", "nklkarthi");
 //        formData.add("token", "try_again");
 //
 //        client
@@ -96,7 +96,7 @@ public class FunctionalWebApplicationIntegrationTest {
 //
 //    @Test
 //    public void givenUploadForm_whenRequestWithMultipartData_thenSuccess() throws Exception {
-//        Resource resource = new ClassPathResource("/baeldung-weekly.png");
+//        Resource resource = new ClassPathResource("/nklkarthi-weekly.png");
 //        client
 //          .post()
 //          .uri("/upload")

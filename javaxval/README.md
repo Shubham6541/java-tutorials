@@ -6,4 +6,4 @@
 The "REST With Spring" Classes: http://bit.ly/restwithspring
 
 ### Relevant Articles: 
-- [Java Bean Validation Basics](http://www.baeldung.com/javax-validation)
+- [Java Bean Validation Basics](http://www.nklkarthi.com/javax-validation)

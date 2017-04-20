@@ -1,4 +1,4 @@
-package com.baeldung.spring.cloud.hystrix.rest.consumer;
+package com.nklkarthi.spring.cloud.hystrix.rest.consumer;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

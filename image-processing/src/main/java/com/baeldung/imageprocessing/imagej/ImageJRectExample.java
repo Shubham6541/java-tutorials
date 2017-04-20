@@ -1,4 +1,4 @@
-package com.baeldung.imageprocessing.imagej;
+package com.nklkarthi.imageprocessing.imagej;
 
 import ij.IJ;
 import ij.ImagePlus;

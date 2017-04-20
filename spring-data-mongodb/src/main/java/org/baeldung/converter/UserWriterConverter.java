@@ -1,6 +1,6 @@
-package org.baeldung.converter;
+package org.nklkarthi.converter;
 
-import org.baeldung.model.User;
+import org.nklkarthi.model.User;
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.stereotype.Component;
 

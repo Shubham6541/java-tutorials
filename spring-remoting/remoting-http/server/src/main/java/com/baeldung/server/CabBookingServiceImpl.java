@@ -1,8 +1,8 @@
-package com.baeldung.server;
+package com.nklkarthi.server;
 
-import com.baeldung.api.Booking;
-import com.baeldung.api.BookingException;
-import com.baeldung.api.CabBookingService;
+import com.nklkarthi.api.Booking;
+import com.nklkarthi.api.BookingException;
+import com.nklkarthi.api.CabBookingService;
 
 import static java.lang.Math.random;
 import static java.util.UUID.randomUUID;

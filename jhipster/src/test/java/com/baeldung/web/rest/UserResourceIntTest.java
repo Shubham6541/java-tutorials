@@ -1,12 +1,12 @@
-package com.baeldung.web.rest;
+package com.nklkarthi.web.rest;
 
-import com.baeldung.BaeldungApp;
-import com.baeldung.domain.User;
-import com.baeldung.repository.UserRepository;
-import com.baeldung.service.MailService;
-import com.baeldung.service.UserService;
-import com.baeldung.web.rest.errors.ExceptionTranslator;
-import com.baeldung.web.rest.vm.ManagedUserVM;
+import com.nklkarthi.nklkarthiApp;
+import com.nklkarthi.domain.User;
+import com.nklkarthi.repository.UserRepository;
+import com.nklkarthi.service.MailService;
+import com.nklkarthi.service.UserService;
+import com.nklkarthi.web.rest.errors.ExceptionTranslator;
+import com.nklkarthi.web.rest.vm.ManagedUserVM;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.junit.Before;
 import org.junit.Test;
@@ -38,7 +38,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
  * @see UserResource
  */
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = BaeldungApp.class)
+@SpringBootTest(classes = nklkarthiApp.class)
 public class UserResourceIntTest {
 
     private static final String DEFAULT_LOGIN = "johndoe";

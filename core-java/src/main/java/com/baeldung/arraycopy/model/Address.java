@@ -1,4 +1,4 @@
-package com.baeldung.arraycopy.model;
+package com.nklkarthi.arraycopy.model;
 
 public class Address implements Cloneable {
     private String country;

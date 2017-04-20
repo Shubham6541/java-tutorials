@@ -1,4 +1,4 @@
-package com.baeldung.spring.cloud.ribbon.client;
+package com.nklkarthi.spring.cloud.ribbon.client;
 
 import static org.assertj.core.api.BDDAssertions.then;
 import static org.junit.Assert.assertEquals;

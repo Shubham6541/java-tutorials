@@ -1,7 +1,7 @@
-package com.baeldung.autowired;
+package com.nklkarthi.autowired;
 
-import com.baeldung.configuration.ApplicationContextTestAutowiredType;
-import com.baeldung.dependency.ArbitraryDependency;
+import com.nklkarthi.configuration.ApplicationContextTestAutowiredType;
+import com.nklkarthi.dependency.ArbitraryDependency;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

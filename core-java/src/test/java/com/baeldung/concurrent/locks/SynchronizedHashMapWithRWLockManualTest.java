@@ -1,4 +1,4 @@
-package com.baeldung.concurrent.locks;
+package com.nklkarthi.concurrent.locks;
 
 import jdk.nashorn.internal.ir.annotations.Ignore;
 import org.junit.Test;

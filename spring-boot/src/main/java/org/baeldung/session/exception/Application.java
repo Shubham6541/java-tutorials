@@ -1,13 +1,13 @@
-package org.baeldung.session.exception;
+package org.nklkarthi.session.exception;
 
-import org.baeldung.boot.model.Foo;
+import org.nklkarthi.boot.model.Foo;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.context.annotation.Bean;
 import org.springframework.orm.jpa.vendor.HibernateJpaSessionFactoryBean;
 
-import com.baeldung.autoconfiguration.MySQLAutoconfiguration;
+import com.nklkarthi.autoconfiguration.MySQLAutoconfiguration;
 
 @EntityScan(basePackageClasses = Foo.class)
 @SpringBootApplication(exclude=MySQLAutoconfiguration.class)

@@ -28,7 +28,7 @@
         </Failover>
 -->
         <JDBC name="JDBCAppender" tableName="logs">
-            <ConnectionFactory class="com.baeldung.logging.log4j2.tests.jdbc.ConnectionFactory" method="getConnection" />
+            <ConnectionFactory class="com.nklkarthi.logging.log4j2.tests.jdbc.ConnectionFactory" method="getConnection" />
             <Column name="when" isEventTimestamp="true" />
             <Column name="logger" pattern="%logger" />
             <Column name="level" pattern="%level" />

@@ -1,4 +1,4 @@
-package org.baeldung.mocks.jmockit;
+package org.nklkarthi.mocks.jmockit;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

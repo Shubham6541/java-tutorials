@@ -1,6 +1,6 @@
-package com.baeldung.feign;
+package com.nklkarthi.feign;
 
-import com.baeldung.feign.clients.BookClient;
+import com.nklkarthi.feign.clients.BookClient;
 import feign.Feign;
 import feign.Logger;
 import feign.gson.GsonDecoder;

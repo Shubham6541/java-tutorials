@@ -1,8 +1,8 @@
-package org.baeldung.user.service;
+package org.nklkarthi.user.service;
 
-import org.baeldung.persistence.model.MyUser;
-import org.baeldung.user.dao.MyUserDAO;
-import org.baeldung.web.MyUserDto;
+import org.nklkarthi.persistence.model.MyUser;
+import org.nklkarthi.user.dao.MyUserDAO;
+import org.nklkarthi.web.MyUserDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;

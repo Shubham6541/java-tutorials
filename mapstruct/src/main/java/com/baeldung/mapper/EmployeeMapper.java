@@ -1,9 +1,9 @@
-package com.baeldung.mapper;
+package com.nklkarthi.mapper;
 
-import com.baeldung.dto.DivisionDTO;
-import com.baeldung.dto.EmployeeDTO;
-import com.baeldung.entity.Division;
-import com.baeldung.entity.Employee;
+import com.nklkarthi.dto.DivisionDTO;
+import com.nklkarthi.dto.EmployeeDTO;
+import com.nklkarthi.entity.Division;
+import com.nklkarthi.entity.Employee;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.Mappings;

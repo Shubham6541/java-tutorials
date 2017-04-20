@@ -1,4 +1,4 @@
-package com.baeldung.consumer;
+package com.nklkarthi.consumer;
 
 import com.rabbitmq.client.*;
 

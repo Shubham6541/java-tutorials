@@ -1,9 +1,9 @@
-package com.baeldung.spring.statemachine;
+package com.nklkarthi.spring.statemachine;
 
-import com.baeldung.spring.statemachine.applicationreview.ApplicationReviewEvents;
-import com.baeldung.spring.statemachine.applicationreview.ApplicationReviewStates;
-import com.baeldung.spring.statemachine.config.SimpleEnumStateMachineConfiguration;
-import com.baeldung.spring.statemachine.config.SimpleStateMachineConfiguration;
+import com.nklkarthi.spring.statemachine.applicationreview.ApplicationReviewEvents;
+import com.nklkarthi.spring.statemachine.applicationreview.ApplicationReviewStates;
+import com.nklkarthi.spring.statemachine.config.SimpleEnumStateMachineConfiguration;
+import com.nklkarthi.spring.statemachine.config.SimpleStateMachineConfiguration;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;

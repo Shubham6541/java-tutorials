@@ -1,4 +1,4 @@
-package com.baeldung.web.controller;
+package com.nklkarthi.web.controller;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.baeldung.model.Company;
+import com.nklkarthi.model.Company;
 
 @Controller
 public class CompanyController {

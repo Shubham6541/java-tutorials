@@ -1,4 +1,4 @@
-package org.baeldung.httpclient.sec;
+package org.nklkarthi.httpclient.sec;
 
 import static org.hamcrest.Matchers.equalTo;
 import static org.junit.Assert.assertThat;

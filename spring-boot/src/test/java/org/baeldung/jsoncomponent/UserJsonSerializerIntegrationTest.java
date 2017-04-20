@@ -1,4 +1,4 @@
-package org.baeldung.jsoncomponent;
+package org.nklkarthi.jsoncomponent;
 
 
 import com.fasterxml.jackson.core.JsonProcessingException;

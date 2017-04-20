@@ -1,6 +1,6 @@
-package com.baeldung.config;
+package com.nklkarthi.config;
 
-import com.baeldung.aop.logging.LoggingAspect;
+import com.nklkarthi.aop.logging.LoggingAspect;
 
 import io.github.jhipster.config.JHipsterConstants;
 

@@ -1,7 +1,7 @@
-package com.baeldung.persistence.dao;
+package com.nklkarthi.persistence.dao;
 
-import com.baeldung.persistence.dao.common.IAuditOperations;
-import com.baeldung.persistence.model.Bar;
+import com.nklkarthi.persistence.dao.common.IAuditOperations;
+import com.nklkarthi.persistence.model.Bar;
 
 public interface IBarAuditableDao extends IBarDao, IAuditOperations<Bar> {
     //

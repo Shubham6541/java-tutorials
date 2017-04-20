@@ -1,4 +1,4 @@
-package com.baeldung.spring.web.dto;
+package com.nklkarthi.spring.web.dto;
 
 import org.hibernate.validator.constraints.Email;
 

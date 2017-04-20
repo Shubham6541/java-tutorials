@@ -1,6 +1,6 @@
-package com.baeldung;
+package com.nklkarthi;
 
-import com.baeldung.config.DefaultProfileUtil;
+import com.nklkarthi.config.DefaultProfileUtil;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.support.SpringBootServletInitializer;
 
@@ -16,6 +16,6 @@ public class ApplicationWebXml extends SpringBootServletInitializer {
          * set a default to use when no profile is configured.
          */
         DefaultProfileUtil.addDefaultProfile(application.application());
-        return application.sources(BaeldungApp.class);
+        return application.sources(nklkarthiApp.class);
     }
 }

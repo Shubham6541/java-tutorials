@@ -1,4 +1,4 @@
-package org.baeldung.spring43.ctor;
+package org.nklkarthi.spring43.ctor;
 
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;

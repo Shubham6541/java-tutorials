@@ -1,7 +1,7 @@
-package org.baeldung.controller;
+package org.nklkarthi.controller;
 
-import org.baeldung.entity.Task;
-import org.baeldung.service.TaskService;
+import org.nklkarthi.entity.Task;
+import org.nklkarthi.service.TaskService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;

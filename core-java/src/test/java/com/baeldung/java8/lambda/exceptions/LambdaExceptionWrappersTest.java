@@ -1,4 +1,4 @@
-package com.baeldung.java8.lambda.exceptions;
+package com.nklkarthi.java8.lambda.exceptions;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
 
-import static com.baeldung.java8.lambda.exceptions.LambdaExceptionWrappers.*;
+import static com.nklkarthi.java8.lambda.exceptions.LambdaExceptionWrappers.*;
 
 public class LambdaExceptionWrappersTest {
 

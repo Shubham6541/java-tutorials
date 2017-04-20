@@ -1,4 +1,4 @@
-package com.baeldung.jackson.test;
+package com.nklkarthi.jackson.test;
 
 import static org.hamcrest.Matchers.containsString;
 import static org.junit.Assert.assertEquals;
@@ -15,11 +15,11 @@ import org.joda.time.DateTime;
 import org.joda.time.DateTimeZone;
 import org.junit.Test;
 
-import com.baeldung.jackson.date.Event;
-import com.baeldung.jackson.date.EventWithFormat;
-import com.baeldung.jackson.date.EventWithJodaTime;
-import com.baeldung.jackson.date.EventWithLocalDateTime;
-import com.baeldung.jackson.date.EventWithSerializer;
+import com.nklkarthi.jackson.date.Event;
+import com.nklkarthi.jackson.date.EventWithFormat;
+import com.nklkarthi.jackson.date.EventWithJodaTime;
+import com.nklkarthi.jackson.date.EventWithLocalDateTime;
+import com.nklkarthi.jackson.date.EventWithSerializer;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;

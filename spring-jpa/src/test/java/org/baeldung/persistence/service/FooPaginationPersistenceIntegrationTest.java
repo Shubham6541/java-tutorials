@@ -1,4 +1,4 @@
-package org.baeldung.persistence.service;
+package org.nklkarthi.persistence.service;
 
 import static org.apache.commons.lang3.RandomStringUtils.randomAlphabetic;
 import static org.hamcrest.Matchers.hasSize;
@@ -15,8 +15,8 @@ import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Root;
 
-import org.baeldung.config.PersistenceJPAConfig;
-import org.baeldung.persistence.model.Foo;
+import org.nklkarthi.config.PersistenceJPAConfig;
+import org.nklkarthi.persistence.model.Foo;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,6 +1,6 @@
-package test.java.com.baeldung.selenium.testng;
+package test.java.com.nklkarthi.selenium.testng;
 
-import main.java.com.baeldung.selenium.SeleniumExample;
+import main.java.com.nklkarthi.selenium.SeleniumExample;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
@@ -10,7 +10,7 @@ import static org.testng.Assert.*;
 public class SeleniumWithTestNGLiveTest {
 
     private SeleniumExample seleniumExample;
-    private String expectedTitle = "About Baeldung | Baeldung";
+    private String expectedTitle = "About nklkarthi | nklkarthi";
 
     @BeforeSuite
     public void setUp() {
@@ -23,8 +23,8 @@ public class SeleniumWithTestNGLiveTest {
     }
 
     @Test
-    public void whenAboutBaeldungIsLoaded_thenAboutEugenIsMentionedOnPage() {
-        seleniumExample.getAboutBaeldungPage();
+    public void whenAboutnklkarthiIsLoaded_thenAboutEugenIsMentionedOnPage() {
+        seleniumExample.getAboutnklkarthiPage();
         String actualTitle = seleniumExample.getTitle();
         assertNotNull(actualTitle);
         assertEquals(expectedTitle, actualTitle);

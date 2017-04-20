@@ -1,7 +1,7 @@
-package com.baeldung.spring.spel.examples;
+package com.nklkarthi.spring.spel.examples;
 
-import com.baeldung.spring.spel.entity.Car;
-import com.baeldung.spring.spel.entity.CarPark;
+import com.nklkarthi.spring.spel.entity.Car;
+import com.nklkarthi.spring.spel.entity.CarPark;
 import org.springframework.expression.ExpressionParser;
 import org.springframework.expression.spel.SpelParserConfiguration;
 import org.springframework.expression.spel.standard.SpelExpressionParser;

@@ -1,4 +1,4 @@
-package com.baeldung.api;
+package com.nklkarthi.api;
 
 import java.io.Serializable;
 

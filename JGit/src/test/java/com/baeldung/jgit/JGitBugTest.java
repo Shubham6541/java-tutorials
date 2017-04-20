@@ -1,4 +1,4 @@
-import com.baeldung.jgit.helper.Helper;
+import com.nklkarthi.jgit.helper.Helper;
 import org.eclipse.jgit.lib.ObjectLoader;
 import org.eclipse.jgit.lib.ObjectReader;
 import org.eclipse.jgit.lib.Ref;

@@ -1,4 +1,4 @@
-package org.baeldung.guava;
+package org.nklkarthi.guava;
 
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.nullValue;

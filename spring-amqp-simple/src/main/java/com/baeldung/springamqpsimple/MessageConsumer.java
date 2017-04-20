@@ -1,4 +1,4 @@
-package com.baeldung.springamqpsimple;
+package com.nklkarthi.springamqpsimple;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

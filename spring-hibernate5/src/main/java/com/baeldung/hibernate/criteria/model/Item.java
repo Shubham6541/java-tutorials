@@ -1,4 +1,4 @@
-package com.baeldung.hibernate.criteria.model;
+package com.nklkarthi.hibernate.criteria.model;
 
 import java.io.Serializable;
 

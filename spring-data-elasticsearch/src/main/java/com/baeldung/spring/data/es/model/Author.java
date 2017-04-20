@@ -1,4 +1,4 @@
-package com.baeldung.spring.data.es.model;
+package com.nklkarthi.spring.data.es.model;
 
 public class Author {
 

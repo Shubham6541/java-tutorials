@@ -1,4 +1,4 @@
-package com.baeldung.internationalization.config;
+package com.nklkarthi.internationalization.config;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

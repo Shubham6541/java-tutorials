@@ -1,4 +1,4 @@
-package org.baeldung.web.controller;
+package org.nklkarthi.web.controller;
 
 import java.security.Principal;
 

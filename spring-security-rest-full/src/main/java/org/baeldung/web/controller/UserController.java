@@ -1,23 +1,23 @@
-package org.baeldung.web.controller;
+package org.nklkarthi.web.controller;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import org.baeldung.persistence.dao.GenericSpecificationsBuilder;
-import org.baeldung.persistence.dao.IUserDAO;
-import org.baeldung.persistence.dao.MyUserPredicatesBuilder;
-import org.baeldung.persistence.dao.MyUserRepository;
-import org.baeldung.persistence.dao.UserRepository;
-import org.baeldung.persistence.dao.UserSpecification;
-import org.baeldung.persistence.dao.UserSpecificationsBuilder;
-import org.baeldung.persistence.dao.rsql.CustomRsqlVisitor;
-import org.baeldung.persistence.model.MyUser;
-import org.baeldung.persistence.model.User;
-import org.baeldung.web.util.CriteriaParser;
-import org.baeldung.web.util.SearchCriteria;
-import org.baeldung.web.util.SearchOperation;
+import org.nklkarthi.persistence.dao.GenericSpecificationsBuilder;
+import org.nklkarthi.persistence.dao.IUserDAO;
+import org.nklkarthi.persistence.dao.MyUserPredicatesBuilder;
+import org.nklkarthi.persistence.dao.MyUserRepository;
+import org.nklkarthi.persistence.dao.UserRepository;
+import org.nklkarthi.persistence.dao.UserSpecification;
+import org.nklkarthi.persistence.dao.UserSpecificationsBuilder;
+import org.nklkarthi.persistence.dao.rsql.CustomRsqlVisitor;
+import org.nklkarthi.persistence.model.MyUser;
+import org.nklkarthi.persistence.model.User;
+import org.nklkarthi.web.util.CriteriaParser;
+import org.nklkarthi.web.util.SearchCriteria;
+import org.nklkarthi.web.util.SearchOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.jpa.domain.Specification;
 import org.springframework.data.querydsl.binding.QuerydslPredicate;

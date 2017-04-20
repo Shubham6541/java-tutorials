@@ -1,6 +1,6 @@
-package com.baeldung.jackson.serialization.jsonserialize;
+package com.nklkarthi.jackson.serialization.jsonserialize;
 
-import com.baeldung.jackson.domain.Person;
+import com.nklkarthi.jackson.domain.Person;
 
 import java.util.ArrayList;
 import java.util.List;

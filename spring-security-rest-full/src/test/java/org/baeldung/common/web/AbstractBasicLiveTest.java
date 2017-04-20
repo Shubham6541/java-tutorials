@@ -1,8 +1,8 @@
-package org.baeldung.common.web;
+package org.nklkarthi.common.web;
 
 import static org.apache.commons.lang3.RandomStringUtils.randomAlphabetic;
 import static org.apache.commons.lang3.RandomStringUtils.randomNumeric;
-import static org.baeldung.web.util.HTTPLinkHeaderUtil.extractURIByRel;
+import static org.nklkarthi.web.util.HTTPLinkHeaderUtil.extractURIByRel;
 import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;

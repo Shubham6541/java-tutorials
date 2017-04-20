@@ -1,8 +1,8 @@
-package org.baeldung.web.error;
+package org.nklkarthi.web.error;
 
 import javax.persistence.EntityNotFoundException;
 
-import org.baeldung.web.exception.MyResourceNotFoundException;
+import org.nklkarthi.web.exception.MyResourceNotFoundException;
 import org.hibernate.exception.ConstraintViolationException;
 import org.springframework.dao.DataAccessException;
 import org.springframework.dao.DataIntegrityViolationException;

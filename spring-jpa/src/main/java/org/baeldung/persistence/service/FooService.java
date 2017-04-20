@@ -1,9 +1,9 @@
-package org.baeldung.persistence.service;
+package org.nklkarthi.persistence.service;
 
 import java.util.List;
 
-import org.baeldung.persistence.dao.IFooDao;
-import org.baeldung.persistence.model.Foo;
+import org.nklkarthi.persistence.dao.IFooDao;
+import org.nklkarthi.persistence.model.Foo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

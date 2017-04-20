@@ -1,8 +1,8 @@
-package org.baeldung.spring.data.couchbase2b.service;
+package org.nklkarthi.spring.data.couchbase2b.service;
 
 import java.util.List;
 
-import org.baeldung.spring.data.couchbase.model.Student;
+import org.nklkarthi.spring.data.couchbase.model.Student;
 
 public interface StudentService {
 

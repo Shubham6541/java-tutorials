@@ -1,8 +1,8 @@
-package com.baeldung.persistence.dao.impl;
+package com.nklkarthi.persistence.dao.impl;
 
-import com.baeldung.persistence.dao.common.AbstractHibernateDao;
-import com.baeldung.persistence.model.Child;
-import com.baeldung.persistence.dao.IChildDao;
+import com.nklkarthi.persistence.dao.common.AbstractHibernateDao;
+import com.nklkarthi.persistence.model.Child;
+import com.nklkarthi.persistence.dao.IChildDao;
 import org.springframework.stereotype.Repository;
 
 @Repository

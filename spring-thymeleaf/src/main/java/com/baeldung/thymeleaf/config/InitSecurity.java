@@ -1,4 +1,4 @@
-package com.baeldung.thymeleaf.config;
+package com.nklkarthi.thymeleaf.config;
 
 import org.springframework.security.web.context.AbstractSecurityWebApplicationInitializer;
 

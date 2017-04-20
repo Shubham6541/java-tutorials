@@ -1,9 +1,9 @@
 ## Spring Data Elasticsearch
-- [Introduction to Spring Data Elasticsearch](http://www.baeldung.com/spring-data-elasticsearch-tutorial)
+- [Introduction to Spring Data Elasticsearch](http://www.nklkarthi.com/spring-data-elasticsearch-tutorial)
 
 ###Relevant Articles:
-- [Elasticsearch Queries with Spring Data](http://www.baeldung.com/spring-data-elasticsearch-queries)
-- [Guide to Elasticsearch in Java](http://www.baeldung.com/elasticsearch-java)
+- [Elasticsearch Queries with Spring Data](http://www.nklkarthi.com/spring-data-elasticsearch-queries)
+- [Guide to Elasticsearch in Java](http://www.nklkarthi.com/elasticsearch-java)
 
 ### Build the Project with Tests Running
 ```

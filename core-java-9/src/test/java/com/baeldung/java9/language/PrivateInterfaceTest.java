@@ -1,6 +1,6 @@
-package com.baeldung.java9.language;
+package com.nklkarthi.java9.language;
 
-import com.baeldung.java9.language.PrivateInterface;
+import com.nklkarthi.java9.language.PrivateInterface;
 import org.junit.Test;
 
 public class PrivateInterfaceTest {

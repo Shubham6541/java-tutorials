@@ -1,4 +1,4 @@
-package com.baeldung.concurrent.future;
+package com.nklkarthi.concurrent.future;
 
 import static org.junit.Assert.assertEquals;
 

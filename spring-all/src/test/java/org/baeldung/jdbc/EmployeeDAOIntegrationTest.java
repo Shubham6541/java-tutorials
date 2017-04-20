@@ -1,9 +1,9 @@
-package org.baeldung.jdbc;
+package org.nklkarthi.jdbc;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.baeldung.jdbc.config.SpringJdbcConfig;
+import org.nklkarthi.jdbc.config.SpringJdbcConfig;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;

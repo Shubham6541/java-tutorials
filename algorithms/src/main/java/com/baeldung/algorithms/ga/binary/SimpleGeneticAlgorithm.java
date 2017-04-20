@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.ga.binary;
+package com.nklkarthi.algorithms.ga.binary;
 
 import lombok.Data;
 

@@ -1,16 +1,16 @@
-package org.baeldung.web.controller;
+package org.nklkarthi.web.controller;
 
 import java.util.List;
 
 import javax.servlet.http.HttpServletResponse;
 
-import org.baeldung.persistence.model.Foo;
-import org.baeldung.persistence.service.IFooService;
-import org.baeldung.web.exception.MyResourceNotFoundException;
-import org.baeldung.web.hateoas.event.PaginatedResultsRetrievedEvent;
-import org.baeldung.web.hateoas.event.ResourceCreatedEvent;
-import org.baeldung.web.hateoas.event.SingleResourceRetrievedEvent;
-import org.baeldung.web.util.RestPreconditions;
+import org.nklkarthi.persistence.model.Foo;
+import org.nklkarthi.persistence.service.IFooService;
+import org.nklkarthi.web.exception.MyResourceNotFoundException;
+import org.nklkarthi.web.hateoas.event.PaginatedResultsRetrievedEvent;
+import org.nklkarthi.web.hateoas.event.ResourceCreatedEvent;
+import org.nklkarthi.web.hateoas.event.SingleResourceRetrievedEvent;
+import org.nklkarthi.web.util.RestPreconditions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.data.domain.Page;

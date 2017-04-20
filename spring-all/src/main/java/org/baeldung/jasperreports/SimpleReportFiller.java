@@ -1,4 +1,4 @@
-package org.baeldung.jasperreports;
+package org.nklkarthi.jasperreports;
 
 import java.io.InputStream;
 import java.sql.SQLException;

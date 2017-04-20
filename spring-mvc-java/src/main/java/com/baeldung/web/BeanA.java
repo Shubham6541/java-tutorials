@@ -1,4 +1,4 @@
-package com.baeldung.web;
+package com.nklkarthi.web;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

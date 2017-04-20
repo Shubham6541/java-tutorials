@@ -1,4 +1,4 @@
-package com.baeldung.cxf.jaxrs.implementation;
+package com.nklkarthi.cxf.jaxrs.implementation;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.Response;

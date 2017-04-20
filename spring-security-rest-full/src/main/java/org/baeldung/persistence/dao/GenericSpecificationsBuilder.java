@@ -1,4 +1,4 @@
-package org.baeldung.persistence.dao;
+package org.nklkarthi.persistence.dao;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -8,8 +8,8 @@ import java.util.List;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
-import org.baeldung.web.util.SearchOperation;
-import org.baeldung.web.util.SpecSearchCriteria;
+import org.nklkarthi.web.util.SearchOperation;
+import org.nklkarthi.web.util.SpecSearchCriteria;
 import org.springframework.data.jpa.domain.Specification;
 import org.springframework.data.jpa.domain.Specifications;
 

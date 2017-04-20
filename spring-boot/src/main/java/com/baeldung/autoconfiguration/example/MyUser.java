@@ -1,4 +1,4 @@
-package com.baeldung.autoconfiguration.example;
+package com.nklkarthi.autoconfiguration.example;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;

@@ -1,8 +1,8 @@
-package com.baeldung.student.client;
+package com.nklkarthi.student.client;
 
-import com.baeldung.student.service.StudentService;
-import com.baeldung.student.service.dbimpl.StudentDbService;
-import com.baeldung.student.model.Student;
+import com.nklkarthi.student.service.StudentService;
+import com.nklkarthi.student.service.dbimpl.StudentDbService;
+import com.nklkarthi.student.model.Student;
 
 public class StudentClient {
 

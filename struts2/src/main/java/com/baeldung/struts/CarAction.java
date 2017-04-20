@@ -1,4 +1,4 @@
-package com.baeldung.struts;
+package com.nklkarthi.struts;
 
 import org.apache.struts2.convention.annotation.Action;
 import org.apache.struts2.convention.annotation.Namespace;

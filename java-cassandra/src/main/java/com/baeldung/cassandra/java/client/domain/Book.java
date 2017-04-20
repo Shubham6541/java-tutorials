@@ -1,4 +1,4 @@
-package com.baeldung.cassandra.java.client.domain;
+package com.nklkarthi.cassandra.java.client.domain;
 
 import java.util.UUID;
 

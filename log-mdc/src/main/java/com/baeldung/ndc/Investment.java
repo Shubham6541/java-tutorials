@@ -1,4 +1,4 @@
-package com.baeldung.ndc;
+package com.nklkarthi.ndc;
 
 public class Investment {
     private String transactionId;

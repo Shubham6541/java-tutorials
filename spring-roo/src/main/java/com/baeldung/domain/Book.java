@@ -1,4 +1,4 @@
-package com.baeldung.domain;
+package com.nklkarthi.domain;
 import org.springframework.roo.addon.javabean.annotations.RooEquals;
 import org.springframework.roo.addon.javabean.annotations.RooJavaBean;
 import org.springframework.roo.addon.javabean.annotations.RooToString;

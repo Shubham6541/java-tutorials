@@ -1,8 +1,8 @@
-package com.baeldung.jackson.serialization.jsongetter;
+package com.nklkarthi.jackson.serialization.jsongetter;
 
 
-import com.baeldung.jackson.domain.Item;
-import com.baeldung.jackson.domain.Person;
+import com.nklkarthi.jackson.domain.Item;
+import com.nklkarthi.jackson.domain.Person;
 import com.fasterxml.jackson.annotation.JsonGetter;
 
 import java.util.ArrayList;

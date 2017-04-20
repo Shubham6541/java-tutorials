@@ -1,4 +1,4 @@
-package com.baeldung.dto;
+package com.nklkarthi.dto;
 
 public class SimpleSource {
 

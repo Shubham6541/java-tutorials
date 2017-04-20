@@ -1,4 +1,4 @@
-package com.baeldung.automata;
+package com.nklkarthi.automata;
 
 /**
  * Transition in a finite State machine.

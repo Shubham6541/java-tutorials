@@ -1,12 +1,12 @@
-package com.baeldung.service;
+package com.nklkarthi.service;
 
-import com.baeldung.BaeldungApp;
-import com.baeldung.domain.User;
-import com.baeldung.config.Constants;
-import com.baeldung.repository.UserRepository;
-import com.baeldung.service.dto.UserDTO;
+import com.nklkarthi.nklkarthiApp;
+import com.nklkarthi.domain.User;
+import com.nklkarthi.config.Constants;
+import com.nklkarthi.repository.UserRepository;
+import com.nklkarthi.service.dto.UserDTO;
 import java.time.ZonedDateTime;
-import com.baeldung.service.util.RandomUtil;
+import com.nklkarthi.service.util.RandomUtil;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -27,7 +27,7 @@ import static org.assertj.core.api.Assertions.*;
  * @see UserService
  */
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = BaeldungApp.class)
+@SpringBootTest(classes = nklkarthiApp.class)
 @Transactional
 public class UserServiceIntTest {
 

@@ -1,8 +1,8 @@
-package org.baeldung.web;
+package org.nklkarthi.web;
 
 import static org.junit.Assert.assertEquals;
 
-import org.baeldung.persistence.model.MyUser;
+import org.nklkarthi.persistence.model.MyUser;
 import org.junit.Test;
 import org.springframework.test.context.ActiveProfiles;
 

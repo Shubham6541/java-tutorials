@@ -1,4 +1,4 @@
-package com.baeldung.java.networking.udp;
+package com.nklkarthi.java.networking.udp;
 
 import java.io.IOException;
 import java.net.DatagramPacket;

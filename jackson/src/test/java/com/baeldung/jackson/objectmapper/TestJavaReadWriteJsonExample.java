@@ -1,6 +1,6 @@
-package com.baeldung.jackson.objectmapper;
+package com.nklkarthi.jackson.objectmapper;
 
-import com.baeldung.jackson.objectmapper.dto.Car;
+import com.nklkarthi.jackson.objectmapper.dto.Car;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;

@@ -1,4 +1,4 @@
-package com.baeldung.intro;
+package com.nklkarthi.intro;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

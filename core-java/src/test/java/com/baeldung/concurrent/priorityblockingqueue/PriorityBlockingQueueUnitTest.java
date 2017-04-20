@@ -1,4 +1,4 @@
-package com.baeldung.concurrent.priorityblockingqueue;
+package com.nklkarthi.concurrent.priorityblockingqueue;
 
 import org.junit.Test;
 

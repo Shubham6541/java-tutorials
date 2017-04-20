@@ -1,4 +1,4 @@
-package com.baeldung.timer;
+package com.nklkarthi.timer;
 
 import javax.ejb.Lock;
 import javax.ejb.LockType;

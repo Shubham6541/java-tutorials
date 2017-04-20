@@ -1,4 +1,4 @@
-package org.baeldung.persistence.multiple.model.product;
+package org.nklkarthi.persistence.multiple.model.product;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;

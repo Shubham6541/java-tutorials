@@ -1,4 +1,4 @@
-package org.baeldung.web.controller;
+package org.nklkarthi.web.controller;
 
 import java.net.URI;
 import java.util.Map;
@@ -6,9 +6,9 @@ import java.util.Map;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import org.baeldung.web.metric.IActuatorMetricService;
-import org.baeldung.web.metric.IMetricService;
-import org.baeldung.web.util.LinkUtil;
+import org.nklkarthi.web.metric.IActuatorMetricService;
+import org.nklkarthi.web.metric.IMetricService;
+import org.nklkarthi.web.util.LinkUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.security.access.prepost.PreAuthorize;

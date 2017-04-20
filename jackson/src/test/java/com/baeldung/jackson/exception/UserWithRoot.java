@@ -1,4 +1,4 @@
-package com.baeldung.jackson.exception;
+package com.nklkarthi.jackson.exception;
 
 import com.fasterxml.jackson.annotation.JsonRootName;
 

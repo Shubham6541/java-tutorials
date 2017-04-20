@@ -1,10 +1,10 @@
-package com.baeldung.validators;
+package com.nklkarthi.validators;
 
 import org.springframework.stereotype.Component;
 import org.springframework.validation.Errors;
 import org.springframework.validation.Validator;
 
-import com.baeldung.models.WebsiteUser;
+import com.nklkarthi.models.WebsiteUser;
 
 @Component("beforeCreateWebsiteUserValidator")
 public class WebsiteUserValidator implements Validator {

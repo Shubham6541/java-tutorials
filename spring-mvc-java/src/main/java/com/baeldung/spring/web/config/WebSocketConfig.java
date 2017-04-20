@@ -1,4 +1,4 @@
-package com.baeldung.spring.web.config;
+package com.nklkarthi.spring.web.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.messaging.simp.config.MessageBrokerRegistry;

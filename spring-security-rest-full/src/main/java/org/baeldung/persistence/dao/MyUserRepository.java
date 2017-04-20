@@ -1,7 +1,7 @@
-package org.baeldung.persistence.dao;
+package org.nklkarthi.persistence.dao;
 
-import org.baeldung.persistence.model.MyUser;
-import org.baeldung.persistence.model.QMyUser;
+import org.nklkarthi.persistence.model.MyUser;
+import org.nklkarthi.persistence.model.QMyUser;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.querydsl.QueryDslPredicateExecutor;
 import org.springframework.data.querydsl.binding.QuerydslBinderCustomizer;

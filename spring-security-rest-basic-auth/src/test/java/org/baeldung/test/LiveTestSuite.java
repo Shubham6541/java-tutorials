@@ -1,7 +1,7 @@
-package org.baeldung.test;
+package org.nklkarthi.test;
 
-import org.baeldung.client.ClientLiveTest;
-import org.baeldung.client.RestClientLiveManualTest;
+import org.nklkarthi.client.ClientLiveTest;
+import org.nklkarthi.client.RestClientLiveManualTest;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 

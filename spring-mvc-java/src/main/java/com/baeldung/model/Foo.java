@@ -1,6 +1,6 @@
-package com.baeldung.model;
+package com.nklkarthi.model;
 
-import com.baeldung.aop.annotations.Entity;
+import com.nklkarthi.aop.annotations.Entity;
 
 @Entity
 public class Foo {

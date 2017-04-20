@@ -1,4 +1,4 @@
-package org.baeldung.voter;
+package org.nklkarthi.voter;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.ImportResource;

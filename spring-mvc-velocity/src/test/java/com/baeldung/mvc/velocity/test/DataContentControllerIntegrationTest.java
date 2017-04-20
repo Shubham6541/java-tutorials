@@ -1,4 +1,4 @@
-package com.baeldung.mvc.velocity.test;
+package com.nklkarthi.mvc.velocity.test;
 
 import static org.hamcrest.Matchers.allOf;
 import static org.hamcrest.Matchers.hasItem;
@@ -22,8 +22,8 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.web.context.WebApplicationContext;
 
-import com.baeldung.mvc.velocity.spring.config.WebConfig;
-import com.baeldung.mvc.velocity.test.config.TestConfig;
+import com.nklkarthi.mvc.velocity.spring.config.WebConfig;
+import com.nklkarthi.mvc.velocity.test.config.TestConfig;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 // @ContextConfiguration(locations = {"classpath:mvc-servlet.xml"})

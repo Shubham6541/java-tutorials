@@ -1,6 +1,6 @@
-package com.baeldung.server;
+package com.nklkarthi.server;
 
-import com.baeldung.api.CabBookingService;
+import com.nklkarthi.api.CabBookingService;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.context.annotation.Bean;

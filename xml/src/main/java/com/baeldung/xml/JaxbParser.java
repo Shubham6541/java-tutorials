@@ -1,4 +1,4 @@
-package com.baeldung.xml;
+package com.nklkarthi.xml;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -8,8 +8,8 @@ import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
 import javax.xml.bind.Unmarshaller;
 
-import com.baeldung.xml.binding.Tutorial;
-import com.baeldung.xml.binding.Tutorials;
+import com.nklkarthi.xml.binding.Tutorial;
+import com.nklkarthi.xml.binding.Tutorials;
 
 public class JaxbParser {
 

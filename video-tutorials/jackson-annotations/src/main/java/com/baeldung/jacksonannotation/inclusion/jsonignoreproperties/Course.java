@@ -1,7 +1,7 @@
-package com.baeldung.jacksonannotation.inclusion.jsonignoreproperties;
+package com.nklkarthi.jacksonannotation.inclusion.jsonignoreproperties;
 
-import com.baeldung.jacksonannotation.domain.Author;
-import com.baeldung.jacksonannotation.domain.Item;
+import com.nklkarthi.jacksonannotation.domain.Author;
+import com.nklkarthi.jacksonannotation.domain.Item;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 import java.util.List;
@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * Source code github.com/eugenp/tutorials
  *
- * @author Alex Theedom www.baeldung.com
+ * @author Alex Theedom www.nklkarthi.com
  * @version 1.0
  */
 @JsonIgnoreProperties({"medium"})

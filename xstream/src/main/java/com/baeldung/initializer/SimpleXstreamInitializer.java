@@ -1,4 +1,4 @@
-package com.baeldung.initializer;
+package com.nklkarthi.initializer;
 
 import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.io.json.JettisonMappedXmlDriver;

@@ -1,3 +1,3 @@
 ## Relevant articles:
 
-- [HandlerAdapters in Spring MVC](http://www.baeldung.com/spring-mvc-handler-adapters)
+- [HandlerAdapters in Spring MVC](http://www.nklkarthi.com/spring-mvc-handler-adapters)

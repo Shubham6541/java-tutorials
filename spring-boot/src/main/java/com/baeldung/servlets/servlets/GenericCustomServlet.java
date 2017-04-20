@@ -1,4 +1,4 @@
-package com.baeldung.servlets.servlets;
+package com.nklkarthi.servlets.servlets;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;

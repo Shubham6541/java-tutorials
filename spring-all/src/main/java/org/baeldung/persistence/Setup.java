@@ -1,4 +1,4 @@
-package org.baeldung.persistence;
+package org.nklkarthi.persistence;
 
 import org.springframework.context.ApplicationListener;
 import org.springframework.context.event.ContextRefreshedEvent;

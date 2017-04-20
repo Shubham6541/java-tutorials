@@ -1,10 +1,10 @@
-package org.baeldung.web.service;
+package org.nklkarthi.web.service;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-import org.baeldung.persistence.model.Customer;
+import org.nklkarthi.persistence.model.Customer;
 import org.springframework.stereotype.Service;
 
 @Service

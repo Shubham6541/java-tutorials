@@ -1,6 +1,6 @@
-package com.baeldung.jackson.serialization.jsonserialize;
+package com.nklkarthi.jackson.serialization.jsonserialize;
 
-import com.baeldung.jackson.domain.Person;
+import com.nklkarthi.jackson.domain.Person;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,17 +13,17 @@ import java.util.List;
  */
 public class Author extends Person {
 
-    List<com.baeldung.jackson.domain.Item> items = new ArrayList<>();
+    List<com.nklkarthi.jackson.domain.Item> items = new ArrayList<>();
 
     public Author(String firstName, String lastName) {
         super(firstName, lastName);
     }
 
-    public List<com.baeldung.jackson.domain.Item> getItems() {
+    public List<com.nklkarthi.jackson.domain.Item> getItems() {
         return items;
     }
 
-    public void setItems(List<com.baeldung.jackson.domain.Item> items) {
+    public void setItems(List<com.nklkarthi.jackson.domain.Item> items) {
         this.items = items;
     }
 }

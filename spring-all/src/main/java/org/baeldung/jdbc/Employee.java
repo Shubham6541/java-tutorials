@@ -1,4 +1,4 @@
-package org.baeldung.jdbc;
+package org.nklkarthi.jdbc;
 
 public class Employee {
     private int id;

@@ -1,4 +1,4 @@
-package com.baeldung.value;
+package com.nklkarthi.value;
 
 public class SomeBean {
     private int someValue;

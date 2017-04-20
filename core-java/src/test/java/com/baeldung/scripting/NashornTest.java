@@ -1,4 +1,4 @@
-package com.baeldung.scripting;
+package com.nklkarthi.scripting;
 
 import org.junit.Assert;
 import org.junit.Before;
@@ -74,12 +74,12 @@ public class NashornTest {
     public void bindingsExamples() throws ScriptException {
         Bindings bindings = engine.createBindings();
         bindings.put("count", 3);
-        bindings.put("name", "baeldung");
+        bindings.put("name", "nklkarthi");
 
         String script = "var greeting='Hello ';" + "for(var i=count;i>0;i--) { " + "greeting+=name + ' '" + "}" + "greeting";
 
         Object bindingsResult = engine.eval(script, bindings);
-        Assert.assertEquals("Hello baeldung baeldung baeldung ", bindingsResult);
+        Assert.assertEquals("Hello nklkarthi nklkarthi nklkarthi ", bindingsResult);
     }
 
     @Test
@@ -88,8 +88,8 @@ public class NashornTest {
 
         Invocable invocable = (Invocable) engine;
 
-        Object funcResult = invocable.invokeFunction("composeGreeting", "baeldung");
-        Assert.assertEquals("Hello baeldung", funcResult);
+        Object funcResult = invocable.invokeFunction("composeGreeting", "nklkarthi");
+        Assert.assertEquals("Hello nklkarthi", funcResult);
 
         Object map = engine.eval("var HashMap = Java.type('java.util.HashMap');" + "var map = new HashMap();" + "map.put('hello', 'world');" + "map");
 

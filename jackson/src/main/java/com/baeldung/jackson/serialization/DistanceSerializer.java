@@ -1,8 +1,8 @@
-package com.baeldung.jackson.serialization;
+package com.nklkarthi.jackson.serialization;
 
 import java.io.IOException;
 
-import com.baeldung.jackson.enums.Distance;
+import com.nklkarthi.jackson.enums.Distance;
 import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.SerializerProvider;

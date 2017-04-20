@@ -1,12 +1,12 @@
-package org.baeldung.security.csrf;
+package org.nklkarthi.security.csrf;
 
 import static org.springframework.security.test.web.servlet.request.SecurityMockMvcRequestPostProcessors.csrf;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
-import org.baeldung.security.spring.SecurityWithCsrfConfig;
-import org.baeldung.spring.PersistenceConfig;
-import org.baeldung.spring.WebConfig;
+import org.nklkarthi.security.spring.SecurityWithCsrfConfig;
+import org.nklkarthi.spring.PersistenceConfig;
+import org.nklkarthi.spring.WebConfig;
 import org.junit.Test;
 import org.springframework.http.MediaType;
 import org.springframework.test.context.ContextConfiguration;

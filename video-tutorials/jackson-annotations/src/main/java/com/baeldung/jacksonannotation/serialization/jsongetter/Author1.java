@@ -1,8 +1,8 @@
-package com.baeldung.jacksonannotation.serialization.jsongetter;
+package com.nklkarthi.jacksonannotation.serialization.jsongetter;
 
 
-import com.baeldung.jacksonannotation.domain.Item;
-import com.baeldung.jacksonannotation.domain.Person;
+import com.nklkarthi.jacksonannotation.domain.Item;
+import com.nklkarthi.jacksonannotation.domain.Person;
 import com.fasterxml.jackson.annotation.JsonGetter;
 
 import java.util.ArrayList;
@@ -11,7 +11,7 @@ import java.util.List;
 /**
  * Source code github.com/eugenp/tutorials
  *
- * @author Alex Theedom www.baeldung.com
+ * @author Alex Theedom www.nklkarthi.com
  * @version 1.0
  */
 public class Author1 extends Person {

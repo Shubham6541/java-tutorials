@@ -1,4 +1,4 @@
-package com.baeldung.constructordi.domain;
+package com.nklkarthi.constructordi.domain;
 
 public class Transmission {
 	private String type;

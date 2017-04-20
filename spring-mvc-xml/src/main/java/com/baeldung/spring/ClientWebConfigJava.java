@@ -1,4 +1,4 @@
-package com.baeldung.spring;
+package com.nklkarthi.spring;
 
 import java.util.Locale;
 import java.util.ResourceBundle;

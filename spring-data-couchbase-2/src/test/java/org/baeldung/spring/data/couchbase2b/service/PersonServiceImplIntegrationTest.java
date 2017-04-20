@@ -1,4 +1,4 @@
-package org.baeldung.spring.data.couchbase2b.service;
+package org.nklkarthi.spring.data.couchbase2b.service;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
@@ -7,9 +7,9 @@ import static org.junit.Assert.assertTrue;
 
 import java.util.List;
 
-import org.baeldung.spring.data.couchbase.model.Person;
-import org.baeldung.spring.data.couchbase2b.MultiBucketCouchbaseConfig;
-import org.baeldung.spring.data.couchbase2b.MultiBucketIntegationTest;
+import org.nklkarthi.spring.data.couchbase.model.Person;
+import org.nklkarthi.spring.data.couchbase2b.MultiBucketCouchbaseConfig;
+import org.nklkarthi.spring.data.couchbase2b.MultiBucketIntegationTest;
 import org.joda.time.DateTime;
 import org.junit.BeforeClass;
 import org.junit.Test;

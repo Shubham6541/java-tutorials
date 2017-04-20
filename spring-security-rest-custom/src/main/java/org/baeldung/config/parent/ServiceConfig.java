@@ -1,4 +1,4 @@
-package org.baeldung.config.parent;
+package org.nklkarthi.config.parent;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -7,7 +7,7 @@ import org.springframework.context.annotation.PropertySource;
 import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
 
 @Configuration
-@ComponentScan("org.baeldung.service")
+@ComponentScan("org.nklkarthi.service")
 // @ImportResource({ "classpath:prop.xml" })
 @PropertySource("classpath:foo.properties")
 public class ServiceConfig {

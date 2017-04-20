@@ -1,4 +1,4 @@
-package org.baeldung.guava;
+package org.nklkarthi.guava;
 
 import static org.junit.Assert.assertTrue;
 

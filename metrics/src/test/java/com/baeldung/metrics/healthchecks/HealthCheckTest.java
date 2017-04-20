@@ -1,4 +1,4 @@
-package com.baeldung.metrics.healthchecks;
+package com.nklkarthi.metrics.healthchecks;
 
 import com.codahale.metrics.health.HealthCheck;
 import com.codahale.metrics.health.HealthCheckRegistry;

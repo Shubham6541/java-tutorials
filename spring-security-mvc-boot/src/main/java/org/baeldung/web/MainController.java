@@ -1,8 +1,8 @@
-package org.baeldung.web;
+package org.nklkarthi.web;
 
-import org.baeldung.persistence.dao.OrganizationRepository;
-import org.baeldung.persistence.model.Foo;
-import org.baeldung.persistence.model.Organization;
+import org.nklkarthi.persistence.dao.OrganizationRepository;
+import org.nklkarthi.persistence.model.Foo;
+import org.nklkarthi.persistence.model.Organization;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.security.access.prepost.PreAuthorize;

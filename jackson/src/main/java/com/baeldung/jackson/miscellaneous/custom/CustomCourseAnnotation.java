@@ -1,4 +1,4 @@
-package com.baeldung.jackson.miscellaneous.custom;
+package com.nklkarthi.jackson.miscellaneous.custom;
 
 import com.fasterxml.jackson.annotation.*;
 

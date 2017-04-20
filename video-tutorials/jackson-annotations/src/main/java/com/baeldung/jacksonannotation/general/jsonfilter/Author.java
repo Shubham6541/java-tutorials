@@ -1,7 +1,7 @@
-package com.baeldung.jacksonannotation.general.jsonfilter;
+package com.nklkarthi.jacksonannotation.general.jsonfilter;
 
-import com.baeldung.jacksonannotation.domain.Item;
-import com.baeldung.jacksonannotation.domain.Person;
+import com.nklkarthi.jacksonannotation.domain.Item;
+import com.nklkarthi.jacksonannotation.domain.Person;
 import com.fasterxml.jackson.annotation.JsonFilter;
 
 import java.util.ArrayList;
@@ -10,7 +10,7 @@ import java.util.List;
 /**
  * Source code github.com/eugenp/tutorials
  *
- * @author Alex Theedom www.baeldung.com
+ * @author Alex Theedom www.nklkarthi.com
  * @version 1.0
  */
 @JsonFilter("authorFilter")

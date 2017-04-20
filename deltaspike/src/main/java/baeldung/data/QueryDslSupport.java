@@ -1,4 +1,4 @@
-package baeldung.data;
+package nklkarthi.data;
 
 import com.mysema.query.jpa.impl.JPAQuery;
 

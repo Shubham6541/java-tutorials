@@ -1,10 +1,10 @@
-package com.baeldung.persistence.dao.impl;
+package com.nklkarthi.persistence.dao.impl;
 
 import java.util.List;
 
-import com.baeldung.persistence.dao.IBarAuditableDao;
-import com.baeldung.persistence.dao.common.AbstractHibernateAuditableDao;
-import com.baeldung.persistence.model.Bar;
+import com.nklkarthi.persistence.dao.IBarAuditableDao;
+import com.nklkarthi.persistence.dao.common.AbstractHibernateAuditableDao;
+import com.nklkarthi.persistence.model.Bar;
 
 public class BarAuditableDao extends AbstractHibernateAuditableDao<Bar> implements IBarAuditableDao {
 

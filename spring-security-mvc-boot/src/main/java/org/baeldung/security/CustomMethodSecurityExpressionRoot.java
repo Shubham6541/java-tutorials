@@ -1,6 +1,6 @@
-package org.baeldung.security;
+package org.nklkarthi.security;
 
-import org.baeldung.persistence.model.User;
+import org.nklkarthi.persistence.model.User;
 import org.springframework.security.access.expression.SecurityExpressionRoot;
 import org.springframework.security.access.expression.method.MethodSecurityExpressionOperations;
 import org.springframework.security.core.Authentication;

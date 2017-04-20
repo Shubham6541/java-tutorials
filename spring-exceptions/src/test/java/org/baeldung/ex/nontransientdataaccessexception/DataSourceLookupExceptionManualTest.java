@@ -1,8 +1,8 @@
-package org.baeldung.ex.nontransientdataaccessexception;
+package org.nklkarthi.ex.nontransientdataaccessexception;
 
 import javax.sql.DataSource;
 
-import org.baeldung.ex.nontransientexception.cause.Cause4NonTransientConfig;
+import org.nklkarthi.ex.nontransientexception.cause.Cause4NonTransientConfig;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.jdbc.datasource.lookup.DataSourceLookupFailureException;

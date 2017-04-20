@@ -1,11 +1,11 @@
-package com.baeldung.aspectj.test;
+package com.nklkarthi.aspectj.test;
 
 import static org.junit.Assert.*;
 
 import org.junit.Before;
 import org.junit.Test;
 
-import com.baeldung.aspectj.Account;
+import com.nklkarthi.aspectj.Account;
 
 public class AccountTest {
     private Account account;

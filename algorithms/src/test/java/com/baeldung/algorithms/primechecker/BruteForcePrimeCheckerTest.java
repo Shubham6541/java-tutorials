@@ -1,8 +1,8 @@
-package com.baeldung.algorithms.primechecker;
+package com.nklkarthi.algorithms.primechecker;
 
 import org.junit.Test;
 
-import com.baeldung.algorithms.primechecker.BruteForcePrimeChecker;
+import com.nklkarthi.algorithms.primechecker.BruteForcePrimeChecker;
 
 import static org.junit.Assert.*;
 

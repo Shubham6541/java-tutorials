@@ -1,6 +1,6 @@
-package com.baeldung.security;
+package com.nklkarthi.security;
 
-import com.baeldung.config.Constants;
+import com.nklkarthi.config.Constants;
 
 import org.springframework.data.domain.AuditorAware;
 import org.springframework.stereotype.Component;

@@ -1,4 +1,4 @@
-package org.baeldung.persistence.query;
+package org.nklkarthi.persistence.query;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.collection.IsEmptyIterable.emptyIterable;
@@ -6,10 +6,10 @@ import static org.hamcrest.collection.IsIterableContainingInAnyOrder.containsInA
 import static org.hamcrest.collection.IsIterableContainingInOrder.contains;
 import static org.hamcrest.core.IsNot.not;
 
-import org.baeldung.persistence.dao.MyUserPredicatesBuilder;
-import org.baeldung.persistence.dao.MyUserRepository;
-import org.baeldung.persistence.model.MyUser;
-import org.baeldung.spring.PersistenceConfig;
+import org.nklkarthi.persistence.dao.MyUserPredicatesBuilder;
+import org.nklkarthi.persistence.dao.MyUserRepository;
+import org.nklkarthi.persistence.model.MyUser;
+import org.nklkarthi.spring.PersistenceConfig;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

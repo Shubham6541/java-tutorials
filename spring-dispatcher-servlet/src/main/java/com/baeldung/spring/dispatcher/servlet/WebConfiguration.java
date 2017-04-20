@@ -1,4 +1,4 @@
-package com.baeldung.spring.dispatcher.servlet;
+package com.nklkarthi.spring.dispatcher.servlet;
 
 import org.springframework.context.MessageSource;
 import org.springframework.context.annotation.Bean;
@@ -29,7 +29,7 @@ import javax.servlet.ServletContext;
 import java.util.Locale;
 
 @Configuration
-@ComponentScan("com.baeldung.spring.dispatcher.servlet.web")
+@ComponentScan("com.nklkarthi.spring.dispatcher.servlet.web")
 @EnableWebMvc
 public class WebConfiguration extends WebMvcConfigurerAdapter {
     @Override

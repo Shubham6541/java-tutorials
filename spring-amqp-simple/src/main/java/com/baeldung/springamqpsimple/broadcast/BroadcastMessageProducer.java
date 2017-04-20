@@ -1,4 +1,4 @@
-package com.baeldung.springamqpsimple.broadcast;
+package com.nklkarthi.springamqpsimple.broadcast;
 
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;

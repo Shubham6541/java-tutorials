@@ -1,4 +1,4 @@
-package org.baeldung.filter;
+package org.nklkarthi.filter;
 
 import org.springframework.web.filter.GenericFilterBean;
 

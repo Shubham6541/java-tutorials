@@ -1,4 +1,4 @@
-package com.baeldung.jacksonannotation.general.jsonunwrapped;
+package com.nklkarthi.jacksonannotation.general.jsonunwrapped;
 
 
 import com.fasterxml.jackson.core.JsonProcessingException;
@@ -11,7 +11,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 /**
  * Source code github.com/eugenp/tutorials
  *
- * @author Alex Theedom www.baeldung.com
+ * @author Alex Theedom www.nklkarthi.com
  * @version 1.0
  */
 public class JsonUnwrappedTest {

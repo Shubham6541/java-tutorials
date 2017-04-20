@@ -1,6 +1,6 @@
-package com.baeldung.doublecolon;
+package com.nklkarthi.doublecolon;
 
-import com.baeldung.doublecolon.function.TriFunction;
+import com.nklkarthi.doublecolon.function.TriFunction;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
@@ -11,7 +11,7 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.function.BiFunction;
 
-import static com.baeldung.doublecolon.ComputerUtils.*;
+import static com.nklkarthi.doublecolon.ComputerUtils.*;
 
 public class ComputerUtilsUnitTest {
 

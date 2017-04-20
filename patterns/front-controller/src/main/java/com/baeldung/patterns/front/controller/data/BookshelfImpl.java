@@ -1,4 +1,4 @@
-package com.baeldung.patterns.front.controller.data;
+package com.nklkarthi.patterns.front.controller.data;
 
 import java.util.ArrayList;
 

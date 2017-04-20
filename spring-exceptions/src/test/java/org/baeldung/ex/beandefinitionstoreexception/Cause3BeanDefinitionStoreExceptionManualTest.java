@@ -1,6 +1,6 @@
-package org.baeldung.ex.beandefinitionstoreexception;
+package org.nklkarthi.ex.beandefinitionstoreexception;
 
-import org.baeldung.ex.beandefinitionstoreexception.spring.Cause3ContextWithJavaConfig;
+import org.nklkarthi.ex.beandefinitionstoreexception.spring.Cause3ContextWithJavaConfig;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.test.context.ContextConfiguration;

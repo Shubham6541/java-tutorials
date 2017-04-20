@@ -1,4 +1,4 @@
-package com.baeldung.spring;
+package com.nklkarthi.spring;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -7,7 +7,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @Configuration
 @EnableTransactionManagement
-@ComponentScan({ "com.baeldung.persistence.dao", "com.baeldung.persistence.service" })
+@ComponentScan({ "com.nklkarthi.persistence.dao", "com.nklkarthi.persistence.service" })
 @ImportResource({ "classpath:hibernate4Config.xml" })
 public class PersistenceXmlConfig {
 

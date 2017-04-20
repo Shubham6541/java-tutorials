@@ -1,4 +1,4 @@
-package org.baeldung.spring.config;
+package org.nklkarthi.spring.config;
 
 import java.util.Properties;
 
@@ -20,7 +20,7 @@ import com.google.common.base.Preconditions;
 // @Configuration
 @EnableTransactionManagement
 @PropertySource({ "classpath:persistence-mysql.properties" })
-@ComponentScan({ "org.baeldung.persistence" })
+@ComponentScan({ "org.nklkarthi.persistence" })
 public class PersistenceConfig {
 
     @Autowired
@@ -34,7 +34,7 @@ public class PersistenceConfig {
     public LocalSessionFactoryBean sessionFactory() {
         final LocalSessionFactoryBean sessionFactory = new LocalSessionFactoryBean();
         sessionFactory.setDataSource(restDataSource());
-        sessionFactory.setPackagesToScan(new String[] { "org.baeldung.spring.persistence.model" });
+        sessionFactory.setPackagesToScan(new String[] { "org.nklkarthi.spring.persistence.model" });
         sessionFactory.setHibernateProperties(hibernateProperties());
 
         return sessionFactory;

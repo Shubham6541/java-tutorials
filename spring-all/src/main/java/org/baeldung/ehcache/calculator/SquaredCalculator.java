@@ -1,6 +1,6 @@
-package org.baeldung.ehcache.calculator;
+package org.nklkarthi.ehcache.calculator;
 
-import org.baeldung.ehcache.config.CacheHelper;
+import org.nklkarthi.ehcache.config.CacheHelper;
 
 public class SquaredCalculator {
     private CacheHelper cache;

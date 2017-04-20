@@ -1,4 +1,4 @@
-package org.baeldung.springretry;
+package org.nklkarthi.springretry;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

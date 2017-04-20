@@ -1,9 +1,9 @@
-package com.baeldung.jackson.deserialization;
+package com.nklkarthi.jackson.deserialization;
 
 import java.io.IOException;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
-import com.baeldung.jackson.entities.Movie;
+import com.nklkarthi.jackson.entities.Movie;
 import org.junit.Test;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import static org.junit.Assert.assertEquals;

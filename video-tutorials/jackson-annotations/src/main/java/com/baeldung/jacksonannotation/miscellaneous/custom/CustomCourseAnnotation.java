@@ -1,4 +1,4 @@
-package com.baeldung.jacksonannotation.miscellaneous.custom;
+package com.nklkarthi.jacksonannotation.miscellaneous.custom;
 
 import com.fasterxml.jackson.annotation.*;
 
@@ -8,7 +8,7 @@ import java.lang.annotation.RetentionPolicy;
 /**
  * Source code github.com/eugenp/tutorials
  *
- * @author Alex Theedom www.baeldung.com
+ * @author Alex Theedom www.nklkarthi.com
  * @version 1.0
  */
 @Retention(RetentionPolicy.RUNTIME)

@@ -1,10 +1,10 @@
-package com.baeldung.solr.fulltext.search.service;
+package com.nklkarthi.solr.fulltext.search.service;
 
 import java.io.IOException;
 
 import org.apache.solr.client.solrj.SolrServerException;
 
-import com.baeldung.solr.fulltext.search.model.Item;
+import com.nklkarthi.solr.fulltext.search.model.Item;
 
 public interface ItemSearchService {
 

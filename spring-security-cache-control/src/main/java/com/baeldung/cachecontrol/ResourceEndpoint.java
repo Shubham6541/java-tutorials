@@ -1,7 +1,7 @@
-package com.baeldung.cachecontrol;
+package com.nklkarthi.cachecontrol;
 
-import com.baeldung.cachecontrol.model.TimestampDto;
-import com.baeldung.cachecontrol.model.UserDto;
+import com.nklkarthi.cachecontrol.model.TimestampDto;
+import com.nklkarthi.cachecontrol.model.UserDto;
 import org.springframework.http.CacheControl;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;

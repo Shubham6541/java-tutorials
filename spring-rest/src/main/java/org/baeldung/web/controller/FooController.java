@@ -1,9 +1,9 @@
-package org.baeldung.web.controller;
+package org.nklkarthi.web.controller;
 
 import static org.apache.commons.lang3.RandomStringUtils.randomAlphabetic;
 
-import org.baeldung.web.dto.Foo;
-import org.baeldung.web.dto.FooProtos;
+import org.nklkarthi.web.dto.Foo;
+import org.nklkarthi.web.dto.FooProtos;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;

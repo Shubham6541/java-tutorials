@@ -1,11 +1,11 @@
-package com.baeldung.web.rest;
+package com.nklkarthi.web.rest;
 
-import com.baeldung.BaeldungApp;
+import com.nklkarthi.nklkarthiApp;
 
-import com.baeldung.domain.Comment;
-import com.baeldung.domain.Post;
-import com.baeldung.repository.CommentRepository;
-import com.baeldung.web.rest.errors.ExceptionTranslator;
+import com.nklkarthi.domain.Comment;
+import com.nklkarthi.domain.Post;
+import com.nklkarthi.repository.CommentRepository;
+import com.nklkarthi.web.rest.errors.ExceptionTranslator;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -37,7 +37,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
  * @see CommentResource
  */
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = BaeldungApp.class)
+@SpringBootTest(classes = nklkarthiApp.class)
 public class CommentResourceIntTest {
 
     private static final String DEFAULT_TEXT = "AAAAAAAAAA";

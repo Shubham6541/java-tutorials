@@ -1,6 +1,6 @@
-package org.baeldung.filter;
+package org.nklkarthi.filter;
 
-import org.baeldung.security.RestAuthenticationEntryPoint;
+import org.nklkarthi.security.RestAuthenticationEntryPoint;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;

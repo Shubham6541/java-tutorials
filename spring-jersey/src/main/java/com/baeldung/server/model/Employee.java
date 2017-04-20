@@ -1,4 +1,4 @@
-package com.baeldung.server.model;
+package com.nklkarthi.server.model;
 
 import javax.xml.bind.annotation.XmlRootElement;
 

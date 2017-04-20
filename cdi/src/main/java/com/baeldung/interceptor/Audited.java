@@ -1,4 +1,4 @@
-package com.baeldung.interceptor;
+package com.nklkarthi.interceptor;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

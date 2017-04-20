@@ -25,7 +25,7 @@
 
     </http>
 
-    <beans:bean id="myAuthenticationSuccessHandler" class="org.baeldung.security.MySimpleUrlAuthenticationSuccessHandler"/>
+    <beans:bean id="myAuthenticationSuccessHandler" class="org.nklkarthi.security.MySimpleUrlAuthenticationSuccessHandler"/>
 
     <authentication-manager>
         <authentication-provider>

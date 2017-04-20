@@ -1,4 +1,4 @@
-package org.baeldung.spring_batch_intro.model;
+package org.nklkarthi.spring_batch_intro.model;
 
 import java.util.Date;
 

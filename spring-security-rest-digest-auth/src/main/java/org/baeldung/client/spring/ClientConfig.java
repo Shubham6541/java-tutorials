@@ -1,4 +1,4 @@
-package org.baeldung.client.spring;
+package org.nklkarthi.client.spring;
 
 import org.apache.http.HttpHost;
 import org.apache.http.auth.AuthScope;
@@ -8,7 +8,7 @@ import org.apache.http.client.HttpClient;
 import org.apache.http.impl.client.BasicCredentialsProvider;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClientBuilder;
-import org.baeldung.client.HttpComponentsClientHttpRequestFactoryDigestAuth;
+import org.nklkarthi.client.HttpComponentsClientHttpRequestFactoryDigestAuth;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.client.HttpComponentsClientHttpRequestFactory;

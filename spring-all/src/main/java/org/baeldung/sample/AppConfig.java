@@ -1,10 +1,10 @@
-package org.baeldung.sample;
+package org.nklkarthi.sample;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@ComponentScan("org.baeldung.sample")
+@ComponentScan("org.nklkarthi.sample")
 public class AppConfig {
 
 }

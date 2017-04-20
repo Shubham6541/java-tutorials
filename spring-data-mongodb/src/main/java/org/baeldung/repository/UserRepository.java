@@ -1,8 +1,8 @@
-package org.baeldung.repository;
+package org.nklkarthi.repository;
 
 import java.util.List;
 
-import org.baeldung.model.User;
+import org.nklkarthi.model.User;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.data.mongodb.repository.Query;
 import org.springframework.data.querydsl.QueryDslPredicateExecutor;

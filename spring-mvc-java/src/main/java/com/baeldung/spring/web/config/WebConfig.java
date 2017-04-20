@@ -1,4 +1,4 @@
-package com.baeldung.spring.web.config;
+package com.nklkarthi.spring.web.config;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -21,11 +21,11 @@ import org.springframework.web.servlet.view.JstlView;
 import org.springframework.web.servlet.view.ResourceBundleViewResolver;
 import org.springframework.web.servlet.view.XmlViewResolver;
 import org.springframework.web.util.UrlPathHelper;
-import com.baeldung.excel.*;
+import com.nklkarthi.excel.*;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan("com.baeldung.web")
+@ComponentScan("com.nklkarthi.web")
 public class WebConfig extends WebMvcConfigurerAdapter {
 
     public WebConfig() {

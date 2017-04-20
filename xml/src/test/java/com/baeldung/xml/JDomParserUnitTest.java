@@ -1,4 +1,4 @@
-package com.baeldung.xml;
+package com.nklkarthi.xml;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;

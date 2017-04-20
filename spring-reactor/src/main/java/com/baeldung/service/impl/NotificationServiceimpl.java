@@ -1,9 +1,9 @@
-package com.baeldung.service.impl;
+package com.nklkarthi.service.impl;
 
 import org.springframework.stereotype.Service;
 
-import com.baeldung.doman.NotificationData;
-import com.baeldung.service.NotificationService;
+import com.nklkarthi.doman.NotificationData;
+import com.nklkarthi.service.NotificationService;
 
 @Service
 public class NotificationServiceimpl implements NotificationService {

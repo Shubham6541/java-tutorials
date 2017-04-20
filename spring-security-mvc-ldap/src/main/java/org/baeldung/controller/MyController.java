@@ -1,4 +1,4 @@
-package org.baeldung.controller;
+package org.nklkarthi.controller;
 
 import java.security.Principal;
 import java.util.Arrays;

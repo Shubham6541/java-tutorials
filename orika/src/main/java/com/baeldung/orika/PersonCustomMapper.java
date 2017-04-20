@@ -1,4 +1,4 @@
-package com.baeldung.orika;
+package com.nklkarthi.orika;
 
 import ma.glasnost.orika.CustomMapper;
 import ma.glasnost.orika.MappingContext;

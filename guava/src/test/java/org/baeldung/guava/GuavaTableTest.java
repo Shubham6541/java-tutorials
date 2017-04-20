@@ -1,4 +1,4 @@
-package org.baeldung.guava;
+package org.nklkarthi.guava;
 
 import static org.assertj.core.api.Assertions.*;
 import java.util.List;

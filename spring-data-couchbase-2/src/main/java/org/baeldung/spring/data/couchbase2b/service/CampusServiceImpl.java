@@ -1,11 +1,11 @@
-package org.baeldung.spring.data.couchbase2b.service;
+package org.nklkarthi.spring.data.couchbase2b.service;
 
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
 
-import org.baeldung.spring.data.couchbase.model.Campus;
-import org.baeldung.spring.data.couchbase2b.repos.CampusRepository;
+import org.nklkarthi.spring.data.couchbase.model.Campus;
+import org.nklkarthi.spring.data.couchbase2b.repos.CampusRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.geo.Distance;
 import org.springframework.data.geo.Point;

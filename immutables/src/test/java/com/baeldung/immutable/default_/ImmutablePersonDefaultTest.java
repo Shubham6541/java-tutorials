@@ -1,4 +1,4 @@
-package com.baeldung.immutable.default_;
+package com.nklkarthi.immutable.default_;
 
 import org.junit.Test;
 

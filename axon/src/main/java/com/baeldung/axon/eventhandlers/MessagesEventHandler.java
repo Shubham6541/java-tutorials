@@ -1,7 +1,7 @@
-package com.baeldung.axon.eventhandlers;
+package com.nklkarthi.axon.eventhandlers;
 
-import com.baeldung.axon.events.MessageReadEvent;
-import com.baeldung.axon.events.MessageCreatedEvent;
+import com.nklkarthi.axon.events.MessageReadEvent;
+import com.nklkarthi.axon.events.MessageCreatedEvent;
 import org.axonframework.eventhandling.EventHandler;
 
 

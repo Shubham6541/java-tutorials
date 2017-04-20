@@ -1,4 +1,4 @@
-package com.baeldung.jackson.test;
+package com.nklkarthi.jackson.test;
 
 import static org.hamcrest.Matchers.containsString;
 import static org.hamcrest.Matchers.not;
@@ -9,19 +9,19 @@ import java.io.IOException;
 
 import org.junit.Test;
 
-import com.baeldung.jackson.bidirection.Item;
-import com.baeldung.jackson.bidirection.ItemWithIdentity;
-import com.baeldung.jackson.bidirection.ItemWithIgnore;
-import com.baeldung.jackson.bidirection.ItemWithRef;
-import com.baeldung.jackson.bidirection.ItemWithSerializer;
-import com.baeldung.jackson.bidirection.ItemWithView;
-import com.baeldung.jackson.bidirection.User;
-import com.baeldung.jackson.bidirection.UserWithIdentity;
-import com.baeldung.jackson.bidirection.UserWithIgnore;
-import com.baeldung.jackson.bidirection.UserWithRef;
-import com.baeldung.jackson.bidirection.UserWithSerializer;
-import com.baeldung.jackson.bidirection.UserWithView;
-import com.baeldung.jackson.jsonview.Views;
+import com.nklkarthi.jackson.bidirection.Item;
+import com.nklkarthi.jackson.bidirection.ItemWithIdentity;
+import com.nklkarthi.jackson.bidirection.ItemWithIgnore;
+import com.nklkarthi.jackson.bidirection.ItemWithRef;
+import com.nklkarthi.jackson.bidirection.ItemWithSerializer;
+import com.nklkarthi.jackson.bidirection.ItemWithView;
+import com.nklkarthi.jackson.bidirection.User;
+import com.nklkarthi.jackson.bidirection.UserWithIdentity;
+import com.nklkarthi.jackson.bidirection.UserWithIgnore;
+import com.nklkarthi.jackson.bidirection.UserWithRef;
+import com.nklkarthi.jackson.bidirection.UserWithSerializer;
+import com.nklkarthi.jackson.bidirection.UserWithView;
+import com.nklkarthi.jackson.jsonview.Views;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;

@@ -1,4 +1,4 @@
-package com.baeldung.server;
+package com.nklkarthi.server;
 
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;

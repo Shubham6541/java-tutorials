@@ -1,6 +1,6 @@
-package com.baeldung.spring_data.repository;
+package com.nklkarthi.spring_data.repository;
 
-import com.baeldung.spring_data.model.JavaBook;
+import com.nklkarthi.spring_data.model.JavaBook;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

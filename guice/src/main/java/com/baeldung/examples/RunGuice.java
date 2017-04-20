@@ -1,16 +1,16 @@
 
-package com.baeldung.examples;
+package com.nklkarthi.examples;
 
-import com.baeldung.examples.guice.Communication;
-import com.baeldung.examples.guice.binding.AOPModule;
-import com.baeldung.examples.guice.modules.BasicModule;
+import com.nklkarthi.examples.guice.Communication;
+import com.nklkarthi.examples.guice.binding.AOPModule;
+import com.nklkarthi.examples.guice.modules.BasicModule;
 import com.google.inject.Guice;
 import com.google.inject.Injector;
 import java.util.Scanner;
 
 /**
  *
- * @author baeldung
+ * @author nklkarthi
  */
 public class RunGuice {
 

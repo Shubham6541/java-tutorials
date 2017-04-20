@@ -1,6 +1,6 @@
-package com.baeldung.spring.data.redis.repo;
+package com.nklkarthi.spring.data.redis.repo;
 
-import com.baeldung.spring.data.redis.model.Student;
+import com.nklkarthi.spring.data.redis.model.Student;
 
 import java.util.Map;
 

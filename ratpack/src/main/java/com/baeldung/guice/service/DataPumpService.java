@@ -1,4 +1,4 @@
-package com.baeldung.guice.service;
+package com.nklkarthi.guice.service;
 
 public interface DataPumpService {
 

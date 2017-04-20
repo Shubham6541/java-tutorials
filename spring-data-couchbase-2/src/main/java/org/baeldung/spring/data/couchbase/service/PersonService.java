@@ -1,8 +1,8 @@
-package org.baeldung.spring.data.couchbase.service;
+package org.nklkarthi.spring.data.couchbase.service;
 
 import java.util.List;
 
-import org.baeldung.spring.data.couchbase.model.Person;
+import org.nklkarthi.spring.data.couchbase.model.Person;
 
 public interface PersonService {
 

@@ -1,4 +1,4 @@
-package com.baeldung.spring.data.solr.config;
+package com.nklkarthi.spring.data.solr.config;
 
 import org.apache.solr.client.solrj.SolrClient;
 import org.apache.solr.client.solrj.impl.HttpSolrClient;
@@ -9,7 +9,7 @@ import org.springframework.data.solr.core.SolrTemplate;
 import org.springframework.data.solr.repository.config.EnableSolrRepositories;
 
 @Configuration
-@EnableSolrRepositories(basePackages = "com.baeldung.spring.data.solr.repository", namedQueriesLocation = "classpath:solr-named-queries.properties", multicoreSupport = true)
+@EnableSolrRepositories(basePackages = "com.nklkarthi.spring.data.solr.repository", namedQueriesLocation = "classpath:solr-named-queries.properties", multicoreSupport = true)
 @ComponentScan
 public class SolrConfig {
 

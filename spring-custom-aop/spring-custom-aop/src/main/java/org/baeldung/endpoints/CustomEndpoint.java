@@ -1,4 +1,4 @@
-package org.baeldung.endpoints;
+package org.nklkarthi.endpoints;
 
 import java.util.ArrayList;
 import java.util.List;

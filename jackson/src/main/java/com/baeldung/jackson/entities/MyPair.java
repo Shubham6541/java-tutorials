@@ -1,4 +1,4 @@
-package com.baeldung.jackson.entities;
+package com.nklkarthi.jackson.entities;
 
 import com.fasterxml.jackson.annotation.JsonValue;
 

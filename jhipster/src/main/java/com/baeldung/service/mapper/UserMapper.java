@@ -1,8 +1,8 @@
-package com.baeldung.service.mapper;
+package com.nklkarthi.service.mapper;
 
-import com.baeldung.domain.Authority;
-import com.baeldung.domain.User;
-import com.baeldung.service.dto.UserDTO;
+import com.nklkarthi.domain.Authority;
+import com.nklkarthi.domain.User;
+import com.nklkarthi.service.dto.UserDTO;
 import org.mapstruct.*;
 
 import java.util.List;

@@ -1,9 +1,9 @@
-package org.baeldung.lagom.helloworld.greeting.impl;
+package org.nklkarthi.lagom.helloworld.greeting.impl;
 
 import java.util.Optional;
 
-import org.baeldung.lagom.helloworld.greeting.impl.GreetingCommand.ReceivedGreetingCommand;
-import org.baeldung.lagom.helloworld.greeting.impl.GreetingEvent.ReceivedGreetingEvent;
+import org.nklkarthi.lagom.helloworld.greeting.impl.GreetingCommand.ReceivedGreetingCommand;
+import org.nklkarthi.lagom.helloworld.greeting.impl.GreetingEvent.ReceivedGreetingEvent;
 
 import com.lightbend.lagom.javadsl.persistence.PersistentEntity;
 

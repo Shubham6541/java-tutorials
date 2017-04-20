@@ -1,4 +1,4 @@
-package com.baeldung.java.reflection;
+package com.nklkarthi.java.reflection;
 
 public class Goat extends Animal implements Locomotion {
 

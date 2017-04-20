@@ -1,4 +1,4 @@
-package org.baeldung.spring.cloud;
+package org.nklkarthi.spring.cloud;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

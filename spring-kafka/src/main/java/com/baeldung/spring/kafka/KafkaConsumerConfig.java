@@ -1,4 +1,4 @@
-package com.baeldung.spring.kafka;
+package com.nklkarthi.spring.kafka;
 
 import java.util.HashMap;
 import java.util.Map;

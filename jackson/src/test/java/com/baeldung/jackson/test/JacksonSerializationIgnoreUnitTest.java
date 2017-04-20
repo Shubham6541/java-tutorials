@@ -1,4 +1,4 @@
-package com.baeldung.jackson.test;
+package com.nklkarthi.jackson.test;
 
 import static org.hamcrest.Matchers.containsString;
 import static org.hamcrest.Matchers.not;
@@ -10,15 +10,15 @@ import java.util.Map;
 
 import org.junit.Test;
 
-import com.baeldung.jackson.dtos.MyDto;
-import com.baeldung.jackson.dtos.MyDtoIncludeNonDefault;
-import com.baeldung.jackson.dtos.MyDtoWithFilter;
-import com.baeldung.jackson.dtos.MyDtoWithSpecialField;
-import com.baeldung.jackson.dtos.MyMixInForIgnoreType;
-import com.baeldung.jackson.dtos.ignore.MyDtoIgnoreField;
-import com.baeldung.jackson.dtos.ignore.MyDtoIgnoreFieldByName;
-import com.baeldung.jackson.dtos.ignore.MyDtoIgnoreNull;
-import com.baeldung.jackson.serialization.MyDtoNullKeySerializer;
+import com.nklkarthi.jackson.dtos.MyDto;
+import com.nklkarthi.jackson.dtos.MyDtoIncludeNonDefault;
+import com.nklkarthi.jackson.dtos.MyDtoWithFilter;
+import com.nklkarthi.jackson.dtos.MyDtoWithSpecialField;
+import com.nklkarthi.jackson.dtos.MyMixInForIgnoreType;
+import com.nklkarthi.jackson.dtos.ignore.MyDtoIgnoreField;
+import com.nklkarthi.jackson.dtos.ignore.MyDtoIgnoreFieldByName;
+import com.nklkarthi.jackson.dtos.ignore.MyDtoIgnoreNull;
+import com.nklkarthi.jackson.serialization.MyDtoNullKeySerializer;
 import com.fasterxml.jackson.annotation.JsonInclude.Include;
 import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.core.JsonParseException;

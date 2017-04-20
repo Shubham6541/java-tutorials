@@ -1,4 +1,4 @@
-package com.baeldung.cxf.spring;
+package com.nklkarthi.cxf.spring;
 
 import javax.servlet.ServletContext;
 import javax.servlet.ServletRegistration;

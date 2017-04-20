@@ -1,4 +1,4 @@
-package com.baeldung.threadpool;
+package com.nklkarthi.threadpool;
 
 import static org.junit.Assert.assertEquals;
 

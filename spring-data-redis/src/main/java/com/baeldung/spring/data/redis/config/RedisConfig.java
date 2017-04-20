@@ -1,8 +1,8 @@
-package com.baeldung.spring.data.redis.config;
+package com.nklkarthi.spring.data.redis.config;
 
-import com.baeldung.spring.data.redis.queue.MessagePublisher;
-import com.baeldung.spring.data.redis.queue.RedisMessagePublisher;
-import com.baeldung.spring.data.redis.queue.RedisMessageSubscriber;
+import com.nklkarthi.spring.data.redis.queue.MessagePublisher;
+import com.nklkarthi.spring.data.redis.queue.RedisMessagePublisher;
+import com.nklkarthi.spring.data.redis.queue.RedisMessageSubscriber;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -14,7 +14,7 @@ import org.springframework.data.redis.listener.adapter.MessageListenerAdapter;
 import org.springframework.data.redis.serializer.GenericToStringSerializer;
 
 @Configuration
-@ComponentScan("com.baeldung.spring.data.redis")
+@ComponentScan("com.nklkarthi.spring.data.redis")
 public class RedisConfig {
 
     @Bean

@@ -8,7 +8,7 @@
  *  @since   01/13/2017
  */
 
-package com.baeldung.hibernate.criteria.view;
+package com.nklkarthi.hibernate.criteria.view;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -23,8 +23,8 @@ import javax.persistence.criteria.Root;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 
-import com.baeldung.hibernate.criteria.model.Item;
-import com.baeldung.hibernate.criteria.util.HibernateUtil;
+import com.nklkarthi.hibernate.criteria.model.Item;
+import com.nklkarthi.hibernate.criteria.util.HibernateUtil;
 
 public class ApplicationView {
     

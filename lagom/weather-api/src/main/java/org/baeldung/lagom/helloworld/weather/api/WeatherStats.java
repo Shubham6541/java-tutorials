@@ -1,4 +1,4 @@
-package org.baeldung.lagom.helloworld.weather.api;
+package org.nklkarthi.lagom.helloworld.weather.api;
 
 import java.util.Arrays;
 import java.util.Collections;

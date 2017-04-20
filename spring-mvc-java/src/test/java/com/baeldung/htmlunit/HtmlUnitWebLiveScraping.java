@@ -1,4 +1,4 @@
-package com.baeldung.htmlunit;
+package com.nklkarthi.htmlunit;
 
 import java.util.List;
 
@@ -27,11 +27,11 @@ public class HtmlUnitWebLiveScraping {
     }
 
     @Test
-    public void givenBaeldungArchive_whenRetrievingArticle_thenHasH1() throws Exception {
+    public void givennklkarthiArchive_whenRetrievingArticle_thenHasH1() throws Exception {
         webClient.getOptions().setCssEnabled(false);
         webClient.getOptions().setJavaScriptEnabled(false);
 
-        final String url = "http://www.baeldung.com/full_archive";
+        final String url = "http://www.nklkarthi.com/full_archive";
         final HtmlPage page = webClient.getPage(url);
         final String xpath = "(//ul[@class='car-monthlisting']/li)[1]/a";
         final HtmlAnchor latestPostLink = (HtmlAnchor) page.getByXPath(xpath).get(0);

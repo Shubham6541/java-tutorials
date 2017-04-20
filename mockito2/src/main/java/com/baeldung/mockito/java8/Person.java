@@ -1,4 +1,4 @@
-package com.baeldung.mockito.java8;
+package com.nklkarthi.mockito.java8;
 
 public class Person {
     private String name;

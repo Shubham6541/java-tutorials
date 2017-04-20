@@ -5,7 +5,7 @@ This is the first example where we configure a basic scheduler.
 ##### Spring boot application, Main class
 ###
 ```
-org.baeldung.springquartz.SpringQuartzApp
+org.nklkarthi.springquartz.SpringQuartzApp
 ```
 ######
 

@@ -1,7 +1,7 @@
-package com.baeldung.spring.statemachine;
+package com.nklkarthi.spring.statemachine;
 
-import com.baeldung.spring.statemachine.config.JunctionStateMachineConfiguration;
-import com.baeldung.spring.statemachine.config.SimpleEnumStateMachineConfiguration;
+import com.nklkarthi.spring.statemachine.config.JunctionStateMachineConfiguration;
+import com.nklkarthi.spring.statemachine.config.SimpleEnumStateMachineConfiguration;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;

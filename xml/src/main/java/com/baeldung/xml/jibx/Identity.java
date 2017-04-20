@@ -1,4 +1,4 @@
-package com.baeldung.xml.jibx;
+package com.nklkarthi.xml.jibx;
 
 public class Identity {
 

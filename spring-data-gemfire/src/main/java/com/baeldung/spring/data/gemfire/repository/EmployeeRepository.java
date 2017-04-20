@@ -1,6 +1,6 @@
-package com.baeldung.spring.data.gemfire.repository;
+package com.nklkarthi.spring.data.gemfire.repository;
 
-import com.baeldung.spring.data.gemfire.model.Employee;
+import com.nklkarthi.spring.data.gemfire.model.Employee;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

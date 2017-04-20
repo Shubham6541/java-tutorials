@@ -1,4 +1,4 @@
-package com.baeldung.poi.word;
+package com.nklkarthi.poi.word;
 
 import org.apache.poi.util.Units;
 import org.apache.poi.xwpf.usermodel.*;

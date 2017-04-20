@@ -1,10 +1,10 @@
-package org.baeldung.common.web;
+package org.nklkarthi.common.web;
 
-import static org.baeldung.Consts.APPLICATION_PORT;
+import static org.nklkarthi.Consts.APPLICATION_PORT;
 
 import java.io.Serializable;
 
-import org.baeldung.test.IMarshaller;
+import org.nklkarthi.test.IMarshaller;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import com.google.common.base.Preconditions;

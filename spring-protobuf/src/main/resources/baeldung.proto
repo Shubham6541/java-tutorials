@@ -1,9 +1,9 @@
 syntax = "proto3";
 
-package baeldung;
+package nklkarthi;
 
-option java_package = "com.baeldung.protobuf";
-option java_outer_classname = "BaeldungTraining";
+option java_package = "com.nklkarthi.protobuf";
+option java_outer_classname = "nklkarthiTraining";
 
 message Course {
 	int32 id = 1;

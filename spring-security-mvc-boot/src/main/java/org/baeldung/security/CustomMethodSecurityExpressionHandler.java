@@ -1,4 +1,4 @@
-package org.baeldung.security;
+package org.nklkarthi.security;
 
 import org.aopalliance.intercept.MethodInvocation;
 import org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler;

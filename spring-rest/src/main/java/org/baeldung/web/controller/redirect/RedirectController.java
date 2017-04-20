@@ -1,4 +1,4 @@
-package org.baeldung.web.controller.redirect;
+package org.nklkarthi.web.controller.redirect;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;

@@ -1,4 +1,4 @@
-package com.baeldung.spring.controller;
+package com.nklkarthi.spring.controller;
 
 import java.io.IOException;
 
@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.baeldung.spring.form.GeoIP;
-import com.baeldung.spring.service.RawDBDemoGeoIPLocationService;
+import com.nklkarthi.spring.form.GeoIP;
+import com.nklkarthi.spring.service.RawDBDemoGeoIPLocationService;
 
 @Controller
 public class GeoIPTestController {

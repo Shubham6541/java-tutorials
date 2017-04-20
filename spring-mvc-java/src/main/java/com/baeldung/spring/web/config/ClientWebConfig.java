@@ -1,9 +1,9 @@
-package com.baeldung.spring.web.config;
+package com.nklkarthi.spring.web.config;
 
 import java.util.HashSet;
 import java.util.Set;
 
-import com.baeldung.dialect.CustomDialect;
+import com.nklkarthi.dialect.CustomDialect;
 import org.springframework.context.MessageSource;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

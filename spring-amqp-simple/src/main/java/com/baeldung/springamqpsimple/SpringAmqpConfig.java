@@ -1,4 +1,4 @@
-package com.baeldung.springamqpsimple;
+package com.nklkarthi.springamqpsimple;
 
 import org.springframework.amqp.core.Binding;
 import org.springframework.amqp.core.BindingBuilder;
@@ -16,8 +16,8 @@ import org.springframework.context.annotation.Profile;
 @Profile("!test")
 public class SpringAmqpConfig {
 
-    public final static String queueName = "com.baeldung.spring-amqp-simple.queue";
-    public final static String exchangeName = "com.baeldung.spring-amqp-simple.exchange";
+    public final static String queueName = "com.nklkarthi.spring-amqp-simple.queue";
+    public final static String exchangeName = "com.nklkarthi.spring-amqp-simple.exchange";
 
     @Bean
     Queue queue() {

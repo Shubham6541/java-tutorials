@@ -1,4 +1,4 @@
-package com.baeldung.test;
+package com.nklkarthi.test;
 
 import static org.hamcrest.CoreMatchers.is;
 
@@ -11,8 +11,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.baeldung.spring.configuration.AppConfig;
-import com.baeldung.spring.service.SpringSuperService;
+import com.nklkarthi.spring.configuration.AppConfig;
+import com.nklkarthi.spring.service.SpringSuperService;
 
 @RunWith(SpringRunner.class)
 @ContextConfiguration(classes = { AppConfig.class })

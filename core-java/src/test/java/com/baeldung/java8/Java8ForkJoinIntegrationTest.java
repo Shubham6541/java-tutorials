@@ -1,4 +1,4 @@
-package com.baeldung.java8;
+package com.nklkarthi.java8;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
@@ -10,9 +10,9 @@ import java.util.concurrent.ForkJoinPool;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.baeldung.forkjoin.CustomRecursiveAction;
-import com.baeldung.forkjoin.CustomRecursiveTask;
-import com.baeldung.forkjoin.util.PoolUtil;
+import com.nklkarthi.forkjoin.CustomRecursiveAction;
+import com.nklkarthi.forkjoin.CustomRecursiveTask;
+import com.nklkarthi.forkjoin.util.PoolUtil;
 
 public class Java8ForkJoinIntegrationTest {
 

@@ -1,9 +1,9 @@
-package com.baeldung.lombok.intro;
+package com.nklkarthi.lombok.intro;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
 
-import com.baeldung.lombok.intro.ApiClientConfiguration.ApiClientConfigurationBuilder;
+import com.nklkarthi.lombok.intro.ApiClientConfiguration.ApiClientConfigurationBuilder;
 import org.junit.Assert;
 import org.junit.Test;
 

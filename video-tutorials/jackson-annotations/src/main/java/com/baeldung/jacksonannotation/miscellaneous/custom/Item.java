@@ -1,7 +1,7 @@
-package com.baeldung.jacksonannotation.miscellaneous.custom;
+package com.nklkarthi.jacksonannotation.miscellaneous.custom;
 
-import com.baeldung.jacksonannotation.domain.Author;
-import com.baeldung.jacksonannotation.domain.Person;
+import com.nklkarthi.jacksonannotation.domain.Author;
+import com.nklkarthi.jacksonannotation.domain.Person;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,7 +10,7 @@ import java.util.UUID;
 /**
  * Source code github.com/eugenp/tutorials
  *
- * @author Alex Theedom www.baeldung.com
+ * @author Alex Theedom www.nklkarthi.com
  * @version 1.0
  */
 public class Item {

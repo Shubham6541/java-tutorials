@@ -1,4 +1,4 @@
-package com.baeldung.kotlin
+package com.nklkarthi.kotlin
 
 enum class UnixFileType {
     D, HYPHEN_MINUS, L

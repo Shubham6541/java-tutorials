@@ -1,4 +1,4 @@
-package org.baeldung.web.resolver;
+package org.nklkarthi.web.resolver;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

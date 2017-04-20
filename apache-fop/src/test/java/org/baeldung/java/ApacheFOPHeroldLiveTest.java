@@ -1,4 +1,4 @@
-package org.baeldung.java;
+package org.nklkarthi.java;
 
 import java.io.BufferedOutputStream;
 import java.io.BufferedReader;
@@ -33,17 +33,17 @@ import org.w3c.dom.Document;
 
 public class ApacheFOPHeroldLiveTest {
     private final String[] inputUrls = {// @formatter:off
-           // "http://www.baeldung.com/spring-security-basic-authentication",
-            "http://www.baeldung.com/spring-security-digest-authentication"
-            //"http://www.baeldung.com/spring-httpmessageconverter-rest",
-            //"http://www.baeldung.com/2011/11/06/restful-web-service-discoverability-part-4/",
-            //"http://www.baeldung.com/2011/11/13/rest-service-discoverability-with-spring-part-5/",
-            //"http://www.baeldung.com/2013/01/11/etags-for-rest-with-spring/",
-            // "http://www.baeldung.com/2012/01/18/rest-pagination-in-spring/",
-            //"http://inprogress.baeldung.com/?p=1430",
-            //"http://www.baeldung.com/2013/01/31/exception-handling-for-rest-with-spring-3-2/",
-            //"http://www.baeldung.com/rest-versioning",
-            //"http://www.baeldung.com/2013/01/18/testing-rest-with-multiple-mime-types/"
+           // "http://www.nklkarthi.com/spring-security-basic-authentication",
+            "http://www.nklkarthi.com/spring-security-digest-authentication"
+            //"http://www.nklkarthi.com/spring-httpmessageconverter-rest",
+            //"http://www.nklkarthi.com/2011/11/06/restful-web-service-discoverability-part-4/",
+            //"http://www.nklkarthi.com/2011/11/13/rest-service-discoverability-with-spring-part-5/",
+            //"http://www.nklkarthi.com/2013/01/11/etags-for-rest-with-spring/",
+            // "http://www.nklkarthi.com/2012/01/18/rest-pagination-in-spring/",
+            //"http://inprogress.nklkarthi.com/?p=1430",
+            //"http://www.nklkarthi.com/2013/01/31/exception-handling-for-rest-with-spring-3-2/",
+            //"http://www.nklkarthi.com/rest-versioning",
+            //"http://www.nklkarthi.com/2013/01/18/testing-rest-with-multiple-mime-types/"
     }; // @formatter:on
 
     private final String style_file = "src/test/resources/docbook-xsl/fo/docbook.xsl";

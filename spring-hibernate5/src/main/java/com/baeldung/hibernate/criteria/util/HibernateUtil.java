@@ -1,4 +1,4 @@
-package com.baeldung.hibernate.criteria.util;
+package com.nklkarthi.hibernate.criteria.util;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;

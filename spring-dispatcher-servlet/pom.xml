@@ -8,7 +8,7 @@
     <packaging>war</packaging>
 
     <parent>
-        <groupId>com.baeldung</groupId>
+        <groupId>com.nklkarthi</groupId>
         <artifactId>parent-modules</artifactId>
         <version>1.0.0-SNAPSHOT</version>
         <relativePath>..</relativePath>

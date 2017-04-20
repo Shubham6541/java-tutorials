@@ -1,4 +1,4 @@
-package org.baeldung.java.arrays;
+package org.nklkarthi.java.arrays;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package org.baeldung.service;
+package org.nklkarthi.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.actuate.metrics.CounterService;

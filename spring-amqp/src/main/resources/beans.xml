@@ -30,6 +30,6 @@
 			queue-names="myQueue" />
 	</rabbit:listener-container>
 
-	<bean id="consumer" class="com.baeldung.springamqp.consumer.Consumer" />
+	<bean id="consumer" class="com.nklkarthi.springamqp.consumer.Consumer" />
 
 </beans>

@@ -1,4 +1,4 @@
-package com.baeldung.javaeeannotations.JavaEEAnnotationsSample.src.main.java.com.baeldung.javaeeannotations;
+package com.nklkarthi.javaeeannotations.JavaEEAnnotationsSample.src.main.java.com.nklkarthi.javaeeannotations;
 
 import java.io.IOException;
 import java.io.PrintWriter;

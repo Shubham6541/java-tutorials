@@ -1,4 +1,4 @@
-package org.baeldung.basic;
+package org.nklkarthi.basic;
 
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.web.authentication.www.BasicAuthenticationEntryPoint;
@@ -23,7 +23,7 @@ public class MyBasicAuthenticationEntryPoint extends BasicAuthenticationEntryPoi
 
     @Override
     public void afterPropertiesSet() throws Exception {
-        setRealmName("Baeldung");
+        setRealmName("nklkarthi");
         super.afterPropertiesSet();
     }
 

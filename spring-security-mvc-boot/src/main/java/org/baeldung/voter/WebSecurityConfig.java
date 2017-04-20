@@ -1,4 +1,4 @@
-package org.baeldung.voter;
+package org.nklkarthi.voter;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

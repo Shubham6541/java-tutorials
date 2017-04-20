@@ -1,4 +1,4 @@
-package org.baeldung.config;
+package org.nklkarthi.config;
 
 import java.util.HashMap;
 
@@ -20,7 +20,7 @@ import com.google.common.base.Preconditions;
 
 @Configuration
 @PropertySource({ "classpath:persistence-multiple-db.properties" })
-@EnableJpaRepositories(basePackages = "org.baeldung.persistence.multiple.dao.product", entityManagerFactoryRef = "productEntityManager", transactionManagerRef = "productTransactionManager")
+@EnableJpaRepositories(basePackages = "org.nklkarthi.persistence.multiple.dao.product", entityManagerFactoryRef = "productEntityManager", transactionManagerRef = "productTransactionManager")
 public class ProductConfig {
     @Autowired
     private Environment env;
@@ -35,7 +35,7 @@ public class ProductConfig {
     public LocalContainerEntityManagerFactoryBean productEntityManager() {
         final LocalContainerEntityManagerFactoryBean em = new LocalContainerEntityManagerFactoryBean();
         em.setDataSource(productDataSource());
-        em.setPackagesToScan(new String[] { "org.baeldung.persistence.multiple.model.product" });
+        em.setPackagesToScan(new String[] { "org.nklkarthi.persistence.multiple.model.product" });
 
         final HibernateJpaVendorAdapter vendorAdapter = new HibernateJpaVendorAdapter();
         em.setJpaVendorAdapter(vendorAdapter);

@@ -1,4 +1,4 @@
-package org.baeldung.persistence.service;
+package org.nklkarthi.persistence.service;
 
 import static org.apache.commons.lang3.RandomStringUtils.randomAlphabetic;
 import static org.hamcrest.Matchers.hasItem;
@@ -11,9 +11,9 @@ import static org.junit.Assert.assertThat;
 import java.io.Serializable;
 import java.util.List;
 
-import org.baeldung.persistence.IOperations;
-import org.baeldung.persistence.model.Foo;
-import org.baeldung.util.IDUtil;
+import org.nklkarthi.persistence.IOperations;
+import org.nklkarthi.persistence.model.Foo;
+import org.nklkarthi.util.IDUtil;
 import org.hamcrest.Matchers;
 import org.junit.Ignore;
 import org.junit.Test;

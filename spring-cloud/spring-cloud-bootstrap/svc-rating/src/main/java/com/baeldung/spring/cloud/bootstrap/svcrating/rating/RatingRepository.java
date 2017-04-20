@@ -1,4 +1,4 @@
-package com.baeldung.spring.cloud.bootstrap.svcrating.rating;
+package com.nklkarthi.spring.cloud.bootstrap.svcrating.rating;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

@@ -1,4 +1,4 @@
-package org.baeldung.customscope;
+package org.nklkarthi.customscope;
 
 import java.util.Collections;
 import java.util.HashMap;

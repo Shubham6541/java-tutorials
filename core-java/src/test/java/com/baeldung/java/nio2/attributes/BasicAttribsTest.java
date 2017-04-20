@@ -1,4 +1,4 @@
-package com.baeldung.java.nio2.attributes;
+package com.nklkarthi.java.nio2.attributes;
 
 import org.junit.BeforeClass;
 import org.junit.Test;

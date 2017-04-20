@@ -1,4 +1,4 @@
-package com.baeldung.struts;
+package com.nklkarthi.struts;
 
 public class CarMessageService {
 

@@ -1,4 +1,4 @@
-package org.baeldung.startup;
+package org.nklkarthi.startup;
 
 import org.assertj.core.api.Assertions;
 import org.junit.Test;

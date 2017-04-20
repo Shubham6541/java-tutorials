@@ -1,4 +1,4 @@
-package com.baeldung.elasticsearch;
+package com.nklkarthi.elasticsearch;
 
 import static org.elasticsearch.node.NodeBuilder.*;
 import static org.junit.Assert.*;

@@ -1,4 +1,4 @@
-package com.baeldung.datetime;
+package com.nklkarthi.datetime;
 
 import java.time.Duration;
 import java.time.LocalTime;

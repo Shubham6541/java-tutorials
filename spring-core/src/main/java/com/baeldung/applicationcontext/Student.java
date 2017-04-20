@@ -1,4 +1,4 @@
-package com.baeldung.applicationcontext;
+package com.nklkarthi.applicationcontext;
 
 public class Student {
 

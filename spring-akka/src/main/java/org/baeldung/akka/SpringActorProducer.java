@@ -1,4 +1,4 @@
-package org.baeldung.akka;
+package org.nklkarthi.akka;
 
 import akka.actor.Actor;
 import akka.actor.IndirectActorProducer;

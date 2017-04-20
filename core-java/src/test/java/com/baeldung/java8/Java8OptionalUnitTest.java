@@ -1,4 +1,4 @@
-package com.baeldung.java8;
+package com.nklkarthi.java8;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
@@ -11,11 +11,11 @@ import java.util.Optional;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.baeldung.java_8_features.Address;
-import com.baeldung.java_8_features.CustomException;
-import com.baeldung.java_8_features.OptionalAddress;
-import com.baeldung.java_8_features.OptionalUser;
-import com.baeldung.java_8_features.User;
+import com.nklkarthi.java_8_features.Address;
+import com.nklkarthi.java_8_features.CustomException;
+import com.nklkarthi.java_8_features.OptionalAddress;
+import com.nklkarthi.java_8_features.OptionalUser;
+import com.nklkarthi.java_8_features.User;
 
 public class Java8OptionalUnitTest {
 

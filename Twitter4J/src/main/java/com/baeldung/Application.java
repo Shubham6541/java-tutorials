@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.baeldung;
+package com.nklkarthi;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -42,7 +42,7 @@ public class Application {
 	
 	public static String createTweet(String tweet) throws TwitterException {
 		Twitter twitter = getTwitterinstance();
-		Status status = twitter.updateStatus("creating baeldung API");
+		Status status = twitter.updateStatus("creating nklkarthi API");
 	        return status.getText();
 	}
 	
@@ -62,7 +62,7 @@ public class Application {
 	
 	public static List<String> searchtweets() throws TwitterException {
 		Twitter twitter = getTwitterinstance();
-	        Query query = new Query("source:twitter4j baeldung");
+	        Query query = new Query("source:twitter4j nklkarthi");
 	        QueryResult result = twitter.search(query);
 	        List<Status> statuses = result.getTweets();
 	        return statuses.stream().map(

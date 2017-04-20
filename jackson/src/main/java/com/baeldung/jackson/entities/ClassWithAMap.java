@@ -1,8 +1,8 @@
-package com.baeldung.jackson.entities;
+package com.nklkarthi.jackson.entities;
 
 import java.util.Map;
 
-import com.baeldung.jackson.serialization.MyPairDeserializer;
+import com.nklkarthi.jackson.serialization.MyPairDeserializer;
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;

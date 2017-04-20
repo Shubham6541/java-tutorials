@@ -1,4 +1,4 @@
-package com.baeldung.springmvcforms.configuration;
+package com.nklkarthi.springmvcforms.configuration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -12,7 +12,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages = "com.baeldung.springmvcforms")
+@ComponentScan(basePackages = "com.nklkarthi.springmvcforms")
 class ApplicationConfiguration extends WebMvcConfigurerAdapter {
 
     @Override

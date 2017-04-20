@@ -1,6 +1,6 @@
-package com.baeldung.jupiter;
+package com.nklkarthi.jupiter;
 
-import com.baeldung.web.reactive.Task;
+import com.nklkarthi.web.reactive.Task;
 
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;

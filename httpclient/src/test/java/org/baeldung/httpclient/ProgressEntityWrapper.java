@@ -1,4 +1,4 @@
-package org.baeldung.httpclient;
+package org.nklkarthi.httpclient;
 
 import java.io.FilterOutputStream;
 import java.io.IOException;

@@ -4,5 +4,5 @@
 
 
 ### Relevant Articles: 
-- [Gson Deserialization Cookbook](http://www.baeldung.com/gson-deserialization-guide)
-- [Jackson vs Gson](http://www.baeldung.com/jackson-vs-gson)
+- [Gson Deserialization Cookbook](http://www.nklkarthi.com/gson-deserialization-guide)
+- [Jackson vs Gson](http://www.nklkarthi.com/jackson-vs-gson)

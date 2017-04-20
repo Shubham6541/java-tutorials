@@ -1,11 +1,11 @@
-package org.baeldung.mocks.jmockit;
+package org.nklkarthi.mocks.jmockit;
 
 import mockit.*;
 import mockit.integration.junit4.JMockit;
-import org.baeldung.mocks.testCase.LoginController;
-import org.baeldung.mocks.testCase.LoginDao;
-import org.baeldung.mocks.testCase.LoginService;
-import org.baeldung.mocks.testCase.UserForm;
+import org.nklkarthi.mocks.testCase.LoginController;
+import org.nklkarthi.mocks.testCase.LoginDao;
+import org.nklkarthi.mocks.testCase.LoginService;
+import org.nklkarthi.mocks.testCase.UserForm;
 import org.hamcrest.BaseMatcher;
 import org.hamcrest.Description;
 import org.junit.Assert;

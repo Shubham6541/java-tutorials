@@ -1,8 +1,8 @@
-package org.baeldung.boot.repository;
+package org.nklkarthi.boot.repository;
 
-import org.baeldung.boot.ApplicationIntegrationTest;
-import org.baeldung.boot.model.Foo;
-import org.baeldung.session.exception.repository.FooRepository;
+import org.nklkarthi.boot.ApplicationIntegrationTest;
+import org.nklkarthi.boot.model.Foo;
+import org.nklkarthi.session.exception.repository.FooRepository;
 import org.hibernate.HibernateException;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;

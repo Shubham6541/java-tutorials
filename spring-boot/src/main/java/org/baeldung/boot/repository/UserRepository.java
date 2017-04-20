@@ -1,6 +1,6 @@
-package org.baeldung.boot.repository;
+package org.nklkarthi.boot.repository;
 
-import org.baeldung.boot.model.User;
+import org.nklkarthi.boot.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,4 +1,4 @@
-package com.baeldung.web.rest.vm;
+package com.nklkarthi.web.rest.vm;
 
 /**
  * View Model object for storing the user's key and password.

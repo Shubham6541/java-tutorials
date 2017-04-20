@@ -1,4 +1,4 @@
-package org.baeldung.persistence.dao;
+package org.nklkarthi.persistence.dao;
 
 import java.util.List;
 
@@ -9,8 +9,8 @@ import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Predicate;
 import javax.persistence.criteria.Root;
 
-import org.baeldung.persistence.model.User;
-import org.baeldung.web.util.SearchCriteria;
+import org.nklkarthi.persistence.model.User;
+import org.nklkarthi.web.util.SearchCriteria;
 import org.springframework.stereotype.Repository;
 
 @Repository

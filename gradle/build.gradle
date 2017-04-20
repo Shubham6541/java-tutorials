@@ -10,7 +10,7 @@ dependencies{
 } 
 
 task hello {   
-    println "this Baeldung's tutorial is ${awesomeness}"  
+    println "this nklkarthi's tutorial is ${awesomeness}"  
 }
 
 uploadArchives {  

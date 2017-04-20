@@ -1,4 +1,4 @@
-package org.baeldung.common.properties;
+package org.nklkarthi.common.properties;
 
 import org.springframework.boot.context.embedded.ConfigurableEmbeddedServletContainer;
 import org.springframework.boot.context.embedded.EmbeddedServletContainerCustomizer;

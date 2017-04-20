@@ -1,4 +1,4 @@
-package org.baeldung.hbase;
+package org.nklkarthi.hbase;
 
 
 import com.google.protobuf.ServiceException;

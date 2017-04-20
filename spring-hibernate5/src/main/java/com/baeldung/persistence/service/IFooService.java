@@ -1,7 +1,7 @@
-package com.baeldung.persistence.service;
+package com.nklkarthi.persistence.service;
 
-import com.baeldung.persistence.model.Foo;
-import com.baeldung.persistence.dao.common.IOperations;
+import com.nklkarthi.persistence.model.Foo;
+import com.nklkarthi.persistence.dao.common.IOperations;
 
 public interface IFooService extends IOperations<Foo> {
     //

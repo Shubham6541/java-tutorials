@@ -1,4 +1,4 @@
-package com.baeldung.jooq.springboot;
+package com.nklkarthi.jooq.springboot;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.transaction.annotation.EnableTransactionManagement;

@@ -4,7 +4,7 @@
  * Copyright 2008 Stefan J&auml;ger
  *
  */
-package com.baeldung.xml.jibx;
+package com.nklkarthi.xml.jibx;
 
 import org.apache.commons.lang.builder.ToStringBuilder;
 

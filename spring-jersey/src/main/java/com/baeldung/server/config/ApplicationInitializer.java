@@ -1,4 +1,4 @@
-package com.baeldung.server.config;
+package com.nklkarthi.server.config;
 
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
@@ -16,7 +16,7 @@ public class ApplicationInitializer implements WebApplicationInitializer {
     public void onStartup(ServletContext servletContext) throws ServletException {
         AnnotationConfigWebApplicationContext context = new AnnotationConfigWebApplicationContext();
         servletContext.addListener(new ContextLoaderListener(context));
-        servletContext.setInitParameter("contextConfigLocation", "com.baeldung.server");
+        servletContext.setInitParameter("contextConfigLocation", "com.nklkarthi.server");
     }
 
 }

@@ -1,4 +1,4 @@
-package org.baeldung.shell.simple;
+package org.nklkarthi.shell.simple;
 
 import org.springframework.core.Ordered;
 import org.springframework.core.annotation.Order;
@@ -13,7 +13,7 @@ public class SimpleBannerProvider extends DefaultBannerProvider {
     public String getBanner() {
         StringBuffer buf = new StringBuffer();
         buf.append("=======================================").append(OsUtils.LINE_SEPARATOR);
-        buf.append("*          Baeldung Shell             *").append(OsUtils.LINE_SEPARATOR);
+        buf.append("*          nklkarthi Shell             *").append(OsUtils.LINE_SEPARATOR);
         buf.append("=======================================").append(OsUtils.LINE_SEPARATOR);
         buf.append("Version:").append(this.getVersion());
         return buf.toString();
@@ -24,11 +24,11 @@ public class SimpleBannerProvider extends DefaultBannerProvider {
     }
 
     public String getWelcomeMessage() {
-        return "Welcome to Baeldung CLI";
+        return "Welcome to nklkarthi CLI";
     }
 
     @Override
     public String getProviderName() {
-        return "Baeldung Banner";
+        return "nklkarthi Banner";
     }
 }

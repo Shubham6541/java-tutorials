@@ -1,4 +1,4 @@
-package com.baeldung.sparkjava;
+package com.nklkarthi.sparkjava;
 
 import static spark.Spark.delete;
 import static spark.Spark.get;

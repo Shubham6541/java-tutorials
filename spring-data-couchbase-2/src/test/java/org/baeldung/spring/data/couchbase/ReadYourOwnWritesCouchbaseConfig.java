@@ -1,4 +1,4 @@
-package org.baeldung.spring.data.couchbase;
+package org.nklkarthi.spring.data.couchbase;
 
 import org.springframework.data.couchbase.core.query.Consistency;
 

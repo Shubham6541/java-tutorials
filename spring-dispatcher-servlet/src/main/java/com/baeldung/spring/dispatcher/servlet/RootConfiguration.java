@@ -1,6 +1,6 @@
-package com.baeldung.spring.dispatcher.servlet;
+package com.nklkarthi.spring.dispatcher.servlet;
 
-import com.baeldung.spring.dispatcher.servlet.models.Task;
+import com.nklkarthi.spring.dispatcher.servlet.models.Task;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

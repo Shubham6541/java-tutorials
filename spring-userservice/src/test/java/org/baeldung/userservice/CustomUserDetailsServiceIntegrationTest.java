@@ -1,10 +1,10 @@
-package org.baeldung.userservice;
+package org.nklkarthi.userservice;
 
-import org.baeldung.custom.config.MvcConfig;
-import org.baeldung.custom.config.PersistenceDerbyJPAConfig;
-import org.baeldung.custom.config.SecSecurityConfig;
-import org.baeldung.user.service.MyUserService;
-import org.baeldung.web.MyUserDto;
+import org.nklkarthi.custom.config.MvcConfig;
+import org.nklkarthi.custom.config.PersistenceDerbyJPAConfig;
+import org.nklkarthi.custom.config.SecSecurityConfig;
+import org.nklkarthi.user.service.MyUserService;
+import org.nklkarthi.web.MyUserDto;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

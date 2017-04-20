@@ -1,4 +1,4 @@
-package com.baeldung.cxf.spring;
+package com.nklkarthi.cxf.spring;
 
 import javax.xml.ws.Endpoint;
 
@@ -17,8 +17,8 @@ public class ServiceConfiguration {
 
     @Bean
     public Endpoint endpoint() {
-        EndpointImpl endpoint = new EndpointImpl(springBus(), new BaeldungImpl());
-        endpoint.publish("http://localhost:8081/services/baeldung");
+        EndpointImpl endpoint = new EndpointImpl(springBus(), new nklkarthiImpl());
+        endpoint.publish("http://localhost:8081/services/nklkarthi");
         return endpoint;
     }
 }

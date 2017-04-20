@@ -1,4 +1,4 @@
-package org.baeldung.controller.student;
+package org.nklkarthi.controller.student;
 
 public class Student {
     private String name;

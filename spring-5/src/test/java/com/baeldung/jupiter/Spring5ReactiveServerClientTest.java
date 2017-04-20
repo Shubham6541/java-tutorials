@@ -1,6 +1,6 @@
-package com.baeldung.jupiter;
+package com.nklkarthi.jupiter;
 
-import com.baeldung.web.reactive.Task;
+import com.nklkarthi.web.reactive.Task;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;

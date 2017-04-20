@@ -1,7 +1,7 @@
-package com.baeldung.jacksonannotation.deserialization.jsonsetter;
+package com.nklkarthi.jacksonannotation.deserialization.jsonsetter;
 
-import com.baeldung.jacksonannotation.domain.Item;
-import com.baeldung.jacksonannotation.domain.Person;
+import com.nklkarthi.jacksonannotation.domain.Item;
+import com.nklkarthi.jacksonannotation.domain.Person;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonSetter;
 
@@ -11,7 +11,7 @@ import java.util.List;
 /**
  * Source code github.com/eugenp/tutorials
  *
- * @author Alex Theedom www.baeldung.com
+ * @author Alex Theedom www.nklkarthi.com
  * @version 1.0
  */
 public class Author extends Person {

@@ -1,4 +1,4 @@
-package com.baeldung.spring.session;
+package com.nklkarthi.spring.session;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -1,4 +1,4 @@
-package com.baeldung.algorithms.ga.annealing;
+package com.nklkarthi.algorithms.ga.annealing;
 
 import lombok.Data;
 

@@ -1,4 +1,4 @@
-package org.baeldung.web.main;
+package org.nklkarthi.web.main;
 
 import javax.sql.DataSource;
 
@@ -12,9 +12,9 @@ import org.springframework.jdbc.datasource.embedded.EmbeddedDatabase;
 import org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseBuilder;
 import org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseType;
 
-@EnableJpaRepositories("org.baeldung.web.dao")
-@ComponentScan(basePackages = { "org.baeldung.web" })
-@EntityScan("org.baeldung.web.entity")
+@EnableJpaRepositories("org.nklkarthi.web.dao")
+@ComponentScan(basePackages = { "org.nklkarthi.web" })
+@EntityScan("org.nklkarthi.web.entity")
 @Configuration
 public class PersistenceConfig {
 

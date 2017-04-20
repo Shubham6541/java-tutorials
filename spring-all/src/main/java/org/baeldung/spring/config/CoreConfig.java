@@ -1,4 +1,4 @@
-package org.baeldung.spring.config;
+package org.nklkarthi.spring.config;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.LinkedBlockingQueue;
@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
 @Configuration
-@ComponentScan("org.baeldung.core")
+@ComponentScan("org.nklkarthi.core")
 public class CoreConfig extends WebMvcConfigurerAdapter {
 
     public CoreConfig() {

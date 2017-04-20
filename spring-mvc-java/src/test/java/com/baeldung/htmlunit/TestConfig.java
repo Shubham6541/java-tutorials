@@ -1,4 +1,4 @@
-package com.baeldung.htmlunit;
+package com.nklkarthi.htmlunit;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -12,7 +12,7 @@ import org.thymeleaf.templateresolver.ServletContextTemplateResolver;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages = { "com.baeldung.web.controller" })
+@ComponentScan(basePackages = { "com.nklkarthi.web.controller" })
 public class TestConfig extends WebMvcConfigurerAdapter {
 
     @Bean

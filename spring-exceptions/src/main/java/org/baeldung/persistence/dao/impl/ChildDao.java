@@ -1,8 +1,8 @@
-package org.baeldung.persistence.dao.impl;
+package org.nklkarthi.persistence.dao.impl;
 
-import org.baeldung.persistence.common.AbstractHibernateDao;
-import org.baeldung.persistence.dao.IChildDao;
-import org.baeldung.persistence.model.Child;
+import org.nklkarthi.persistence.common.AbstractHibernateDao;
+import org.nklkarthi.persistence.dao.IChildDao;
+import org.nklkarthi.persistence.model.Child;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;

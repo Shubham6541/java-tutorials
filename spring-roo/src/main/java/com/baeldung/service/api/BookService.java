@@ -1,5 +1,5 @@
-package com.baeldung.service.api;
-import com.baeldung.domain.Book;
+package com.nklkarthi.service.api;
+import com.nklkarthi.domain.Book;
 import org.springframework.roo.addon.layers.service.annotations.RooService;
 
 /**

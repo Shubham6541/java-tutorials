@@ -1,4 +1,4 @@
-package com.baeldung.spring.data.neo4j.domain;
+package com.nklkarthi.spring.data.neo4j.domain;
 
 import org.neo4j.ogm.annotation.NodeEntity;
 import org.neo4j.ogm.annotation.Relationship;

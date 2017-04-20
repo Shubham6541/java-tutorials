@@ -1,4 +1,4 @@
-package com.baeldung.camel.file;
+package com.nklkarthi.camel.file;
 
 import org.apache.camel.LoggingLevel;
 import org.apache.camel.builder.RouteBuilder;

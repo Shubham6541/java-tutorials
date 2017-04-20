@@ -1,6 +1,6 @@
-package com.baeldung.web.rest;
+package com.nklkarthi.web.rest;
 
-import com.baeldung.web.rest.vm.LoggerVM;
+import com.nklkarthi.web.rest.vm.LoggerVM;
 
 import ch.qos.logback.classic.Level;
 import ch.qos.logback.classic.LoggerContext;

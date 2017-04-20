@@ -1,4 +1,4 @@
-package com.baeldung.git;
+package com.nklkarthi.git;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
 import org.springframework.core.io.ClassPathResource;
 
-@SpringBootApplication(scanBasePackages = { "com.baeldung.git" })
+@SpringBootApplication(scanBasePackages = { "com.nklkarthi.git" })
 public class CommitIdApplication {
     public static void main(String[] args) {
         SpringApplication.run(CommitIdApplication.class, args);

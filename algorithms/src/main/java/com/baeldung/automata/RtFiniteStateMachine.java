@@ -1,4 +1,4 @@
-package com.baeldung.automata;
+package com.nklkarthi.automata;
 
 /**
  * Default implementation of a finite state machine.

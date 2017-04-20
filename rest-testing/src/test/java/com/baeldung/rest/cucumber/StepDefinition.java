@@ -1,4 +1,4 @@
-package com.baeldung.rest.cucumber;
+package com.nklkarthi.rest.cucumber;
 
 import com.github.tomakehurst.wiremock.WireMockServer;
 import cucumber.api.java.en.Then;

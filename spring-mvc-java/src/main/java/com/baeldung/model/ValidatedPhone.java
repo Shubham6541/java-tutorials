@@ -1,6 +1,6 @@
-package com.baeldung.model;
+package com.nklkarthi.model;
 
-import com.baeldung.customvalidator.ContactNumberConstraint;
+import com.nklkarthi.customvalidator.ContactNumberConstraint;
 
 public class ValidatedPhone {
 

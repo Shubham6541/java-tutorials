@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.baeldung</groupId>
+	<groupId>com.nklkarthi</groupId>
 	<artifactId>jaxb</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>jaxb</name>
@@ -142,9 +142,9 @@
 			<!-- <plugin> <groupId>org.codehaus.mojo</groupId> <artifactId>jaxb2-maven-plugin</artifactId> 
 				<version>${jaxb2-maven-plugin.version}</version> <executions> <execution> 
 				<id>schemagen</id> <goals> <goal>schemagen</goal> </goals> </execution> </executions> 
-				<configuration> <sources> <source>src/main/java/com/baeldung/jaxb/gen</source> 
+				<configuration> <sources> <source>src/main/java/com/nklkarthi/jaxb/gen</source> 
 				</sources> <outputDirectory>src/main/resources</outputDirectory> <clearOutputDir>false</clearOutputDir> 
-				<transformSchemas> <transformSchema> <uri>http://www.baeldung.com/jaxb/gen</uri> 
+				<transformSchemas> <transformSchema> <uri>http://www.nklkarthi.com/jaxb/gen</uri> 
 				<toPrefix>user</toPrefix> <toFile>gen-schema.xsd</toFile> </transformSchema> 
 				</transformSchemas> </configuration> </plugin> -->
 		</plugins>

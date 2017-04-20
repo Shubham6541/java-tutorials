@@ -1,7 +1,7 @@
-package com.baeldung.jackson.miscellaneous.mixin;
+package com.nklkarthi.jackson.miscellaneous.mixin;
 
-import com.baeldung.jackson.domain.Item;
-import com.baeldung.jackson.domain.Person;
+import com.nklkarthi.jackson.domain.Item;
+import com.nklkarthi.jackson.domain.Person;
 
 import java.util.ArrayList;
 import java.util.List;

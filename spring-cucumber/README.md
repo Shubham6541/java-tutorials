@@ -1,2 +1,2 @@
 ### Relevant Articles:
-- [Cucumber Spring Integration](http://www.baeldung.com/cucumber-spring-integration)
+- [Cucumber Spring Integration](http://www.nklkarthi.com/cucumber-spring-integration)

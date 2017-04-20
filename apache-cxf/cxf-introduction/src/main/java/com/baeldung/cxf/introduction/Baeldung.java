@@ -1,4 +1,4 @@
-package com.baeldung.cxf.introduction;
+package com.nklkarthi.cxf.introduction;
 
 import java.util.Map;
 
@@ -6,7 +6,7 @@ import javax.jws.WebService;
 import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 
 @WebService
-public interface Baeldung {
+public interface nklkarthi {
     public String hello(String name);
 
     public String helloStudent(Student student);

@@ -1,4 +1,4 @@
-package com.baeldung.jackson.test;
+package com.nklkarthi.jackson.test;
 
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.notNullValue;
@@ -7,11 +7,11 @@ import static org.junit.Assert.assertThat;
 
 import java.io.IOException;
 
-import com.baeldung.jackson.deserialization.ItemDeserializer;
-import com.baeldung.jackson.dtos.Item;
-import com.baeldung.jackson.dtos.ItemWithSerializer;
-import com.baeldung.jackson.dtos.MyDto;
-import com.baeldung.jackson.dtos.ignore.MyDtoIgnoreUnknown;
+import com.nklkarthi.jackson.deserialization.ItemDeserializer;
+import com.nklkarthi.jackson.dtos.Item;
+import com.nklkarthi.jackson.dtos.ItemWithSerializer;
+import com.nklkarthi.jackson.dtos.MyDto;
+import com.nklkarthi.jackson.dtos.ignore.MyDtoIgnoreUnknown;
 import org.junit.Test;
 
 import com.fasterxml.jackson.core.JsonFactory;

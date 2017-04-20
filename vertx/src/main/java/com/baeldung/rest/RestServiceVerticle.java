@@ -1,6 +1,6 @@
-package com.baeldung.rest;
+package com.nklkarthi.rest;
 
-import com.baeldung.model.Article;
+import com.nklkarthi.model.Article;
 
 import io.vertx.core.AbstractVerticle;
 import io.vertx.core.Future;
@@ -13,7 +13,7 @@ public class RestServiceVerticle extends AbstractVerticle {
     public void start(Future<Void> future) {
 
         Router router = Router.router(vertx);
-        router.get("/api/baeldung/articles/article/:id")
+        router.get("/api/nklkarthi/articles/article/:id")
                 .handler(this::getArticles);
 
         vertx.createHttpServer()
@@ -30,7 +30,7 @@ public class RestServiceVerticle extends AbstractVerticle {
     private void getArticles(RoutingContext routingContext) {
         String articleId = routingContext.request()
                 .getParam("id");
-        Article article = new Article(articleId, "This is an intro to vertx", "baeldung", "01-02-2017", 1578);
+        Article article = new Article(articleId, "This is an intro to vertx", "nklkarthi", "01-02-2017", 1578);
 
         routingContext.response()
                 .putHeader("content-type", "application/json")

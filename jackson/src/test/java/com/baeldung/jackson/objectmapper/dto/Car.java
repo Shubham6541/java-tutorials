@@ -1,4 +1,4 @@
-package com.baeldung.jackson.objectmapper.dto;
+package com.nklkarthi.jackson.objectmapper.dto;
 
 public class Car {
 

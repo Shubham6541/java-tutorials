@@ -1,7 +1,7 @@
-package com.baeldung.validator;
+package com.nklkarthi.validator;
 
-import com.baeldung.SpringDataRestApplication;
-import com.baeldung.models.WebsiteUser;
+import com.nklkarthi.SpringDataRestApplication;
+import com.nklkarthi.models.WebsiteUser;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.Before;
 import org.junit.Test;

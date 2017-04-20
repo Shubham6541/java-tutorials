@@ -1,4 +1,4 @@
-package org.baeldung.web.interceptor;
+package org.nklkarthi.web.interceptor;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

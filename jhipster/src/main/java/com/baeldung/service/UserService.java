@@ -1,14 +1,14 @@
-package com.baeldung.service;
+package com.nklkarthi.service;
 
-import com.baeldung.domain.Authority;
-import com.baeldung.domain.User;
-import com.baeldung.repository.AuthorityRepository;
-import com.baeldung.config.Constants;
-import com.baeldung.repository.UserRepository;
-import com.baeldung.security.AuthoritiesConstants;
-import com.baeldung.security.SecurityUtils;
-import com.baeldung.service.util.RandomUtil;
-import com.baeldung.service.dto.UserDTO;
+import com.nklkarthi.domain.Authority;
+import com.nklkarthi.domain.User;
+import com.nklkarthi.repository.AuthorityRepository;
+import com.nklkarthi.config.Constants;
+import com.nklkarthi.repository.UserRepository;
+import com.nklkarthi.security.AuthoritiesConstants;
+import com.nklkarthi.security.SecurityUtils;
+import com.nklkarthi.service.util.RandomUtil;
+import com.nklkarthi.service.dto.UserDTO;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

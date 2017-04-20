@@ -1,4 +1,4 @@
-package com.baeldung.jackson.general.jsonview;
+package com.nklkarthi.jackson.general.jsonview;
 
 /**
  * Source code github.com/readlearncode

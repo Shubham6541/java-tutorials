@@ -1,4 +1,4 @@
-package com.baeldung.web.reactive;
+package com.nklkarthi.web.reactive;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

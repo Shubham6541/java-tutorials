@@ -1,4 +1,4 @@
-package com.baeldung.jacksonannotation.polymorphism;
+package com.nklkarthi.jacksonannotation.polymorphism;
 
 import com.fasterxml.jackson.annotation.JsonSubTypes;
 import com.fasterxml.jackson.annotation.JsonTypeInfo;
@@ -9,7 +9,7 @@ import java.util.UUID;
 /**
  * Source code github.com/eugenp/tutorials
  *
- * @author Alex Theedom www.baeldung.com
+ * @author Alex Theedom www.nklkarthi.com
  * @version 1.0
  */
 public class Order {

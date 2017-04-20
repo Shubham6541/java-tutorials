@@ -1,4 +1,4 @@
-package main.java.com.baeldung.selenium;
+package main.java.com.nklkarthi.selenium;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit;
 public class SeleniumExample {
 
     private WebDriver webDriver;
-    private String url = "http://www.baeldung.com/";
+    private String url = "http://www.nklkarthi.com/";
 
     public SeleniumExample() {
         System.setProperty("webdriver.firefox.marionette", "C:\\selenium\\geckodriver.exe");
@@ -29,7 +29,7 @@ public class SeleniumExample {
         return webDriver.getTitle();
     }
 
-    public void getAboutBaeldungPage() {
+    public void getAboutnklkarthiPage() {
         closeOverlay();
         clickAboutLink();
         clickAboutUsLink();
@@ -51,7 +51,7 @@ public class SeleniumExample {
     }
 
     private void clickAboutUsLink() {
-        webDriver.findElement(By.partialLinkText("About Baeldung.")).click();
+        webDriver.findElement(By.partialLinkText("About nklkarthi.")).click();
     }
 
     public boolean isAuthorInformationAvailable() {

@@ -1,4 +1,4 @@
-package com.baeldung.web.rest.util;
+package com.nklkarthi.web.rest.util;
 
 import org.springframework.data.domain.Page;
 import org.springframework.http.HttpHeaders;

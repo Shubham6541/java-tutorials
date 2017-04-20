@@ -1,4 +1,4 @@
-package com.baeldung.springamqpsimple;
+package com.nklkarthi.springamqpsimple;
 
 
 import org.junit.Test;

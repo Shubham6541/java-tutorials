@@ -1,4 +1,4 @@
-package com.baeldung.ndc.service;
+package com.nklkarthi.ndc.service;
 
 /**
  * A fake investment service.

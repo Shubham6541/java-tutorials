@@ -1,9 +1,9 @@
-//package com.baeldung.struts.test;
+//package com.nklkarthi.struts.test;
 //
 //import org.apache.struts2.StrutsTestCase;
 //import org.junit.Test;
 //
-//import com.baeldung.struts.CarAction;
+//import com.nklkarthi.struts.CarAction;
 //import com.opensymphony.xwork2.ActionProxy;
 //
 //public class CarActionTest extends StrutsTestCase {

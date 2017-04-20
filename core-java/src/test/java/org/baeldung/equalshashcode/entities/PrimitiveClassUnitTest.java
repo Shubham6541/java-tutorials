@@ -1,9 +1,9 @@
-package org.baeldung.equalshashcode.entities;
+package org.nklkarthi.equalshashcode.entities;
 
 import org.junit.Assert;
 import org.junit.Test;
 
-import com.baeldung.equalshashcode.entities.PrimitiveClass;
+import com.nklkarthi.equalshashcode.entities.PrimitiveClass;
 
 public class PrimitiveClassUnitTest {
 

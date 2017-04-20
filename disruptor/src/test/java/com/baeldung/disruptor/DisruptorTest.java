@@ -1,4 +1,4 @@
-package com.baeldung.disruptor;
+package com.nklkarthi.disruptor;
 
 import java.util.concurrent.ThreadFactory;
 import org.junit.Before;

@@ -1,4 +1,4 @@
-package com.baeldung.java.map;
+package com.nklkarthi.java.map;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
@@ -22,7 +22,7 @@ public class MapTest {
     @Test
     public void givenHashMap_whenRetrievesKeyset_thenCorrect() {
         Map<String, String> map = new HashMap<>();
-        map.put("name", "baeldung");
+        map.put("name", "nklkarthi");
         map.put("type", "blog");
 
         Set<String> keys = map.keySet();
@@ -35,20 +35,20 @@ public class MapTest {
     @Test
     public void givenHashMap_whenRetrievesValues_thenCorrect() {
         Map<String, String> map = new HashMap<>();
-        map.put("name", "baeldung");
+        map.put("name", "nklkarthi");
         map.put("type", "blog");
 
         Collection<String> values = map.values();
 
         assertEquals(2, values.size());
-        assertTrue(values.contains("baeldung"));
+        assertTrue(values.contains("nklkarthi"));
         assertTrue(values.contains("blog"));
     }
 
     @Test
     public void givenHashMap_whenRetrievesEntries_thenCorrect() {
         Map<String, String> map = new HashMap<>();
-        map.put("name", "baeldung");
+        map.put("name", "nklkarthi");
         map.put("type", "blog");
 
         Set<Entry<String, String>> entries = map.entrySet();
@@ -58,14 +58,14 @@ public class MapTest {
             String key = e.getKey();
             String val = e.getValue();
             assertTrue(key.equals("name") || key.equals("type"));
-            assertTrue(val.equals("baeldung") || val.equals("blog"));
+            assertTrue(val.equals("nklkarthi") || val.equals("blog"));
         }
     }
 
     @Test
     public void givenKeySet_whenChangeReflectsInMap_thenCorrect() {
         Map<String, String> map = new HashMap<>();
-        map.put("name", "baeldung");
+        map.put("name", "nklkarthi");
         map.put("type", "blog");
 
         assertEquals(2, map.size());
@@ -79,7 +79,7 @@ public class MapTest {
     @Test(expected = ConcurrentModificationException.class)
     public void givenIterator_whenFailsFastOnModification_thenCorrect() {
         Map<String, String> map = new HashMap<>();
-        map.put("name", "baeldung");
+        map.put("name", "nklkarthi");
         map.put("type", "blog");
 
         Set<String> keys = map.keySet();
@@ -92,7 +92,7 @@ public class MapTest {
 
     public void givenIterator_whenRemoveWorks_thenCorrect() {
         Map<String, String> map = new HashMap<>();
-        map.put("name", "baeldung");
+        map.put("name", "nklkarthi");
         map.put("type", "blog");
 
         Set<String> keys = map.keySet();

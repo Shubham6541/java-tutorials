@@ -1,11 +1,11 @@
-package com.baeldung.cassandra.java.client;
+package com.nklkarthi.cassandra.java.client;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.baeldung.cassandra.java.client.domain.Book;
-import com.baeldung.cassandra.java.client.repository.BookRepository;
-import com.baeldung.cassandra.java.client.repository.KeyspaceRepository;
+import com.nklkarthi.cassandra.java.client.domain.Book;
+import com.nklkarthi.cassandra.java.client.repository.BookRepository;
+import com.nklkarthi.cassandra.java.client.repository.KeyspaceRepository;
 import com.datastax.driver.core.Session;
 import com.datastax.driver.core.utils.UUIDs;
 

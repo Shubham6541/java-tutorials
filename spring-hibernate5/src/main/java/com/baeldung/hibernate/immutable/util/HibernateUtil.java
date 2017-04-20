@@ -1,6 +1,6 @@
-package com.baeldung.hibernate.immutable.util;
+package com.nklkarthi.hibernate.immutable.util;
 
-import com.baeldung.hibernate.immutable.entities.Event;
+import com.nklkarthi.hibernate.immutable.entities.Event;
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.cfg.Configuration;

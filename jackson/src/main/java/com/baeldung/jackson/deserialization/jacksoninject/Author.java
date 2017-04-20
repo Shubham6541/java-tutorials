@@ -1,6 +1,6 @@
-package com.baeldung.jackson.deserialization.jacksoninject;
+package com.nklkarthi.jackson.deserialization.jacksoninject;
 
-import com.baeldung.jackson.domain.Item;
+import com.nklkarthi.jackson.domain.Item;
 
 import java.util.ArrayList;
 import java.util.List;

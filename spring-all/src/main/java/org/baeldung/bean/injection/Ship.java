@@ -1,4 +1,4 @@
-package org.baeldung.bean.injection;
+package org.nklkarthi.bean.injection;
 
 import org.springframework.beans.factory.annotation.Autowired;
 

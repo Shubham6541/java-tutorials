@@ -1,6 +1,6 @@
-package com.baeldung.spring.data.neo4j.repostory;
+package com.nklkarthi.spring.data.neo4j.repostory;
 
-import com.baeldung.spring.data.neo4j.domain.Movie;
+import com.nklkarthi.spring.data.neo4j.domain.Movie;
 import org.springframework.data.neo4j.annotation.Query;
 import org.springframework.data.neo4j.repository.GraphRepository;
 import org.springframework.data.repository.query.Param;

@@ -1,11 +1,11 @@
-package org.baeldung.equalshashcode.entities;
+package org.nklkarthi.equalshashcode.entities;
 
 import java.awt.Color;
 
 import org.junit.Assert;
 import org.junit.Test;
 
-import com.baeldung.equalshashcode.entities.Square;
+import com.nklkarthi.equalshashcode.entities.Square;
 
 public class SquareClassUnitTest {
 

@@ -1,4 +1,4 @@
-package com.baeldung.producer;
+package com.nklkarthi.producer;
 
 import com.rabbitmq.client.*;
 

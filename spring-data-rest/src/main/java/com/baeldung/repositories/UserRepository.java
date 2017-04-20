@@ -1,9 +1,9 @@
-package com.baeldung.repositories;
+package com.nklkarthi.repositories;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 import org.springframework.web.bind.annotation.CrossOrigin;
-import com.baeldung.models.WebsiteUser;
+import com.nklkarthi.models.WebsiteUser;
 
 @CrossOrigin
 @RepositoryRestResource(collectionResourceRel = "users", path = "users")

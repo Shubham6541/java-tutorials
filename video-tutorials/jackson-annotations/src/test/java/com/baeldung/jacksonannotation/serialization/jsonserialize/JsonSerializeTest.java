@@ -1,4 +1,4 @@
-package com.baeldung.jacksonannotation.serialization.jsonserialize;
+package com.nklkarthi.jacksonannotation.serialization.jsonserialize;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -13,7 +13,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 /**
  * Source code github.com/eugenp/tutorials
  *
- * @author Alex Theedom www.baeldung.com
+ * @author Alex Theedom www.nklkarthi.com
  * @version 1.0
  */
 public class JsonSerializeTest {

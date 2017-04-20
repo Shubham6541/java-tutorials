@@ -1,8 +1,8 @@
-package com.baeldung.persistence.dao.impl;
+package com.nklkarthi.persistence.dao.impl;
 
-import com.baeldung.persistence.dao.common.AbstractHibernateAuditableDao;
-import com.baeldung.persistence.model.Foo;
-import com.baeldung.persistence.dao.IFooAuditableDao;
+import com.nklkarthi.persistence.dao.common.AbstractHibernateAuditableDao;
+import com.nklkarthi.persistence.model.Foo;
+import com.nklkarthi.persistence.dao.IFooAuditableDao;
 
 public class FooAuditableDao extends AbstractHibernateAuditableDao<Foo> implements IFooAuditableDao {
 

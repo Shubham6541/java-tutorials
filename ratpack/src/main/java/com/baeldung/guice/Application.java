@@ -1,9 +1,9 @@
-package com.baeldung.guice;
+package com.nklkarthi.guice;
 
-import com.baeldung.guice.config.DependencyModule;
-import com.baeldung.guice.service.DataPumpService;
-import com.baeldung.guice.service.ServiceFactory;
-import com.baeldung.guice.service.impl.DataPumpServiceImpl;
+import com.nklkarthi.guice.config.DependencyModule;
+import com.nklkarthi.guice.service.DataPumpService;
+import com.nklkarthi.guice.service.ServiceFactory;
+import com.nklkarthi.guice.service.impl.DataPumpServiceImpl;
 
 import ratpack.guice.Guice;
 import ratpack.server.RatpackServer;

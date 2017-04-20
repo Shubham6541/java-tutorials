@@ -1,9 +1,9 @@
-package org.baeldung.persistence.service;
+package org.nklkarthi.persistence.service;
 
 import static org.apache.commons.lang3.RandomStringUtils.randomAlphabetic;
 
-import org.baeldung.config.PersistenceJPAConfig;
-import org.baeldung.persistence.model.Foo;
+import org.nklkarthi.config.PersistenceJPAConfig;
+import org.nklkarthi.persistence.model.Foo;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;

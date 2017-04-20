@@ -1,4 +1,4 @@
-package org.baeldung.ex.beandefinitionstoreexception.cause2;
+package org.nklkarthi.ex.beandefinitionstoreexception.cause2;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;

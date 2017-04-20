@@ -1,4 +1,4 @@
-package com.baeldung.jackson.inclusion.jsonignoretype;
+package com.nklkarthi.jackson.inclusion.jsonignoretype;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreType;
 

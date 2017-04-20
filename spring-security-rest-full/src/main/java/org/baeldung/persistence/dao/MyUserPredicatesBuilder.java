@@ -1,9 +1,9 @@
-package org.baeldung.persistence.dao;
+package org.nklkarthi.persistence.dao;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.baeldung.web.util.SearchCriteria;
+import org.nklkarthi.web.util.SearchCriteria;
 
 import com.querydsl.core.types.dsl.BooleanExpression;
 

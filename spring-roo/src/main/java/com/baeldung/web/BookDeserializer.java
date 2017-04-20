@@ -1,6 +1,6 @@
-package com.baeldung.web;
-import com.baeldung.domain.Book;
-import com.baeldung.service.api.BookService;
+package com.nklkarthi.web;
+import com.nklkarthi.domain.Book;
+import com.nklkarthi.service.api.BookService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.jackson.JsonObjectDeserializer;
 import org.springframework.context.annotation.Lazy;

@@ -1,10 +1,10 @@
-package com.baeldung.relationships;
+package com.nklkarthi.relationships;
 
-import com.baeldung.SpringDataRestApplication;
-import com.baeldung.models.Address;
-import com.baeldung.models.Author;
-import com.baeldung.models.Book;
-import com.baeldung.models.Library;
+import com.nklkarthi.SpringDataRestApplication;
+import com.nklkarthi.models.Address;
+import com.nklkarthi.models.Author;
+import com.nklkarthi.models.Book;
+import com.nklkarthi.models.Library;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import org.junit.Test;

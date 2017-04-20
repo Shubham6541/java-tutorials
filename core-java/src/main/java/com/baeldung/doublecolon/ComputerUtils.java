@@ -1,6 +1,6 @@
-package com.baeldung.doublecolon;
+package com.nklkarthi.doublecolon;
 
-import com.baeldung.doublecolon.function.ComputerPredicate;
+import com.nklkarthi.doublecolon.function.ComputerPredicate;
 
 import java.util.ArrayList;
 import java.util.List;

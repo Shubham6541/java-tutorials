@@ -1,10 +1,10 @@
-package org.baeldung.persistence.katharsis;
+package org.nklkarthi.persistence.katharsis;
 
 import io.katharsis.queryParams.RequestParams;
 import io.katharsis.repository.ResourceRepository;
 
-import org.baeldung.persistence.dao.UserRepository;
-import org.baeldung.persistence.model.User;
+import org.nklkarthi.persistence.dao.UserRepository;
+import org.nklkarthi.persistence.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

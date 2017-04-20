@@ -1,7 +1,7 @@
-package com.baeldung.hibernate.immutable;
+package com.nklkarthi.hibernate.immutable;
 
-import com.baeldung.hibernate.immutable.entities.Event;
-import com.baeldung.hibernate.immutable.util.HibernateUtil;
+import com.nklkarthi.hibernate.immutable.entities.Event;
+import com.nklkarthi.hibernate.immutable.util.HibernateUtil;
 import com.google.common.collect.Sets;
 import org.hibernate.CacheMode;
 import org.hibernate.Session;

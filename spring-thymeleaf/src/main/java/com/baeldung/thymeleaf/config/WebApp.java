@@ -1,4 +1,4 @@
-package com.baeldung.thymeleaf.config;
+package com.nklkarthi.thymeleaf.config;
 
 import javax.servlet.ServletRegistration.Dynamic;
 

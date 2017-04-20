@@ -1,4 +1,4 @@
-package com.baeldung.unzip;
+package com.nklkarthi.unzip;
 
 import java.io.File;
 import java.io.FileInputStream;

@@ -1,4 +1,4 @@
-package com.baeldung.threadlocal;
+package com.nklkarthi.threadlocal;
 
 
 import org.junit.Test;

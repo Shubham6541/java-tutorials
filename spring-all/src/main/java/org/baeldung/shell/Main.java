@@ -1,4 +1,4 @@
-package org.baeldung.shell;
+package org.nklkarthi.shell;
 
 import java.io.IOException;
 import org.springframework.shell.Bootstrap;

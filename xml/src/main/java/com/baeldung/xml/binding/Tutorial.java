@@ -1,4 +1,4 @@
-package com.baeldung.xml.binding;
+package com.nklkarthi.xml.binding;
 
 import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;

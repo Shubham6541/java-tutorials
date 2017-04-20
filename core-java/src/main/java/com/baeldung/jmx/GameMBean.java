@@ -1,4 +1,4 @@
-package com.baeldung.jmx;
+package com.nklkarthi.jmx;
 
 public interface GameMBean {
 

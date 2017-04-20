@@ -1,4 +1,4 @@
-package com.baeldung.spring.spel.entity;
+package com.nklkarthi.spring.spel.entity;
 
 import org.springframework.stereotype.Component;
 

@@ -1,8 +1,8 @@
-package org.baeldung.spring.data.couchbase.service;
+package org.nklkarthi.spring.data.couchbase.service;
 
 import java.util.List;
 
-import org.baeldung.spring.data.couchbase.model.Student;
+import org.nklkarthi.spring.data.couchbase.model.Student;
 import org.joda.time.DateTime;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;

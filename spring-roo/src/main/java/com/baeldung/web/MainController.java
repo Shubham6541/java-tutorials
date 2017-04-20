@@ -1,4 +1,4 @@
-package com.baeldung.web;
+package com.nklkarthi.web;
 import org.springframework.roo.addon.web.mvc.thymeleaf.annotations.RooThymeleafMainController;
 
 /**

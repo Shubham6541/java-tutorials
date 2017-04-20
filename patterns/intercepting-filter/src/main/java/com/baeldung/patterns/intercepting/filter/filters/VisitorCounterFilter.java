@@ -1,4 +1,4 @@
-package com.baeldung.patterns.intercepting.filter.filters;
+package com.nklkarthi.patterns.intercepting.filter.filters;
 
 import javax.servlet.*;
 import javax.servlet.http.HttpServletRequest;

@@ -1,6 +1,6 @@
-package com.baeldung.spel;
+package com.nklkarthi.spel;
 
-import com.baeldung.spring.spel.examples.*;
+import com.nklkarthi.spring.spel.examples.*;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;

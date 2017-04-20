@@ -1,4 +1,4 @@
-package com.baeldung.java8;
+package com.nklkarthi.java8;
 
 import org.junit.Test;
 

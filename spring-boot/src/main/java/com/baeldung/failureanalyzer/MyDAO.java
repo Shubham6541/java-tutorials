@@ -1,4 +1,4 @@
-package com.baeldung.failureanalyzer;
+package com.nklkarthi.failureanalyzer;
 
 public class MyDAO {
 

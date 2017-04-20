@@ -1,4 +1,4 @@
-package org.baeldung.config;
+package org.nklkarthi.config;
 
 import java.util.Properties;
 
@@ -24,8 +24,8 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @Configuration
 @EnableTransactionManagement
 @PropertySource({ "classpath:persistence-jndi.properties" })
-@ComponentScan({ "org.baeldung.persistence" })
-@EnableJpaRepositories(basePackages = "org.baeldung.persistence.dao")
+@ComponentScan({ "org.nklkarthi.persistence" })
+@EnableJpaRepositories(basePackages = "org.nklkarthi.persistence.dao")
 public class PersistenceJNDIConfig {
 
     @Autowired
@@ -39,7 +39,7 @@ public class PersistenceJNDIConfig {
     public LocalContainerEntityManagerFactoryBean entityManagerFactory() throws NamingException {
         final LocalContainerEntityManagerFactoryBean em = new LocalContainerEntityManagerFactoryBean();
         em.setDataSource(dataSource());
-        em.setPackagesToScan(new String[] { "org.baeldung.persistence.model" });
+        em.setPackagesToScan(new String[] { "org.nklkarthi.persistence.model" });
         em.setJpaVendorAdapter(new HibernateJpaVendorAdapter());
         em.setJpaProperties(additionalProperties());
         return em;

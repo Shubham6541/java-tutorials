@@ -1,4 +1,4 @@
-package com.baeldung.jackson.dtos.ignore;
+package com.nklkarthi.jackson.dtos.ignore;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonInclude.Include;

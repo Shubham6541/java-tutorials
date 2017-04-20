@@ -1,8 +1,8 @@
-package com.baeldung.mybatis.mapper;
+package com.nklkarthi.mybatis.mapper;
 
-import com.baeldung.mybatis.model.Address;
-import com.baeldung.mybatis.model.Person;
-import com.baeldung.mybatis.utils.MyBatisUtil;
+import com.nklkarthi.mybatis.model.Address;
+import com.nklkarthi.mybatis.model.Person;
+import com.nklkarthi.mybatis.utils.MyBatisUtil;
 import org.apache.ibatis.annotations.*;
 import org.apache.ibatis.mapping.StatementType;
 

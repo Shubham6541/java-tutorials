@@ -1,12 +1,12 @@
-package com.baeldung.persistence.service.impl;
+package com.nklkarthi.persistence.service.impl;
 
-import com.baeldung.persistence.dao.common.IAuditOperations;
-import com.baeldung.persistence.service.common.AbstractHibernateAuditableService;
-import com.baeldung.persistence.dao.IBarAuditableDao;
-import com.baeldung.persistence.dao.IBarDao;
-import com.baeldung.persistence.dao.common.IOperations;
-import com.baeldung.persistence.model.Bar;
-import com.baeldung.persistence.service.IBarAuditableService;
+import com.nklkarthi.persistence.dao.common.IAuditOperations;
+import com.nklkarthi.persistence.service.common.AbstractHibernateAuditableService;
+import com.nklkarthi.persistence.dao.IBarAuditableDao;
+import com.nklkarthi.persistence.dao.IBarDao;
+import com.nklkarthi.persistence.dao.common.IOperations;
+import com.nklkarthi.persistence.model.Bar;
+import com.nklkarthi.persistence.service.IBarAuditableService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;

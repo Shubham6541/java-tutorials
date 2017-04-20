@@ -1,4 +1,4 @@
-package com.baeldung.xml.binding;
+package com.nklkarthi.xml.binding;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.baeldung.internationalization.config;
+package com.nklkarthi.internationalization.config;
 
 import java.util.Locale;
 
@@ -14,7 +14,7 @@ import org.springframework.web.servlet.i18n.SessionLocaleResolver;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages = "com.baeldung.internationalization.config")
+@ComponentScan(basePackages = "com.nklkarthi.internationalization.config")
 public class MvcConfig extends WebMvcConfigurerAdapter {
 
     @Bean

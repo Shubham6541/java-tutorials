@@ -1,4 +1,4 @@
-package com.baeldung.camel.file;
+package com.nklkarthi.camel.file;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

@@ -1,4 +1,4 @@
-package com.baeldung.jackson.deserialization.jsonsetter;
+package com.nklkarthi.jackson.deserialization.jsonsetter;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.Test;

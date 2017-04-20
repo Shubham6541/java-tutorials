@@ -1,4 +1,4 @@
-package com.baeldung.jackson.miscellaneous.mixin;
+package com.nklkarthi.jackson.miscellaneous.mixin;
 
 import java.util.Optional;
 

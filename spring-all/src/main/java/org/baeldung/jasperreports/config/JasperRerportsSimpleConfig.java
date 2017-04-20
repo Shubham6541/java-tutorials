@@ -1,8 +1,8 @@
-package org.baeldung.jasperreports.config;
+package org.nklkarthi.jasperreports.config;
 
 import javax.sql.DataSource;
-import org.baeldung.jasperreports.SimpleReportExporter;
-import org.baeldung.jasperreports.SimpleReportFiller;
+import org.nklkarthi.jasperreports.SimpleReportExporter;
+import org.nklkarthi.jasperreports.SimpleReportFiller;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseBuilder;

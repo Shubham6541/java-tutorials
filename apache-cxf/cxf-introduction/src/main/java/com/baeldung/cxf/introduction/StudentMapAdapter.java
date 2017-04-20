@@ -1,4 +1,4 @@
-package com.baeldung.cxf.introduction;
+package com.nklkarthi.cxf.introduction;
 
 import java.util.LinkedHashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package com.baeldung.web.rest.util;
+package com.nklkarthi.web.rest.util;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -11,15 +11,15 @@ public final class HeaderUtil {
 
     private static final Logger log = LoggerFactory.getLogger(HeaderUtil.class);
 
-    private static final String APPLICATION_NAME = "baeldungApp";
+    private static final String APPLICATION_NAME = "nklkarthiApp";
 
     private HeaderUtil() {
     }
 
     public static HttpHeaders createAlert(String message, String param) {
         HttpHeaders headers = new HttpHeaders();
-        headers.add("X-baeldungApp-alert", message);
-        headers.add("X-baeldungApp-params", param);
+        headers.add("X-nklkarthiApp-alert", message);
+        headers.add("X-nklkarthiApp-params", param);
         return headers;
     }
 
@@ -38,8 +38,8 @@ public final class HeaderUtil {
     public static HttpHeaders createFailureAlert(String entityName, String errorKey, String defaultMessage) {
         log.error("Entity creation failed, {}", defaultMessage);
         HttpHeaders headers = new HttpHeaders();
-        headers.add("X-baeldungApp-error", "error." + errorKey);
-        headers.add("X-baeldungApp-params", entityName);
+        headers.add("X-nklkarthiApp-error", "error." + errorKey);
+        headers.add("X-nklkarthiApp-params", entityName);
         return headers;
     }
 }

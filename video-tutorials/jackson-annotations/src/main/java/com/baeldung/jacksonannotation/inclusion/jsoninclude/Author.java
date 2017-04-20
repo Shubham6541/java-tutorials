@@ -1,7 +1,7 @@
-package com.baeldung.jacksonannotation.inclusion.jsoninclude;
+package com.nklkarthi.jacksonannotation.inclusion.jsoninclude;
 
-import com.baeldung.jacksonannotation.domain.Item;
-import com.baeldung.jacksonannotation.domain.Person;
+import com.nklkarthi.jacksonannotation.domain.Item;
+import com.nklkarthi.jacksonannotation.domain.Person;
 import com.fasterxml.jackson.annotation.JsonInclude;
 
 import java.util.ArrayList;
@@ -12,7 +12,7 @@ import static com.fasterxml.jackson.annotation.JsonInclude.Include.NON_NULL;
 /**
  * Source code github.com/eugenp/tutorials
  *
- * @author Alex Theedom www.baeldung.com
+ * @author Alex Theedom www.nklkarthi.com
  * @version 1.0
  */
 @JsonInclude(NON_NULL)

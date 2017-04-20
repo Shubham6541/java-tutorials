@@ -1,4 +1,4 @@
-package com.baeldung.spring.data.solr.repo;
+package com.nklkarthi.spring.data.solr.repo;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNull;
@@ -14,9 +14,9 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import com.baeldung.spring.data.solr.config.SolrConfig;
-import com.baeldung.spring.data.solr.model.Product;
-import com.baeldung.spring.data.solr.repository.ProductRepository;
+import com.nklkarthi.spring.data.solr.config.SolrConfig;
+import com.nklkarthi.spring.data.solr.model.Product;
+import com.nklkarthi.spring.data.solr.repository.ProductRepository;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = SolrConfig.class)

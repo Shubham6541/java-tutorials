@@ -1,6 +1,6 @@
-package com.baeldung.spring.validator;
+package com.nklkarthi.spring.validator;
 
-import com.baeldung.spring.form.Person;
+import com.nklkarthi.spring.form.Person;
 import org.springframework.stereotype.Component;
 import org.springframework.validation.Errors;
 import org.springframework.validation.ValidationUtils;

@@ -1,4 +1,4 @@
-package com.baeldung.neo4j;
+package com.nklkarthi.neo4j;
 
 
 import java.io.File;
@@ -41,8 +41,8 @@ public class Neo4jLiveTest {
         car.setProperty("model", "model3");
 
         Node owner = graphDb.createNode(Label.label("Person"));
-        owner.setProperty("firstName", "baeldung");
-        owner.setProperty("lastName", "baeldung");
+        owner.setProperty("firstName", "nklkarthi");
+        owner.setProperty("lastName", "nklkarthi");
 
         owner.createRelationshipTo(car, RelationshipType.withName("owner"));
 
@@ -51,7 +51,7 @@ public class Neo4jLiveTest {
                 "RETURN p.firstName, p.lastName");
 
         Map<String, Object> firstResult = result.next();
-        Assert.assertEquals("baeldung", firstResult.get("p.firstName"));
+        Assert.assertEquals("nklkarthi", firstResult.get("p.firstName"));
     }
 
     @Test
@@ -59,24 +59,24 @@ public class Neo4jLiveTest {
 
         graphDb.beginTx();
 
-        Result result = graphDb.execute("CREATE (baeldung:Company {name:\"Baeldung\"})" +
-                "RETURN baeldung");
+        Result result = graphDb.execute("CREATE (nklkarthi:Company {name:\"nklkarthi\"})" +
+                "RETURN nklkarthi");
 
         Map<String, Object> firstResult = result.next();
-        Node firstNode = (Node) firstResult.get("baeldung");
-        Assert.assertEquals(firstNode.getProperty("name"), "Baeldung");
+        Node firstNode = (Node) firstResult.get("nklkarthi");
+        Assert.assertEquals(firstNode.getProperty("name"), "nklkarthi");
     }
 
     @Test
     public void testCreateNodeAndLink() {
         graphDb.beginTx();
 
-        Result result = graphDb.execute("CREATE (baeldung:Company {name:\"Baeldung\"}) " +
+        Result result = graphDb.execute("CREATE (nklkarthi:Company {name:\"nklkarthi\"}) " +
                 "-[:owns]-> (tesla:Car {make: 'tesla', model: 'modelX'})" +
-                "RETURN baeldung, tesla");
+                "RETURN nklkarthi, tesla");
 
         Map<String, Object> firstResult = result.next();
-        Assert.assertTrue(firstResult.containsKey("baeldung"));
+        Assert.assertTrue(firstResult.containsKey("nklkarthi"));
         Assert.assertTrue(firstResult.containsKey("tesla"));
     }
 
@@ -84,25 +84,25 @@ public class Neo4jLiveTest {
     public void testFindAndReturn() {
         graphDb.beginTx();
 
-        graphDb.execute("CREATE (baeldung:Company {name:\"Baeldung\"}) " +
+        graphDb.execute("CREATE (nklkarthi:Company {name:\"nklkarthi\"}) " +
                 "-[:owns]-> (tesla:Car {make: 'tesla', model: 'modelX'})" +
-                "RETURN baeldung, tesla");
+                "RETURN nklkarthi, tesla");
 
         Result result = graphDb.execute("MATCH (company:Company)-[:owns]-> (car:Car)" +
                 "WHERE car.make='tesla' and car.model='modelX'" +
                 "RETURN company.name");
 
         Map<String, Object> firstResult = result.next();
-        Assert.assertEquals(firstResult.get("company.name"), "Baeldung");
+        Assert.assertEquals(firstResult.get("company.name"), "nklkarthi");
     }
 
     @Test
     public void testUpdate() {
         graphDb.beginTx();
 
-        graphDb.execute("CREATE (baeldung:Company {name:\"Baeldung\"}) " +
+        graphDb.execute("CREATE (nklkarthi:Company {name:\"nklkarthi\"}) " +
                 "-[:owns]-> (tesla:Car {make: 'tesla', model: 'modelX'})" +
-                "RETURN baeldung, tesla");
+                "RETURN nklkarthi, tesla");
 
         Result result = graphDb.execute("MATCH (car:Car)" +
                 "WHERE car.make='tesla'" +
@@ -129,16 +129,16 @@ public class Neo4jLiveTest {
     public void testDelete() {
         graphDb.beginTx();
 
-        graphDb.execute("CREATE (baeldung:Company {name:\"Baeldung\"}) " +
+        graphDb.execute("CREATE (nklkarthi:Company {name:\"nklkarthi\"}) " +
                 "-[:owns]-> (tesla:Car {make: 'tesla', model: 'modelX'})" +
-                "RETURN baeldung, tesla");
+                "RETURN nklkarthi, tesla");
 
         graphDb.execute("MATCH (company:Company)" +
-                " WHERE company.name='Baeldung'" +
+                " WHERE company.name='nklkarthi'" +
                 " DELETE company");
 
         Result result = graphDb.execute("MATCH (company:Company)" +
-                " WHERE company.name='Baeldung'" +
+                " WHERE company.name='nklkarthi'" +
                 " RETURN company");
 
         Assert.assertFalse(result.hasNext());
@@ -149,16 +149,16 @@ public class Neo4jLiveTest {
         graphDb.beginTx();
 
         Map<String, Object> params = new HashMap<>();
-        params.put("name", "baeldung");
+        params.put("name", "nklkarthi");
         params.put("make", "tesla");
         params.put("model", "modelS");
 
-        Result result = graphDb.execute("CREATE (baeldung:Company {name:$name}) " +
+        Result result = graphDb.execute("CREATE (nklkarthi:Company {name:$name}) " +
                 "-[:owns]-> (tesla:Car {make: $make, model: $model})" +
-                "RETURN baeldung, tesla", params);
+                "RETURN nklkarthi, tesla", params);
 
         Map<String, Object> firstResult = result.next();
-        Assert.assertTrue(firstResult.containsKey("baeldung"));
+        Assert.assertTrue(firstResult.containsKey("nklkarthi"));
         Assert.assertTrue(firstResult.containsKey("tesla"));
 
         Node car = (Node) firstResult.get("tesla");

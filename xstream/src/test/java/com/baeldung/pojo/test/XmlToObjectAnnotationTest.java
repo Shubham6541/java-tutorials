@@ -1,7 +1,7 @@
-package com.baeldung.pojo.test;
+package com.nklkarthi.pojo.test;
 
-import com.baeldung.annotation.pojo.Customer;
-import com.baeldung.initializer.SimpleXstreamInitializer;
+import com.nklkarthi.annotation.pojo.Customer;
+import com.nklkarthi.initializer.SimpleXstreamInitializer;
 import com.thoughtworks.xstream.XStream;
 import org.junit.Assert;
 import org.junit.Before;

@@ -1,4 +1,4 @@
-package com.baeldung.greeter;
+package com.nklkarthi.greeter;
 
 import java.util.Properties;
 

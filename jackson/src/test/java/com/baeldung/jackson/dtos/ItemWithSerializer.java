@@ -1,7 +1,7 @@
-package com.baeldung.jackson.dtos;
+package com.nklkarthi.jackson.dtos;
 
-import com.baeldung.jackson.deserialization.ItemDeserializerOnClass;
-import com.baeldung.jackson.serialization.ItemSerializerOnClass;
+import com.nklkarthi.jackson.deserialization.ItemDeserializerOnClass;
+import com.nklkarthi.jackson.serialization.ItemSerializerOnClass;
 
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;

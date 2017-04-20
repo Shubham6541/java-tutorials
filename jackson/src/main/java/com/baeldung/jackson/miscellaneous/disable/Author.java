@@ -1,7 +1,7 @@
-package com.baeldung.jackson.miscellaneous.disable;
+package com.nklkarthi.jackson.miscellaneous.disable;
 
-import com.baeldung.jackson.domain.Item;
-import com.baeldung.jackson.domain.Person;
+import com.nklkarthi.jackson.domain.Item;
+import com.nklkarthi.jackson.domain.Person;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;

@@ -1,6 +1,6 @@
-package com.baeldung.guice.service;
+package com.nklkarthi.guice.service;
 
-import com.baeldung.guice.service.impl.DataPumpServiceImpl;
+import com.nklkarthi.guice.service.impl.DataPumpServiceImpl;
 
 public class ServiceFactory {
 

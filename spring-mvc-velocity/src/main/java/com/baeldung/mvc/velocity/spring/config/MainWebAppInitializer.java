@@ -1,4 +1,4 @@
-package com.baeldung.mvc.velocity.spring.config;
+package com.nklkarthi.mvc.velocity.spring.config;
 
 import org.springframework.web.WebApplicationInitializer;
 import org.springframework.web.context.ContextLoaderListener;

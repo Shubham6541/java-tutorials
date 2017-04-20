@@ -1,4 +1,4 @@
-package org.baeldung.springquartz.config;
+package org.nklkarthi.springquartz.config;
 
 import org.quartz.spi.TriggerFiredBundle;
 import org.springframework.beans.BeansException;

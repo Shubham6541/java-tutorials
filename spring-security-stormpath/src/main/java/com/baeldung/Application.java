@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.baeldung;
+package com.nklkarthi;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;

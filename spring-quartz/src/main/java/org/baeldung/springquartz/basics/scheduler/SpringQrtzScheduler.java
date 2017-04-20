@@ -1,8 +1,8 @@
-package org.baeldung.springquartz.basics.scheduler;
+package org.nklkarthi.springquartz.basics.scheduler;
 
 import javax.annotation.PostConstruct;
 
-import org.baeldung.springquartz.config.AutoWiringSpringBeanJobFactory;
+import org.nklkarthi.springquartz.config.AutoWiringSpringBeanJobFactory;
 import org.quartz.JobDetail;
 import org.quartz.SimpleTrigger;
 import org.quartz.Trigger;

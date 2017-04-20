@@ -1,4 +1,4 @@
-package com.baeldung.jackson.bidirection;
+package com.nklkarthi.jackson.bidirection;
 
 import com.fasterxml.jackson.annotation.JsonIdentityInfo;
 import com.fasterxml.jackson.annotation.ObjectIdGenerators;

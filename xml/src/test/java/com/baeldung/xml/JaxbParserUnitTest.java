@@ -1,4 +1,4 @@
-package com.baeldung.xml;
+package com.nklkarthi.xml;
 
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
@@ -7,7 +7,7 @@ import java.io.File;
 
 import org.junit.Test;
 
-import com.baeldung.xml.binding.Tutorials;
+import com.nklkarthi.xml.binding.Tutorials;
 
 public class JaxbParserUnitTest {
 

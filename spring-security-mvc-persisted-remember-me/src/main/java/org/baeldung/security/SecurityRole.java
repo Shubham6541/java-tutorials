@@ -1,4 +1,4 @@
-package org.baeldung.security;
+package org.nklkarthi.security;
 
 /**
  * Simple enum of Security Roles available.

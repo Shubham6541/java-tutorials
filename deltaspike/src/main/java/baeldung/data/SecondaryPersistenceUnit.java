@@ -1,4 +1,4 @@
-package baeldung.data;
+package nklkarthi.data;
 
 import javax.inject.Qualifier;
 import java.lang.annotation.Documented;

@@ -1,4 +1,4 @@
-package org.baeldung.web.controller;
+package org.nklkarthi.web.controller;
 
 import java.util.Collection;
 import java.util.HashMap;
@@ -6,8 +6,8 @@ import java.util.Map;
 
 import javax.servlet.http.HttpServletResponse;
 
-import org.baeldung.web.dto.Foo;
-import org.baeldung.web.exception.ResourceNotFoundException;
+import org.nklkarthi.web.dto.Foo;
+import org.nklkarthi.web.exception.ResourceNotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;

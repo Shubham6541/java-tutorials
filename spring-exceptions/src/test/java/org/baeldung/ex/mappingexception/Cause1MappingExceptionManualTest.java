@@ -1,7 +1,7 @@
-package org.baeldung.ex.mappingexception;
+package org.nklkarthi.ex.mappingexception;
 
-import org.baeldung.ex.mappingexception.cause1.persistence.model.Foo;
-import org.baeldung.ex.mappingexception.spring.Cause1PersistenceConfig;
+import org.nklkarthi.ex.mappingexception.cause1.persistence.model.Foo;
+import org.nklkarthi.ex.mappingexception.spring.Cause1PersistenceConfig;
 import org.hibernate.MappingException;
 import org.hibernate.SessionFactory;
 import org.junit.Test;

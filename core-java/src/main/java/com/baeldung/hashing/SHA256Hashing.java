@@ -1,4 +1,4 @@
-package com.baeldung.hashing;
+package com.nklkarthi.hashing;
 
 import com.google.common.hash.Hashing;
 import org.apache.commons.codec.digest.DigestUtils;

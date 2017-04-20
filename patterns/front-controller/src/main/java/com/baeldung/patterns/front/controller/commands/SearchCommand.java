@@ -1,7 +1,7 @@
-package com.baeldung.patterns.front.controller.commands;
+package com.nklkarthi.patterns.front.controller.commands;
 
-import com.baeldung.patterns.front.controller.data.Book;
-import com.baeldung.patterns.front.controller.data.BookshelfImpl;
+import com.nklkarthi.patterns.front.controller.data.Book;
+import com.nklkarthi.patterns.front.controller.data.BookshelfImpl;
 
 import javax.servlet.ServletException;
 import java.io.IOException;

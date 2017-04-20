@@ -1,6 +1,6 @@
-package com.baeldung.jackson.bidirection;
+package com.nklkarthi.jackson.bidirection;
 
-import com.baeldung.jackson.jsonview.Views;
+import com.nklkarthi.jackson.jsonview.Views;
 
 import com.fasterxml.jackson.annotation.JsonView;
 

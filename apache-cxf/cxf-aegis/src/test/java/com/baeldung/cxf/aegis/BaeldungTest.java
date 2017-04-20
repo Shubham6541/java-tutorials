@@ -1,4 +1,4 @@
-package com.baeldung.cxf.aegis;
+package com.nklkarthi.cxf.aegis;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNull;
@@ -24,9 +24,9 @@ import org.apache.cxf.aegis.AegisReader;
 import org.apache.cxf.aegis.AegisWriter;
 import org.apache.cxf.aegis.type.AegisType;
 
-public class BaeldungTest {
+public class nklkarthiTest {
     private AegisContext context;
-    private String fileName = "baeldung.xml";
+    private String fileName = "nklkarthi.xml";
 
     @Test
     public void whenMarshalingAndUnmarshalingCourseRepo_thenCorrect() throws Exception {
@@ -79,7 +79,7 @@ public class BaeldungTest {
         AegisWriter<XMLStreamWriter> writer = context.createXMLStreamWriter();
         AegisType aegisType = context.getTypeMapping().getType(CourseRepo.class);
         XMLStreamWriter xmlWriter = XMLOutputFactory.newInstance().createXMLStreamWriter(new FileOutputStream(fileName));
-        writer.write(courseRepo, new QName("http://aegis.cxf.baeldung.com", "baeldung"), false, xmlWriter, aegisType);
+        writer.write(courseRepo, new QName("http://aegis.cxf.nklkarthi.com", "nklkarthi"), false, xmlWriter, aegisType);
         xmlWriter.close();
     }
 

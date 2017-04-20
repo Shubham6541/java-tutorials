@@ -1,4 +1,4 @@
-package com.baeldung.jacksonannotation.serialization.jsonserialize;
+package com.nklkarthi.jacksonannotation.serialization.jsonserialize;
 
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 
@@ -8,7 +8,7 @@ import java.util.Date;
 /**
  * Source code github.com/eugenp/tutorials
  *
- * @author Alex Theedom www.baeldung.com
+ * @author Alex Theedom www.nklkarthi.com
  * @version 1.0
  */
 public class Book extends Item {

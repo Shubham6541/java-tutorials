@@ -1,9 +1,9 @@
-package com.baeldung.cassandra.java.client.repository;
+package com.nklkarthi.cassandra.java.client.repository;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.baeldung.cassandra.java.client.domain.Book;
+import com.nklkarthi.cassandra.java.client.domain.Book;
 import com.datastax.driver.core.ResultSet;
 import com.datastax.driver.core.Row;
 import com.datastax.driver.core.Session;

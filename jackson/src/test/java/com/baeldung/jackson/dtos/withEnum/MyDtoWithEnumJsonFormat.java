@@ -1,4 +1,4 @@
-package com.baeldung.jackson.dtos.withEnum;
+package com.nklkarthi.jackson.dtos.withEnum;
 
 public class MyDtoWithEnumJsonFormat {
 

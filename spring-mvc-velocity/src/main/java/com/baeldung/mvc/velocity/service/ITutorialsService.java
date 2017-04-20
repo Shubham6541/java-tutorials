@@ -1,6 +1,6 @@
-package com.baeldung.mvc.velocity.service;
+package com.nklkarthi.mvc.velocity.service;
 
-import com.baeldung.mvc.velocity.domain.Tutorial;
+import com.nklkarthi.mvc.velocity.domain.Tutorial;
 
 import java.util.List;
 

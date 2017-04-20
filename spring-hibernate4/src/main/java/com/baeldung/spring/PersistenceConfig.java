@@ -1,4 +1,4 @@
-package com.baeldung.spring;
+package com.nklkarthi.spring;
 
 import java.util.Properties;
 
@@ -23,32 +23,32 @@ import org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter;
 import org.springframework.transaction.PlatformTransactionManager;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
-import com.baeldung.persistence.dao.IBarAuditableDao;
-import com.baeldung.persistence.dao.IBarDao;
-import com.baeldung.persistence.dao.IFooAuditableDao;
-import com.baeldung.persistence.dao.IFooDao;
-import com.baeldung.persistence.dao.impl.BarAuditableDao;
-import com.baeldung.persistence.dao.impl.BarDao;
-import com.baeldung.persistence.dao.impl.BarJpaDao;
-import com.baeldung.persistence.dao.impl.FooAuditableDao;
-import com.baeldung.persistence.dao.impl.FooDao;
-import com.baeldung.persistence.service.IBarAuditableService;
-import com.baeldung.persistence.service.IBarService;
-import com.baeldung.persistence.service.IFooAuditableService;
-import com.baeldung.persistence.service.IFooService;
-import com.baeldung.persistence.service.impl.BarAuditableService;
-import com.baeldung.persistence.service.impl.BarJpaService;
-import com.baeldung.persistence.service.impl.BarSpringDataJpaService;
-import com.baeldung.persistence.service.impl.FooAuditableService;
-import com.baeldung.persistence.service.impl.FooService;
+import com.nklkarthi.persistence.dao.IBarAuditableDao;
+import com.nklkarthi.persistence.dao.IBarDao;
+import com.nklkarthi.persistence.dao.IFooAuditableDao;
+import com.nklkarthi.persistence.dao.IFooDao;
+import com.nklkarthi.persistence.dao.impl.BarAuditableDao;
+import com.nklkarthi.persistence.dao.impl.BarDao;
+import com.nklkarthi.persistence.dao.impl.BarJpaDao;
+import com.nklkarthi.persistence.dao.impl.FooAuditableDao;
+import com.nklkarthi.persistence.dao.impl.FooDao;
+import com.nklkarthi.persistence.service.IBarAuditableService;
+import com.nklkarthi.persistence.service.IBarService;
+import com.nklkarthi.persistence.service.IFooAuditableService;
+import com.nklkarthi.persistence.service.IFooService;
+import com.nklkarthi.persistence.service.impl.BarAuditableService;
+import com.nklkarthi.persistence.service.impl.BarJpaService;
+import com.nklkarthi.persistence.service.impl.BarSpringDataJpaService;
+import com.nklkarthi.persistence.service.impl.FooAuditableService;
+import com.nklkarthi.persistence.service.impl.FooService;
 import com.google.common.base.Preconditions;
 
 @Configuration
 @EnableTransactionManagement
-@EnableJpaRepositories(basePackages = { "com.baeldung.persistence" }, transactionManagerRef = "jpaTransactionManager")
+@EnableJpaRepositories(basePackages = { "com.nklkarthi.persistence" }, transactionManagerRef = "jpaTransactionManager")
 @EnableJpaAuditing
 @PropertySource({ "classpath:persistence-mysql.properties" })
-@ComponentScan({ "com.baeldung.persistence" })
+@ComponentScan({ "com.nklkarthi.persistence" })
 public class PersistenceConfig {
 
     @Autowired
@@ -62,7 +62,7 @@ public class PersistenceConfig {
     public LocalSessionFactoryBean sessionFactory() {
         final LocalSessionFactoryBean sessionFactory = new LocalSessionFactoryBean();
         sessionFactory.setDataSource(restDataSource());
-        sessionFactory.setPackagesToScan(new String[] { "com.baeldung.persistence.model" });
+        sessionFactory.setPackagesToScan(new String[] { "com.nklkarthi.persistence.model" });
         sessionFactory.setHibernateProperties(hibernateProperties());
 
         return sessionFactory;
@@ -72,7 +72,7 @@ public class PersistenceConfig {
     public LocalContainerEntityManagerFactoryBean entityManagerFactory() {
         final LocalContainerEntityManagerFactoryBean emf = new LocalContainerEntityManagerFactoryBean();
         emf.setDataSource(restDataSource());
-        emf.setPackagesToScan(new String[] { "com.baeldung.persistence.model" });
+        emf.setPackagesToScan(new String[] { "com.nklkarthi.persistence.model" });
 
         final JpaVendorAdapter vendorAdapter = new HibernateJpaVendorAdapter();
         emf.setJpaVendorAdapter(vendorAdapter);

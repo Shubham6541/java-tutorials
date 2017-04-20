@@ -1,4 +1,4 @@
-package org.baeldung.properties.external;
+package org.nklkarthi.properties.external;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -7,7 +7,7 @@ import org.springframework.context.annotation.PropertySource;
 import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
 
 @Configuration
-@ComponentScan("org.baeldung.properties.core")
+@ComponentScan("org.nklkarthi.properties.core")
 @PropertySource("classpath:foo.properties")
 public class ExternalPropertiesWithJavaConfig {
 

@@ -1,6 +1,6 @@
-package com.baeldung.kotlin
+package com.nklkarthi.kotlin
 
-import com.baeldung.kotlin.ListExtension
+import com.nklkarthi.kotlin.ListExtension
 import org.junit.Test
 import kotlin.test.assertTrue
 

@@ -1,4 +1,4 @@
-package org.baeldung.ex.nontransientexception.cause;
+package org.nklkarthi.ex.nontransientexception.cause;
 
 import java.util.Properties;
 
@@ -21,7 +21,7 @@ import com.google.common.base.Preconditions;
 @Configuration
 @EnableTransactionManagement
 @PropertySource({ "classpath:persistence-derby.properties" })
-@ComponentScan({ "org.baeldung.persistence" })
+@ComponentScan({ "org.nklkarthi.persistence" })
 public class Cause4NonTransientConfig {
 
     @Autowired
@@ -35,7 +35,7 @@ public class Cause4NonTransientConfig {
     public LocalSessionFactoryBean sessionFactory() {
         final LocalSessionFactoryBean sessionFactory = new LocalSessionFactoryBean();
         sessionFactory.setDataSource(restDataSource());
-        sessionFactory.setPackagesToScan(new String[] { "org.baeldung.persistence.model" });
+        sessionFactory.setPackagesToScan(new String[] { "org.nklkarthi.persistence.model" });
         sessionFactory.setHibernateProperties(hibernateProperties());
 
         return sessionFactory;

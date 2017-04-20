@@ -1,4 +1,4 @@
-package com.baeldung.thymeleaf.controller;
+package com.nklkarthi.thymeleaf.controller;
 
 import java.util.List;
 
@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.baeldung.thymeleaf.model.Student;
-import com.baeldung.thymeleaf.utils.StudentUtils;
+import com.nklkarthi.thymeleaf.model.Student;
+import com.nklkarthi.thymeleaf.utils.StudentUtils;
 
 /**
  * Handles requests for the student model.

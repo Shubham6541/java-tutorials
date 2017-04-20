@@ -1,4 +1,4 @@
-package org.baeldung.startup;
+package org.nklkarthi.startup;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;

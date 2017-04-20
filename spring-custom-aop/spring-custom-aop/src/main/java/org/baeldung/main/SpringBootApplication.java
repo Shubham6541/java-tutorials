@@ -1,10 +1,10 @@
-package org.baeldung.main;
+package org.nklkarthi.main;
 
-import org.baeldung.common.error.SpringHelloServletRegistrationBean;
-import org.baeldung.common.resources.ExecutorServiceExitCodeGenerator;
-import org.baeldung.controller.servlet.HelloWorldServlet;
-import org.baeldung.controller.servlet.SpringHelloWorldServlet;
-import org.baeldung.service.LoginService;
+import org.nklkarthi.common.error.SpringHelloServletRegistrationBean;
+import org.nklkarthi.common.resources.ExecutorServiceExitCodeGenerator;
+import org.nklkarthi.controller.servlet.HelloWorldServlet;
+import org.nklkarthi.controller.servlet.SpringHelloWorldServlet;
+import org.nklkarthi.service.LoginService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
@@ -19,7 +19,7 @@ import java.util.concurrent.Executors;
 
 @RestController
 @EnableAutoConfiguration
-@ComponentScan({ "org.baeldung.common.error", "org.baeldung.common.error.controller", "org.baeldung.common.properties", "org.baeldung.common.resources", "org.baeldung.endpoints", "org.baeldung.service", "org.baeldung.monitor.jmx", "org.baeldung.service" })
+@ComponentScan({ "org.nklkarthi.common.error", "org.nklkarthi.common.error.controller", "org.nklkarthi.common.properties", "org.nklkarthi.common.resources", "org.nklkarthi.endpoints", "org.nklkarthi.service", "org.nklkarthi.monitor.jmx", "org.nklkarthi.service" })
 public class SpringBootApplication {
 
     private static ApplicationContext applicationContext;

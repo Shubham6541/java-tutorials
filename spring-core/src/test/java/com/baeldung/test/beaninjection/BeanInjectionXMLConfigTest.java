@@ -1,4 +1,4 @@
-package com.baeldung.test.beaninjection;
+package com.nklkarthi.test.beaninjection;
 
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
@@ -11,9 +11,9 @@ import org.springframework.context.ApplicationContextAware;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import com.baeldung.beaninjection.AnotherSampleDAOBean;
-import com.baeldung.beaninjection.ExampleDAOBean;
-import com.baeldung.beaninjection.ExampleServiceBean;
+import com.nklkarthi.beaninjection.AnotherSampleDAOBean;
+import com.nklkarthi.beaninjection.ExampleDAOBean;
+import com.nklkarthi.beaninjection.ExampleServiceBean;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations = "classpath:beaninjectiontypes-context.xml")

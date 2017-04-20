@@ -1,4 +1,4 @@
-package com.baeldung.pmd;
+package com.nklkarthi.pmd;
 
 public class Cnt {
 

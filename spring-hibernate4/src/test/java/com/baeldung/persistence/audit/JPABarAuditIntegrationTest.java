@@ -1,4 +1,4 @@
-package com.baeldung.persistence.audit;
+package com.nklkarthi.persistence.audit;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
@@ -7,10 +7,10 @@ import static org.junit.Assert.assertTrue;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 
-import com.baeldung.persistence.model.Bar;
-import com.baeldung.persistence.model.Bar.OPERATION;
-import com.baeldung.persistence.service.IBarService;
-import com.baeldung.spring.PersistenceConfig;
+import com.nklkarthi.persistence.model.Bar;
+import com.nklkarthi.persistence.model.Bar.OPERATION;
+import com.nklkarthi.persistence.service.IBarService;
+import com.nklkarthi.spring.PersistenceConfig;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;

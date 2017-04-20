@@ -1,6 +1,6 @@
-package com.baeldung.repository;
+package com.nklkarthi.repository;
 
-import com.baeldung.domain.User;
+import com.nklkarthi.domain.User;
 
 import java.time.ZonedDateTime;
 

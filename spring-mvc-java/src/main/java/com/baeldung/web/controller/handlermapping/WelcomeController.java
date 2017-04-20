@@ -1,4 +1,4 @@
-package com.baeldung.web.controller.handlermapping;
+package com.nklkarthi.web.controller.handlermapping;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.servlet.ModelAndView;

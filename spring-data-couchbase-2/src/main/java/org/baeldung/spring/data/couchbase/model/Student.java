@@ -1,4 +1,4 @@
-package org.baeldung.spring.data.couchbase.model;
+package org.nklkarthi.spring.data.couchbase.model;
 
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Past;

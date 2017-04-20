@@ -1,4 +1,4 @@
-package com.baeldung.handlermappings;
+package com.nklkarthi.handlermappings;
 
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
@@ -17,7 +17,7 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.web.context.WebApplicationContext;
 
-import com.baeldung.config.HandlerMappingDefaultConfig;
+import com.nklkarthi.config.HandlerMappingDefaultConfig;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @WebAppConfiguration

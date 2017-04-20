@@ -1,4 +1,4 @@
-package com.baeldung.servlets.servlets.javaee;
+package com.nklkarthi.servlets.servlets.javaee;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

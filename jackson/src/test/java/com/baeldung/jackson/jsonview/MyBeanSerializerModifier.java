@@ -1,4 +1,4 @@
-package com.baeldung.jackson.jsonview;
+package com.nklkarthi.jackson.jsonview;
 
 import java.util.List;
 

@@ -1,7 +1,7 @@
-package com.baeldung.java8.optional;
+package com.nklkarthi.java8.optional;
 
-import com.baeldung.optional.Modem;
-import com.baeldung.optional.Person;
+import com.nklkarthi.optional.Modem;
+import com.nklkarthi.optional.Person;
 import org.junit.Test;
 
 import java.util.Arrays;
@@ -21,7 +21,7 @@ public class OptionalTest {
 
     @Test
     public void givenNonNull_whenCreatesNonNullable_thenCorrect() {
-        String name = "baeldung";
+        String name = "nklkarthi";
         Optional.of(name);
     }
 
@@ -33,16 +33,16 @@ public class OptionalTest {
 
     @Test
     public void givenNonNull_whenCreatesOptional_thenCorrect() {
-        String name = "baeldung";
+        String name = "nklkarthi";
         Optional<String> opt = Optional.of(name);
-        assertEquals("Optional[baeldung]", opt.toString());
+        assertEquals("Optional[nklkarthi]", opt.toString());
     }
 
     @Test
     public void givenNonNull_whenCreatesNullable_thenCorrect() {
-        String name = "baeldung";
+        String name = "nklkarthi";
         Optional<String> opt = Optional.ofNullable(name);
-        assertEquals("Optional[baeldung]", opt.toString());
+        assertEquals("Optional[nklkarthi]", opt.toString());
     }
 
     @Test
@@ -55,7 +55,7 @@ public class OptionalTest {
 
     @Test
     public void givenOptional_whenIsPresentWorks_thenCorrect() {
-        Optional<String> opt = Optional.of("Baeldung");
+        Optional<String> opt = Optional.of("nklkarthi");
         assertTrue(opt.isPresent());
 
         opt = Optional.ofNullable(null);
@@ -65,16 +65,16 @@ public class OptionalTest {
     // Condition Action With ifPresent()
     @Test
     public void givenOptional_whenIfPresentWorks_thenCorrect() {
-        Optional<String> opt = Optional.of("baeldung");
+        Optional<String> opt = Optional.of("nklkarthi");
         opt.ifPresent(name -> System.out.println(name.length()));
     }
 
     // returning Value With get()
     @Test
     public void givenOptional_whenGetsValue_thenCorrect() {
-        Optional<String> opt = Optional.of("baeldung");
+        Optional<String> opt = Optional.of("nklkarthi");
         String name = opt.get();
-        assertEquals("baeldung", name);
+        assertEquals("nklkarthi", name);
     }
 
     @Test(expected = NoSuchElementException.class)
@@ -137,7 +137,7 @@ public class OptionalTest {
 
     @Test
     public void givenOptional_whenMapWorks_thenCorrect2() {
-        String name = "baeldung";
+        String name = "nklkarthi";
         Optional<String> nameOptional = Optional.of(name);
 
         int len = nameOptional.map(String::length).orElse(0);

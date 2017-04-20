@@ -1,4 +1,4 @@
-package com.baeldung.persistence.model;
+package com.nklkarthi.persistence.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

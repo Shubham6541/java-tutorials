@@ -1,4 +1,4 @@
-package com.baeldung.immutable.auxiliary;
+package com.nklkarthi.immutable.auxiliary;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package com.baeldung.utils;
+package com.nklkarthi.utils;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -11,7 +11,7 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 
-import com.baeldung.utils.controller.UtilsController;
+import com.nklkarthi.utils.controller.UtilsController;
 
 public class UtilsControllerTest {
 

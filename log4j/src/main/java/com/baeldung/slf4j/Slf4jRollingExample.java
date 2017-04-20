@@ -1,4 +1,4 @@
-package com.baeldung.slf4j;
+package com.nklkarthi.slf4j;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

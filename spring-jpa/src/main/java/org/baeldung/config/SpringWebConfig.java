@@ -1,4 +1,4 @@
-package org.baeldung.config;
+package org.nklkarthi.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -10,7 +10,7 @@ import org.springframework.web.servlet.view.JstlView;
 
 @EnableWebMvc
 @Configuration
-@ComponentScan({ "org.baeldung.web" })
+@ComponentScan({ "org.nklkarthi.web" })
 public class SpringWebConfig extends WebMvcConfigurerAdapter {
 
     @Bean

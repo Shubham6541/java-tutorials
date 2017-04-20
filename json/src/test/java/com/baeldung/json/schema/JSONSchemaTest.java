@@ -1,4 +1,4 @@
-package com.baeldung.json.schema;
+package com.nklkarthi.json.schema;
 
 import org.everit.json.schema.Schema;
 import org.everit.json.schema.ValidationException;

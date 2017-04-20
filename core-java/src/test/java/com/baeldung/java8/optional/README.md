@@ -1,2 +1,2 @@
 ### Relevant Articles:
-- [Guide To Java 8 Optional](http://www.baeldung.com/java-optional)
+- [Guide To Java 8 Optional](http://www.nklkarthi.com/java-optional)

@@ -1,4 +1,4 @@
-package com.baeldung.web.controller;
+package com.nklkarthi.web.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.baeldung.model.FormDataWithFile;
+import com.nklkarthi.model.FormDataWithFile;
 
 @Controller
 public class FileUploadController {

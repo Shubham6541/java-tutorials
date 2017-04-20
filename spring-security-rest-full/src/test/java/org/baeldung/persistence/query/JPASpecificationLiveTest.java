@@ -1,9 +1,9 @@
-package org.baeldung.persistence.query;
+package org.nklkarthi.persistence.query;
 
 import com.jayway.restassured.RestAssured;
 import com.jayway.restassured.response.Response;
 import com.jayway.restassured.specification.RequestSpecification;
-import org.baeldung.persistence.model.User;
+import org.nklkarthi.persistence.model.User;
 import org.junit.Before;
 import org.junit.Test;
 import org.springframework.test.context.ActiveProfiles;

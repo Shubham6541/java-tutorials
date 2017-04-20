@@ -1,7 +1,7 @@
-package org.baeldung.web.service;
+package org.nklkarthi.web.service;
 
-import org.baeldung.web.dao.StudentRepository;
-import org.baeldung.web.entity.Student;
+import org.nklkarthi.web.dao.StudentRepository;
+import org.nklkarthi.web.entity.Student;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;

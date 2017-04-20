@@ -1,4 +1,4 @@
-package org.baeldung.common.resources;
+package org.nklkarthi.common.resources;
 
 import java.util.Objects;
 import java.util.concurrent.ExecutorService;

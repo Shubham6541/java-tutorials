@@ -1,4 +1,4 @@
-package org.baeldung.multiplelogin;
+package org.nklkarthi.multiplelogin;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -12,7 +12,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 @EnableWebMvc
 @Configuration
-@ComponentScan("org.baeldung.controller")
+@ComponentScan("org.nklkarthi.controller")
 public class MultipleLoginMvcConfig extends WebMvcConfigurerAdapter {
 
     public MultipleLoginMvcConfig() {

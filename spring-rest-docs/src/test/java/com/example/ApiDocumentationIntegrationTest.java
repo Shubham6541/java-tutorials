@@ -81,7 +81,7 @@ public class ApiDocumentationIntegrationTest {
 
         Map<String, Object> crud = new HashMap<>();
         crud.put("title", "Sample Model");
-        crud.put("body", "http://www.baeldung.com/");
+        crud.put("body", "http://www.nklkarthi.com/");
         crud.put("tags", singletonList(tagLocation));
 
         this.mockMvc.perform(get("/crud").contentType(MediaTypes.HAL_JSON).content(this.objectMapper.writeValueAsString(crud))).andExpect(status().isOk());
@@ -96,7 +96,7 @@ public class ApiDocumentationIntegrationTest {
 
         Map<String, Object> crud = new HashMap<>();
         crud.put("title", "Sample Model");
-        crud.put("body", "http://www.baeldung.com/");
+        crud.put("body", "http://www.nklkarthi.com/");
         crud.put("tags", singletonList(tagLocation));
 
         ConstrainedFields fields = new ConstrainedFields(CrudInput.class);
@@ -115,7 +115,7 @@ public class ApiDocumentationIntegrationTest {
 
         Map<String, Object> crud = new HashMap<>();
         crud.put("title", "Sample Model");
-        crud.put("body", "http://www.baeldung.com/");
+        crud.put("body", "http://www.nklkarthi.com/");
         crud.put("tags", singletonList(tagLocation));
 
         this.mockMvc.perform(delete("/crud/10").contentType(MediaTypes.HAL_JSON).content(this.objectMapper.writeValueAsString(crud))).andExpect(status().isOk());
@@ -131,7 +131,7 @@ public class ApiDocumentationIntegrationTest {
 
         Map<String, Object> crud = new HashMap<>();
         crud.put("title", "Sample Model");
-        crud.put("body", "http://www.baeldung.com/");
+        crud.put("body", "http://www.nklkarthi.com/");
         crud.put("tags", singletonList(tagLocation));
 
         this.mockMvc.perform(patch("/crud/10").contentType(MediaTypes.HAL_JSON).content(this.objectMapper.writeValueAsString(crud))).andExpect(status().isNoContent());
@@ -146,7 +146,7 @@ public class ApiDocumentationIntegrationTest {
 
         Map<String, Object> crud = new HashMap<>();
         crud.put("title", "Sample Model");
-        crud.put("body", "http://www.baeldung.com/");
+        crud.put("body", "http://www.nklkarthi.com/");
         crud.put("tags", singletonList(tagLocation));
 
         this.mockMvc.perform(put("/crud/10").contentType(MediaTypes.HAL_JSON).content(this.objectMapper.writeValueAsString(crud))).andExpect(status().isAccepted());

@@ -1,13 +1,13 @@
-package com.baeldung.server.repository;
+package com.nklkarthi.server.repository;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.stereotype.Component;
 
-import com.baeldung.server.exception.EmployeeAlreadyExists;
-import com.baeldung.server.exception.EmployeeNotFound;
-import com.baeldung.server.model.Employee;
+import com.nklkarthi.server.exception.EmployeeAlreadyExists;
+import com.nklkarthi.server.exception.EmployeeNotFound;
+import com.nklkarthi.server.model.Employee;
 
 @Component
 public class EmployeeRepositoryImpl implements EmployeeRepository {

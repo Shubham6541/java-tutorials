@@ -1,4 +1,4 @@
-package com.baeldung.spring.mybatis.controller;
+package com.nklkarthi.spring.mybatis.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -11,9 +11,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.SessionAttributes;
 
-import com.baeldung.spring.mybatis.model.Student;
-import com.baeldung.spring.mybatis.model.StudentLogin;
-import com.baeldung.spring.mybatis.service.StudentService;
+import com.nklkarthi.spring.mybatis.model.Student;
+import com.nklkarthi.spring.mybatis.model.StudentLogin;
+import com.nklkarthi.spring.mybatis.service.StudentService;
 
 @Controller
 @SessionAttributes("student")

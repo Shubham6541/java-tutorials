@@ -1,4 +1,4 @@
-package com.baeldung.mvc.velocity.spring.config;
+package com.nklkarthi.mvc.velocity.spring.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -13,7 +13,7 @@ import org.springframework.web.servlet.view.velocity.VelocityLayoutViewResolver;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages = { "com.baeldung.mvc.velocity.controller", "com.baeldung.mvc.velocity.service" })
+@ComponentScan(basePackages = { "com.nklkarthi.mvc.velocity.controller", "com.nklkarthi.mvc.velocity.service" })
 public class WebConfig extends WebMvcConfigurerAdapter {
 
     @Override

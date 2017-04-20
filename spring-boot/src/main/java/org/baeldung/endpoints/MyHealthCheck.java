@@ -1,4 +1,4 @@
-package org.baeldung.endpoints;
+package org.nklkarthi.endpoints;
 
 import org.springframework.boot.actuate.health.Health;
 import org.springframework.boot.actuate.health.HealthIndicator;

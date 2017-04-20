@@ -1,4 +1,4 @@
-/*package com.baeldung.jaxws;
+/*package com.nklkarthi.jaxws;
 
 import static org.junit.Assert.assertEquals;
 
@@ -19,17 +19,17 @@ import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
-import com.baeldung.jaxws.exception.EmployeeAlreadyExists;
-import com.baeldung.jaxws.exception.EmployeeNotFound;
-import com.baeldung.jaxws.model.Employee;
-import com.baeldung.jaxws.repository.EmployeeRepository;
+import com.nklkarthi.jaxws.exception.EmployeeAlreadyExists;
+import com.nklkarthi.jaxws.exception.EmployeeNotFound;
+import com.nklkarthi.jaxws.model.Employee;
+import com.nklkarthi.jaxws.repository.EmployeeRepository;
 
 @RunWith(Arquillian.class)
 public class EmployeeServiceLiveTest {
 
     private static final String APP_NAME = "jee7";
     private static final String WSDL_PATH = "EmployeeService?wsdl";
-    private static QName SERVICE_NAME = new QName("http://jaxws.baeldung.com/", "EmployeeService");
+    private static QName SERVICE_NAME = new QName("http://jaxws.nklkarthi.com/", "EmployeeService");
     private static URL wsdlUrl;
 
     @ArquillianResource

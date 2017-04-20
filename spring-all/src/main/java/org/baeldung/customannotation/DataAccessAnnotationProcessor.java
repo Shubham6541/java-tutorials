@@ -1,4 +1,4 @@
-package org.baeldung.customannotation;
+package org.nklkarthi.customannotation;
 
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.annotation.Autowired;

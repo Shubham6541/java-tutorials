@@ -1,9 +1,9 @@
-package org.baeldung.boot;
+package org.nklkarthi.boot;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.baeldung.boot.DemoApplication;
-import org.baeldung.boot.model.Foo;
+import org.nklkarthi.boot.DemoApplication;
+import org.nklkarthi.boot.model.Foo;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;

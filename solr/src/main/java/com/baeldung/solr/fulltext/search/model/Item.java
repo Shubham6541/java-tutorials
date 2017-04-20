@@ -1,4 +1,4 @@
-package com.baeldung.solr.fulltext.search.model;
+package com.nklkarthi.solr.fulltext.search.model;
 
 import org.apache.solr.client.solrj.beans.Field;
 

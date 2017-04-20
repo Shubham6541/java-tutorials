@@ -1,6 +1,6 @@
-package com.baeldung.web.rest.vm;
+package com.nklkarthi.web.rest.vm;
 
-import com.baeldung.service.dto.UserDTO;
+import com.nklkarthi.service.dto.UserDTO;
 import javax.validation.constraints.Size;
 
 import java.time.ZonedDateTime;

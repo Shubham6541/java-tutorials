@@ -1,4 +1,4 @@
-package com.baeldung.spring.cloud.greeting;
+package com.nklkarthi.spring.cloud.greeting;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;

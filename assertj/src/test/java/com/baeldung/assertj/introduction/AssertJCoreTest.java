@@ -1,7 +1,7 @@
-package com.baeldung.assertj.introduction;
+package com.nklkarthi.assertj.introduction;
 
-import com.baeldung.assertj.introduction.domain.Dog;
-import com.baeldung.assertj.introduction.domain.Person;
+import com.nklkarthi.assertj.introduction.domain.Dog;
+import com.nklkarthi.assertj.introduction.domain.Person;
 import org.assertj.core.util.Maps;
 import org.junit.Ignore;
 import org.junit.Test;

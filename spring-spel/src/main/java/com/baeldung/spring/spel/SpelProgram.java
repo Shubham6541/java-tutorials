@@ -1,6 +1,6 @@
-package com.baeldung.spring.spel;
+package com.nklkarthi.spring.spel;
 
-import com.baeldung.spring.spel.examples.SpelConditional;
+import com.nklkarthi.spring.spel.examples.SpelConditional;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

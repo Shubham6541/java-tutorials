@@ -1,4 +1,4 @@
-package org.baeldung.java.collections;
+package org.nklkarthi.java.collections;
 
 import com.google.common.collect.Sets;
 import org.junit.Before;

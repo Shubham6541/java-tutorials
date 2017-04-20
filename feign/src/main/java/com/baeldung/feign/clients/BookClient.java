@@ -1,7 +1,7 @@
-package com.baeldung.feign.clients;
+package com.nklkarthi.feign.clients;
 
-import com.baeldung.feign.models.Book;
-import com.baeldung.feign.models.BookResource;
+import com.nklkarthi.feign.models.Book;
+import com.nklkarthi.feign.models.BookResource;
 import feign.Headers;
 import feign.Param;
 import feign.RequestLine;

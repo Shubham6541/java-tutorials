@@ -1,4 +1,4 @@
-package com.baeldung.java.map;
+package com.nklkarthi.java.map;
 
 import java.util.LinkedHashMap;
 import java.util.Map;

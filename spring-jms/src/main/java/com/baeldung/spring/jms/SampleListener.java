@@ -1,4 +1,4 @@
-package com.baeldung.spring.jms;
+package com.nklkarthi.spring.jms;
 
 import org.springframework.jms.core.JmsTemplate;
 

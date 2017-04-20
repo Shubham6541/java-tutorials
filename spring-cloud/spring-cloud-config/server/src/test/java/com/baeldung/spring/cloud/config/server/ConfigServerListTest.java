@@ -1,4 +1,4 @@
-package com.baeldung.spring.cloud.config.server;
+package com.nklkarthi.spring.cloud.config.server;
 
 import org.junit.Ignore;
 import org.junit.Test;

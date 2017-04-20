@@ -1,4 +1,4 @@
-package com.baeldung.autoconfiguration;
+package com.nklkarthi.autoconfiguration;
 
 import java.util.Arrays;
 import java.util.Properties;
@@ -74,7 +74,7 @@ public class MySQLAutoconfiguration {
     public LocalContainerEntityManagerFactoryBean entityManagerFactory() {
         final LocalContainerEntityManagerFactoryBean em = new LocalContainerEntityManagerFactoryBean();
         em.setDataSource(dataSource());
-        em.setPackagesToScan(new String[] { "com.baeldung.autoconfiguration.example" });
+        em.setPackagesToScan(new String[] { "com.nklkarthi.autoconfiguration.example" });
         em.setJpaVendorAdapter(new HibernateJpaVendorAdapter());
         if (additionalProperties() != null) {
             em.setJpaProperties(additionalProperties());

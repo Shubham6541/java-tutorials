@@ -1,4 +1,4 @@
-package com.baeldung.thymeleaf.controller;
+package com.nklkarthi.thymeleaf.controller;
 
 import java.util.Arrays;
 import java.util.Calendar;

@@ -1,4 +1,4 @@
-package com.baeldung.springmvcforms.controller;
+package com.nklkarthi.springmvcforms.controller;
 
 import java.io.File;
 import java.io.FileOutputStream;

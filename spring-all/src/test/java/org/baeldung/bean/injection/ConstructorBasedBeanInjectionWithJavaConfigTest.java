@@ -1,6 +1,6 @@
-package org.baeldung.bean.injection;
+package org.nklkarthi.bean.injection;
 
-import org.baeldung.bean.config.ConstructorBasedShipConfig;
+import org.nklkarthi.bean.config.ConstructorBasedShipConfig;
 import org.junit.Assert;
 import org.junit.Test;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;

@@ -1,9 +1,9 @@
-package org.baeldung.web.controller;
+package org.nklkarthi.web.controller;
 
-import org.baeldung.persistence.model.Customer;
-import org.baeldung.persistence.model.Order;
-import org.baeldung.web.service.CustomerService;
-import org.baeldung.web.service.OrderService;
+import org.nklkarthi.persistence.model.Customer;
+import org.nklkarthi.persistence.model.Order;
+import org.nklkarthi.web.service.CustomerService;
+import org.nklkarthi.web.service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.hateoas.Link;
 import org.springframework.web.bind.annotation.PathVariable;

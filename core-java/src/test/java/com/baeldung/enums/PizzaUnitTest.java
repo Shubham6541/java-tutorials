@@ -1,6 +1,6 @@
-package com.baeldung.enums;
+package com.nklkarthi.enums;
 
-import com.baeldung.enums.Pizza.PizzaStatusEnum;
+import com.nklkarthi.enums.Pizza.PizzaStatusEnum;
 import org.junit.Test;
 
 import java.util.ArrayList;

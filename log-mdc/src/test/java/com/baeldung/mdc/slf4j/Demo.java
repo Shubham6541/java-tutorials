@@ -1,4 +1,4 @@
-package com.baeldung.mdc.slf4j;
+package com.nklkarthi.mdc.slf4j;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -7,11 +7,11 @@ import java.util.concurrent.TimeUnit;
 import org.apache.log4j.Logger;
 import org.junit.Test;
 
-import com.baeldung.mdc.TransactionFactory;
-import com.baeldung.mdc.Transfer;
-import com.baeldung.mdc.log4j.Log4JRunnable;
-import com.baeldung.mdc.log4j2.Log4J2Runnable;
-import com.baeldung.mdc.slf4j.Slf4jRunnable;
+import com.nklkarthi.mdc.TransactionFactory;
+import com.nklkarthi.mdc.Transfer;
+import com.nklkarthi.mdc.log4j.Log4JRunnable;
+import com.nklkarthi.mdc.log4j2.Log4J2Runnable;
+import com.nklkarthi.mdc.slf4j.Slf4jRunnable;
 
 public class Demo {
 

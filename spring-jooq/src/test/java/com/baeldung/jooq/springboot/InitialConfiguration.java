@@ -1,6 +1,6 @@
-package com.baeldung.jooq.springboot;
+package com.nklkarthi.jooq.springboot;
 
-import com.baeldung.jooq.introduction.ExceptionTranslator;
+import com.nklkarthi.jooq.introduction.ExceptionTranslator;
 import org.jooq.impl.DataSourceConnectionProvider;
 import org.jooq.impl.DefaultConfiguration;
 import org.jooq.impl.DefaultDSLContext;

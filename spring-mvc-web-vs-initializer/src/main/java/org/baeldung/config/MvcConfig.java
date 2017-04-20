@@ -1,4 +1,4 @@
-package org.baeldung.config;
+package org.nklkarthi.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -10,7 +10,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages = "org.baeldung.controller.java")
+@ComponentScan(basePackages = "org.nklkarthi.controller.java")
 public class MvcConfig extends WebMvcConfigurerAdapter {
 
     @Bean

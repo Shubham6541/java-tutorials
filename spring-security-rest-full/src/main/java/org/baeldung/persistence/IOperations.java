@@ -1,4 +1,4 @@
-package org.baeldung.persistence;
+package org.nklkarthi.persistence;
 
 import java.io.Serializable;
 import java.util.List;

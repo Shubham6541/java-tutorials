@@ -1,4 +1,4 @@
-package com.baeldung.jackson.general.jsonfilter;
+package com.nklkarthi.jackson.general.jsonfilter;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;

@@ -1,11 +1,11 @@
-package com.baeldung.setterdi;
+package com.nklkarthi.setterdi;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import com.baeldung.setterdi.Config;
-import com.baeldung.setterdi.domain.Car;
+import com.nklkarthi.setterdi.Config;
+import com.nklkarthi.setterdi.domain.Car;
 
 public class SpringRunner {
     public static void main(String[] args) {

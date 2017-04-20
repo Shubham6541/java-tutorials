@@ -1,4 +1,4 @@
-package com.baeldung.javers;
+package com.nklkarthi.javers;
 
 
 import org.javers.common.collections.Lists;

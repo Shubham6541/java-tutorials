@@ -1,6 +1,6 @@
-package com.baeldung.handlermappings;
+package com.nklkarthi.handlermappings;
 
-import com.baeldung.config.SimpleUrlHandlerMappingConfig;
+import com.nklkarthi.config.SimpleUrlHandlerMappingConfig;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

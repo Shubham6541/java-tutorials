@@ -1,9 +1,9 @@
-package com.baeldung.dialect;
+package com.nklkarthi.dialect;
 
 import java.util.HashSet;
 import java.util.Set;
 
-import com.baeldung.processor.NameProcessor;
+import com.nklkarthi.processor.NameProcessor;
 import org.thymeleaf.dialect.AbstractDialect;
 import org.thymeleaf.processor.IProcessor;
 

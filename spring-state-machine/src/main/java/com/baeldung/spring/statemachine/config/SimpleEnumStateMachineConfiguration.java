@@ -1,7 +1,7 @@
-package com.baeldung.spring.statemachine.config;
+package com.nklkarthi.spring.statemachine.config;
 
-import com.baeldung.spring.statemachine.applicationreview.ApplicationReviewEvents;
-import com.baeldung.spring.statemachine.applicationreview.ApplicationReviewStates;
+import com.nklkarthi.spring.statemachine.applicationreview.ApplicationReviewEvents;
+import com.nklkarthi.spring.statemachine.applicationreview.ApplicationReviewStates;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.statemachine.config.EnableStateMachine;
 import org.springframework.statemachine.config.StateMachineConfigurerAdapter;

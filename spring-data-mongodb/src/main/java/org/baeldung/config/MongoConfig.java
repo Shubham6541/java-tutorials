@@ -1,11 +1,11 @@
-package org.baeldung.config;
+package org.nklkarthi.config;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.baeldung.converter.UserWriterConverter;
-import org.baeldung.event.CascadeSaveMongoEventListener;
-import org.baeldung.event.UserCascadeSaveMongoEventListener;
+import org.nklkarthi.converter.UserWriterConverter;
+import org.nklkarthi.event.CascadeSaveMongoEventListener;
+import org.nklkarthi.event.UserCascadeSaveMongoEventListener;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.convert.converter.Converter;
@@ -18,7 +18,7 @@ import com.mongodb.Mongo;
 import com.mongodb.MongoClient;
 
 @Configuration
-@EnableMongoRepositories(basePackages = "org.baeldung.repository")
+@EnableMongoRepositories(basePackages = "org.nklkarthi.repository")
 public class MongoConfig extends AbstractMongoConfiguration {
 
     private final List<Converter<?, ?>> converters = new ArrayList<Converter<?, ?>>();
@@ -35,7 +35,7 @@ public class MongoConfig extends AbstractMongoConfiguration {
 
     @Override
     public String getMappingBasePackage() {
-        return "org.baeldung";
+        return "org.nklkarthi";
     }
 
     @Bean

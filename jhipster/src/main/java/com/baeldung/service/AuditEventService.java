@@ -1,7 +1,7 @@
-package com.baeldung.service;
+package com.nklkarthi.service;
 
-import com.baeldung.config.audit.AuditEventConverter;
-import com.baeldung.repository.PersistenceAuditEventRepository;
+import com.nklkarthi.config.audit.AuditEventConverter;
+import com.nklkarthi.repository.PersistenceAuditEventRepository;
 import java.time.LocalDateTime;
 import org.springframework.boot.actuate.audit.AuditEvent;
 import org.springframework.data.domain.Page;

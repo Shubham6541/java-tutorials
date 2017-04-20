@@ -1,4 +1,4 @@
-package org.baeldung.springquartz.basics.service;
+package org.nklkarthi.springquartz.basics.service;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

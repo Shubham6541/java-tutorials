@@ -1,12 +1,12 @@
-package com.baeldung.cxf.introduction;
+package com.nklkarthi.cxf.introduction;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
 
 import javax.jws.WebService;
 
-@WebService(endpointInterface = "com.baeldung.cxf.introduction.Baeldung")
-public class BaeldungImpl implements Baeldung {
+@WebService(endpointInterface = "com.nklkarthi.cxf.introduction.nklkarthi")
+public class nklkarthiImpl implements nklkarthi {
     private Map<Integer, Student> students = new LinkedHashMap<Integer, Student>();
 
     public String hello(String name) {

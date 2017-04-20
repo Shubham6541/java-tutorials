@@ -1,4 +1,4 @@
-package org.baeldung.caching.example;
+package org.nklkarthi.caching.example;
 
 public class Customer {
 

@@ -1,4 +1,4 @@
-package com.baeldung.java9.reactive;
+package com.nklkarthi.java9.reactive;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
@@ -13,16 +13,16 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.Stopwatch;
 
-public class BaeldungBatchSubscriberImplTest {
+public class nklkarthiBatchSubscriberImplTest {
 
     private static final int ITEM_SIZE = 10;
     private SubmissionPublisher<String> publisher;
-    private BaeldungBatchSubscriberImpl<String> subscriber;
+    private nklkarthiBatchSubscriberImpl<String> subscriber;
 
     @Before
     public void initialize() {
         this.publisher = new SubmissionPublisher<String>(ForkJoinPool.commonPool(), 6);
-        this.subscriber = new BaeldungBatchSubscriberImpl<String>();
+        this.subscriber = new nklkarthiBatchSubscriberImpl<String>();
         publisher.subscribe(subscriber);
     }
 

@@ -34,7 +34,7 @@
     <global-method-security pre-post-annotations="enabled"/>
     
 <!--     <mvc:interceptors>
-		<bean id="loggerInterceptor" class="org.baeldung.web.interceptor.LoggerInterceptor" />
+		<bean id="loggerInterceptor" class="org.nklkarthi.web.interceptor.LoggerInterceptor" />
 	</mvc:interceptors> -->
 
 </beans:beans>

@@ -1,4 +1,4 @@
-package com.baeldung.wicket.examples;
+package com.nklkarthi.wicket.examples;
 
 import org.apache.wicket.markup.html.WebPage;
 

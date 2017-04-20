@@ -1,4 +1,4 @@
-package com.baeldung.spring.data.neo4j.domain;
+package com.nklkarthi.spring.data.neo4j.domain;
 
 import com.fasterxml.jackson.annotation.JsonIdentityInfo;
 import com.voodoodyne.jackson.jsog.JSOGGenerator;

@@ -1,4 +1,4 @@
-package com.baeldung.annotation.servletcomponentscan.components;
+package com.nklkarthi.annotation.servletcomponentscan.components;
 
 import javax.servlet.*;
 import javax.servlet.annotation.WebFilter;

@@ -1,4 +1,4 @@
-package org.baeldung.java.sorting;
+package org.nklkarthi.java.sorting;
 
 public class Employee implements Comparable {
 

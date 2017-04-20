@@ -1,4 +1,4 @@
-package org.baeldung.shell.simple;
+package org.nklkarthi.shell.simple;
 
 import org.springframework.core.Ordered;
 import org.springframework.core.annotation.Order;
@@ -11,12 +11,12 @@ public class SimpleHistoryFileNameProvider extends DefaultHistoryFileNameProvide
 
     @Override
     public String getHistoryFileName() {
-        return "baeldung-shell.log";
+        return "nklkarthi-shell.log";
     }
 
     @Override
     public String getProviderName() {
-        return "Baeldung History";
+        return "nklkarthi History";
     }
 
 }

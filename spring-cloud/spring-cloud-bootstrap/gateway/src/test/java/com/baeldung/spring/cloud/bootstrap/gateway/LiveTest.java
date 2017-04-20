@@ -1,4 +1,4 @@
-package com.baeldung.spring.cloud.bootstrap.gateway;
+package com.nklkarthi.spring.cloud.bootstrap.gateway;
 
 import static io.restassured.RestAssured.config;
 import io.restassured.RestAssured;
@@ -99,7 +99,7 @@ public class LiveTest {
 
     @Test
     public void whenAddnewBook_thenSuccess() {
-        final Book book = new Book("Baeldung", "How to spring cloud");
+        final Book book = new Book("nklkarthi", "How to spring cloud");
 
         // request the protected resource
         final Response bookResponse = RestAssured.given()

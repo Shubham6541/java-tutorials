@@ -1,4 +1,4 @@
-package org.baeldung.multiplelogin;
+package org.nklkarthi.multiplelogin;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
@@ -8,7 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 
 @SpringBootApplication
-@ComponentScan("org.baeldung.multiplelogin")
+@ComponentScan("org.nklkarthi.multiplelogin")
 public class MultipleLoginApplication {
     public static void main(String[] args) {
         SpringApplication.run(MultipleLoginApplication.class, args);

@@ -1,7 +1,7 @@
-package com.baeldung.jackson.inclusion.jsoninclude;
+package com.nklkarthi.jackson.inclusion.jsoninclude;
 
-import com.baeldung.jackson.domain.Person;
-import com.baeldung.jackson.domain.Item;
+import com.nklkarthi.jackson.domain.Person;
+import com.nklkarthi.jackson.domain.Item;
 import com.fasterxml.jackson.annotation.JsonInclude;
 
 import java.util.ArrayList;

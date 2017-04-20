@@ -1,4 +1,4 @@
-package com.baeldung.cxf.spring;
+package com.nklkarthi.cxf.spring;
 
 public class Student {
     private String name;

@@ -28,7 +28,7 @@
     <!-- for XML static resource confguration- comment out for java based config -->
     <!-- -<mvc:resources mapping="/resources/**" location="/resources/" /> -->
 
-    <beans:bean id="myAuthenticationSuccessHandler" class="org.baeldung.security.MySimpleUrlAuthenticationSuccessHandler"/>
+    <beans:bean id="myAuthenticationSuccessHandler" class="org.nklkarthi.security.MySimpleUrlAuthenticationSuccessHandler"/>
     <authentication-manager>
         <authentication-provider>
             <user-service>

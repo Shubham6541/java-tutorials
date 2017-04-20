@@ -1,4 +1,4 @@
-package com.baeldung.config;
+package com.nklkarthi.config;
 import org.springframework.roo.addon.layers.repository.jpa.annotations.RooJpaRepositoryConfiguration;
 
 /**

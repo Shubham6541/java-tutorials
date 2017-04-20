@@ -1,4 +1,4 @@
-package com.baeldung.collectors;
+package com.nklkarthi.collectors;
 
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.ImmutableSet;

@@ -1,4 +1,4 @@
-package org.baeldung.domain;
+package org.nklkarthi.domain;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

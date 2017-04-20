@@ -1,4 +1,4 @@
-package org.baeldung.config;
+package org.nklkarthi.config;
 
 import java.util.Set;
 
@@ -30,7 +30,7 @@ public class MainWebAppInitializer implements WebApplicationInitializer {
 
         // Create the 'root' Spring application context
         final AnnotationConfigWebApplicationContext root = new AnnotationConfigWebApplicationContext();
-        root.scan("org.baeldung.config.parent");
+        root.scan("org.nklkarthi.config.parent");
         // root.getEnvironment().setDefaultProfiles("embedded");
 
         // Manages the lifecycle of the root application context
@@ -38,7 +38,7 @@ public class MainWebAppInitializer implements WebApplicationInitializer {
 
         // Handles requests into the application
         final AnnotationConfigWebApplicationContext childWebApplicationContext = new AnnotationConfigWebApplicationContext();
-        childWebApplicationContext.scan("org.baeldung.config.child");
+        childWebApplicationContext.scan("org.nklkarthi.config.child");
         final ServletRegistration.Dynamic appServlet = sc.addServlet("api", new DispatcherServlet(childWebApplicationContext));
         appServlet.setLoadOnStartup(1);
         final Set<String> mappingConflicts = appServlet.addMapping("/");

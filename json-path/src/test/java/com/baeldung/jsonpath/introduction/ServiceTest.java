@@ -1,4 +1,4 @@
-package com.baeldung.jsonpath.introduction;
+package com.nklkarthi.jsonpath.introduction;
 
 import static org.junit.Assert.assertThat;
 import static org.junit.Assert.assertEquals;

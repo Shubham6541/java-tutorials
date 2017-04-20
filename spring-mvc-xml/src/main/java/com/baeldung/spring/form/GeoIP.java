@@ -1,4 +1,4 @@
-package com.baeldung.spring.form;
+package com.nklkarthi.spring.form;
 
 public class GeoIP {
     private String ipAddress;

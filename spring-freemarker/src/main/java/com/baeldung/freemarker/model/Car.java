@@ -1,4 +1,4 @@
-package com.baeldung.freemarker.model;
+package com.nklkarthi.freemarker.model;
 
 public class Car {
 

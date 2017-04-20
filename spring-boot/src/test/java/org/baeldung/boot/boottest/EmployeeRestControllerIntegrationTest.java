@@ -1,4 +1,4 @@
-package org.baeldung.boot.boottest;
+package org.nklkarthi.boot.boottest;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.hamcrest.CoreMatchers.is;
@@ -14,7 +14,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import java.io.IOException;
 import java.util.List;
 
-import org.baeldung.boot.DemoApplication;
+import org.nklkarthi.boot.DemoApplication;
 import org.junit.After;
 import org.junit.Test;
 import org.junit.runner.RunWith;

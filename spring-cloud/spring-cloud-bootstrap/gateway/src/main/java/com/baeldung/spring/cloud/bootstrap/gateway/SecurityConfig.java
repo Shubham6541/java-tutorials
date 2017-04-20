@@ -1,4 +1,4 @@
-package com.baeldung.spring.cloud.bootstrap.gateway;
+package com.nklkarthi.spring.cloud.bootstrap.gateway;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;

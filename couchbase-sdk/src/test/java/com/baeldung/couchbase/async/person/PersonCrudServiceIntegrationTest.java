@@ -1,4 +1,4 @@
-package com.baeldung.couchbase.async.person;
+package com.nklkarthi.couchbase.async.person;
 
 import static org.junit.Assert.*;
 
@@ -13,11 +13,11 @@ import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 
-import com.baeldung.couchbase.async.AsyncIntegrationTest;
-import com.baeldung.couchbase.async.person.Person;
-import com.baeldung.couchbase.async.person.PersonCrudService;
-import com.baeldung.couchbase.async.person.PersonDocumentConverter;
-import com.baeldung.couchbase.async.service.BucketService;
+import com.nklkarthi.couchbase.async.AsyncIntegrationTest;
+import com.nklkarthi.couchbase.async.person.Person;
+import com.nklkarthi.couchbase.async.person.PersonCrudService;
+import com.nklkarthi.couchbase.async.person.PersonDocumentConverter;
+import com.nklkarthi.couchbase.async.service.BucketService;
 import com.couchbase.client.java.Bucket;
 import com.couchbase.client.java.document.JsonDocument;
 

@@ -7,11 +7,11 @@
 
 	<persistence-unit name="jpa-db">
 		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
-		<class>com.baeldung.jpa.model.Car</class>
+		<class>com.nklkarthi.jpa.model.Car</class>
 		<properties>
 			<property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
-			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://127.0.0.1:3306/baeldung" />
-			<property name="javax.persistence.jdbc.user" value="baeldung" />
+			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://127.0.0.1:3306/nklkarthi" />
+			<property name="javax.persistence.jdbc.user" value="nklkarthi" />
 			<property name="javax.persistence.jdbc.password" value="YourPassword" />
 			<property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect" />
 			<property name="hibernate.show_sql" value="true" />

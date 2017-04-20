@@ -1,4 +1,4 @@
-package com.baeldung.jacksonannotation.deserialization.jsondeserialize;
+package com.nklkarthi.jacksonannotation.deserialization.jsondeserialize;
 
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 
@@ -8,7 +8,7 @@ import java.util.Date;
 /**
  * Source code github.com/eugenp/tutorials
  *
- * @author Alex Theedom www.baeldung.com
+ * @author Alex Theedom www.nklkarthi.com
  * @version 1.0
  */
 public class Book extends Item {

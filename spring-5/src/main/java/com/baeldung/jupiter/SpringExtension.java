@@ -1,4 +1,4 @@
-package com.baeldung.jupiter;
+package com.nklkarthi.jupiter;
 
 import org.junit.jupiter.api.extension.*;
 import org.springframework.beans.factory.annotation.Autowired;

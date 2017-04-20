@@ -1,4 +1,4 @@
-package com.baeldung.automata;
+package com.nklkarthi.automata;
 
 import java.util.ArrayList;
 import java.util.List;

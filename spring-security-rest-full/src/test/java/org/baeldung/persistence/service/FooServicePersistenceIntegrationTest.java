@@ -1,11 +1,11 @@
-package org.baeldung.persistence.service;
+package org.nklkarthi.persistence.service;
 
 import static org.apache.commons.lang3.RandomStringUtils.randomAlphabetic;
 import static org.junit.Assert.assertNotNull;
 
-import org.baeldung.persistence.IOperations;
-import org.baeldung.persistence.model.Foo;
-import org.baeldung.spring.PersistenceConfig;
+import org.nklkarthi.persistence.IOperations;
+import org.nklkarthi.persistence.model.Foo;
+import org.nklkarthi.spring.PersistenceConfig;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;

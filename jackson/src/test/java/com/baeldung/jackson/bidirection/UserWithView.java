@@ -1,9 +1,9 @@
-package com.baeldung.jackson.bidirection;
+package com.nklkarthi.jackson.bidirection;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.baeldung.jackson.jsonview.Views;
+import com.nklkarthi.jackson.jsonview.Views;
 
 import com.fasterxml.jackson.annotation.JsonView;
 

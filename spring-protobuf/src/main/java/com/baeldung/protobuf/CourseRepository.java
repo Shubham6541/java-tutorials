@@ -1,6 +1,6 @@
-package com.baeldung.protobuf;
+package com.nklkarthi.protobuf;
 
-import com.baeldung.protobuf.BaeldungTraining.Course;
+import com.nklkarthi.protobuf.nklkarthiTraining.Course;
 
 import java.util.Map;
 

@@ -1,4 +1,4 @@
-package org.baeldung.httpclient.base;
+package org.nklkarthi.httpclient.base;
 
 import org.apache.http.Header;
 import org.apache.http.HttpEntity;

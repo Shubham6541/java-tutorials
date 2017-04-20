@@ -1,10 +1,10 @@
-package com.baeldung.spring.service;
+package com.nklkarthi.spring.service;
 
 import java.io.File;
 import java.io.IOException;
 import java.net.InetAddress;
 
-import com.baeldung.spring.form.GeoIP;
+import com.nklkarthi.spring.form.GeoIP;
 import com.maxmind.geoip2.DatabaseReader;
 import com.maxmind.geoip2.exception.GeoIp2Exception;
 import com.maxmind.geoip2.model.CityResponse;

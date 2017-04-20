@@ -1,11 +1,11 @@
-package org.baeldung.test;
+package org.nklkarthi.test;
 
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
-import org.baeldung.app.App;
+import org.nklkarthi.app.App;
 import org.junit.Before;
 import org.junit.FixMethodOrder;
 import org.junit.Test;

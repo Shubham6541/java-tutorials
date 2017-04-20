@@ -1,4 +1,4 @@
-package com.baeldung.spring;
+package com.nklkarthi.spring;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.ImportResource;

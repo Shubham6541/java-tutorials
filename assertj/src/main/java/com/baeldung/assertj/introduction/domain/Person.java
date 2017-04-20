@@ -1,4 +1,4 @@
-package com.baeldung.assertj.introduction.domain;
+package com.nklkarthi.assertj.introduction.domain;
 
 public class Person {
     private String name;

@@ -1,4 +1,4 @@
-package org.baeldung.spring;
+package org.nklkarthi.spring;
 
 import java.util.List;
 
@@ -11,7 +11,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 
 @Configuration
 @EnableWebMvc
-@ComponentScan("org.baeldung.web")
+@ComponentScan("org.nklkarthi.web")
 public class WebConfig extends WebMvcConfigurerAdapter {
 
     public WebConfig() {

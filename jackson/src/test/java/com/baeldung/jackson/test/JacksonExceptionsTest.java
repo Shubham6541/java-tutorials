@@ -1,4 +1,4 @@
-package com.baeldung.jackson.test;
+package com.nklkarthi.jackson.test;
 
 import static org.hamcrest.Matchers.containsString;
 import static org.junit.Assert.assertEquals;
@@ -9,11 +9,11 @@ import java.util.List;
 
 import org.junit.Test;
 
-import com.baeldung.jackson.exception.User;
-import com.baeldung.jackson.exception.UserWithPrivateFields;
-import com.baeldung.jackson.exception.UserWithRoot;
-import com.baeldung.jackson.exception.Zoo;
-import com.baeldung.jackson.exception.ZooConfigured;
+import com.nklkarthi.jackson.exception.User;
+import com.nklkarthi.jackson.exception.UserWithPrivateFields;
+import com.nklkarthi.jackson.exception.UserWithRoot;
+import com.nklkarthi.jackson.exception.Zoo;
+import com.nklkarthi.jackson.exception.ZooConfigured;
 import com.fasterxml.jackson.annotation.JsonAutoDetect.Visibility;
 import com.fasterxml.jackson.annotation.PropertyAccessor;
 import com.fasterxml.jackson.core.JsonFactory;
@@ -79,7 +79,7 @@ public class JacksonExceptionsTest {
         final String json = "{\"id\":1,\"name\":\"John\"}";
         final ObjectMapper mapper = new ObjectMapper();
 
-        final com.baeldung.jackson.dtos.User user = mapper.reader().forType(com.baeldung.jackson.dtos.User.class).readValue(json);
+        final com.nklkarthi.jackson.dtos.User user = mapper.reader().forType(com.nklkarthi.jackson.dtos.User.class).readValue(json);
         assertEquals("John", user.name);
     }
 
@@ -91,7 +91,7 @@ public class JacksonExceptionsTest {
         final ObjectMapper mapper = new ObjectMapper();
         mapper.enable(DeserializationFeature.UNWRAP_ROOT_VALUE);
 
-        mapper.reader().forType(com.baeldung.jackson.dtos.User.class).readValue(json);
+        mapper.reader().forType(com.nklkarthi.jackson.dtos.User.class).readValue(json);
     }
 
     @Test
@@ -111,7 +111,7 @@ public class JacksonExceptionsTest {
         final String json = "[{\"id\":1,\"name\":\"John\"},{\"id\":2,\"name\":\"Adam\"}]";
         final ObjectMapper mapper = new ObjectMapper();
 
-        mapper.reader().forType(com.baeldung.jackson.dtos.User.class).readValue(json);
+        mapper.reader().forType(com.nklkarthi.jackson.dtos.User.class).readValue(json);
     }
 
     @Test
@@ -119,7 +119,7 @@ public class JacksonExceptionsTest {
         final String json = "[{\"id\":1,\"name\":\"John\"},{\"id\":2,\"name\":\"Adam\"}]";
         final ObjectMapper mapper = new ObjectMapper();
 
-        final List<com.baeldung.jackson.dtos.User> users = mapper.reader().forType(new TypeReference<List<com.baeldung.jackson.dtos.User>>() {
+        final List<com.nklkarthi.jackson.dtos.User> users = mapper.reader().forType(new TypeReference<List<com.nklkarthi.jackson.dtos.User>>() {
         }).readValue(json);
 
         assertEquals(2, users.size());
@@ -131,7 +131,7 @@ public class JacksonExceptionsTest {
         final String json = "{\"id\":1,\"name\":\"John\", \"checked\":true}";
 
         final ObjectMapper mapper = new ObjectMapper();
-        mapper.reader().forType(com.baeldung.jackson.dtos.User.class).readValue(json);
+        mapper.reader().forType(com.nklkarthi.jackson.dtos.User.class).readValue(json);
     }
 
     @Test
@@ -141,7 +141,7 @@ public class JacksonExceptionsTest {
         final ObjectMapper mapper = new ObjectMapper();
         mapper.disable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES);
 
-        final com.baeldung.jackson.dtos.User user = mapper.reader().forType(com.baeldung.jackson.dtos.User.class).readValue(json);
+        final com.nklkarthi.jackson.dtos.User user = mapper.reader().forType(com.nklkarthi.jackson.dtos.User.class).readValue(json);
         assertEquals("John", user.name);
     }
 
@@ -151,7 +151,7 @@ public class JacksonExceptionsTest {
         final String json = "{'id':1,'name':'John'}";
         final ObjectMapper mapper = new ObjectMapper();
 
-        mapper.reader().forType(com.baeldung.jackson.dtos.User.class).readValue(json);
+        mapper.reader().forType(com.nklkarthi.jackson.dtos.User.class).readValue(json);
     }
 
     @Test
@@ -162,7 +162,7 @@ public class JacksonExceptionsTest {
         factory.enable(JsonParser.Feature.ALLOW_SINGLE_QUOTES);
         final ObjectMapper mapper = new ObjectMapper(factory);
 
-        final com.baeldung.jackson.dtos.User user = mapper.reader().forType(com.baeldung.jackson.dtos.User.class).readValue(json);
+        final com.nklkarthi.jackson.dtos.User user = mapper.reader().forType(com.nklkarthi.jackson.dtos.User.class).readValue(json);
         assertEquals("John", user.name);
     }
 

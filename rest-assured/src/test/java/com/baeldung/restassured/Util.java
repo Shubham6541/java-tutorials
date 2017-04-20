@@ -1,4 +1,4 @@
-package com.baeldung.restassured;
+package com.nklkarthi.restassured;
 
 import java.io.BufferedReader;
 import java.io.IOException;

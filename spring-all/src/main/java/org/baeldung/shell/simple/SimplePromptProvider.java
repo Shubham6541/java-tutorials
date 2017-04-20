@@ -1,4 +1,4 @@
-package org.baeldung.shell.simple;
+package org.nklkarthi.shell.simple;
 
 import org.springframework.core.Ordered;
 import org.springframework.core.annotation.Order;
@@ -11,11 +11,11 @@ public class SimplePromptProvider extends DefaultPromptProvider {
 
     @Override
     public String getPrompt() {
-        return "baeldung-shell>";
+        return "nklkarthi-shell>";
     }
 
     @Override
     public String getProviderName() {
-        return "Baeldung Prompt";
+        return "nklkarthi Prompt";
     }
 }

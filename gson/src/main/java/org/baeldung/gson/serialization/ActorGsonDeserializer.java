@@ -1,11 +1,11 @@
-package org.baeldung.gson.serialization;
+package org.nklkarthi.gson.serialization;
 
 import java.lang.reflect.Type;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 
-import org.baeldung.gson.entities.ActorGson;
+import org.nklkarthi.gson.entities.ActorGson;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonDeserializationContext;

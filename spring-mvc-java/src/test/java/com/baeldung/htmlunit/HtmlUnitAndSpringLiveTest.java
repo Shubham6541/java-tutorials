@@ -1,4 +1,4 @@
-package com.baeldung.htmlunit;
+package com.nklkarthi.htmlunit;
 
 import org.junit.Assert;
 import org.junit.Before;

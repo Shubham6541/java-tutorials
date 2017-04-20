@@ -1,4 +1,4 @@
-package org.baeldung.mocks.testCase;
+package org.nklkarthi.mocks.testCase;
 
 public class LoginService {
 

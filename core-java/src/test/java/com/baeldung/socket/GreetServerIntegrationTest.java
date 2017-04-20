@@ -1,4 +1,4 @@
-package com.baeldung.socket;
+package com.nklkarthi.socket;
 
 import org.junit.After;
 import org.junit.Before;

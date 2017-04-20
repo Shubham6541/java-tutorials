@@ -1,2 +1,2 @@
 ### Relevant Articles:
-- [WebAppConfiguration in Spring Tests](http://www.baeldung.com/spring-webappconfiguration)
+- [WebAppConfiguration in Spring Tests](http://www.nklkarthi.com/spring-webappconfiguration)

@@ -1,4 +1,4 @@
-package com.baeldung.poi.word;
+package com.nklkarthi.poi.word;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;

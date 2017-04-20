@@ -1,6 +1,6 @@
-package com.baeldung.repository;
+package com.nklkarthi.repository;
 
-import com.baeldung.domain.PersistentAuditEvent;
+import com.nklkarthi.domain.PersistentAuditEvent;
 
 import java.time.LocalDateTime;
 import org.springframework.data.jpa.repository.JpaRepository;

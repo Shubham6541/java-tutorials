@@ -1,4 +1,4 @@
-package org.baeldung.ex.beandefinitionstoreexception.spring;
+package org.nklkarthi.ex.beandefinitionstoreexception.spring;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
 
 @Configuration
-@ComponentScan("org.baeldung.ex.beandefinitionstoreexception.cause2")
+@ComponentScan("org.nklkarthi.ex.beandefinitionstoreexception.cause2")
 public class Cause2ContextWithJavaConfig {
 
     @Value("${some.property}")

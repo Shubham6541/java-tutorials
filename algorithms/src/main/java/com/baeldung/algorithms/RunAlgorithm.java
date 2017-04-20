@@ -1,11 +1,11 @@
-package com.baeldung.algorithms;
+package com.nklkarthi.algorithms;
 
 import java.util.Scanner;
 
-import com.baeldung.algorithms.ga.annealing.SimulatedAnnealing;
-import com.baeldung.algorithms.ga.ant_colony.AntColonyOptimization;
-import com.baeldung.algorithms.ga.binary.SimpleGeneticAlgorithm;
-import com.baeldung.algorithms.slope_one.SlopeOne;
+import com.nklkarthi.algorithms.ga.annealing.SimulatedAnnealing;
+import com.nklkarthi.algorithms.ga.ant_colony.AntColonyOptimization;
+import com.nklkarthi.algorithms.ga.binary.SimpleGeneticAlgorithm;
+import com.nklkarthi.algorithms.slope_one.SlopeOne;
 
 public class RunAlgorithm {
 

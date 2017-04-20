@@ -1,4 +1,4 @@
-package com.baeldung.hystrix;
+package com.nklkarthi.hystrix;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

@@ -1,4 +1,4 @@
-package org.baeldung.properties.parentchild;
+package org.nklkarthi.properties.parentchild;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;

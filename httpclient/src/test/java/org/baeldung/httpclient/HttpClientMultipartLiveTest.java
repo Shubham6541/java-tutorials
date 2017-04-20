@@ -1,4 +1,4 @@
-package org.baeldung.httpclient;
+package org.nklkarthi.httpclient;
 
 import static org.hamcrest.Matchers.equalTo;
 import static org.junit.Assert.assertThat;
@@ -39,7 +39,7 @@ public class HttpClientMultipartLiveTest {
     private static final String TEXTFILENAME = "temp.txt";
     private static final String IMAGEFILENAME = "image.jpg";
     private static final String ZIPFILENAME = "zipFile.zip";
-    private static final Logger LOGGER = Logger.getLogger("org.baeldung.httpclient.HttpClientMultipartLiveTest");
+    private static final Logger LOGGER = Logger.getLogger("org.nklkarthi.httpclient.HttpClientMultipartLiveTest");
     private CloseableHttpClient client;
     private HttpPost post;
     private BufferedReader rd;

@@ -1,6 +1,6 @@
-package com.baeldung.doublecolon.function;
+package com.nklkarthi.doublecolon.function;
 
-import com.baeldung.doublecolon.Computer;
+import com.nklkarthi.doublecolon.Computer;
 
 @FunctionalInterface
 public interface ComputerPredicate {

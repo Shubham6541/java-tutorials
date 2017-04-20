@@ -1,4 +1,4 @@
-package org.baeldung.ex.mappingexception.cause2.persistence.model;
+package org.nklkarthi.ex.mappingexception.cause2.persistence.model;
 
 import java.io.Serializable;
 

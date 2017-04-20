@@ -1,3 +1,3 @@
 ### Relevant articles
 
-- [Introduction to jOOL](http://www.baeldung.com/jool)
+- [Introduction to jOOL](http://www.nklkarthi.com/jool)

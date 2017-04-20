@@ -1,6 +1,6 @@
-package com.baeldung.service;
+package com.nklkarthi.service;
 
-import com.baeldung.domain.User;
+import com.nklkarthi.domain.User;
 
 import io.github.jhipster.config.JHipsterProperties;
 

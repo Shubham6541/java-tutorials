@@ -1,4 +1,4 @@
-package com.baeldung.spring.cloud.bootstrap.svcbook;
+package com.nklkarthi.spring.cloud.bootstrap.svcbook;
 
 import com.netflix.appinfo.InstanceInfo;
 import com.netflix.discovery.EurekaClient;

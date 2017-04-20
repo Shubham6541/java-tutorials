@@ -5,14 +5,14 @@
         http://xmlns.jcp.org/xml/ns/persistence
         http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
    <persistence-unit name="primary">
-      <jta-data-source>java:jboss/datasources/baeldung-jee7-seedTestDS</jta-data-source>
+      <jta-data-source>java:jboss/datasources/nklkarthi-jee7-seedTestDS</jta-data-source>
       <properties>
          <property name="hibernate.hbm2ddl.auto" value="create-drop" />
          <property name="hibernate.show_sql" value="false" />
       </properties>
    </persistence-unit>
    <persistence-unit name="secondary">
-      <jta-data-source>java:jboss/datasources/baeldung-jee7-seedTestSecondaryDS</jta-data-source>
+      <jta-data-source>java:jboss/datasources/nklkarthi-jee7-seedTestSecondaryDS</jta-data-source>
       <properties>
          <property name="hibernate.hbm2ddl.auto" value="create-drop" />
          <property name="hibernate.show_sql" value="false" />

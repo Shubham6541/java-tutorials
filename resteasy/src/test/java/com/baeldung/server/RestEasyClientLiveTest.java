@@ -1,4 +1,4 @@
-package com.baeldung.server;
+package com.nklkarthi.server;
 
 import java.io.InputStream;
 import java.nio.charset.StandardCharsets;
@@ -23,8 +23,8 @@ import org.jboss.resteasy.client.jaxrs.engines.ApacheHttpClient4Engine;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.baeldung.client.ServicesInterface;
-import com.baeldung.model.Movie;
+import com.nklkarthi.client.ServicesInterface;
+import com.nklkarthi.model.Movie;
 
 public class RestEasyClientLiveTest {
 

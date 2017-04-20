@@ -1,8 +1,8 @@
-package com.baeldung.repository;
+package com.nklkarthi.repository;
 
-import com.baeldung.config.Constants;
-import com.baeldung.config.audit.AuditEventConverter;
-import com.baeldung.domain.PersistentAuditEvent;
+import com.nklkarthi.config.Constants;
+import com.nklkarthi.config.audit.AuditEventConverter;
+import com.nklkarthi.domain.PersistentAuditEvent;
 
 import org.springframework.boot.actuate.audit.AuditEvent;
 import org.springframework.boot.actuate.audit.AuditEventRepository;

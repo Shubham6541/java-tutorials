@@ -1,4 +1,4 @@
-package org.baeldung.caching.example;
+package org.nklkarthi.caching.example;
 
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.CachePut;

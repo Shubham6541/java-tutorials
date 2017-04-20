@@ -1,4 +1,4 @@
-package com.baeldung.config;
+package com.nklkarthi.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;

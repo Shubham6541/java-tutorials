@@ -1,4 +1,4 @@
-package com.baeldung.spring.data.redis.queue;
+package com.nklkarthi.spring.data.redis.queue;
 
 public interface MessagePublisher {
 

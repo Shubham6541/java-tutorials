@@ -1,4 +1,4 @@
-package com.baeldung.java8.lambda.exceptions;
+package com.nklkarthi.java8.lambda.exceptions;
 
 @FunctionalInterface
 public interface ThrowingConsumer<T, E extends Exception> {

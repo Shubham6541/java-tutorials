@@ -1,9 +1,9 @@
-package org.baeldung.web.hateoas.listener;
+package org.nklkarthi.web.hateoas.listener;
 
 import javax.servlet.http.HttpServletResponse;
 
-import org.baeldung.web.hateoas.event.PaginatedResultsRetrievedEvent;
-import org.baeldung.web.util.LinkUtil;
+import org.nklkarthi.web.hateoas.event.PaginatedResultsRetrievedEvent;
+import org.nklkarthi.web.util.LinkUtil;
 import org.springframework.context.ApplicationListener;
 import org.springframework.stereotype.Component;
 import org.springframework.web.util.UriComponentsBuilder;

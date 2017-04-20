@@ -1,7 +1,7 @@
 ### Relevant Articles:
-- [Spring Cloud – Bootstrapping](http://www.baeldung.com/spring-cloud-bootstrapping)
-- [Spring Cloud – Securing Services](http://www.baeldung.com/spring-cloud-securing-services)
-- [Spring Cloud – Tracing Services with Zipkin](http://www.baeldung.com/tracing-services-with-zipkin)
+- [Spring Cloud – Bootstrapping](http://www.nklkarthi.com/spring-cloud-bootstrapping)
+- [Spring Cloud – Securing Services](http://www.nklkarthi.com/spring-cloud-securing-services)
+- [Spring Cloud – Tracing Services with Zipkin](http://www.nklkarthi.com/tracing-services-with-zipkin)
 
 
 - To run the project:

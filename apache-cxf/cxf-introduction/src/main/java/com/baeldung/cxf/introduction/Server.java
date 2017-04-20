@@ -1,11 +1,11 @@
-package com.baeldung.cxf.introduction;
+package com.nklkarthi.cxf.introduction;
 
 import javax.xml.ws.Endpoint;
 
 public class Server {
     public static void main(String args[]) throws InterruptedException {
-        BaeldungImpl implementor = new BaeldungImpl();
-        String address = "http://localhost:8080/baeldung";
+        nklkarthiImpl implementor = new nklkarthiImpl();
+        String address = "http://localhost:8080/nklkarthi";
         Endpoint.publish(address, implementor);
         System.out.println("Server ready...");
         Thread.sleep(60 * 1000);

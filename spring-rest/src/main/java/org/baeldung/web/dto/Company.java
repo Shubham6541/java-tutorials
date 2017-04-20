@@ -1,4 +1,4 @@
-package org.baeldung.web.dto;
+package org.nklkarthi.web.dto;
 
 public class Company {
 

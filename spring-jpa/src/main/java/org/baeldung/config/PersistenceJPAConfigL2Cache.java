@@ -1,4 +1,4 @@
-package org.baeldung.config;
+package org.nklkarthi.config;
 
 import com.google.common.base.Preconditions;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,8 +23,8 @@ import java.util.Properties;
 @Configuration
 @EnableTransactionManagement
 @PropertySource({ "classpath:persistence-h2.properties" })
-@ComponentScan({ "org.baeldung.persistence" })
-@EnableJpaRepositories(basePackages = "org.baeldung.persistence.dao")
+@ComponentScan({ "org.nklkarthi.persistence" })
+@EnableJpaRepositories(basePackages = "org.nklkarthi.persistence.dao")
 public class PersistenceJPAConfigL2Cache {
 
     @Autowired
@@ -50,7 +50,7 @@ public class PersistenceJPAConfigL2Cache {
     }
 
     protected String[] getPackagesToScan() {
-        return new String[] { "org.baeldung.persistence.model" };
+        return new String[] { "org.nklkarthi.persistence.model" };
     }
 
     @Bean

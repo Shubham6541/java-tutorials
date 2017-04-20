@@ -1,5 +1,5 @@
 
-package com.baeldung.examples.guice;
+package com.nklkarthi.examples.guice;
 
 import com.google.inject.Inject;
 import com.google.inject.name.Named;
@@ -10,7 +10,7 @@ import java.util.logging.Logger;
 
 /**
  *
- * @author baeldung
+ * @author nklkarthi
  */
 public class Communication {
 

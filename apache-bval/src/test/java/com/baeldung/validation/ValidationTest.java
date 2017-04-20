@@ -1,4 +1,4 @@
-package com.baeldung.validation;
+package com.nklkarthi.validation;
 
 import java.io.File;
 import java.util.Set;
@@ -15,7 +15,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-import com.baeldung.model.User;
+import com.nklkarthi.model.User;
 
 public class ValidationTest {
     private static ValidatorFactory validatorFactory;

@@ -1,4 +1,4 @@
-package org.baeldung.web.test;
+package org.nklkarthi.web.test;
 
 import static org.hamcrest.Matchers.containsString;
 import static org.hamcrest.Matchers.equalTo;

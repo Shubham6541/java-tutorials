@@ -1,7 +1,7 @@
-package org.baeldung.boot.components;
+package org.nklkarthi.boot.components;
 
-import org.baeldung.boot.model.Foo;
-import org.baeldung.boot.repository.FooRepository;
+import org.nklkarthi.boot.model.Foo;
+import org.nklkarthi.boot.repository.FooRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

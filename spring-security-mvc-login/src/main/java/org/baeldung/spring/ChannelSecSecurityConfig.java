@@ -1,6 +1,6 @@
-package org.baeldung.spring;
+package org.nklkarthi.spring;
 
-import org.baeldung.security.CustomLogoutSuccessHandler;
+import org.nklkarthi.security.CustomLogoutSuccessHandler;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;

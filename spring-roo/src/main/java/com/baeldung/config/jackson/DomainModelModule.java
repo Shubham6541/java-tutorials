@@ -1,4 +1,4 @@
-package com.baeldung.config.jackson;
+package com.nklkarthi.config.jackson;
 import org.springframework.roo.addon.web.mvc.controller.annotations.config.RooDomainModelModule;
 
 /**

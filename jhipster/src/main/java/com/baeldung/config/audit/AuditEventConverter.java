@@ -1,6 +1,6 @@
-package com.baeldung.config.audit;
+package com.nklkarthi.config.audit;
 
-import com.baeldung.domain.PersistentAuditEvent;
+import com.nklkarthi.domain.PersistentAuditEvent;
 
 import org.springframework.boot.actuate.audit.AuditEvent;
 import org.springframework.security.web.authentication.WebAuthenticationDetails;

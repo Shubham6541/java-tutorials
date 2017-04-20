@@ -1,4 +1,4 @@
-package com.baeldung.jackson.polymorphism;
+package com.nklkarthi.jackson.polymorphism;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;

@@ -1,8 +1,8 @@
-package org.baeldung.config.converter;
+package org.nklkarthi.config.converter;
 
 import java.io.IOException;
 
-import org.baeldung.web.dto.Foo;
+import org.nklkarthi.web.dto.Foo;
 import org.springframework.http.HttpInputMessage;
 import org.springframework.http.HttpOutputMessage;
 import org.springframework.http.MediaType;

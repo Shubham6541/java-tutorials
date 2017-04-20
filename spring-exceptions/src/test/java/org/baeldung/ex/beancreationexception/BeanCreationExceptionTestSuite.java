@@ -1,4 +1,4 @@
-package org.baeldung.ex.beancreationexception;
+package org.nklkarthi.ex.beancreationexception;
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;

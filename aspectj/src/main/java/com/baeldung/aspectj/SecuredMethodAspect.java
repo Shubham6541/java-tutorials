@@ -1,4 +1,4 @@
-package com.baeldung.aspectj;
+package com.nklkarthi.aspectj;
 
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;

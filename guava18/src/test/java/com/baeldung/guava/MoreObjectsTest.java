@@ -1,8 +1,8 @@
-package com.baeldung.guava;
+package com.nklkarthi.guava;
 
-import com.baeldung.guava.entity.Administrator;
-import com.baeldung.guava.entity.Player;
-import com.baeldung.guava.entity.User;
+import com.nklkarthi.guava.entity.Administrator;
+import com.nklkarthi.guava.entity.Player;
+import com.nklkarthi.guava.entity.User;
 import org.junit.Assert;
 import org.junit.Test;
 

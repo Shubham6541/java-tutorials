@@ -1,4 +1,4 @@
-package com.baeldung.java.concurrentmap;
+package com.nklkarthi.java.concurrentmap;
 
 import org.junit.Before;
 import org.junit.Test;

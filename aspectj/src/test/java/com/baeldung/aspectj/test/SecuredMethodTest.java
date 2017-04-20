@@ -1,8 +1,8 @@
-package com.baeldung.aspectj.test;
+package com.nklkarthi.aspectj.test;
 
 import org.junit.Test;
 
-import com.baeldung.aspectj.SecuredMethod;
+import com.nklkarthi.aspectj.SecuredMethod;
 
 public class SecuredMethodTest {
     @Test

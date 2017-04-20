@@ -1,4 +1,4 @@
-package com.baeldung.apache.velocity.servlet;
+package com.nklkarthi.apache.velocity.servlet;
 
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;

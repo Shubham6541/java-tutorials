@@ -1,4 +1,4 @@
-package org.baeldung;
+package org.nklkarthi;
 
 import static io.restassured.RestAssured.preemptive;
 import static org.apache.commons.lang3.RandomStringUtils.randomAlphabetic;
@@ -8,7 +8,7 @@ import static org.junit.Assert.assertTrue;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 
-import org.baeldung.persistence.model.BookReview;
+import org.nklkarthi.persistence.model.BookReview;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

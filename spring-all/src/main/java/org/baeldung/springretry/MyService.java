@@ -1,4 +1,4 @@
-package org.baeldung.springretry;
+package org.nklkarthi.springretry;
 
 import java.sql.SQLException;
 

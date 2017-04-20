@@ -1,4 +1,4 @@
-package com.baeldung.elasticsearch;
+package com.nklkarthi.elasticsearch;
 
 import java.util.Date;
 

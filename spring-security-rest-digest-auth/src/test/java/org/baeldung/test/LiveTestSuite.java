@@ -1,8 +1,8 @@
-package org.baeldung.test;
+package org.nklkarthi.test;
 
-import org.baeldung.client.ClientNoSpringLiveTest;
-import org.baeldung.client.ClientWithSpringLiveTest;
-import org.baeldung.client.RawClientLiveTest;
+import org.nklkarthi.client.ClientNoSpringLiveTest;
+import org.nklkarthi.client.ClientWithSpringLiveTest;
+import org.nklkarthi.client.RawClientLiveTest;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 

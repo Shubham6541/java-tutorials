@@ -1,4 +1,4 @@
-package com.baeldung.strategy;
+package com.nklkarthi.strategy;
 
 import org.junit.Test;
 
@@ -7,7 +7,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.function.Function;
 
-import static com.baeldung.strategy.Discounter.*;
+import static com.nklkarthi.strategy.Discounter.*;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class StrategyDesignPatternUnitTest {

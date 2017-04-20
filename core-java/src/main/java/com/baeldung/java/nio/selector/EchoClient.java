@@ -1,4 +1,4 @@
-package com.baeldung.java.nio.selector;
+package com.nklkarthi.java.nio.selector;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;

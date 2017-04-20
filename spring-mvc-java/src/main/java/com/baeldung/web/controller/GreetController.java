@@ -1,6 +1,6 @@
-package com.baeldung.web.controller;
+package com.nklkarthi.web.controller;
 
-import com.baeldung.model.Greeting;
+import com.nklkarthi.model.Greeting;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 

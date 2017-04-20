@@ -1,4 +1,4 @@
-package com.baeldung.spring.statemachine.config;
+package com.nklkarthi.spring.statemachine.config;
 
 import org.springframework.statemachine.listener.StateMachineListenerAdapter;
 import org.springframework.statemachine.state.State;

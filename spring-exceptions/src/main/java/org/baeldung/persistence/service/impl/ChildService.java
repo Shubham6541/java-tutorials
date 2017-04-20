@@ -1,10 +1,10 @@
-package org.baeldung.persistence.service.impl;
+package org.nklkarthi.persistence.service.impl;
 
-import org.baeldung.persistence.common.AbstractService;
-import org.baeldung.persistence.common.IOperations;
-import org.baeldung.persistence.dao.IChildDao;
-import org.baeldung.persistence.model.Child;
-import org.baeldung.persistence.service.IChildService;
+import org.nklkarthi.persistence.common.AbstractService;
+import org.nklkarthi.persistence.common.IOperations;
+import org.nklkarthi.persistence.dao.IChildDao;
+import org.nklkarthi.persistence.model.Child;
+import org.nklkarthi.persistence.service.IChildService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

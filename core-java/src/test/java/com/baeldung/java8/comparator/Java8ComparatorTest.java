@@ -1,4 +1,4 @@
-package com.baeldung.java8.comparator;
+package com.nklkarthi.java8.comparator;
 
 import java.util.Arrays;
 import java.util.Comparator;

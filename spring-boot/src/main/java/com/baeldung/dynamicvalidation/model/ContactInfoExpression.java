@@ -1,4 +1,4 @@
-package com.baeldung.dynamicvalidation.model;
+package com.nklkarthi.dynamicvalidation.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

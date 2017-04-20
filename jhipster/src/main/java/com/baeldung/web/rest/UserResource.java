@@ -1,16 +1,16 @@
-package com.baeldung.web.rest;
+package com.nklkarthi.web.rest;
 
-import com.baeldung.config.Constants;
+import com.nklkarthi.config.Constants;
 import com.codahale.metrics.annotation.Timed;
-import com.baeldung.domain.User;
-import com.baeldung.repository.UserRepository;
-import com.baeldung.security.AuthoritiesConstants;
-import com.baeldung.service.MailService;
-import com.baeldung.service.UserService;
-import com.baeldung.service.dto.UserDTO;
-import com.baeldung.web.rest.vm.ManagedUserVM;
-import com.baeldung.web.rest.util.HeaderUtil;
-import com.baeldung.web.rest.util.PaginationUtil;
+import com.nklkarthi.domain.User;
+import com.nklkarthi.repository.UserRepository;
+import com.nklkarthi.security.AuthoritiesConstants;
+import com.nklkarthi.service.MailService;
+import com.nklkarthi.service.UserService;
+import com.nklkarthi.service.dto.UserDTO;
+import com.nklkarthi.web.rest.vm.ManagedUserVM;
+import com.nklkarthi.web.rest.util.HeaderUtil;
+import com.nklkarthi.web.rest.util.PaginationUtil;
 import io.github.jhipster.web.util.ResponseUtil;
 import io.swagger.annotations.ApiParam;
 

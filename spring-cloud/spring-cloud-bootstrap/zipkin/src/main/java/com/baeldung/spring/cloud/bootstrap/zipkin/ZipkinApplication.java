@@ -1,4 +1,4 @@
-package com.baeldung.spring.cloud.bootstrap.zipkin;
+package com.nklkarthi.spring.cloud.bootstrap.zipkin;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

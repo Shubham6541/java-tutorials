@@ -1,6 +1,6 @@
-package org.baeldung.web.util;
+package org.nklkarthi.web.util;
 
-import org.baeldung.web.exception.MyResourceNotFoundException;
+import org.nklkarthi.web.exception.MyResourceNotFoundException;
 import org.springframework.http.HttpStatus;
 
 /**

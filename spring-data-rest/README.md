@@ -2,7 +2,7 @@
 The "REST With Spring" Classes: http://bit.ly/restwithspring
 
 # About this project
-This project contains examples from the [Introduction to Spring Data REST](http://www.baeldung.com/spring-data-rest-intro) article from Baeldung.
+This project contains examples from the [Introduction to Spring Data REST](http://www.nklkarthi.com/spring-data-rest-intro) article from nklkarthi.
 
 # Running the project
 The application uses [Spring Boot](http://projects.spring.io/spring-boot/), so it is easy to run. You can start it any of a few ways:
@@ -14,7 +14,7 @@ The application uses [Spring Boot](http://projects.spring.io/spring-boot/), so i
 To view the running application, visit [http://localhost:8080](http://localhost:8080) in your browser
 
 ###Relevant Articles:
-- [Guide to Spring Data REST Validators](http://www.baeldung.com/spring-data-rest-validators)
-- [Working with Relationships in Spring Data REST](http://www.baeldung.com/spring-data-rest-relationships)
-- [AngularJS CRUD Application with Spring Data REST](http://www.baeldung.com/angularjs-crud-with-spring-data-rest)
-- [List of In-Memory Databases](http://www.baeldung.com/java-in-memory-databases)
+- [Guide to Spring Data REST Validators](http://www.nklkarthi.com/spring-data-rest-validators)
+- [Working with Relationships in Spring Data REST](http://www.nklkarthi.com/spring-data-rest-relationships)
+- [AngularJS CRUD Application with Spring Data REST](http://www.nklkarthi.com/angularjs-crud-with-spring-data-rest)
+- [List of In-Memory Databases](http://www.nklkarthi.com/java-in-memory-databases)

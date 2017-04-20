@@ -1,12 +1,12 @@
-package com.baeldung.jacksonannotation.serialization.jsonrawvalue;
+package com.nklkarthi.jacksonannotation.serialization.jsonrawvalue;
 
-import com.baeldung.jacksonannotation.domain.Person;
+import com.nklkarthi.jacksonannotation.domain.Person;
 import com.fasterxml.jackson.annotation.JsonRawValue;
 
 /**
  * Source code github.com/eugenp/tutorials
  *
- * @author Alex Theedom www.baeldung.com
+ * @author Alex Theedom www.nklkarthi.com
  * @version 1.0
  */
 public class Customer extends Person {

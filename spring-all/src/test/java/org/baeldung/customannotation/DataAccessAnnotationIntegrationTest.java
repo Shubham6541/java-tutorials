@@ -1,4 +1,4 @@
-package org.baeldung.customannotation;
+package org.nklkarthi.customannotation;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.is;

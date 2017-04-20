@@ -8,8 +8,8 @@ This article will demonstrate how to configure and use Apache Camel with Spring 
 <ul>
   <li><a href="http://camel.apache.org/">Apache Camel</a></li>
   <li><a href="http://www.enterpriseintegrationpatterns.com/patterns/messaging/toc.html">Enterprise Integration Patterns</a></li>
-  <li><a href="http://www.baeldung.com/apache-camel-intro">Introduction To Apache Camel</a></li>
-  <li><a href="http://www.baeldung.com/camel-integration-patterns">Integration Patterns With Apache Camel</a></li>
+  <li><a href="http://www.nklkarthi.com/apache-camel-intro">Introduction To Apache Camel</a></li>
+  <li><a href="http://www.nklkarthi.com/camel-integration-patterns">Integration Patterns With Apache Camel</a></li>
 </ul>
 
 <b><h2>Framework Versions:</h2></b>
@@ -29,7 +29,7 @@ To run this application you can either run our main class App from your IDE or y
 
 <code>mvn exec:java -Dexec.mainClass="App"</code>
 
-<b><h2>Relevant Articles on Baeldung</h2></b>
+<b><h2>Relevant Articles on nklkarthi</h2></b>
 <ul>
-  <li><a href="http://www.baeldung.com/spring-apache-camel-tutorial">Using Apache Camel with Spring</a></li>
+  <li><a href="http://www.nklkarthi.com/spring-apache-camel-tutorial">Using Apache Camel with Spring</a></li>
 </ul>

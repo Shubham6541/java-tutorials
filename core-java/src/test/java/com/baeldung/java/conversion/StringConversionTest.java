@@ -1,4 +1,4 @@
-package com.baeldung.java.conversion;
+package com.nklkarthi.java.conversion;
 
 import static org.junit.Assert.assertEquals;
 
@@ -13,7 +13,7 @@ import java.util.GregorianCalendar;
 
 import org.junit.Test;
 
-import com.baeldung.datetime.UseLocalDateTime;
+import com.nklkarthi.datetime.UseLocalDateTime;
 
 public class StringConversionTest {
 

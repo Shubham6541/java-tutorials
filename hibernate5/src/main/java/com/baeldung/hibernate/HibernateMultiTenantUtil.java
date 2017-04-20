@@ -1,4 +1,4 @@
-package com.baeldung.hibernate;
+package com.nklkarthi.hibernate;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -15,7 +15,7 @@ import org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionPro
 import org.hibernate.engine.jdbc.connections.spi.ConnectionProvider;
 import org.hibernate.service.ServiceRegistry;
 
-import com.baeldung.hibernate.pojo.Supplier;
+import com.nklkarthi.hibernate.pojo.Supplier;
 
 public class HibernateMultiTenantUtil {
     private static SessionFactory sessionFactory;

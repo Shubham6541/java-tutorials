@@ -1,6 +1,6 @@
-package org.baeldung.ex.dataintegrityviolationexception.spring;
+package org.nklkarthi.ex.dataintegrityviolationexception.spring;
 
-import org.baeldung.spring.config.PersistenceConfig;
+import org.nklkarthi.spring.config.PersistenceConfig;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Import;
 import org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor;
 
 @Configuration
-@ComponentScan("org.baeldung.ex.dataIntegrityviolationexception.cause1")
+@ComponentScan("org.nklkarthi.ex.dataIntegrityviolationexception.cause1")
 @Import(PersistenceConfig.class)
 public class Cause1DataContextWithJavaConfig {
 

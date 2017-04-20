@@ -1,4 +1,4 @@
-package org.baeldung.web.controller.mediatypes;
+package org.nklkarthi.web.controller.mediatypes;
 
 import com.jayway.restassured.http.ContentType;
 import org.junit.Test;
@@ -17,7 +17,7 @@ public class CustomMediaTypeControllerLiveTest {
     @Test
     public void givenServiceEndpoint_whenGetRequestFirstAPIVersion_thenShouldReturn200() {
         given()
-                .accept("application/vnd.baeldung.api.v1+json")
+                .accept("application/vnd.nklkarthi.api.v1+json")
         .when()
                 .get(URL_PREFIX + "/public/api/items/1")
         .then()
@@ -28,7 +28,7 @@ public class CustomMediaTypeControllerLiveTest {
     @Test
     public void givenServiceEndpoint_whenGetRequestSecondAPIVersion_thenShouldReturn200() {
         given()
-                .accept("application/vnd.baeldung.api.v2+json")
+                .accept("application/vnd.nklkarthi.api.v2+json")
         .when()
                 .get(URL_PREFIX + "/public/api/items/2")
         .then()

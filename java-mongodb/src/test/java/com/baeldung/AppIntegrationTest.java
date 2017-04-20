@@ -1,4 +1,4 @@
-package com.baeldung;
+package com.nklkarthi;
 
 import static org.junit.Assert.assertEquals;
 
@@ -57,7 +57,7 @@ public class AppIntegrationTest {
     public void testAddressPersistance() {
         BasicDBObject contact = new BasicDBObject();
         contact.put("name", "John");
-        contact.put("company", "Baeldung");
+        contact.put("company", "nklkarthi");
 
         // Inserting document
         collection.insert(contact);

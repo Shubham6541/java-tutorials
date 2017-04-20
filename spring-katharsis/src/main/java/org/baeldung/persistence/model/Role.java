@@ -1,4 +1,4 @@
-package org.baeldung.persistence.model;
+package org.nklkarthi.persistence.model;
 
 import io.katharsis.resource.annotations.JsonApiId;
 import io.katharsis.resource.annotations.JsonApiResource;

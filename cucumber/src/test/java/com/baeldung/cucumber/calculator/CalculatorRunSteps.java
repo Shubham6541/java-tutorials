@@ -1,4 +1,4 @@
-package com.baeldung.cucumber.calculator;
+package com.nklkarthi.cucumber.calculator;
 
 import org.hamcrest.Matchers;
 import org.junit.Assert;

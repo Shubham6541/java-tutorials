@@ -1,4 +1,4 @@
-package com.baeldung.spring.domain;
+package com.nklkarthi.spring.domain;
 
 public class Customer {
     private String customerId;

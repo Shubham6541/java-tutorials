@@ -1,4 +1,4 @@
-package com.baeldung.spring.cloud.bootstrap.svcrating.rating;
+package com.nklkarthi.spring.cloud.bootstrap.svcrating.rating;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

@@ -1,10 +1,10 @@
-package com.baeldung.jackson.serialization;
+package com.nklkarthi.jackson.serialization;
 
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.stream.Collectors;
 
-import com.baeldung.jackson.entities.ActorJackson;
+import com.nklkarthi.jackson.entities.ActorJackson;
 
 import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.databind.SerializerProvider;

@@ -1,4 +1,4 @@
-package com.baeldung.spring_data.model;
+package com.nklkarthi.spring_data.model;
 
 import javaslang.collection.Seq;
 

@@ -1,4 +1,4 @@
-package com.baeldung.apache.velocity.model;
+package com.nklkarthi.apache.velocity.model;
 
 public class Product {
 

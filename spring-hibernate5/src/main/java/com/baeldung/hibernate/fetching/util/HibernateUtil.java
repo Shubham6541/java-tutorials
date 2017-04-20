@@ -1,4 +1,4 @@
-package com.baeldung.hibernate.fetching.util;
+package com.nklkarthi.hibernate.fetching.util;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;

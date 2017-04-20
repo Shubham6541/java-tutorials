@@ -1,6 +1,6 @@
-package org.baeldung.spring.data.cassandra.repository;
+package org.nklkarthi.spring.data.cassandra.repository;
 
-import org.baeldung.spring.data.cassandra.model.Book;
+import org.nklkarthi.spring.data.cassandra.model.Book;
 import org.springframework.data.cassandra.repository.CassandraRepository;
 import org.springframework.data.cassandra.repository.Query;
 import org.springframework.stereotype.Repository;

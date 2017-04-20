@@ -1,4 +1,4 @@
-package com.baeldung.powermockito.introduction;
+package com.nklkarthi.powermockito.introduction;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -10,7 +10,7 @@ import static org.junit.Assert.assertEquals;
 import static org.powermock.api.mockito.PowerMockito.*;
 
 @RunWith(PowerMockRunner.class)
-@PrepareForTest(fullyQualifiedNames = "com.baeldung.powermockito.introduction.*")
+@PrepareForTest(fullyQualifiedNames = "com.nklkarthi.powermockito.introduction.*")
 public class PowerMockitoTest {
 
     @Test
@@ -21,17 +21,17 @@ public class PowerMockitoTest {
         CollaboratorWithFinalMethods collaborator = new CollaboratorWithFinalMethods();
         verifyNew(CollaboratorWithFinalMethods.class).withNoArguments();
 
-        when(collaborator.helloMethod()).thenReturn("Hello Baeldung!");
+        when(collaborator.helloMethod()).thenReturn("Hello nklkarthi!");
         String welcome = collaborator.helloMethod();
         Mockito.verify(collaborator).helloMethod();
-        assertEquals("Hello Baeldung!", welcome);
+        assertEquals("Hello nklkarthi!", welcome);
     }
 
     @Test(expected = RuntimeException.class)
     public void givenStaticMethods_whenUsingPowerMockito_thenCorrect() {
         mockStatic(CollaboratorWithStaticMethods.class);
 
-        when(CollaboratorWithStaticMethods.firstMethod(Mockito.anyString())).thenReturn("Hello Baeldung!");
+        when(CollaboratorWithStaticMethods.firstMethod(Mockito.anyString())).thenReturn("Hello nklkarthi!");
         when(CollaboratorWithStaticMethods.secondMethod()).thenReturn("Nothing special");
         doThrow(new RuntimeException()).when(CollaboratorWithStaticMethods.class);
         CollaboratorWithStaticMethods.thirdMethod();
@@ -39,8 +39,8 @@ public class PowerMockitoTest {
         String firstWelcome = CollaboratorWithStaticMethods.firstMethod("Whoever");
         String secondWelcome = CollaboratorWithStaticMethods.firstMethod("Whatever");
 
-        assertEquals("Hello Baeldung!", firstWelcome);
-        assertEquals("Hello Baeldung!", secondWelcome);
+        assertEquals("Hello nklkarthi!", firstWelcome);
+        assertEquals("Hello nklkarthi!", secondWelcome);
 
         verifyStatic(Mockito.times(2));
         CollaboratorWithStaticMethods.firstMethod(Mockito.anyString());

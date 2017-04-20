@@ -1,6 +1,6 @@
-package com.baeldung.greeter;
+package com.nklkarthi.greeter;
 
-import static com.baeldung.greeter.GreeterConfigParams.*;
+import static com.nklkarthi.greeter.GreeterConfigParams.*;
 import static org.junit.Assert.assertEquals;
 
 import java.time.LocalDateTime;

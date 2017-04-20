@@ -1,4 +1,4 @@
-package com.baeldung.kotlin
+package com.nklkarthi.kotlin
 
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertTrue

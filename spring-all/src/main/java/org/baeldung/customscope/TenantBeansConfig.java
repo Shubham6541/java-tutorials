@@ -1,4 +1,4 @@
-package org.baeldung.customscope;
+package org.nklkarthi.customscope;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -1,4 +1,4 @@
-package com.baeldung.patterns.front.controller.data;
+package com.nklkarthi.patterns.front.controller.data;
 
 public interface Book {
     String getAuthor();

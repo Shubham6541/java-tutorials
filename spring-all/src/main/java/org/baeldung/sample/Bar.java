@@ -1,4 +1,4 @@
-package org.baeldung.sample;
+package org.nklkarthi.sample;
 
 public class Bar {
 

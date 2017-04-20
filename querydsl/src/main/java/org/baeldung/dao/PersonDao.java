@@ -1,9 +1,9 @@
-package org.baeldung.dao;
+package org.nklkarthi.dao;
 
 import java.util.List;
 import java.util.Map;
 
-import org.baeldung.entity.Person;
+import org.nklkarthi.entity.Person;
 
 public interface PersonDao {
 

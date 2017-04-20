@@ -1,4 +1,4 @@
-package com.baeldung.cglib.proxy;
+package com.nklkarthi.cglib.proxy;
 
 import net.sf.cglib.proxy.Enhancer;
 import net.sf.cglib.proxy.FixedValue;

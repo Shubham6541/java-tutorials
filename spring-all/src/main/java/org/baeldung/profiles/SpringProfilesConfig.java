@@ -1,10 +1,10 @@
-package org.baeldung.profiles;
+package org.nklkarthi.profiles;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@ComponentScan("org.baeldung.profiles")
+@ComponentScan("org.nklkarthi.profiles")
 public class SpringProfilesConfig {
 
 }

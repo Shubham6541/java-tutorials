@@ -1,4 +1,4 @@
-package com.baeldung.axon.commands;
+package com.nklkarthi.axon.commands;
 
 
 import org.axonframework.commandhandling.TargetAggregateIdentifier;

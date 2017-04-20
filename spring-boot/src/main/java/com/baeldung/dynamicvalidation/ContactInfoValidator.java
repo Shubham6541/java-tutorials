@@ -1,7 +1,7 @@
-package com.baeldung.dynamicvalidation;
+package com.nklkarthi.dynamicvalidation;
 
-import com.baeldung.dynamicvalidation.dao.ContactInfoExpressionRepository;
-import com.baeldung.dynamicvalidation.model.ContactInfoExpression;
+import com.nklkarthi.dynamicvalidation.dao.ContactInfoExpressionRepository;
+import com.nklkarthi.dynamicvalidation.model.ContactInfoExpression;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;

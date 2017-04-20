@@ -1,4 +1,4 @@
-package com.baeldung.dynamicvalidation.config;
+package com.nklkarthi.dynamicvalidation.config;
 
 import javax.sql.DataSource;
 
@@ -10,8 +10,8 @@ import org.springframework.jdbc.datasource.embedded.EmbeddedDatabase;
 import org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseBuilder;
 import org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseType;
 
-@EnableJpaRepositories("com.baeldung.dynamicvalidation.dao")
-@EntityScan("com.baeldung.dynamicvalidation.model")
+@EnableJpaRepositories("com.nklkarthi.dynamicvalidation.dao")
+@EntityScan("com.nklkarthi.dynamicvalidation.model")
 @Configuration
 public class PersistenceConfig {
 

@@ -1,11 +1,11 @@
-package com.baeldung;
+package com.nklkarthi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan(basePackages = { "com.baeldung" })
+@ComponentScan(basePackages = { "com.nklkarthi" })
 public class Application {
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);

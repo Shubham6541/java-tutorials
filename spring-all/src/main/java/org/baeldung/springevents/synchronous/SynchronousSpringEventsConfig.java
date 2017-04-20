@@ -1,10 +1,10 @@
-package org.baeldung.springevents.synchronous;
+package org.nklkarthi.springevents.synchronous;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@ComponentScan("org.baeldung.springevents.synchronous")
+@ComponentScan("org.nklkarthi.springevents.synchronous")
 public class SynchronousSpringEventsConfig {
 
 }

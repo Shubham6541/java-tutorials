@@ -1,7 +1,7 @@
-package com.baeldung.patterns.intercepting.filter.commands;
+package com.nklkarthi.patterns.intercepting.filter.commands;
 
-import com.baeldung.patterns.intercepting.filter.filters.FilterManager;
-import com.baeldung.patterns.intercepting.filter.filters.OnIntercept;
+import com.nklkarthi.patterns.intercepting.filter.filters.FilterManager;
+import com.nklkarthi.patterns.intercepting.filter.filters.OnIntercept;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;

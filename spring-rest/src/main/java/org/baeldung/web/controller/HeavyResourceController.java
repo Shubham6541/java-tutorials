@@ -1,9 +1,9 @@
-package org.baeldung.web.controller;
+package org.nklkarthi.web.controller;
 
 
-import org.baeldung.repository.HeavyResourceRepository;
-import org.baeldung.web.dto.HeavyResource;
-import org.baeldung.web.dto.HeavyResourceAddressOnly;
+import org.nklkarthi.repository.HeavyResourceRepository;
+import org.nklkarthi.web.dto.HeavyResource;
+import org.nklkarthi.web.dto.HeavyResourceAddressOnly;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

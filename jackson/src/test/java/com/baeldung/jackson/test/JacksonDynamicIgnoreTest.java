@@ -1,14 +1,14 @@
-package com.baeldung.jackson.test;
+package com.nklkarthi.jackson.test;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
 import java.util.Arrays;
 
-import com.baeldung.jackson.dynamicIgnore.Address;
-import com.baeldung.jackson.dynamicIgnore.HidableSerializer;
-import com.baeldung.jackson.dynamicIgnore.Person;
-import com.baeldung.jackson.dynamicIgnore.Hidable;
+import com.nklkarthi.jackson.dynamicIgnore.Address;
+import com.nklkarthi.jackson.dynamicIgnore.HidableSerializer;
+import com.nklkarthi.jackson.dynamicIgnore.Person;
+import com.nklkarthi.jackson.dynamicIgnore.Hidable;
 import org.junit.Before;
 import org.junit.Test;
 

@@ -1,8 +1,8 @@
-package org.baeldung.repository;
+package org.nklkarthi.repository;
 
-import org.baeldung.web.dto.HeavyResource;
-import org.baeldung.web.dto.HeavyResourceAddressOnly;
-import org.baeldung.web.dto.HeavyResourceAddressPartialUpdate;
+import org.nklkarthi.web.dto.HeavyResource;
+import org.nklkarthi.web.dto.HeavyResourceAddressOnly;
+import org.nklkarthi.web.dto.HeavyResourceAddressPartialUpdate;
 
 import java.util.Map;
 

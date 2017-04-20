@@ -1,4 +1,4 @@
-package com.baeldung.jacksonannotation.miscellaneous.disable;
+package com.nklkarthi.jacksonannotation.miscellaneous.disable;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.MapperFeature;
@@ -11,7 +11,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 /**
  * Source code github.com/eugenp/tutorials
  *
- * @author Alex Theedom www.baeldung.com
+ * @author Alex Theedom www.nklkarthi.com
  * @version 1.0
  */
 public class DisableTest {

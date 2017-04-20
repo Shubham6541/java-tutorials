@@ -1,4 +1,4 @@
-package org.baeldung.boot.boottest;
+package org.nklkarthi.boot.boottest;
 
 import java.util.List;
 import java.util.Optional;

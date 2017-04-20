@@ -1,4 +1,4 @@
-package com.baeldung.xmlunit;
+package com.nklkarthi.xmlunit;
 
 import org.w3c.dom.Attr;
 import org.w3c.dom.Node;

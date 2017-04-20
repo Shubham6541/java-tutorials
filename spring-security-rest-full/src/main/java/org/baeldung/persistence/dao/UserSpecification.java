@@ -1,12 +1,12 @@
-package org.baeldung.persistence.dao;
+package org.nklkarthi.persistence.dao;
 
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Predicate;
 import javax.persistence.criteria.Root;
 
-import org.baeldung.persistence.model.User;
-import org.baeldung.web.util.SpecSearchCriteria;
+import org.nklkarthi.persistence.model.User;
+import org.nklkarthi.web.util.SpecSearchCriteria;
 import org.springframework.data.jpa.domain.Specification;
 
 public class UserSpecification implements Specification<User> {

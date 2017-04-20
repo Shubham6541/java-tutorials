@@ -8,7 +8,7 @@
 
     <name>lombok</name>
 
-    <groupId>com.baeldung</groupId>
+    <groupId>com.nklkarthi</groupId>
     <artifactId>lombok</artifactId>
     <version>0.1-SNAPSHOT</version>
 

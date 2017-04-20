@@ -1,4 +1,4 @@
-package com.baeldung.spring.mybatis.model;
+package com.nklkarthi.spring.mybatis.model;
 
 import java.util.Date;
 

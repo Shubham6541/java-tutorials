@@ -1,9 +1,9 @@
-package org.baeldung.caching.test;
+package org.nklkarthi.caching.test;
 
-import org.baeldung.caching.config.CachingConfig;
-import org.baeldung.caching.example.Customer;
-import org.baeldung.caching.example.CustomerDataService;
-import org.baeldung.caching.example.CustomerServiceWithParent;
+import org.nklkarthi.caching.config.CachingConfig;
+import org.nklkarthi.caching.example.Customer;
+import org.nklkarthi.caching.example.CustomerDataService;
+import org.nklkarthi.caching.example.CustomerServiceWithParent;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

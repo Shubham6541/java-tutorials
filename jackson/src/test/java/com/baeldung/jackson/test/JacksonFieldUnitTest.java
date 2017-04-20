@@ -1,4 +1,4 @@
-package com.baeldung.jackson.test;
+package com.nklkarthi.jackson.test;
 
 import static org.hamcrest.Matchers.containsString;
 import static org.hamcrest.Matchers.equalTo;
@@ -8,9 +8,9 @@ import static org.junit.Assert.assertThat;
 
 import java.io.IOException;
 
-import com.baeldung.jackson.field.MyDtoAccessLevel;
-import com.baeldung.jackson.field.MyDtoWithSetter;
-import com.baeldung.jackson.field.MyDtoWithGetter;
+import com.nklkarthi.jackson.field.MyDtoAccessLevel;
+import com.nklkarthi.jackson.field.MyDtoWithSetter;
+import com.nklkarthi.jackson.field.MyDtoWithGetter;
 import org.junit.Test;
 
 import com.fasterxml.jackson.annotation.JsonAutoDetect.Visibility;

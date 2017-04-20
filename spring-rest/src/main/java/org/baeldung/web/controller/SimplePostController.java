@@ -1,4 +1,4 @@
-package org.baeldung.web.controller;
+package org.nklkarthi.web.controller;
 
 import java.io.BufferedOutputStream;
 import java.io.File;
@@ -7,7 +7,7 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import org.baeldung.web.dto.Foo;
+import org.nklkarthi.web.dto.Foo;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;

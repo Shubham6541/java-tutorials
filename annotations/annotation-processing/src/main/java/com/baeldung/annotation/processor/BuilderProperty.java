@@ -1,4 +1,4 @@
-package com.baeldung.annotation.processor;
+package com.nklkarthi.annotation.processor;
 
 import java.lang.annotation.*;
 

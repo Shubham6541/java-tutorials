@@ -1,12 +1,12 @@
-package org.baeldung.web;
+package org.nklkarthi.web;
 
 import static org.junit.Assert.assertEquals;
 
-import org.baeldung.config.MvcConfig;
-import org.baeldung.config.PersistenceConfig;
-import org.baeldung.config.SecurityConfig;
-import org.baeldung.persistence.dao.UserRepository;
-import org.baeldung.persistence.model.User;
+import org.nklkarthi.config.MvcConfig;
+import org.nklkarthi.config.PersistenceConfig;
+import org.nklkarthi.config.SecurityConfig;
+import org.nklkarthi.persistence.dao.UserRepository;
+import org.nklkarthi.persistence.model.User;
 import org.junit.After;
 import org.junit.Test;
 import org.junit.runner.RunWith;

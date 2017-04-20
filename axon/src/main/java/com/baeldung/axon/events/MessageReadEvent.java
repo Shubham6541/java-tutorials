@@ -1,4 +1,4 @@
-package com.baeldung.axon.events;
+package com.nklkarthi.axon.events;
 
 public class MessageReadEvent {
  

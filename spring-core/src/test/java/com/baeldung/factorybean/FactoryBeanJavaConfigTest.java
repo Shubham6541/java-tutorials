@@ -1,4 +1,4 @@
-package com.baeldung.factorybean;
+package com.nklkarthi.factorybean;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

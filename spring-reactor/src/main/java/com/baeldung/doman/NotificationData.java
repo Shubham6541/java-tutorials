@@ -1,4 +1,4 @@
-package com.baeldung.doman;
+package com.nklkarthi.doman;
 
 public class NotificationData {
 

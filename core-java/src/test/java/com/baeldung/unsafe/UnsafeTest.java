@@ -1,4 +1,4 @@
-package com.baeldung.unsafe;
+package com.nklkarthi.unsafe;
 
 import org.junit.Before;
 import org.junit.Test;

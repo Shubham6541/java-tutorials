@@ -1,4 +1,4 @@
-package org.baeldung.spring43.defaultmethods;
+package org.nklkarthi.spring43.defaultmethods;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

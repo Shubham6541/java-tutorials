@@ -1,4 +1,4 @@
-package com.baeldung.jackson.test;
+package com.nklkarthi.jackson.test;
 
 import static org.hamcrest.Matchers.containsString;
 import static org.hamcrest.Matchers.is;
@@ -14,30 +14,30 @@ import java.util.TimeZone;
 
 import org.junit.Test;
 
-import com.baeldung.jackson.annotation.BeanWithCreator;
-import com.baeldung.jackson.annotation.BeanWithCustomAnnotation;
-import com.baeldung.jackson.annotation.BeanWithFilter;
-import com.baeldung.jackson.annotation.BeanWithGetter;
-import com.baeldung.jackson.annotation.BeanWithIgnore;
-import com.baeldung.jackson.annotation.BeanWithInject;
-import com.baeldung.jackson.annotation.ExtendableBean;
-import com.baeldung.jackson.annotation.MyBean;
-import com.baeldung.jackson.annotation.PrivateBean;
-import com.baeldung.jackson.annotation.RawBean;
-import com.baeldung.jackson.annotation.UnwrappedUser;
-import com.baeldung.jackson.annotation.UserWithIgnoreType;
-import com.baeldung.jackson.annotation.Zoo;
-import com.baeldung.jackson.bidirection.ItemWithIdentity;
-import com.baeldung.jackson.bidirection.ItemWithRef;
-import com.baeldung.jackson.bidirection.UserWithIdentity;
-import com.baeldung.jackson.bidirection.UserWithRef;
-import com.baeldung.jackson.date.EventWithFormat;
-import com.baeldung.jackson.date.EventWithSerializer;
-import com.baeldung.jackson.dtos.MyMixInForIgnoreType;
-import com.baeldung.jackson.dtos.withEnum.DistanceEnumWithValue;
-import com.baeldung.jackson.exception.UserWithRoot;
-import com.baeldung.jackson.jsonview.Item;
-import com.baeldung.jackson.jsonview.Views;
+import com.nklkarthi.jackson.annotation.BeanWithCreator;
+import com.nklkarthi.jackson.annotation.BeanWithCustomAnnotation;
+import com.nklkarthi.jackson.annotation.BeanWithFilter;
+import com.nklkarthi.jackson.annotation.BeanWithGetter;
+import com.nklkarthi.jackson.annotation.BeanWithIgnore;
+import com.nklkarthi.jackson.annotation.BeanWithInject;
+import com.nklkarthi.jackson.annotation.ExtendableBean;
+import com.nklkarthi.jackson.annotation.MyBean;
+import com.nklkarthi.jackson.annotation.PrivateBean;
+import com.nklkarthi.jackson.annotation.RawBean;
+import com.nklkarthi.jackson.annotation.UnwrappedUser;
+import com.nklkarthi.jackson.annotation.UserWithIgnoreType;
+import com.nklkarthi.jackson.annotation.Zoo;
+import com.nklkarthi.jackson.bidirection.ItemWithIdentity;
+import com.nklkarthi.jackson.bidirection.ItemWithRef;
+import com.nklkarthi.jackson.bidirection.UserWithIdentity;
+import com.nklkarthi.jackson.bidirection.UserWithRef;
+import com.nklkarthi.jackson.date.EventWithFormat;
+import com.nklkarthi.jackson.date.EventWithSerializer;
+import com.nklkarthi.jackson.dtos.MyMixInForIgnoreType;
+import com.nklkarthi.jackson.dtos.withEnum.DistanceEnumWithValue;
+import com.nklkarthi.jackson.exception.UserWithRoot;
+import com.nklkarthi.jackson.jsonview.Item;
+import com.nklkarthi.jackson.jsonview.Views;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.InjectableValues;
 import com.fasterxml.jackson.databind.MapperFeature;
@@ -338,13 +338,13 @@ public class JacksonAnnotationTest {
     // @Ignore("Jackson 2.7.1-1 seems to have changed the API regarding mixins")
     @Test
     public void whenSerializingUsingMixInAnnotation_thenCorrect() throws JsonProcessingException {
-        final com.baeldung.jackson.dtos.Item item = new com.baeldung.jackson.dtos.Item(1, "book", null);
+        final com.nklkarthi.jackson.dtos.Item item = new com.nklkarthi.jackson.dtos.Item(1, "book", null);
 
         String result = new ObjectMapper().writeValueAsString(item);
         assertThat(result, containsString("owner"));
 
         final ObjectMapper mapper = new ObjectMapper();
-        mapper.addMixIn(com.baeldung.jackson.dtos.User.class, MyMixInForIgnoreType.class);
+        mapper.addMixIn(com.nklkarthi.jackson.dtos.User.class, MyMixInForIgnoreType.class);
 
         result = mapper.writeValueAsString(item);
         assertThat(result, not(containsString("owner")));

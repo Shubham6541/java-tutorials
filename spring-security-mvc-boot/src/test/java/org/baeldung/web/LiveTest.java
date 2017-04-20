@@ -1,9 +1,9 @@
-package org.baeldung.web;
+package org.nklkarthi.web;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
-import org.baeldung.persistence.model.Foo;
+import org.nklkarthi.persistence.model.Foo;
 import org.junit.Test;
 import org.springframework.http.MediaType;
 

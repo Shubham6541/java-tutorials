@@ -1,4 +1,4 @@
-package com.baeldung.wicket.examples.cafeaddress;
+package com.nklkarthi.wicket.examples.cafeaddress;
 
 import org.apache.wicket.ajax.AjaxRequestTarget;
 import org.apache.wicket.ajax.form.AjaxFormComponentUpdatingBehavior;

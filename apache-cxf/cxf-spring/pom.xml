@@ -4,7 +4,7 @@
     <artifactId>cxf-spring</artifactId>
     <packaging>war</packaging>
     <parent>
-        <groupId>com.baeldung</groupId>
+        <groupId>com.nklkarthi</groupId>
         <artifactId>apache-cxf</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>

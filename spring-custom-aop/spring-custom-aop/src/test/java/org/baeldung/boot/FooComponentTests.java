@@ -1,7 +1,7 @@
-package org.baeldung.boot;
+package org.nklkarthi.boot;
 
-import org.baeldung.boot.components.FooService;
-import org.baeldung.boot.model.Foo;
+import org.nklkarthi.boot.components.FooService;
+import org.nklkarthi.boot.model.Foo;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

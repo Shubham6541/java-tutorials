@@ -1,4 +1,4 @@
-package com.baeldung.rest.cucumber;
+package com.nklkarthi.rest.cucumber;
 
 import org.junit.runner.RunWith;
 import cucumber.api.CucumberOptions;

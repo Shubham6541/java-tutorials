@@ -1,4 +1,4 @@
-package com.baeldung.list.listoflist;
+package com.nklkarthi.list.listoflist;
 
 public interface Stationery {
 

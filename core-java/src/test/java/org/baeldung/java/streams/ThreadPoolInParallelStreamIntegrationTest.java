@@ -1,4 +1,4 @@
-package org.baeldung.java.streams;
+package org.nklkarthi.java.streams;
 
 import org.junit.Test;
 

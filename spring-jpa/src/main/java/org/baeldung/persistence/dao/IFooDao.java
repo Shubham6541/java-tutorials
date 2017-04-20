@@ -1,8 +1,8 @@
-package org.baeldung.persistence.dao;
+package org.nklkarthi.persistence.dao;
 
 import java.util.List;
 
-import org.baeldung.persistence.model.Foo;
+import org.nklkarthi.persistence.model.Foo;
 
 public interface IFooDao {
 

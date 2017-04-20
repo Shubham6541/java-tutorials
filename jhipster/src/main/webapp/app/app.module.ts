@@ -5,11 +5,11 @@ import { RouterModule } from '@angular/router';
 import { BrowserModule } from '@angular/platform-browser';
 import { Ng2Webstorage } from 'ng2-webstorage';
 
-import { BaeldungSharedModule, UserRouteAccessService } from './shared';
-import { BaeldungHomeModule } from './home/home.module';
-import { BaeldungAdminModule } from './admin/admin.module';
-import { BaeldungAccountModule } from './account/account.module';
-import { BaeldungEntityModule } from './entities/entity.module';
+import { nklkarthiSharedModule, UserRouteAccessService } from './shared';
+import { nklkarthiHomeModule } from './home/home.module';
+import { nklkarthiAdminModule } from './admin/admin.module';
+import { nklkarthiAccountModule } from './account/account.module';
+import { nklkarthiEntityModule } from './entities/entity.module';
 
 import { LayoutRoutingModule } from './layouts';
 import { customHttpProvider } from './blocks/interceptor/http.provider';
@@ -31,11 +31,11 @@ import {
         BrowserModule,
         LayoutRoutingModule,
         Ng2Webstorage.forRoot({ prefix: 'jhi', separator: '-'}),
-        BaeldungSharedModule,
-        BaeldungHomeModule,
-        BaeldungAdminModule,
-        BaeldungAccountModule,
-        BaeldungEntityModule
+        nklkarthiSharedModule,
+        nklkarthiHomeModule,
+        nklkarthiAdminModule,
+        nklkarthiAccountModule,
+        nklkarthiEntityModule
     ],
     declarations: [
         JhiMainComponent,
@@ -55,4 +55,4 @@ import {
     ],
     bootstrap: [ JhiMainComponent ]
 })
-export class BaeldungAppModule {}
+export class nklkarthiAppModule {}

@@ -1,8 +1,8 @@
-package org.baeldung.spring.data.couchbase2b.service;
+package org.nklkarthi.spring.data.couchbase2b.service;
 
 import java.util.Set;
 
-import org.baeldung.spring.data.couchbase.model.Campus;
+import org.nklkarthi.spring.data.couchbase.model.Campus;
 import org.springframework.data.geo.Distance;
 import org.springframework.data.geo.Point;
 

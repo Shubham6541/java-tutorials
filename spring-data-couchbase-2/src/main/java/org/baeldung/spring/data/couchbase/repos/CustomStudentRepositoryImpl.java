@@ -1,8 +1,8 @@
-package org.baeldung.spring.data.couchbase.repos;
+package org.nklkarthi.spring.data.couchbase.repos;
 
 import java.util.List;
 
-import org.baeldung.spring.data.couchbase.model.Student;
+import org.nklkarthi.spring.data.couchbase.model.Student;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.couchbase.core.CouchbaseTemplate;
 

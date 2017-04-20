@@ -1,4 +1,4 @@
-package org.baeldung.web.resolver;
+package org.nklkarthi.web.resolver;
 
 import org.springframework.core.MethodParameter;
 import org.springframework.stereotype.Component;

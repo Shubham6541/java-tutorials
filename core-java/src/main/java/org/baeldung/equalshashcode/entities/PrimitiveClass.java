@@ -1,4 +1,4 @@
-package org.baeldung.equalshashcode.entities;
+package org.nklkarthi.equalshashcode.entities;
 
 public class PrimitiveClass {
 

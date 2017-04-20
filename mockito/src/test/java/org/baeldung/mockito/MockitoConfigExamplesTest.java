@@ -1,4 +1,4 @@
-package org.baeldung.mockito;
+package org.nklkarthi.mockito;
 
 import org.junit.Test;
 import org.mockito.Mockito;

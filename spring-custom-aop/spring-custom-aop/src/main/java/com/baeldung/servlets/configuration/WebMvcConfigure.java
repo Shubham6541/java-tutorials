@@ -1,4 +1,4 @@
-package com.baeldung.servlets.configuration;
+package com.nklkarthi.servlets.configuration;
 
 import org.springframework.boot.web.support.ErrorPageFilter;
 import org.springframework.context.annotation.Bean;

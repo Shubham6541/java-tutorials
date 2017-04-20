@@ -1,4 +1,4 @@
-package com.baeldung.freemarker.controller;
+package com.nklkarthi.freemarker.controller;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.baeldung.freemarker.model.Car;
+import com.nklkarthi.freemarker.model.Car;
 
 @Controller
 public class SpringController {

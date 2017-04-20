@@ -1,10 +1,10 @@
-package org.baeldung.persistence;
+package org.nklkarthi.persistence;
 
-import org.baeldung.persistence.query.JPACriteriaQueryIntegrationTest;
-import org.baeldung.persistence.query.JPAQuerydslIntegrationTest;
-import org.baeldung.persistence.query.JPASpecificationIntegrationTest;
-import org.baeldung.persistence.query.RsqlIntegrationTest;
-import org.baeldung.persistence.service.FooServicePersistenceIntegrationTest;
+import org.nklkarthi.persistence.query.JPACriteriaQueryIntegrationTest;
+import org.nklkarthi.persistence.query.JPAQuerydslIntegrationTest;
+import org.nklkarthi.persistence.query.JPASpecificationIntegrationTest;
+import org.nklkarthi.persistence.query.RsqlIntegrationTest;
+import org.nklkarthi.persistence.service.FooServicePersistenceIntegrationTest;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 

@@ -1,9 +1,9 @@
-package com.baeldung.jackson.deserialization;
+package com.nklkarthi.jackson.deserialization;
 
 import java.io.IOException;
 
-import com.baeldung.jackson.dtos.Item;
-import com.baeldung.jackson.dtos.User;
+import com.nklkarthi.jackson.dtos.Item;
+import com.nklkarthi.jackson.dtos.User;
 import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.DeserializationContext;

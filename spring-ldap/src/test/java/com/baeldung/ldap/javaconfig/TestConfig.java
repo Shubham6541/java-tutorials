@@ -1,4 +1,4 @@
-package com.baeldung.ldap.javaconfig;
+package com.nklkarthi.ldap.javaconfig;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -12,11 +12,11 @@ import org.springframework.ldap.core.LdapTemplate;
 import org.springframework.ldap.core.support.LdapContextSource;
 import org.springframework.ldap.test.TestContextSourceFactoryBean;
 
-import com.baeldung.ldap.client.LdapClient;
+import com.nklkarthi.ldap.client.LdapClient;
 
 @Configuration
 @PropertySource("classpath:test_application.properties")
-@ComponentScan(basePackages = { "com.baeldung.ldap.*" })
+@ComponentScan(basePackages = { "com.nklkarthi.ldap.*" })
 @Profile("testlive")
 public class TestConfig {
     @Autowired

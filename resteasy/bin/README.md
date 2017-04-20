@@ -4,5 +4,5 @@
 
 
 ### Relevant Articles:
-- [A Guide to RESTEasy](http://www.baeldung.com/resteasy-tutorial)
-- [RESTEasy Client API](http://www.baeldung.com/resteasy-client-tutorial)
+- [A Guide to RESTEasy](http://www.nklkarthi.com/resteasy-tutorial)
+- [RESTEasy Client API](http://www.nklkarthi.com/resteasy-client-tutorial)

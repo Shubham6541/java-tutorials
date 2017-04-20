@@ -1,4 +1,4 @@
-package com.baeldung.stringtokenizer;
+package com.nklkarthi.stringtokenizer;
 
 import org.junit.Test;
 
@@ -10,12 +10,12 @@ import static org.junit.Assert.assertEquals;
 public class TokenizerTest {
 
 	private final MyTokenizer myTokenizer = new MyTokenizer();
-	private final List<String> expectedTokensForString = Arrays.asList("Welcome", "to", "baeldung.com");
+	private final List<String> expectedTokensForString = Arrays.asList("Welcome", "to", "nklkarthi.com");
 	private final List<String> expectedTokensForFile = Arrays.asList("1", "IND", "India", "2", "MY", "Malaysia", "3", "AU", "Australia");
 
 	@Test
 	public void givenString_thenGetListOfString() {
-		String str = "Welcome,to,baeldung.com";
+		String str = "Welcome,to,nklkarthi.com";
 		List<String> actualTokens = myTokenizer.getTokens(str);
 		assertEquals(expectedTokensForString, actualTokens);
 	}

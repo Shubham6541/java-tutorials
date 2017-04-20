@@ -1,5 +1,5 @@
 
-package com.baeldung.jgit.helper;
+package com.nklkarthi.jgit.helper;
 
 import java.io.File;
 import java.io.IOException;

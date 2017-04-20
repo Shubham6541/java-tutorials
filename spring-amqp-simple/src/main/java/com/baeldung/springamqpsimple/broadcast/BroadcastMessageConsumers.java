@@ -1,6 +1,6 @@
-package com.baeldung.springamqpsimple.broadcast;
+package com.nklkarthi.springamqpsimple.broadcast;
 
-import com.baeldung.springamqpsimple.MessageConsumer;
+import com.nklkarthi.springamqpsimple.MessageConsumer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;

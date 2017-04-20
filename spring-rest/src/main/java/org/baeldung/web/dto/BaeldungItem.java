@@ -1,9 +1,9 @@
-package org.baeldung.web.dto;
+package org.nklkarthi.web.dto;
 
-public class BaeldungItem {
+public class nklkarthiItem {
     private final String itemId;
 
-    public BaeldungItem(String itemId) {
+    public nklkarthiItem(String itemId) {
         this.itemId = itemId;
     }
 

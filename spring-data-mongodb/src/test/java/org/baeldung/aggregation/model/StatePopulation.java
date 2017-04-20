@@ -1,4 +1,4 @@
-package org.baeldung.aggregation.model;
+package org.nklkarthi.aggregation.model;
 
 import org.springframework.data.annotation.Id;
 

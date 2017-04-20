@@ -1,4 +1,4 @@
-package com.baeldung.spring.security.x509;
+package com.nklkarthi.spring.security.x509;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

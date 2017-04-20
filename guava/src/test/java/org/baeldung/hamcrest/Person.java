@@ -1,4 +1,4 @@
-package org.baeldung.hamcrest;
+package org.nklkarthi.hamcrest;
 
 public class Person {
 	String name;

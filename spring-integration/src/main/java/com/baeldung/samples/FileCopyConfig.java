@@ -1,4 +1,4 @@
-package com.baeldung.samples;
+package com.nklkarthi.samples;
 
 import java.io.File;
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-package com.baeldung.jackson.test;
+package com.nklkarthi.jackson.test;
 
 import static org.hamcrest.Matchers.instanceOf;
 import static org.junit.Assert.assertThat;
@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.util.LinkedHashMap;
 import java.util.List;
 
-import com.baeldung.jackson.dtos.MyDto;
+import com.nklkarthi.jackson.dtos.MyDto;
 import org.junit.Test;
 
 import com.fasterxml.jackson.core.JsonParseException;

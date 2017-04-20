@@ -1,7 +1,7 @@
-package org.baeldung.properties.core;
+package org.nklkarthi.properties.core;
 
-import org.baeldung.properties.spring.PropertiesWithXmlConfigOne;
-import org.baeldung.properties.spring.PropertiesWithXmlConfigTwo;
+import org.nklkarthi.properties.spring.PropertiesWithXmlConfigOne;
+import org.nklkarthi.properties.spring.PropertiesWithXmlConfigTwo;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

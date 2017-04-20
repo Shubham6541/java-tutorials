@@ -1,6 +1,6 @@
-package com.baeldung.servlets.servlets.springboot;
+package com.nklkarthi.servlets.servlets.springboot;
 
-import com.baeldung.servlets.servlets.GenericCustomServlet;
+import com.nklkarthi.servlets.servlets.GenericCustomServlet;
 import org.springframework.boot.web.servlet.ServletRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

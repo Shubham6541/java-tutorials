@@ -1,4 +1,4 @@
-package com.baeldung.json;
+package com.nklkarthi.json;
 
 import javax.json.*;
 import java.io.IOException;

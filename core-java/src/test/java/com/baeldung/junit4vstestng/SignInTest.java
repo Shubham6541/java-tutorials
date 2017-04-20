@@ -1,4 +1,4 @@
-package com.baeldung.junit4vstestng;
+package com.nklkarthi.junit4vstestng;
 
 import org.junit.Test;
 import org.slf4j.Logger;

@@ -1,4 +1,4 @@
-package com.baeldung.tiles.springmvc;
+package com.nklkarthi.tiles.springmvc;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 

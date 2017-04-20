@@ -1,6 +1,6 @@
-package org.baeldung.web;
+package org.nklkarthi.web;
 
-import org.baeldung.persistence.query.JPASpecificationLiveTest;
+import org.nklkarthi.persistence.query.JPASpecificationLiveTest;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 

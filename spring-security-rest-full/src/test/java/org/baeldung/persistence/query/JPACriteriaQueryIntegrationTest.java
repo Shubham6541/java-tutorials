@@ -1,4 +1,4 @@
-package org.baeldung.persistence.query;
+package org.nklkarthi.persistence.query;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.collection.IsIn.isIn;
@@ -7,10 +7,10 @@ import static org.hamcrest.core.IsNot.not;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.baeldung.persistence.dao.IUserDAO;
-import org.baeldung.persistence.model.User;
-import org.baeldung.spring.PersistenceConfig;
-import org.baeldung.web.util.SearchCriteria;
+import org.nklkarthi.persistence.dao.IUserDAO;
+import org.nklkarthi.persistence.model.User;
+import org.nklkarthi.spring.PersistenceConfig;
+import org.nklkarthi.web.util.SearchCriteria;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

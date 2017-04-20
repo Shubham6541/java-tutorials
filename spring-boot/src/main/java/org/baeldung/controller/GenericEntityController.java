@@ -1,8 +1,8 @@
-package org.baeldung.controller;
+package org.nklkarthi.controller;
 
-import org.baeldung.domain.GenericEntity;
-import org.baeldung.domain.Modes;
-import org.baeldung.web.resolver.Version;
+import org.nklkarthi.domain.GenericEntity;
+import org.nklkarthi.domain.Modes;
+import org.nklkarthi.web.resolver.Version;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

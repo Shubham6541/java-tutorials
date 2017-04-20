@@ -1,4 +1,4 @@
-package com.baeldung.neo4j;
+package com.nklkarthi.neo4j;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -10,8 +10,8 @@ import org.neo4j.ogm.model.Result;
 import org.neo4j.ogm.session.Session;
 import org.neo4j.ogm.session.SessionFactory;
 
-import com.baeldung.spring.data.neo4j.domain.Car;
-import com.baeldung.spring.data.neo4j.domain.Company;
+import com.nklkarthi.spring.data.neo4j.domain.Car;
+import com.nklkarthi.spring.data.neo4j.domain.Company;
 import org.neo4j.ogm.transaction.Transaction;
 
 public class Neo4jOgmLiveTest {
@@ -21,15 +21,15 @@ public class Neo4jOgmLiveTest {
         Configuration conf = new Configuration();
         conf.driverConfiguration().setDriverClassName("org.neo4j.ogm.drivers.embedded.driver.EmbeddedDriver");
 
-        SessionFactory factory = new SessionFactory(conf, "com.baeldung.spring.data.neo4j.domain");
+        SessionFactory factory = new SessionFactory(conf, "com.nklkarthi.spring.data.neo4j.domain");
         Session session = factory.openSession();
 
         Car tesla = new Car("tesla", "modelS");
-        Company baeldung = new Company("baeldung");
+        Company nklkarthi = new Company("nklkarthi");
 
-        baeldung.setCar(tesla);
+        nklkarthi.setCar(tesla);
 
-        session.save(baeldung);
+        session.save(nklkarthi);
 
         Assert.assertEquals(1, session.countEntitiesOfType(Company.class));
 
@@ -44,6 +44,6 @@ public class Neo4jOgmLiveTest {
         Assert.assertEquals(firstResult.size(), 1);
 
         Company actual = (Company) firstResult.get("company");
-        Assert.assertEquals(actual.getName(), baeldung.getName());
+        Assert.assertEquals(actual.getName(), nklkarthi.getName());
     }
 }

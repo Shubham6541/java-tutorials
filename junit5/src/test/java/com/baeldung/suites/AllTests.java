@@ -1,7 +1,7 @@
-package com.baeldung.suites;
+package com.nklkarthi.suites;
 
 //@RunWith(JUnitPlatform.class)
-//@SelectPackages("com.baeldung")
+//@SelectPackages("com.nklkarthi")
 //@SelectClasses({AssertionTest.class, AssumptionTest.class, ExceptionTest.class})
 public class AllTests {
 

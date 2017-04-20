@@ -1,4 +1,4 @@
-package org.baeldung.spring;
+package org.nklkarthi.spring;
 
 import java.util.Properties;
 
@@ -22,7 +22,7 @@ import com.google.common.base.Preconditions;
 @Configuration
 @EnableTransactionManagement
 @PropertySource({ "classpath:persistence-h2.properties" })
-@ComponentScan({ "org.baeldung.persistence.dao", "org.baeldung.persistence.service" })
+@ComponentScan({ "org.nklkarthi.persistence.dao", "org.nklkarthi.persistence.service" })
 public class PersistenceConfig {
 
     @Autowired
@@ -36,7 +36,7 @@ public class PersistenceConfig {
     public AnnotationSessionFactoryBean sessionFactory() {
         final AnnotationSessionFactoryBean sessionFactory = new AnnotationSessionFactoryBean();
         sessionFactory.setDataSource(dataSource());
-        sessionFactory.setPackagesToScan(new String[] { "org.baeldung.persistence.model" });
+        sessionFactory.setPackagesToScan(new String[] { "org.nklkarthi.persistence.model" });
         sessionFactory.setHibernateProperties(hibernateProperties());
 
         return sessionFactory;

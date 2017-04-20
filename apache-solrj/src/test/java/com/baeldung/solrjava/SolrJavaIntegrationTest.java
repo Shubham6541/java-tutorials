@@ -1,4 +1,4 @@
-package com.baeldung.solrjava;
+package com.nklkarthi.solrjava;
 
 import static org.junit.Assert.assertEquals;
 

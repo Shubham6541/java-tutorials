@@ -1,4 +1,4 @@
-package org.baeldung.controller.config;
+package org.nklkarthi.controller.config;
 
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;

@@ -1,4 +1,4 @@
-package com.baeldung.spring.configuration;
+package com.nklkarthi.spring.configuration;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,8 +7,8 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
 
-import com.baeldung.spring.aspect.SpringTestAspect;
-import com.baeldung.spring.service.SpringSuperService;
+import com.nklkarthi.spring.aspect.SpringTestAspect;
+import com.nklkarthi.spring.service.SpringSuperService;
 
 @Configuration
 @EnableAspectJAutoProxy

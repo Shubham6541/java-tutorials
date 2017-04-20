@@ -1,10 +1,10 @@
-package com.baeldung.hibernate;
+package com.nklkarthi.hibernate;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 
-import com.baeldung.hibernate.pojo.Supplier;
+import com.nklkarthi.hibernate.pojo.Supplier;
 
 /**
  * Hello world!

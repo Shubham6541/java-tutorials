@@ -1,4 +1,4 @@
-package com.baeldung.jackson.node;
+package com.nklkarthi.jackson.node;
 
 public class NodeBean {
     private int id;

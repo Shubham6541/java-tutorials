@@ -1,4 +1,4 @@
-package org.baeldung.persistence.service;
+package org.nklkarthi.persistence.service;
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;

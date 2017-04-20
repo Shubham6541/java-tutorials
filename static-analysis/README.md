@@ -1,3 +1,3 @@
 ## Relevant articles:
 
-- [Introduction to PMD](http://www.baeldung.com/pmd)
+- [Introduction to PMD](http://www.nklkarthi.com/pmd)

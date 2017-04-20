@@ -1,4 +1,4 @@
-package com.baeldung.jackson.node;
+package com.nklkarthi.jackson.node;
 
 import static org.hamcrest.CoreMatchers.containsString;
 import static org.junit.Assert.assertEquals;
@@ -24,12 +24,12 @@ public class NodeOperationTest {
 
     @Test
     public void givenAnObject_whenConvertingIntoNode_thenCorrect() {
-        final NodeBean fromValue = new NodeBean(2016, "baeldung.com");
+        final NodeBean fromValue = new NodeBean(2016, "nklkarthi.com");
 
         final JsonNode node = mapper.valueToTree(fromValue);
 
         assertEquals(2016, node.get("id").intValue());
-        assertEquals("baeldung.com", node.get("name").textValue());
+        assertEquals("nklkarthi.com", node.get("name").textValue());
     }
 
     @Test
@@ -39,7 +39,7 @@ public class NodeOperationTest {
 
         final JsonNode node = mapper.createObjectNode();
         ((ObjectNode) node).put("id", 2016);
-        ((ObjectNode) node).put("name", "baeldung.com");
+        ((ObjectNode) node).put("name", "nklkarthi.com");
 
         try (FileWriter outputStream = new FileWriter(pathToTestFile)) {
             mapper.writeValue(outputStream, node);
@@ -51,7 +51,7 @@ public class NodeOperationTest {
         final String textContentOfTestFile = new String(characterBuffer);
 
         assertThat(textContentOfTestFile, containsString("2016"));
-        assertThat(textContentOfTestFile, containsString("baeldung.com"));
+        assertThat(textContentOfTestFile, containsString("nklkarthi.com"));
 
         Files.delete(Paths.get(pathToTestFile));
     }
@@ -60,12 +60,12 @@ public class NodeOperationTest {
     public void givenANode_whenConvertingIntoAnObject_thenCorrect() throws JsonProcessingException {
         final JsonNode node = mapper.createObjectNode();
         ((ObjectNode) node).put("id", 2016);
-        ((ObjectNode) node).put("name", "baeldung.com");
+        ((ObjectNode) node).put("name", "nklkarthi.com");
 
         final NodeBean toValue = mapper.treeToValue(node, NodeBean.class);
 
         assertEquals(2016, toValue.getId());
-        assertEquals("baeldung.com", toValue.getName());
+        assertEquals("nklkarthi.com", toValue.getName());
     }
 
     @Test

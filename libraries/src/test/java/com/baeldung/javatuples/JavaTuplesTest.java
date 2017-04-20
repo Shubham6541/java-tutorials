@@ -1,4 +1,4 @@
-package com.baeldung.javatuples;
+package com.nklkarthi.javatuples;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

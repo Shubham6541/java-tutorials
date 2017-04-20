@@ -1,4 +1,4 @@
-package com.baeldung.java.nio2.visitor;
+package com.nklkarthi.java.nio2.visitor;
 
 import java.io.IOException;
 import java.nio.file.FileVisitResult;
