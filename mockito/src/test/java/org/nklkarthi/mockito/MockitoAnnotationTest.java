@@ -27,7 +27,7 @@ public class MockitoAnnotationTest {
     // tests
 
     @Test
-    public void whenNotUseMockAnnotation_thenCorrect() {
+    public void whenNotUseMockAnnotationTest() {
         final List<String> mockList = Mockito.mock(List.class);
         mockList.add("one");
         Mockito.verify(mockList).add("one");
@@ -48,7 +48,7 @@ public class MockitoAnnotationTest {
     }
 
     @Test
-    public void whenNotUseSpyAnnotation_thenCorrect() {
+    public void whenNotUseSpyAnnotationTest() {
         final List<String> spyList = Mockito.spy(new ArrayList<String>());
         spyList.add("one");
         spyList.add("two");
@@ -58,7 +58,7 @@ public class MockitoAnnotationTest {
 
         assertEquals(2, spyList.size());
 
-        Mockito.doReturn(100).when(spyList).size();
+        BDDMockito.willReturn(100).given(spyList).size();
         assertEquals(100, spyList.size());
     }
 
@@ -77,7 +77,7 @@ public class MockitoAnnotationTest {
     }
 
     @Test
-    public void whenNotUseCaptorAnnotation_thenCorrect() {
+    public void whenNotUseCaptorAnnotationTest() {
         final List<String> mockList = Mockito.mock(List.class);
         final ArgumentCaptor<String> arg = ArgumentCaptor.forClass(String.class);
         mockList.add("one");
@@ -104,7 +104,7 @@ public class MockitoAnnotationTest {
     MyDictionary dic = new MyDictionary();
 
     @Test
-    public void whenUseInjectMocksAnnotation_thenCorrect() {
+    public void whenUseInjectMocksAnnotationTest() {
         Mockito.when(wordMap.get("aWord")).thenReturn("aMeaning");
 
         assertEquals("aMeaning", dic.getMeaning("aWord"));

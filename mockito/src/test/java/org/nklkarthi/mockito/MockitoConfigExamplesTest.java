@@ -2,11 +2,14 @@ package org.nklkarthi.mockito;
 
 import org.junit.Test;
 import org.mockito.Mockito;
+import org.mockito.invocation.InvocationOnMock;
+import org.mockito.stubbing.Answer;
 
 import static org.apache.commons.lang3.RandomStringUtils.randomAlphabetic;
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.assertThat;
+import static org.mockito.BDDMockito.given;
 import static org.mockito.Matchers.anyInt;
 import static org.mockito.Matchers.anyString;
 import static org.mockito.Mockito.*;
@@ -15,6 +18,7 @@ public class MockitoConfigExamplesTest {
 
     // tests
 
+
     @Test
     public final void whenMockReturnBehaviorIsConfigured_thenBehaviorIsVerified() {
         final MyList listMock = Mockito.mock(MyList.class);
@@ -22,6 +26,18 @@ public class MockitoConfigExamplesTest {
 
         final boolean added = listMock.add(randomAlphabetic(6));
         assertThat(added, is(false));
+    }
+
+    @Test
+    public final void whenMockReturnBehaviorIsConfiguredBDD_thenBehaviorIsVerified() {
+        final MyList listMock = Mockito.mock(MyList.class);
+        //given
+        given(listMock.add(anyString())).willReturn(false);
+        //when
+        final boolean added = listMock.add(randomAlphabetic(6));
+        //then
+        assertThat(added, is(false));
+
     }
 
     @Test

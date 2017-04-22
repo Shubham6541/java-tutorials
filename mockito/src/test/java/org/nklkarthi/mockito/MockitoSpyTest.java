@@ -18,7 +18,7 @@ public class MockitoSpyTest {
     private List<String> aSpyList = new ArrayList<String>();
 
     @Test
-    public void whenSpyingOnList_thenCorrect() {
+    public void whenSpyingOnListTest() {
         final List<String> list = new ArrayList<String>();
         final List<String> spyList = Mockito.spy(list);
 

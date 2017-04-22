@@ -19,27 +19,27 @@ public class MockitoVerifyExamplesTest {
     // tests
 
     @Test
-    public final void givenInteractionWithMockOccurred_whenVerifyingInteraction_thenCorrect() {
+    public final void givenInteractionWithMockOccurred_whenVerifyingInteractionTest() {
         final List<String> mockedList = mock(MyList.class);
         mockedList.size();
         verify(mockedList).size();
     }
 
     @Test
-    public final void givenOneInteractionWithMockOccurred_whenVerifyingNumberOfInteractions_thenCorrect() {
+    public final void givenOneInteractionWithMockOccurred_whenVerifyingNumberOfInteractionsTest() {
         final List<String> mockedList = mock(MyList.class);
         mockedList.size();
         verify(mockedList, times(1)).size();
     }
 
     @Test
-    public final void givenNoInteractionWithMockOccurred_whenVerifyingInteractions_thenCorrect() {
+    public final void givenNoInteractionWithMockOccurred_whenVerifyingInteractionsTest() {
         final List<String> mockedList = mock(MyList.class);
         verifyZeroInteractions(mockedList);
     }
 
     @Test
-    public final void givenNoInteractionWithMethodOfMockOccurred_whenVerifyingInteractions_thenCorrect() {
+    public final void givenNoInteractionWithMethodOfMockOccurred_whenVerifyingInteractionsTest() {
         final List<String> mockedList = mock(MyList.class);
         verify(mockedList, times(0)).size();
     }
@@ -55,7 +55,7 @@ public class MockitoVerifyExamplesTest {
     }
 
     @Test
-    public final void whenVerifyingOrderOfInteractions_thenCorrect() {
+    public final void whenVerifyingOrderOfInteractionsTest() {
         final List<String> mockedList = mock(MyList.class);
         mockedList.size();
         mockedList.add("a parameter");
@@ -68,7 +68,7 @@ public class MockitoVerifyExamplesTest {
     }
 
     @Test
-    public final void whenVerifyingAnInteractionHasNotOccurred_thenCorrect() {
+    public final void whenVerifyingAnInteractionHasNotOccurredTest() {
         final List<String> mockedList = mock(MyList.class);
         mockedList.size();
 
@@ -76,7 +76,7 @@ public class MockitoVerifyExamplesTest {
     }
 
     @Test
-    public final void whenVerifyingAnInteractionHasOccurredAtLeastOnce_thenCorrect() {
+    public final void whenVerifyingAnInteractionHasOccurredAtLeastOnceTest() {
         final List<String> mockedList = mock(MyList.class);
         mockedList.clear();
         mockedList.clear();
@@ -89,7 +89,7 @@ public class MockitoVerifyExamplesTest {
     // with arguments
 
     @Test
-    public final void whenVerifyingAnInteractionWithExactArgument_thenCorrect() {
+    public final void whenVerifyingAnInteractionWithExactArgumentTest() {
         final List<String> mockedList = mock(MyList.class);
         mockedList.add("test");
 
@@ -97,7 +97,7 @@ public class MockitoVerifyExamplesTest {
     }
 
     @Test
-    public final void whenVerifyingAnInteractionWithAnyArgument_thenCorrect() {
+    public final void whenVerifyingAnInteractionWithAnyArgumentTest() {
         final List<String> mockedList = mock(MyList.class);
         mockedList.add("test");
 
@@ -105,7 +105,7 @@ public class MockitoVerifyExamplesTest {
     }
 
     @Test
-    public final void whenVerifyingAnInteractionWithArgumentCapture_thenCorrect() {
+    public final void whenVerifyingAnInteractionWithArgumentCaptureTest() {
         final List<String> mockedList = mock(MyList.class);
         mockedList.addAll(Lists.<String>newArrayList("someElement"));
         final ArgumentCaptor<List> argumentCaptor = ArgumentCaptor.forClass(List.class);
